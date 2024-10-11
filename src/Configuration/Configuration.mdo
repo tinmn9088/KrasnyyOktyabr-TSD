@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="125fc7a2-7b74-4cc3-be55-0851d571d933">
+  <name>КонтрольОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль отбора</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="48d46165-95a8-475d-af0c-f846bec21e30"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="268a7812-c3b9-4235-bce1-9112d5c3d9dd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="97626e7b-0887-4fe0-894e-3092b9b8826f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="eb15c706-be0f-4c9d-a7b4-388b6795d82f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1dc7fc70-f323-433e-8475-9b480fed1f07"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e8300064-fd72-42f4-8cf9-5d6432a1e012"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="83c28519-dbf1-477c-885b-6a72f186339d"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
+  <version>0.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="3b137b52-e7b8-4bc1-8784-a6efdf198f0e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
+</mdclass:Configuration>
