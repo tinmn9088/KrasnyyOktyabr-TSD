@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf60df2-5397-44f3-9009-3c12a024b8cf">
+  <producedTypes>
+    <objectType typeId="01ef64a6-2be1-4ee7-93a8-abb9797af1bb" valueTypeId="f7ee431b-4374-416e-82ba-f858d9095f53"/>
+    <refType typeId="a3019578-fc33-4ac1-b337-ed9428ed9f32" valueTypeId="c396474f-70f1-4807-8138-e2ecb6b58c43"/>
+    <selectionType typeId="6439e02d-96c3-4a65-be7d-75057afc1735" valueTypeId="2152cce5-2dd9-4cec-aea7-6c13469674d9"/>
+    <listType typeId="50d2f25d-ac4a-448b-a1ca-959e9c76d8fc" valueTypeId="6d8658c1-c3c8-4081-9157-663ea3605cc5"/>
+    <managerType typeId="98c7ecd4-b88c-439c-9bd0-17980017a4f4" valueTypeId="f255ca6c-0cfa-4977-8214-5c31af3180c5"/>
+  </producedTypes>
+  <name>ВнПеремОтпуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение готовой продукции</value>
+  </synonym>
+  <comment>Аналог документа из ТШК 1С 7.7.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВнПеремОтпуск.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="285144fe-8ebe-4d5c-82bc-b11dd1725ead">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Задание</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7009b951-c64a-45e8-8a0b-c385212799aa">
+    <producedTypes>
+      <objectType typeId="3037d116-8313-4fb5-887d-422ba3575f08" valueTypeId="a117fcba-bb23-42d0-b2b1-f5ecedaa962f"/>
+      <rowType typeId="69b690b7-5b3a-4851-b58c-e53fb001d17a" valueTypeId="674ad8fd-3cbb-488b-a9da-ad9b1737416a"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТабличнаяЧасть</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="38d13341-83bf-4379-8fd2-13567f4dff9a">
+      <name>Короб</name>
+      <synonym>
+        <key>ru</key>
+        <value>Короб</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb753608-b9bf-4db9-a2ea-6e6889086401">
+      <name>КМ31</name>
+      <synonym>
+        <key>ru</key>
+        <value>КМ31</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>31</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

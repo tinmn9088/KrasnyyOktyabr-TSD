@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="711b97ef-ce5f-4dc8-9c9c-d2ebf38dbbb4">
+  <name>UID</name>
+  <synonym>
+    <key>ru</key>
+    <value>UID</value>
+  </synonym>
+  <comment>Устанавливает связь с объектами из ТШК 1С 7.7.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>15</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <fillChecking>ShowError</fillChecking>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:StringValue">
+    <value>               </value>
+  </fillValue>
+  <content>
+    <metadata>Catalog.Секторы</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Комплектовщики</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.Модели</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.моделиРазмер</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ВидыМатериалов</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.МестаХранения</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.АдресаТЛЦ</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.моделиEAH13</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.моделиКожтовар</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.моделиЦвет</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.ВнПеремОтпуск</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Document.Задание</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ПроцентУценки</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.ТШККороб</metadata>
+    <use>Use</use>
+  </content>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <indexing>Index</indexing>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

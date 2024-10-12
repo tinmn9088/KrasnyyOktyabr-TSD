@@ -42,4 +42,19 @@
   <commonModules>CommonModule.ВнешниеКомпонентыМенеджерКлиент</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияКлиентСервер</commonModules>
+  <commonAttributes>CommonAttribute.UID</commonAttributes>
+  <catalogs>Catalog.АдресаТЛЦ</catalogs>
+  <catalogs>Catalog.ВидыМатериалов</catalogs>
+  <catalogs>Catalog.Комплектовщики</catalogs>
+  <catalogs>Catalog.МестаХранения</catalogs>
+  <catalogs>Catalog.Модели</catalogs>
+  <catalogs>Catalog.моделиEAH13</catalogs>
+  <catalogs>Catalog.моделиКожтовар</catalogs>
+  <catalogs>Catalog.моделиРазмер</catalogs>
+  <catalogs>Catalog.моделиЦвет</catalogs>
+  <catalogs>Catalog.ПроцентУценки</catalogs>
+  <catalogs>Catalog.Секторы</catalogs>
+  <catalogs>Catalog.ТШККороб</catalogs>
+  <documents>Document.ВнПеремОтпуск</documents>
+  <documents>Document.Задание</documents>
 </mdclass:Configuration>
