@@ -39,4 +39,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
+  <commonModules>CommonModule.ВнешниеКомпонентыМенеджерКлиент</commonModules>
+  <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
+  <commonModules>CommonModule.ОповещенияКлиентСервер</commonModules>
 </mdclass:Configuration>
