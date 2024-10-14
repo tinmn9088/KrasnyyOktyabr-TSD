@@ -3,8 +3,7 @@
   <name>Драйвер1ССканерШтрихкода</name>
   <synonym>
     <key>ru</key>
-    <value>1С:Cканер штрихкода (Native)</value>
+    <value>1С:Сканеры штрихкода (NativeApi) 10.1.8.5</value>
   </synonym>
-  <comment>Версия 10.1.8.5.</comment>
   <templateType>AddIn</templateType>
 </mdclass:CommonTemplate>
