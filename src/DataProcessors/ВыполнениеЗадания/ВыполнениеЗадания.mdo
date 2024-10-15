@@ -26,6 +26,7 @@
       <value>Начать выполнение задания</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ExecuteTask</picture>
     </picture>
