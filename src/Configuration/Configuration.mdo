@@ -43,6 +43,7 @@
   <commonModules>CommonModule.ВнешниеКомпонентыМенеджерКлиент</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВыполнениеЗаданийКлиент</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
