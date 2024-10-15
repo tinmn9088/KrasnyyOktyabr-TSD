@@ -43,6 +43,7 @@
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
+  <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
   <catalogs>Catalog.ВидыМатериалов</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>

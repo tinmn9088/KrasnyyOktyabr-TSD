@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7c64b29-5efb-45dd-b1df-ee2ed870eb39" thisNode="73f080ac-289c-48aa-86b1-a2bdb4d83324">
+  <producedTypes>
+    <objectType typeId="b9841b45-e91d-4176-b9fc-6a9d066a5cc8" valueTypeId="4baa4074-cf75-4af9-b99c-262f501b5795"/>
+    <refType typeId="c0a26579-95f9-4640-a29b-1c53a8b3e77d" valueTypeId="7687bfdf-ffb5-406f-be94-1b328a4dc4ad"/>
+    <selectionType typeId="1daf79c5-987a-4bb1-a0d4-169a8fe6127d" valueTypeId="b16a61af-bf19-4ad1-9467-27eafb4cbd1f"/>
+    <listType typeId="ebce5793-b031-46e9-8b54-2f97a1e523b3" valueTypeId="5645a4d4-2ed6-4122-af34-ee00c68adf00"/>
+    <managerType typeId="2531f343-441f-4250-97ac-30eb46f7743f" valueTypeId="410ceafa-e82d-4cb2-a4a2-4d083cf2cfb5"/>
+  </producedTypes>
+  <name>МобильныйАвтономныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный автономный сервер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.МобильныйАвтономныйСервер.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.МобильныйАвтономныйСервер.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

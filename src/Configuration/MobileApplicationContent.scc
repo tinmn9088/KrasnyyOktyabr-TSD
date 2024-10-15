@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
+  <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
+  <usedItem metadata="CommonModule.ВнешниеКомпонентыМенеджерКлиент"/>
+  <usedItem metadata="CommonModule.ОповещенияКлиентСервер"/>
+  <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
+  <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
+</scc:StandaloneContent>
