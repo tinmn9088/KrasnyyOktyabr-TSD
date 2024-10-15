@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f55f5d-5d4f-4437-8a2e-c70620995971">
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f55f5d-5d4f-4437-8a2e-c70620995971">
   <producedTypes>
     <objectType typeId="32a5342a-2427-4f60-9a44-ced04371bf32" valueTypeId="613c835f-c708-423a-bb0a-90bca974dd7f"/>
     <managerType typeId="f4b81df4-b882-4fa2-81bb-b4c08aac1430" valueTypeId="58671907-979d-484a-aa24-0825e69ce891"/>
@@ -19,4 +19,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="b5928632-4e91-4427-aa34-32da8e99bcbd">
+    <name>НачатьВыполнениеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать выполнение задания</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExecuteTask</picture>
+    </picture>
+  </commands>
 </mdclass:DataProcessor>
