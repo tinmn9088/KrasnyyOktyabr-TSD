@@ -1,121 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <items xsi:type="form:FormGroup">
-    <name>ВводТабельногоНомера</name>
-    <id>17</id>
-    <items xsi:type="form:Decoration">
-      <name>НадписьВведитеТабельныйНомер</name>
-      <id>14</id>
-      <title>
-        <key>ru</key>
-        <value>Введите табельный номер:</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>НадписьВведитеТабельныйНомерРасширеннаяПодсказка</name>
-        <id>16</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>НадписьВведитеТабельныйНомерКонтекстноеМеню</name>
-        <id>15</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Center</horizontalAlign>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ФормаТабельныйНомер</name>
-      <id>19</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ФормаТабельныйНомер</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <titleLocation>None</titleLocation>
-      <extendedTooltip>
-        <name>ФормаТабельныйНомерРасширеннаяПодсказка</name>
-        <id>21</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ФормаТабельныйНомерКонтекстноеМеню</name>
-        <id>20</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>true</horizontalStretch>
-        <wrap>true</wrap>
-        <editFormat>
-          <key>ru</key>
-          <value>ЧГ=</value>
-        </editFormat>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
+  <items xsi:type="form:Decoration">
+    <name>НадписьВведитеТабельныйНомер</name>
+    <id>14</id>
+    <title>
+      <key>ru</key>
+      <value>Введите табельный номер:</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <toolTip>
-      <key>ru</key>
-      <value>Ввод табельного номера</value>
-    </toolTip>
     <extendedTooltip>
-      <name>ВводТабельногоНомераРасширеннаяПодсказка</name>
-      <id>18</id>
+      <name>НадписьВведитеТабельныйНомерРасширеннаяПодсказка</name>
+      <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -128,34 +27,102 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
-      <horizontalSpacing>None</horizontalSpacing>
-      <verticalSpacing>Single</verticalSpacing>
-      <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <showTitle>true</showTitle>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
+    <contextMenu>
+      <name>НадписьВведитеТабельныйНомерКонтекстноеМеню</name>
+      <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Center</horizontalAlign>
     </extInfo>
   </items>
-  <items xsi:type="form:Button">
-    <name>ВойтиВручную</name>
-    <id>4</id>
-    <title>
-      <key>ru</key>
-      <value>Войти</value>
-    </title>
+  <items xsi:type="form:FormField">
+    <name>ТабельныйНомер</name>
+    <id>19</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФормаТабельныйНомер</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <titleLocation>None</titleLocation>
+    <handlers>
+      <event>OnChange</event>
+      <name>ФормаТабельныйНомерПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ВойтиВручнуюРасширеннаяПодсказка</name>
+      <name>ТабельныйНомерРасширеннаяПодсказка</name>
+      <id>21</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТабельныйНомерКонтекстноеМеню</name>
+      <id>20</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>EditTextChange</event>
+        <name>ФормаТабельныйНомерИзменениеТекстаРедактирования</name>
+      </handlers>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <wrap>true</wrap>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧГ=</value>
+      </editFormat>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <autoShowClearButtonMode>FilledOnly</autoShowClearButtonMode>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Button">
+    <name>КнопкаПоказатьЗадания</name>
+    <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Показать задания</value>
+    </title>
+    <visible>true</visible>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>КнопкаПоказатьЗаданияРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -170,7 +137,7 @@
       </extInfo>
     </extendedTooltip>
     <type>UsualButton</type>
-    <commandName>Form.Command.ВойтиВручную</commandName>
+    <commandName>Form.Command.ОткрытьВыборЗадания</commandName>
     <representation>Auto</representation>
     <defaultButton>true</defaultButton>
     <autoMaxWidth>true</autoMaxWidth>
@@ -272,7 +239,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </items>
-    <visible>true</visible>
     <userVisible>
       <common>true</common>
     </userVisible>
@@ -319,12 +285,19 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <verticalSpacing>Double</verticalSpacing>
   <horizontalAlign>Center</horizontalAlign>
   <verticalAlign>Center</verticalAlign>
   <autoFillCheck>true</autoFillCheck>
@@ -354,10 +327,10 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ВойтиВручную</name>
+    <name>ОткрытьВыборЗадания</name>
     <title>
       <key>ru</key>
-      <value>Войти вручную</value>
+      <value>Открыть выбор задания</value>
     </title>
     <id>1</id>
     <use>
@@ -365,7 +338,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВойтиВручную</name>
+        <name>ОткрытьВыборЗаданияСФормы</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

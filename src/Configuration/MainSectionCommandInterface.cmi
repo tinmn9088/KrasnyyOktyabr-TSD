@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
-      <command>DataProcessor.ВыполнениеЗадания.Command.НачатьВыполнениеЗадания</command>
+      <command>DataProcessor.ВыполнениеЗаданий.Command.НачатьВыполнениеЗадания</command>
       <visible>
         <common>true</common>
       </visible>
@@ -11,13 +11,13 @@
   <commandsPlacement>
     <placementFragments>
       <group>NavigationPanelImportant</group>
-      <commands>DataProcessor.ВыполнениеЗадания.Command.НачатьВыполнениеЗадания</commands>
+      <commands>DataProcessor.ВыполнениеЗаданий.Command.НачатьВыполнениеЗадания</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>NavigationPanelImportant</group>
-      <commands>DataProcessor.ВыполнениеЗадания.Command.НачатьВыполнениеЗадания</commands>
+      <commands>DataProcessor.ВыполнениеЗаданий.Command.НачатьВыполнениеЗадания</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
