@@ -63,6 +63,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <numberLength>6</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
+  <defaultChoiceForm>Document.Задание.Form.ВыборЗаданияДляКомплектовщика</defaultChoiceForm>
   <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -168,6 +169,41 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="22fef61e-82bf-4bbe-84ac-2b17d40100da">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc40033b-7604-44f8-bd74-53e95a0b268d">
+    <name>ВыборЗаданияДляКомплектовщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор задания для комплектовщика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ae596443-e001-4631-91d8-d6a38d5e803d">
+    <name>ВыполнениеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="04c66642-3046-4d4c-aba7-6df4381824ee">
     <producedTypes>
       <objectType typeId="22998b15-52f1-469b-bc80-7629e45d3bb8" valueTypeId="b3adae84-fef8-4175-bc39-3f7efd17fdf5"/>

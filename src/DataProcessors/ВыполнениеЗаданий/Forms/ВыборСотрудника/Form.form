@@ -313,11 +313,10 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>5</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
