@@ -63,7 +63,6 @@
   <fullTextSearch>Use</fullTextSearch>
   <numberLength>6</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
-  <defaultChoiceForm>Document.Задание.Form.ВыборЗаданияДляКомплектовщика</defaultChoiceForm>
   <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -187,19 +186,19 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="fc40033b-7604-44f8-bd74-53e95a0b268d">
-    <name>ВыборЗаданияДляКомплектовщика</name>
+    <name>ФормаВыбораЗаданияДляКомплектовщика</name>
     <synonym>
       <key>ru</key>
-      <value>Выбор задания для комплектовщика</value>
+      <value>Форма выбора задания для комплектовщика</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="ae596443-e001-4631-91d8-d6a38d5e803d">
-    <name>ВыполнениеЗадания</name>
+    <name>ФормаВыполненияЗадания</name>
     <synonym>
       <key>ru</key>
-      <value>Выполнение задания</value>
+      <value>Форма выполнения задания</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -11,10 +11,10 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <forms uuid="dd00e51f-b841-4575-baf6-60d1468db018">
-    <name>ВыборСотрудника</name>
+    <name>ФормаВыбораСотрудника</name>
     <synonym>
       <key>ru</key>
-      <value>Выбор сотрудника</value>
+      <value>Форма выбора сотрудника</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
