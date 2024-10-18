@@ -129,7 +129,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаСписокЗаданийНаОтбор.Модель</segments>
+        <segments>ФормаСписокЗаданийНаОтбор.Ячейка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокЗаданийНаОтборЯчейкаРасширеннаяПодсказка</name>
@@ -164,6 +164,9 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.FieldSelectionBackColor</color>
+        </textColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -217,6 +220,9 @@
         <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.FieldSelectionBackColor</color>
+          </textColor>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -232,7 +238,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданийНаОтбор.Модель</segments>
+          <segments>ФормаСписокЗаданийНаОтбор.Размер</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокЗаданийНаОтборРазмерРасширеннаяПодсказка</name>
@@ -282,7 +288,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданийНаОтбор.Модель</segments>
+          <segments>ФормаСписокЗаданийНаОтбор.Модификатор</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокЗаданийНаОтборМодификаторРасширеннаяПодсказка</name>
@@ -332,7 +338,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданийНаОтбор.Модель</segments>
+          <segments>ФормаСписокЗаданийНаОтбор.Цвет</segments>
         </dataPath>
         <extendedTooltip>
           <name>СписокЗаданийНаОтборЦветРасширеннаяПодсказка</name>
@@ -408,7 +414,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаСписокЗаданийНаОтбор.Модель</segments>
+        <segments>ФормаСписокЗаданийНаОтбор.Количество</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокЗаданийНаОтборКоличествоРасширеннаяПодсказка</name>
@@ -443,6 +449,9 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.AccentColor</color>
+        </textColor>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -853,15 +862,102 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ЗаданиеНаОтбор.Модель
+	ЗаданияНаОтбор.Ячейка КАК Ячейка,
+	ЗаданияНаОтбор.Модель КАК Модель,
+	ЗаданияНаОтбор.Размер КАК Размер,
+	ЗаданияНаОтбор.Модификатор КАК Модификатор,
+	ЗаданияНаОтбор.Цвет КАК Цвет,
+	ВЫБОР
+		КОГДА ЗаданияНаОтбор.Количество &lt;> ЗНАЧЕНИЕ(Справочник.моделиРазмер.ПустаяСсылка)
+			ТОГДА ЗаданияНаОтбор.Количество
+		ИНАЧЕ ЗаданияНаОтбор.Количество / Модели.КолВКоробе * (1 + Модели.флДваКороба)
+	КОНЕЦ КАК Количество
 ИЗ
-    Документ.Задание.ЗаданиеНаОтбор КАК ЗаданиеНаОтбор</queryText>
+	(ВЫБРАТЬ
+		ЗаданиеНаОтбор.Количество КАК Количество,
+		ЗаданиеНаОтбор.Модификатор КАК Модификатор,
+		ЗаданиеНаОтбор.Модель КАК Модель,
+		ЗаданиеНаОтбор.Размер КАК Размер,
+		ЗаданиеНаОтбор.Уценка КАК Уценка,
+		ЗаданиеНаОтбор.Цвет КАК Цвет,
+		ЗаданиеНаОтбор.Ячейка КАК Ячейка
+	ИЗ
+		Документ.Задание.ЗаданиеНаОтбор КАК ЗаданиеНаОтбор
+	ГДЕ
+		ЗаданиеНаОтбор.Ссылка = &amp;Задание
+		И ЗаданиеНаОтбор.Комплектовщик = &amp;Комплектовщик
+		И ЗаданиеНаОтбор.Количество > 0) КАК ЗаданияНаОтбор
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Модели КАК Модели
+		ПО (ЗаданияНаОтбор.Модель = Модели.Ссылка)</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ячейка</dataPath>
+        <field>Ячейка</field>
+      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Модель</dataPath>
         <field>Модель</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Размер</dataPath>
+        <field>Размер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Модификатор</dataPath>
+        <field>Модификатор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Цвет</dataPath>
+        <field>Цвет</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Количество</dataPath>
+        <field>Количество</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Количество</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Уценка</dataPath>
+        <field>Уценка</field>
+      </fields>
+      <parameters>
+        <name>Комплектовщик</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Комплектовщик</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.Комплектовщики</types>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>Задание</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Задание</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>DocumentRef.Задание</types>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <formCommands>
