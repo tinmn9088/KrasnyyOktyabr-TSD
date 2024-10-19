@@ -63,6 +63,7 @@
   <catalogs>Catalog.ПроцентУценки</catalogs>
   <catalogs>Catalog.Секторы</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
+  <catalogs>Catalog.СрезБазыМаркировкаТШК</catalogs>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>
   <enums>Enum.ТипШтрихкода</enums>

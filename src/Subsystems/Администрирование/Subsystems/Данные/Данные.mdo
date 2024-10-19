@@ -19,5 +19,6 @@
   <content>Catalog.ПроцентУценки</content>
   <content>Catalog.Секторы</content>
   <content>Catalog.ТШККороб</content>
+  <content>Catalog.СрезБазыМаркировкаТШК</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

@@ -25,6 +25,10 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Catalog.СрезБазыМаркировкаТШК</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Catalog.Комплектовщики</metadata>
     <use>Use</use>
   </content>
