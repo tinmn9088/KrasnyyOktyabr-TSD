@@ -189,7 +189,7 @@
     <name>ФормаВыбораЗаданияДляКомплектовщика</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора задания для комплектовщика</value>
+      <value>Выбор задания для комплектовщика</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -198,7 +198,16 @@
     <name>ФормаВыполненияЗадания</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выполнения задания</value>
+      <value>Выполнение задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c56237d9-8b04-4b3d-b637-86f266f8c027">
+    <name>ФормаВыполняемыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняемые задания</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -332,4 +341,14 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <commands uuid="d54cc1d0-8460-441a-81fb-f50c9e56a0a6">
+    <name>ПросмотрВыполняемыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просмотр выполняемых заданий</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

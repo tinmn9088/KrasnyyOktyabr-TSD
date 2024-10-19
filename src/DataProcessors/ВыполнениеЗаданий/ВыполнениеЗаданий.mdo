@@ -14,7 +14,7 @@
     <name>ФормаВыбораСотрудника</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора сотрудника</value>
+      <value>Выбор сотрудника</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

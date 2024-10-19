@@ -901,12 +901,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
@@ -1060,14 +1060,6 @@
       <calculatedFields>
         <dataPath>МодельПредставление</dataPath>
         <expression>Модель</expression>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value></value>
-            </content>
-          </localValue>
-        </title>
         <presentationExpression>ВЫБОР
 КОГДА Уценка = 0 ТОГДА Модель.Наименование
 ИНАЧЕ Модель.Наименование + &quot;, УЦЕНКА &quot; + СТРОКА(Уценка) + &quot;%&quot;
@@ -1076,14 +1068,6 @@
       <calculatedFields>
         <dataPath>РазмерПредставление</dataPath>
         <expression>Размер</expression>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value></value>
-            </content>
-          </localValue>
-        </title>
         <presentationExpression>ВЫБОР
 КОГДА Размер = ЗНАЧЕНИЕ(Справочник.моделиРазмер.ПустаяСсылка) ТОГДА &quot;КОРОБ&quot;
 ИНАЧЕ &quot;РОССЫПЬ, &quot; + Размер.Наименование
@@ -1102,6 +1086,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
@@ -1117,6 +1102,7 @@
         <valueType>
           <types>DocumentRef.Задание</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>

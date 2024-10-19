@@ -374,12 +374,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
@@ -434,8 +434,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
-        <useRestriction/>
-        <attributeUseRestriction/>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ВКоробах</dataPath>
@@ -522,6 +520,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <keyType>FieldValue</keyType>
