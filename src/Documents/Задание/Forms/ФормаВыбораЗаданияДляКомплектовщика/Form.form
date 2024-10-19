@@ -490,7 +490,7 @@
       </calculatedFields>
       <calculatedFields>
         <dataPath>Описание</dataPath>
-        <expression>(&quot;В коробах - &quot; + СТРОКА(ВКоробах) + &quot; / В коробках - &quot; + СТРОКА(ВКоробках))</expression>
+        <expression>&quot;В коробах - &quot; + Строка(ВКоробах) + &quot; / В коробках - &quot; + Строка(ВКоробках)</expression>
         <title>
           <localValue>
             <content>
@@ -504,6 +504,10 @@
           <group>true</group>
           <order>true</order>
         </useRestriction>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers/>
+        </valueType>
       </calculatedFields>
       <parameters>
         <name>Комплектовщик</name>
