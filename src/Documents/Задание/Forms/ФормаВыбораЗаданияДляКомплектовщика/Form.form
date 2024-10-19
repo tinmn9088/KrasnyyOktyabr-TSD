@@ -71,7 +71,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>Задание</name>
+      <name>СписокЗаданийЗадание</name>
       <id>16</id>
       <title>
         <key>ru</key>
@@ -87,7 +87,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ЗаданиеРасширеннаяПодсказка</name>
+        <name>СписокЗаданийЗаданиеРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -102,7 +102,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ЗаданиеКонтекстноеМеню</name>
+        <name>СписокЗаданийЗаданиеКонтекстноеМеню</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -122,7 +122,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Описание</name>
+      <name>СписокЗаданийОписание</name>
       <id>19</id>
       <title>
         <key>ru</key>
@@ -138,7 +138,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ОписаниеРасширеннаяПодсказка</name>
+        <name>СписокЗаданийОписаниеРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -153,7 +153,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОписаниеКонтекстноеМеню</name>
+        <name>СписокЗаданийОписаниеКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
