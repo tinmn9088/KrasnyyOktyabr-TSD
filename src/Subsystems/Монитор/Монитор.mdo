@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3845e134-e1c9-48d6-8fe4-1be88d868b45">
+  <name>Монитор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЖурналОшибокКонтроляОтбора</content>
+</mdclass:Subsystem>

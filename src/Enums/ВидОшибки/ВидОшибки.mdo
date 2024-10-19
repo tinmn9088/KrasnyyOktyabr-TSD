@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7714e98a-6029-41a5-a6d2-bc9fdba5b436">
+  <producedTypes>
+    <refType typeId="fa207cf6-2e87-4de7-8ac3-7086ac2318f0" valueTypeId="a97cf9fa-404b-4e88-8853-67a69f2bdf17"/>
+    <listType typeId="c7be9da8-2f3f-42fe-b2ad-11ff4c6e3dca" valueTypeId="2cdcf6d5-f0a9-4348-b5ac-df9349710a1d"/>
+    <managerType typeId="c18ac101-a7a9-4c5e-831c-79dda19e2b52" valueTypeId="775f3ba0-de4f-46ed-994c-914602e932a9"/>
+  </producedTypes>
+  <name>ВидОшибки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид ошибки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a153101-dfa7-4c17-8968-e20c3c22e7d3">
+    <name>НеНайденоЗаданиеНаОтборПоШтрихкоду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не найдено задание на отбор по штрихкоду</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="acc2de54-9905-4b11-b4a8-68e644b308a7">
+    <name>СлишкомМногоВКоробе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слишком много в коробе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

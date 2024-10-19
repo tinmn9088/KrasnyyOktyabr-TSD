@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
@@ -67,5 +68,7 @@
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>
   <enums>Enum.ТипШтрихкода</enums>
+  <enums>Enum.ВидОшибки</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
 </mdclass:Configuration>
