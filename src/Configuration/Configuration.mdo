@@ -41,6 +41,9 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
+  <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
+  <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
+  <commonModules>CommonModule.КонтрольОтбора</commonModules>
   <commonModules>CommonModule.КонтрольОтбораКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
