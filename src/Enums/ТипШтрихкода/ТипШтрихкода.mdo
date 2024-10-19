@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46dda699-0f63-480b-b011-151e8af80983">
+  <producedTypes>
+    <refType typeId="0ec5ff95-5e44-48e9-b5e9-eacc2381d884" valueTypeId="4d9c63b0-2d72-4da5-8335-291a68f835be"/>
+    <listType typeId="5a867509-f47d-4e45-83da-e8f5a68c6438" valueTypeId="6e46e5e0-60c1-4640-ad07-267ed0dc9fcf"/>
+    <managerType typeId="07003c9a-af05-4627-bb23-b4262310381c" valueTypeId="61b70fae-0b65-48b1-8ee0-9ffb4667793b"/>
+  </producedTypes>
+  <name>ТипШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип штрихкода</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="274389c6-f1e6-4aea-ae22-3ee4789b3f08">
+    <name>DataMatrix</name>
+    <synonym>
+      <key>ru</key>
+      <value>DataMatrix</value>
+    </synonym>
+    <comment>Двумерный штрихкод, содержит GTIN.</comment>
+  </enumValues>
+  <enumValues uuid="e4498fb9-9301-4989-8036-b6f6f93d9cb8">
+    <name>ТШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологический штрихкод</value>
+    </synonym>
+    <comment>Линейный штрихкод, представляет номер короба.</comment>
+  </enumValues>
+</mdclass:Enum>

@@ -651,6 +651,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ФормаШтрихкод</segments>
       </dataPath>
+      <defaultItem>true</defaultItem>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ШтрихкодРасширеннаяПодсказка</name>
@@ -787,9 +788,11 @@
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
+  <verticalSpacing>Half</verticalSpacing>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <verticalScroll>UseIfNecessary</verticalScroll>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
