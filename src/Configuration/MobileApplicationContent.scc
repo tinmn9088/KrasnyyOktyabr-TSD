@@ -4,7 +4,7 @@
   <usedItem metadata="CommonModule.ОповещенияФормыКлиент"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
-  <usedItem metadata="CommonModule.МенеджерВнешниеКомпонентыКлиент"/>
-  <usedItem metadata="CommonModule.МенеджерЗаданияКлиент"/>
+  <usedItem metadata="CommonModule.ВнешниеКомпонентыКлиент"/>
+  <usedItem metadata="CommonModule.КонтрольОтбораКлиент"/>
   <dataExchangeSettings exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

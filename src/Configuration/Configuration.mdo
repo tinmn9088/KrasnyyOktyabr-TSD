@@ -40,13 +40,12 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
-  <commonModules>CommonModule.МенеджерВнешниеКомпонентыКлиент</commonModules>
-  <commonModules>CommonModule.МенеджерЗаданияКлиент</commonModules>
-  <commonModules>CommonModule.МенеджерКомплектовщики</commonModules>
+  <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
+  <commonModules>CommonModule.КонтрольОтбораКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
-  <commonModules>CommonModule.ОбработкаШтрихкодовКлиентСервер</commonModules>
+  <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
