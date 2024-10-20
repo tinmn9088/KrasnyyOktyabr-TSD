@@ -142,7 +142,7 @@
     <name>ВыполняемоеЗадание</name>
     <synonym>
       <key>ru</key>
-      <value>Выполняемое задание</value>
+      <value>Последнеее задание</value>
     </synonym>
     <type>
       <types>DocumentRef.Задание</types>

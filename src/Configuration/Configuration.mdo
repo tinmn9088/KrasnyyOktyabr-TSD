@@ -67,6 +67,7 @@
   <catalogs>Catalog.СрезБазыМаркировкаТШК</catalogs>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>
+  <documents>Document.ВыполнениеЗадания</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>

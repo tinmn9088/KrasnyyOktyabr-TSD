@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95f77ccf-caba-4d0b-afb9-f1008b5437a5">
+  <producedTypes>
+    <objectType typeId="3248586d-4122-4487-be5f-cd772bfc0e0b" valueTypeId="6e5a4752-6a73-4882-809a-69fde4ad1ba6"/>
+    <refType typeId="53e621e1-fb54-401e-bc00-1bfe35f80eb0" valueTypeId="833b9f5b-ff23-4cd4-a1d7-c644f9b51171"/>
+    <selectionType typeId="c1b3b67d-08a3-4a09-a55a-29b135a7bb33" valueTypeId="19591c5f-f41c-4c45-a8cf-8d854580b449"/>
+    <listType typeId="7886e1f0-05d1-4f6f-928d-9db30da8b2f8" valueTypeId="89579613-2e9b-4978-9ac8-dfb2ff174d2f"/>
+    <managerType typeId="5cef379d-5fe9-4088-997f-6bfb5b0b4347" valueTypeId="8d5af8b0-90cc-40a3-9f07-0e220c849e15"/>
+  </producedTypes>
+  <name>ВыполнениеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение задания</value>
+  </synonym>
+  <comment>Позволяет отслеживать, когда выполняется задание.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыполнениеЗадания.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="81836838-0dea-4d63-ae6c-8148cddff0ca">
+    <name>ДокументНаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ на перемещение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВнПеремОтпуск</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

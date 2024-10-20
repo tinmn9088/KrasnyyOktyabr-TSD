@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВнПеремОтпуск</content>
   <content>Document.Задание</content>
+  <content>Document.ВыполнениеЗадания</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>
