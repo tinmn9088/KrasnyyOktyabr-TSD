@@ -106,6 +106,154 @@
       </textColor>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ПодсказкаОсталосьПоЗаданию</name>
+    <id>55</id>
+    <items xsi:type="form:FormField">
+      <name>ФормаОсталосьПоЗаданиюКоробов</name>
+      <id>63</id>
+      <title>
+        <key>ru</key>
+        <value>Коробов</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФормаОсталосьПоЗаданиюКоробов</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФормаОсталосьПоЗаданиюКоробовРасширеннаяПодсказка</name>
+        <id>65</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФормаОсталосьПоЗаданиюКоробовКонтекстноеМеню</name>
+        <id>64</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <format>
+          <key>ru</key>
+          <value>ЧН=-</value>
+        </format>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.AccentColor</color>
+        </textColor>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ФормаОсталосьПоЗаданиюКоробок</name>
+      <id>66</id>
+      <title>
+        <key>ru</key>
+        <value>Россыпи</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФормаОсталосьПоЗаданиюКоробок</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ФормаОсталосьПоЗаданиюКоробокРасширеннаяПодсказка</name>
+        <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ФормаОсталосьПоЗаданиюКоробокКонтекстноеМеню</name>
+        <id>67</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <format>
+          <key>ru</key>
+          <value>ЧН=-</value>
+        </format>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.AccentColor</color>
+        </textColor>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ПодсказкаОсталосьПоЗаданиюРасширеннаяПодсказка</name>
+      <id>56</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <items xsi:type="form:Table">
     <name>СписокЗаданийНаОтбор</name>
     <id>14</id>
@@ -761,7 +909,6 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -883,7 +1030,6 @@
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
-      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -912,7 +1058,6 @@
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <verticalSpacing>Half</verticalSpacing>
   <horizontalAlign>Left</horizontalAlign>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
@@ -1003,19 +1148,19 @@
     ЗаданияНаОтбор.Уценка
 ИЗ
     (ВЫБРАТЬ
-        ЗаданиеНаОтбор.Количество КАК Количество,
-        ЗаданиеНаОтбор.Модификатор КАК Модификатор,
-        ЗаданиеНаОтбор.Модель КАК Модель,
-        ЗаданиеНаОтбор.Размер КАК Размер,
-        ЗаданиеНаОтбор.Уценка КАК Уценка,
-        ЗаданиеНаОтбор.Цвет КАК Цвет,
-        ЗаданиеНаОтбор.Ячейка КАК Ячейка
+        ВсеЗаданияНаОтбор.Количество КАК Количество,
+        ВсеЗаданияНаОтбор.Модификатор КАК Модификатор,
+        ВсеЗаданияНаОтбор.Модель КАК Модель,
+        ВсеЗаданияНаОтбор.Размер КАК Размер,
+        ВсеЗаданияНаОтбор.Уценка КАК Уценка,
+        ВсеЗаданияНаОтбор.Цвет КАК Цвет,
+        ВсеЗаданияНаОтбор.Ячейка КАК Ячейка
     ИЗ
-        Документ.Задание.ЗаданиеНаОтбор КАК ЗаданиеНаОтбор
+        Документ.Задание.ЗаданиеНаОтбор КАК ВсеЗаданияНаОтбор
     ГДЕ
-        ЗаданиеНаОтбор.Ссылка = &amp;Задание
-        И ЗаданиеНаОтбор.Комплектовщик = &amp;Комплектовщик
-        И ЗаданиеНаОтбор.Количество > 0) КАК ЗаданияНаОтбор
+        ВсеЗаданияНаОтбор.Ссылка = &amp;Задание
+        И ВсеЗаданияНаОтбор.Комплектовщик = &amp;Комплектовщик
+        И ВсеЗаданияНаОтбор.Количество > 0) КАК ЗаданияНаОтбор
         ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Модели КАК Модели
         ПО (ЗаданияНаОтбор.Модель = Модели.Ссылка)</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -1106,6 +1251,48 @@
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ФормаОсталосьПоЗаданиюКоробов</name>
+    <title>
+      <key>ru</key>
+      <value>Осталось по заданию коробов</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаОсталосьПоЗаданиюКоробок</name>
+    <title>
+      <key>ru</key>
+      <value>Осталось по заданию коробок</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ОбработатьШтрихкодСФормы</name>
