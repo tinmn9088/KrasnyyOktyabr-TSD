@@ -26,4 +26,18 @@
       <value>Слишком много в коробе</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="36bdacbf-c2db-4311-8fef-19fa6724aed8">
+    <name>ШтрихкодУжеПроведен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод уже проведен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="179e20df-f4f3-4afd-b704-3dfc479a308b">
+    <name>ШтрихкодУжеПроведенДругим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод уже проведен другим комлпектовщиком</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
