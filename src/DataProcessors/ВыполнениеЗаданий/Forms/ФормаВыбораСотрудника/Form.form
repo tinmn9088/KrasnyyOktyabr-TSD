@@ -107,7 +107,7 @@
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
-      <editTextUpdate>OnValueChange</editTextUpdate>
+      <editTextUpdate>Always</editTextUpdate>
       <autoShowClearButtonMode>FilledOnly</autoShowClearButtonMode>
     </extInfo>
   </items>

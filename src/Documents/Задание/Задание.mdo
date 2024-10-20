@@ -345,7 +345,7 @@
     <name>ПросмотрВыполняемыхЗаданий</name>
     <synonym>
       <key>ru</key>
-      <value>Просмотр выполняемых заданий</value>
+      <value>Выполняемые задания</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>

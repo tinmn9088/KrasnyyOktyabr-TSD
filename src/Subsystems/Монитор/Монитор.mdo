@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.ЖурналОшибокКонтроляОтбора</content>
   <content>Document.Задание</content>
+  <content>InformationRegister.ПроведенныеШтрихкоды</content>
 </mdclass:Subsystem>

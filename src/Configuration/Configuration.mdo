@@ -71,4 +71,5 @@
   <enums>Enum.ВидОшибки</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ПроведенныеШтрихкоды</informationRegisters>
 </mdclass:Configuration>
