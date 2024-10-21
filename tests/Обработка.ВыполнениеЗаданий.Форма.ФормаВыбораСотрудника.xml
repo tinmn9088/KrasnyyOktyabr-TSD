@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<НастройкиСценария xmlns="http://v8.1c.ru/stest/extforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ТипФайла="ФайлСценарияТеста" Наименование="Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника" ВерсияСтруктурыXML="83-01" ДатаАктуализации="2024-10-21T16:47:40" НомерШагаДляНачальнойУстановки="d8e438c0-8612-46cf-a014-a9ef6b2954ed" URLИБ="" ВидТестируемогоКлиента="0" ИмяПользователя="" ПарольПользователяИБ="" ПортТестируемогоКлиента="1538" ТаймаутПоискаИнтерактивныхОбъектов="30" ДопПараметрыКоманднойСтроки="/TESTCLIENT" КомпьютерИБ="127.0.0.1" СтрокаПодключенияКИБ="File=&quot;D:\Workspace\1C\KontrolOtbora&quot;;" ЗапускСОбработкойТестированияСервера="true">
+	<Описание>Если ввести правильный табельный номер, откроется форма выбора задания.
+Если ввести несуществующий табельный номер, должно появится оповещение об ошибке.</Описание>
+	<ДеревоСценария>
+		<СтрокаСценария НомерШага="1" Наименование="Открытие формы выбора сотрудника" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="b42d4e4b-9732-424c-9abc-1c0174377c2e" Цвет="0" ДанныеКартинки="20">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+				<d4p1:Property name="Комментарий">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<Автоописание>Комментарий.</Автоописание>
+		</СтрокаСценария>
+		<СтрокаСценария НомерШага="2" Наименование="Кнопка &quot;Главное&quot; командного интерфейса" ТипШага="НажатьКнопкуКИ" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="54091a87-a4d4-472c-888e-042ca535e3ad" Цвет="" ДанныеКартинки="4">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="Действие">
+					<d4p1:Value xsi:type="xs:string">НажатьКнопкуКомИнтерфейса</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ЗаголовокКнопкиИнтерфейса">
+					<d4p1:Value xsi:type="xs:string">Главное</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ВариантПоиска">
+					<d4p1:Value xsi:type="xs:string">011</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ПутьПоиска">
+					<d4p1:Value xsi:type="d4p1:Structure">
+						<d4p1:Property name="Str_1">
+							<d4p1:Value xsi:type="d4p1:Structure">
+								<d4p1:Property name="ТипЭлемента">
+									<d4p1:Value xsi:type="xs:string">ТестируемаяГруппаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ИмяЭлемента">
+									<d4p1:Value xsi:type="xs:string"/>
+								</d4p1:Property>
+								<d4p1:Property name="ЗаголовокЭлемента">
+									<d4p1:Value xsi:type="xs:string">Панель разделов</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ВидЭлемента">
+									<d4p1:Value xsi:nil="true"/>
+								</d4p1:Property>
+							</d4p1:Value>
+						</d4p1:Property>
+						<d4p1:Property name="Str_2">
+							<d4p1:Value xsi:type="d4p1:Structure">
+								<d4p1:Property name="ТипЭлемента">
+									<d4p1:Value xsi:type="xs:string">ТестируемаяКнопкаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ИмяЭлемента">
+									<d4p1:Value xsi:type="xs:string"/>
+								</d4p1:Property>
+								<d4p1:Property name="ЗаголовокЭлемента">
+									<d4p1:Value xsi:type="xs:string">Главное</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ВидЭлемента">
+									<d4p1:Value xsi:type="xs:string">КнопкаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+							</d4p1:Value>
+						</d4p1:Property>
+					</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="СтруктураДереваИнтерфейса">
+					<d4p1:Value xsi:type="d4p1:Structure"/>
+				</d4p1:Property>
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">false</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<Автоописание>В командном интерфейсе нажать кнопку "Главное" на панели "Панель разделов"</Автоописание>
+		</СтрокаСценария>
+		<СтрокаСценария НомерШага="3" Наименование="Кнопка &quot;Начать выполнение задания&quot; командного интерфейса" ТипШага="НажатьКнопкуКИ" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="2474c38c-2dd3-493d-a1db-dc17dbe73b5e" Цвет="0" ДанныеКартинки="4">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="Действие">
+					<d4p1:Value xsi:type="xs:string">НажатьКнопкуКомИнтерфейса</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ЗаголовокКнопкиИнтерфейса">
+					<d4p1:Value xsi:type="xs:string">Начать выполнение задания</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ВариантПоиска">
+					<d4p1:Value xsi:type="xs:string">011</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ПутьПоиска">
+					<d4p1:Value xsi:type="d4p1:Structure">
+						<d4p1:Property name="Str_1">
+							<d4p1:Value xsi:type="d4p1:Structure">
+								<d4p1:Property name="ТипЭлемента">
+									<d4p1:Value xsi:type="xs:string">ТестируемаяГруппаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ИмяЭлемента">
+									<d4p1:Value xsi:type="xs:string"/>
+								</d4p1:Property>
+								<d4p1:Property name="ЗаголовокЭлемента">
+									<d4p1:Value xsi:type="xs:string">Панель функций текущего раздела</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ВидЭлемента">
+									<d4p1:Value xsi:nil="true"/>
+								</d4p1:Property>
+							</d4p1:Value>
+						</d4p1:Property>
+						<d4p1:Property name="Str_2">
+							<d4p1:Value xsi:type="d4p1:Structure">
+								<d4p1:Property name="ТипЭлемента">
+									<d4p1:Value xsi:type="xs:string">ТестируемаяКнопкаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ИмяЭлемента">
+									<d4p1:Value xsi:type="xs:string"/>
+								</d4p1:Property>
+								<d4p1:Property name="ЗаголовокЭлемента">
+									<d4p1:Value xsi:type="xs:string">Начать выполнение задания</d4p1:Value>
+								</d4p1:Property>
+								<d4p1:Property name="ВидЭлемента">
+									<d4p1:Value xsi:type="xs:string">КнопкаКомандногоИнтерфейса</d4p1:Value>
+								</d4p1:Property>
+							</d4p1:Value>
+						</d4p1:Property>
+					</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="СтруктураДереваИнтерфейса">
+					<d4p1:Value xsi:type="d4p1:Structure"/>
+				</d4p1:Property>
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">false</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<Автоописание>В командном интерфейсе нажать кнопку "Начать выполнение задания" на панели "Панель функций текущего раздела"</Автоописание>
+		</СтрокаСценария>
+		<СтрокаСценария НомерШага="4" Наименование="Тестирование" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="2a86bfa4-7927-45a4-9614-3c39d55e5d61" Цвет="0" ДанныеКартинки="20">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+				<d4p1:Property name="Комментарий">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<Автоописание>Комментарий.</Автоописание>
+		</СтрокаСценария>
+		<СтрокаСценария НомерШага="5" Наименование="Ввод правильного табельного номера" ТипШага="Группа" Активность="2" Выполнено="1" ВыполнитьВручную="0" УИШ="d8e438c0-8612-46cf-a014-a9ef6b2954ed" Цвет="0" ДанныеКартинки="19">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+				<d4p1:Property name="Описание">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<СтрокаСценария НомерШага="6" Наименование="Добавление тестовых данных" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="8e13b39d-344b-4443-a8a8-5aa28cbc01b9" Цвет="0" ДанныеКартинки="20">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="Комментарий">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Комментарий.</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="7" Наименование="Добавление элемента в справочник &quot;Комплектовщики&quot;" ТипШага="ВыполнитьКлиентскуюПроцедуру" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="e225763a-cab2-4afe-afeb-6d60735817e4" Цвет="0" ДанныеКартинки="23">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ТекстПроцедуры">
+						<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Идентификатор = "13355";
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+    
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="НаСервере">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ВыделенныйТекст">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ОписательПоложенияШагаВДереве">
+						<d5p1:Value xsi:type="d5p1:Structure">
+							<d5p1:Property name="ИдентификаторУзлаРодителя">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИндексВставки">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторШага">
+								<d5p1:Value xsi:type="xs:decimal">31</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлаФормы">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлатаблицы">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлаТД">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИДРодителя">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+						</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="СтруктураДанныхШага">
+						<d5p1:Value xsi:type="d5p1:Structure">
+							<d5p1:Property name="УИШ">
+								<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ТипШага">
+								<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Наименование">
+								<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Автоописание">
+								<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+  
+// Табельный номер сотрудника, для которого будут выбираться задания
+ТестовыйКомплектовщик.Идентификатор = "13355";
+                                                          
+// Имя сотрудника
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+    
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Активность">
+								<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ВыполнитьВручную">
+								<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="НомерШага">
+								<d5p1:Value xsi:type="xs:decimal">7</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ДанныеКартинки">
+								<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ДеревоЗначения">
+								<d5p1:Value xsi:type="d5p1:Structure">
+									<d5p1:Property name="НаименованиеИзмененоВручную">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ДействиеПриОшибке">
+										<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ИмяПеременнойРезультата">
+										<d5p1:Value xsi:type="xs:string"/>
+									</d5p1:Property>
+									<d5p1:Property name="ТекстПроцедуры">
+										<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+  
+// Табельный номер сотрудника, для которого будут выбираться задания
+ТестовыйКомплектовщик.Идентификатор = "13355";
+                                                          
+// Имя сотрудника
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+    
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="НаСервере">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ВыделенныйТекст">
+										<d5p1:Value xsi:type="xs:string"/>
+									</d5p1:Property>
+									<d5p1:Property name="ОписательПоложенияШагаВДереве">
+										<d5p1:Value xsi:type="d5p1:Structure">
+											<d5p1:Property name="ИдентификаторУзлаРодителя">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИндексВставки">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторШага">
+												<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлаФормы">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлатаблицы">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлаТД">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИДРодителя">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+										</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="СтруктураДанныхШага">
+										<d5p1:Value xsi:type="d5p1:Structure">
+											<d5p1:Property name="УИШ">
+												<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ТипШага">
+												<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="Наименование">
+												<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="Автоописание">
+												<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+   
+// ТабельныйНомер
+ТестовыйКомплектовщик.Идентификатор = "13355";
+ 
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="Активность">
+												<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ВыполнитьВручную">
+												<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="НомерШага">
+												<d5p1:Value xsi:type="xs:decimal">2</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ДанныеКартинки">
+												<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ДеревоЗначения">
+												<d5p1:Value xsi:type="d5p1:Structure">
+													<d5p1:Property name="НаименованиеИзмененоВручную">
+														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ДействиеПриОшибке">
+														<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ИмяПеременнойРезультата">
+														<d5p1:Value xsi:type="xs:string"/>
+													</d5p1:Property>
+													<d5p1:Property name="ТекстПроцедуры">
+														<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+   
+// ТабельныйНомер
+ТестовыйКомплектовщик.Идентификатор = "13355";
+ 
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="НаСервере">
+														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ВыделенныйТекст">
+														<d5p1:Value xsi:type="xs:string"/>
+													</d5p1:Property>
+													<d5p1:Property name="ОписательПоложенияШагаВДереве">
+														<d5p1:Value xsi:type="d5p1:Structure">
+															<d5p1:Property name="ИдентификаторУзлаРодителя">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+															<d5p1:Property name="ИндексВставки">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+															<d5p1:Property name="ИдентификаторШага">
+																<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="ИдентификаторУзлаФормы">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+															<d5p1:Property name="ИдентификаторУзлатаблицы">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+															<d5p1:Property name="ИдентификаторУзлаТД">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+															<d5p1:Property name="ИДРодителя">
+																<d5p1:Value xsi:nil="true"/>
+															</d5p1:Property>
+														</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="СтруктураДанныхШага">
+														<d5p1:Value xsi:type="d5p1:Structure">
+															<d5p1:Property name="УИШ">
+																<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="ТипШага">
+																<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="Наименование">
+																<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="Автоописание">
+																<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = "13355"; // Переменная &amp;ТабельныйНомер
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="Активность">
+																<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="ВыполнитьВручную">
+																<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="НомерШага">
+																<d5p1:Value xsi:type="xs:decimal">2</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="ДанныеКартинки">
+																<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+															</d5p1:Property>
+															<d5p1:Property name="ДеревоЗначения">
+																<d5p1:Value xsi:type="d5p1:Structure">
+																	<d5p1:Property name="НаименованиеИзмененоВручную">
+																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="ДействиеПриОшибке">
+																		<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="ИмяПеременнойРезультата">
+																		<d5p1:Value xsi:type="xs:string"/>
+																	</d5p1:Property>
+																	<d5p1:Property name="ТекстПроцедуры">
+																		<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = "13355"; // Переменная &amp;ТабельныйНомер
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="НаСервере">
+																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="ВыделенныйТекст">
+																		<d5p1:Value xsi:type="xs:string"/>
+																	</d5p1:Property>
+																	<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																		<d5p1:Value xsi:type="d5p1:Structure">
+																			<d5p1:Property name="ИдентификаторУзлаРодителя">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИндексВставки">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИдентификаторШага">
+																				<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИдентификаторУзлаФормы">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИдентификаторУзлатаблицы">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИдентификаторУзлаТД">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																			<d5p1:Property name="ИДРодителя">
+																				<d5p1:Value xsi:nil="true"/>
+																			</d5p1:Property>
+																		</d5p1:Value>
+																	</d5p1:Property>
+																	<d5p1:Property name="СтруктураДанныхШага">
+																		<d5p1:Value xsi:type="d5p1:Structure">
+																			<d5p1:Property name="УИШ">
+																				<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="ТипШага">
+																				<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="Наименование">
+																				<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="Автоописание">
+																				<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="Активность">
+																				<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="ВыполнитьВручную">
+																				<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="НомерШага">
+																				<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="ДанныеКартинки">
+																				<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																			</d5p1:Property>
+																			<d5p1:Property name="ДеревоЗначения">
+																				<d5p1:Value xsi:type="d5p1:Structure">
+																					<d5p1:Property name="НаименованиеИзмененоВручную">
+																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="ДействиеПриОшибке">
+																						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="ИмяПеременнойРезультата">
+																						<d5p1:Value xsi:type="xs:string"/>
+																					</d5p1:Property>
+																					<d5p1:Property name="ТекстПроцедуры">
+																						<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="НаСервере">
+																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="ВыделенныйТекст">
+																						<d5p1:Value xsi:type="xs:string"/>
+																					</d5p1:Property>
+																					<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																						<d5p1:Value xsi:type="d5p1:Structure">
+																							<d5p1:Property name="ИдентификаторУзлаРодителя">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИндексВставки">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИдентификаторШага">
+																								<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИдентификаторУзлаФормы">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИдентификаторУзлатаблицы">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИдентификаторУзлаТД">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																							<d5p1:Property name="ИДРодителя">
+																								<d5p1:Value xsi:nil="true"/>
+																							</d5p1:Property>
+																						</d5p1:Value>
+																					</d5p1:Property>
+																					<d5p1:Property name="СтруктураДанныхШага">
+																						<d5p1:Value xsi:type="d5p1:Structure">
+																							<d5p1:Property name="УИШ">
+																								<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="ТипШага">
+																								<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="Наименование">
+																								<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="Автоописание">
+																								<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="Активность">
+																								<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="ВыполнитьВручную">
+																								<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="НомерШага">
+																								<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="ДанныеКартинки">
+																								<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																							</d5p1:Property>
+																							<d5p1:Property name="ДеревоЗначения">
+																								<d5p1:Value xsi:type="d5p1:Structure">
+																									<d5p1:Property name="НаименованиеИзмененоВручную">
+																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="ДействиеПриОшибке">
+																										<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="ИмяПеременнойРезультата">
+																										<d5p1:Value xsi:type="xs:string"/>
+																									</d5p1:Property>
+																									<d5p1:Property name="ТекстПроцедуры">
+																										<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="НаСервере">
+																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="ВыделенныйТекст">
+																										<d5p1:Value xsi:type="xs:string"/>
+																									</d5p1:Property>
+																									<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																										<d5p1:Value xsi:type="d5p1:Structure">
+																											<d5p1:Property name="ИдентификаторУзлаРодителя">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИндексВставки">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИдентификаторШага">
+																												<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИдентификаторУзлаФормы">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИдентификаторУзлатаблицы">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИдентификаторУзлаТД">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																											<d5p1:Property name="ИДРодителя">
+																												<d5p1:Value xsi:nil="true"/>
+																											</d5p1:Property>
+																										</d5p1:Value>
+																									</d5p1:Property>
+																									<d5p1:Property name="СтруктураДанныхШага">
+																										<d5p1:Value xsi:type="d5p1:Structure">
+																											<d5p1:Property name="УИШ">
+																												<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="ТипШага">
+																												<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="Наименование">
+																												<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="Автоописание">
+																												<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="Активность">
+																												<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="ВыполнитьВручную">
+																												<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="НомерШага">
+																												<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="ДанныеКартинки">
+																												<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																											</d5p1:Property>
+																											<d5p1:Property name="ДеревоЗначения">
+																												<d5p1:Value xsi:type="d5p1:Structure">
+																													<d5p1:Property name="НаименованиеИзмененоВручную">
+																														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="ДействиеПриОшибке">
+																														<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="ИмяПеременнойРезультата">
+																														<d5p1:Value xsi:type="xs:string"/>
+																													</d5p1:Property>
+																													<d5p1:Property name="ТекстПроцедуры">
+																														<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = &amp;ТабельныйНомер;
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="НаСервере">
+																														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="ВыделенныйТекст">
+																														<d5p1:Value xsi:type="xs:string"/>
+																													</d5p1:Property>
+																													<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																														<d5p1:Value xsi:type="d5p1:Structure">
+																															<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИндексВставки">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИдентификаторШага">
+																																<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИдентификаторУзлаФормы">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИдентификаторУзлатаблицы">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИдентификаторУзлаТД">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																															<d5p1:Property name="ИДРодителя">
+																																<d5p1:Value xsi:nil="true"/>
+																															</d5p1:Property>
+																														</d5p1:Value>
+																													</d5p1:Property>
+																													<d5p1:Property name="СтруктураДанныхШага">
+																														<d5p1:Value xsi:type="d5p1:Structure">
+																															<d5p1:Property name="УИШ">
+																																<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="ТипШага">
+																																<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="Наименование">
+																																<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="Автоописание">
+																																<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = "13355";
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="Активность">
+																																<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="ВыполнитьВручную">
+																																<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="НомерШага">
+																																<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="ДанныеКартинки">
+																																<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																															</d5p1:Property>
+																															<d5p1:Property name="ДеревоЗначения">
+																																<d5p1:Value xsi:type="d5p1:Structure">
+																																	<d5p1:Property name="НаименованиеИзмененоВручную">
+																																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ДействиеПриОшибке">
+																																		<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ИмяПеременнойРезультата">
+																																		<d5p1:Value xsi:type="xs:string"/>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ТекстПроцедуры">
+																																		<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификатор = "13355";
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="НаСервере">
+																																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ВыделенныйТекст">
+																																		<d5p1:Value xsi:type="xs:string"/>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																																		<d5p1:Value xsi:type="d5p1:Structure">
+																																			<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИндексВставки">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИдентификаторШага">
+																																				<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИдентификаторУзлаФормы">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИдентификаторУзлатаблицы">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИдентификаторУзлаТД">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ИДРодителя">
+																																				<d5p1:Value xsi:nil="true"/>
+																																			</d5p1:Property>
+																																		</d5p1:Value>
+																																	</d5p1:Property>
+																																	<d5p1:Property name="СтруктураДанныхШага">
+																																		<d5p1:Value xsi:type="d5p1:Structure">
+																																			<d5p1:Property name="УИШ">
+																																				<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ТипШага">
+																																				<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="Наименование">
+																																				<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="Автоописание">
+																																				<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="Активность">
+																																				<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ВыполнитьВручную">
+																																				<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="НомерШага">
+																																				<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ДанныеКартинки">
+																																				<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																																			</d5p1:Property>
+																																			<d5p1:Property name="ДеревоЗначения">
+																																				<d5p1:Value xsi:type="d5p1:Structure">
+																																					<d5p1:Property name="НаименованиеИзмененоВручную">
+																																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ДействиеПриОшибке">
+																																						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ИмяПеременнойРезультата">
+																																						<d5p1:Value xsi:type="xs:string"/>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ТекстПроцедуры">
+																																						<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="НаСервере">
+																																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																																						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ВыделенныйТекст">
+																																						<d5p1:Value xsi:type="xs:string"/>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																																						<d5p1:Value xsi:type="d5p1:Structure">
+																																							<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИндексВставки">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИдентификаторШага">
+																																								<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИдентификаторУзлаФормы">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИдентификаторУзлатаблицы">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИдентификаторУзлаТД">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ИДРодителя">
+																																								<d5p1:Value xsi:nil="true"/>
+																																							</d5p1:Property>
+																																						</d5p1:Value>
+																																					</d5p1:Property>
+																																					<d5p1:Property name="СтруктураДанныхШага">
+																																						<d5p1:Value xsi:type="d5p1:Structure">
+																																							<d5p1:Property name="УИШ">
+																																								<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ТипШага">
+																																								<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="Наименование">
+																																								<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="Автоописание">
+																																								<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="Активность">
+																																								<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ВыполнитьВручную">
+																																								<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="НомерШага">
+																																								<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ДанныеКартинки">
+																																								<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																																							</d5p1:Property>
+																																							<d5p1:Property name="ДеревоЗначения">
+																																								<d5p1:Value xsi:type="d5p1:Structure">
+																																									<d5p1:Property name="НаименованиеИзмененоВручную">
+																																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ДействиеПриОшибке">
+																																										<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ИмяПеременнойРезультата">
+																																										<d5p1:Value xsi:type="xs:string"/>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ТекстПроцедуры">
+																																										<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="НаСервере">
+																																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																																										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ВыделенныйТекст">
+																																										<d5p1:Value xsi:type="xs:string"/>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																																										<d5p1:Value xsi:type="d5p1:Structure">
+																																											<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИндексВставки">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИдентификаторШага">
+																																												<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИдентификаторУзлаФормы">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИдентификаторУзлатаблицы">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИдентификаторУзлаТД">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ИДРодителя">
+																																												<d5p1:Value xsi:nil="true"/>
+																																											</d5p1:Property>
+																																										</d5p1:Value>
+																																									</d5p1:Property>
+																																									<d5p1:Property name="СтруктураДанныхШага">
+																																										<d5p1:Value xsi:type="d5p1:Structure">
+																																											<d5p1:Property name="УИШ">
+																																												<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ТипШага">
+																																												<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="Наименование">
+																																												<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="Автоописание">
+																																												<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочник.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="Активность">
+																																												<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ВыполнитьВручную">
+																																												<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="НомерШага">
+																																												<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ДанныеКартинки">
+																																												<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																																											</d5p1:Property>
+																																											<d5p1:Property name="ДеревоЗначения">
+																																												<d5p1:Value xsi:type="d5p1:Structure">
+																																													<d5p1:Property name="НаименованиеИзмененоВручную">
+																																														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ДействиеПриОшибке">
+																																														<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ИмяПеременнойРезультата">
+																																														<d5p1:Value xsi:type="xs:string"/>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ТекстПроцедуры">
+																																														<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочник.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="НаСервере">
+																																														<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																																														<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ВыделенныйТекст">
+																																														<d5p1:Value xsi:type="xs:string"/>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																																														<d5p1:Value xsi:type="d5p1:Structure">
+																																															<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИндексВставки">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИдентификаторШага">
+																																																<d5p1:Value xsi:type="xs:decimal">36</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИдентификаторУзлаФормы">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИдентификаторУзлатаблицы">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИдентификаторУзлаТД">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ИДРодителя">
+																																																<d5p1:Value xsi:nil="true"/>
+																																															</d5p1:Property>
+																																														</d5p1:Value>
+																																													</d5p1:Property>
+																																													<d5p1:Property name="СтруктураДанныхШага">
+																																														<d5p1:Value xsi:type="d5p1:Structure">
+																																															<d5p1:Property name="УИШ">
+																																																<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ТипШага">
+																																																<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="Наименование">
+																																																<d5p1:Value xsi:type="xs:string">Добавление элемента в справочник "Комплектовщики"</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="Автоописание">
+																																																<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать(); }</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="Активность">
+																																																<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ВыполнитьВручную">
+																																																<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="НомерШага">
+																																																<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ДанныеКартинки">
+																																																<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																																															</d5p1:Property>
+																																															<d5p1:Property name="ДеревоЗначения">
+																																																<d5p1:Value xsi:type="d5p1:Structure">
+																																																	<d5p1:Property name="НаименованиеИзмененоВручную">
+																																																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ДействиеПриОшибке">
+																																																		<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ИмяПеременнойРезультата">
+																																																		<d5p1:Value xsi:type="xs:string"/>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ТекстПроцедуры">
+																																																		<d5p1:Value xsi:type="xs:string">ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьОбъект();
+
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+ТестовыйКомплектовщик.Идентификикатор = "13355";
+
+ТестовыйКомплектовщик.Записать();</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="НаСервере">
+																																																		<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+																																																		<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ВыделенныйТекст">
+																																																		<d5p1:Value xsi:type="xs:string"/>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="ОписательПоложенияШагаВДереве">
+																																																		<d5p1:Value xsi:type="d5p1:Structure">
+																																																			<d5p1:Property name="ИдентификаторУзлаРодителя">
+																																																				<d5p1:Value xsi:nil="true"/>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ИндексВставки">
+																																																				<d5p1:Value xsi:type="xs:decimal">2</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ИдентификаторШага">
+																																																				<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ИдентификаторУзлаФормы">
+																																																				<d5p1:Value xsi:nil="true"/>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ИдентификаторУзлаТаблицы">
+																																																				<d5p1:Value xsi:nil="true"/>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ИдентификаторУзлаТД">
+																																																				<d5p1:Value xsi:nil="true"/>
+																																																			</d5p1:Property>
+																																																		</d5p1:Value>
+																																																	</d5p1:Property>
+																																																	<d5p1:Property name="СтруктураДанныхШага">
+																																																		<d5p1:Value xsi:type="d5p1:Structure">
+																																																			<d5p1:Property name="УИШ">
+																																																				<d5p1:Value xsi:type="xs:string">e225763a-cab2-4afe-afeb-6d60735817e4</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ТипШага">
+																																																				<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="Наименование">
+																																																				<d5p1:Value xsi:type="xs:string">Выполнить процедуру на клиенте</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="АвтоОписание">
+																																																				<d5p1:Value xsi:type="xs:string">Выполнить процедуру на клиенте</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="Активность">
+																																																				<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ВыполнитьВРучную">
+																																																				<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="НомерШага">
+																																																				<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ДанныеКартинки">
+																																																				<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+																																																			</d5p1:Property>
+																																																			<d5p1:Property name="ДеревоЗначения">
+																																																				<d5p1:Value xsi:type="d5p1:Structure">
+																																																					<d5p1:Property name="НаименованиеИзмененоВручную">
+																																																						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+																																																					</d5p1:Property>
+																																																					<d5p1:Property name="ИмяПеременнойРезультата">
+																																																						<d5p1:Value xsi:type="xs:string"/>
+																																																					</d5p1:Property>
+																																																					<d5p1:Property name="ДействиеПриОшибке">
+																																																						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+																																																					</d5p1:Property>
+																																																					<d5p1:Property name="ТекстПроцедуры">
+																																																						<d5p1:Value xsi:type="xs:string"/>
+																																																					</d5p1:Property>
+																																																					<d5p1:Property name="НаСервере">
+																																																						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+																																																					</d5p1:Property>
+																																																				</d5p1:Value>
+																																																			</d5p1:Property>
+																																																		</d5p1:Value>
+																																																	</d5p1:Property>
+																																																</d5p1:Value>
+																																															</d5p1:Property>
+																																														</d5p1:Value>
+																																													</d5p1:Property>
+																																												</d5p1:Value>
+																																											</d5p1:Property>
+																																										</d5p1:Value>
+																																									</d5p1:Property>
+																																								</d5p1:Value>
+																																							</d5p1:Property>
+																																						</d5p1:Value>
+																																					</d5p1:Property>
+																																				</d5p1:Value>
+																																			</d5p1:Property>
+																																		</d5p1:Value>
+																																	</d5p1:Property>
+																																</d5p1:Value>
+																															</d5p1:Property>
+																														</d5p1:Value>
+																													</d5p1:Property>
+																												</d5p1:Value>
+																											</d5p1:Property>
+																										</d5p1:Value>
+																									</d5p1:Property>
+																								</d5p1:Value>
+																							</d5p1:Property>
+																						</d5p1:Value>
+																					</d5p1:Property>
+																				</d5p1:Value>
+																			</d5p1:Property>
+																		</d5p1:Value>
+																	</d5p1:Property>
+																</d5p1:Value>
+															</d5p1:Property>
+														</d5p1:Value>
+													</d5p1:Property>
+												</d5p1:Value>
+											</d5p1:Property>
+										</d5p1:Value>
+									</d5p1:Property>
+								</d5p1:Value>
+							</d5p1:Property>
+						</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Выполнить процедуру на сервере:
+{ ТестовыйКомплектовщик = Справочники.Комплектовщики.СоздатьЭлемент();
+
+ТестовыйКомплектовщик.Идентификатор = "13355";
+ТестовыйКомплектовщик.Наименование = "ТестовыйКомплектовщик";
+    
+ТестовыйКомплектовщик.Записать(); }</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="8" Наименование="Ввод табельного номера" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="be62d710-f2a2-4138-b28d-690ead93029f" Цвет="0" ДанныеКартинки="20">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="Комментарий">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Комментарий.</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="9" Наименование="Форма &quot;Выбор сотрудника&quot;" ТипШага="ИнтерактивнаяАвтоГруппа" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="3b81b964-c6e3-42bc-a392-39820fe12607" Цвет="0" ДанныеКартинки="7">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокФормы">
+						<d5p1:Value xsi:type="xs:string">Выбор сотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяТестФормы">
+						<d5p1:Value xsi:type="xs:string">Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокОкна">
+						<d5p1:Value xsi:type="xs:string">Выбор сотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуОкна">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуФормы">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоИмениФормы">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЭлементам">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЭлементыФормы">
+						<d5p1:Value xsi:type="d5p1:Array"/>
+					</d5p1:Property>
+					<d5p1:Property name="ВремяОжиданияОткрытия">
+						<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИспользоватьТекущуюФорму">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<СтрокаСценария НомерШага="10" Наименование="У поля ввода &quot;ТабельныйНомер&quot; установить значение &quot;13355&quot;" ТипШага="ОдинЭлементФормы" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="04c5af21-29ad-4c22-9912-f2e843c68594" Цвет="0" ДанныеКартинки="9">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ОписаниеЭлементаФормы">
+							<d6p1:Value xsi:type="d6p1:Structure">
+								<d6p1:Property name="Действие">
+									<d6p1:Value xsi:type="xs:string">УстановитьЗначение</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Имя">
+									<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Заголовок">
+									<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Вид">
+									<d6p1:Value xsi:type="xs:string">ПолеВвода</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ВариантПоиска">
+									<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Значение">
+									<d6p1:Value xsi:type="xs:string">13355</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Тип">
+									<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПутьПоиска">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Str_1">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="ТипЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ИмяЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ЗаголовокЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ВидЭлемента">
+													<d6p1:Value xsi:type="xs:string">ПолеВвода</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="КоличествоРаз">
+									<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ИмяФайла">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="ИскатьСредиВидимых">
+									<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПеременнаяДляСохраненияЗначения">
+									<d6p1:Value xsi:type="xs:string">&amp;ПеременнаяХраненияЗначения</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Свойства">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Видимость">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Доступность">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТолькоПросмотр">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Нет</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТекстПодсказки">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string"/>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ЭтоТекущийЭлемент">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">РеквизитТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="СтруктураКнопки">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="ВариантПоиска">
+											<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="Имя">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="ПутьПоиска">
+											<d6p1:Value xsi:type="d6p1:Structure"/>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+							</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">5</d6p1:Value>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Элементу формы с именем "ТабельныйНомер" установить значение "13355".</Автоописание>
+				</СтрокаСценария>
+				<СтрокаСценария НомерШага="11" Наименование="Нажать на кнопку &quot;Показать задания&quot;" ТипШага="ОдинЭлементФормы" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="1fdf1fab-5880-4122-8ea6-d212de097e87" Цвет="0" ДанныеКартинки="9">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ОписаниеЭлементаФормы">
+							<d6p1:Value xsi:type="d6p1:Structure">
+								<d6p1:Property name="Действие">
+									<d6p1:Value xsi:type="xs:string">Нажать</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Имя">
+									<d6p1:Value xsi:type="xs:string">КнопкаПоказатьЗадания</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Заголовок">
+									<d6p1:Value xsi:type="xs:string">Показать задания</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Вид">
+									<d6p1:Value xsi:type="xs:string">ОбычнаяКнопка</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ВариантПоиска">
+									<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Значение">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="Тип">
+									<d6p1:Value xsi:type="xs:string">ТестируемаяКнопкаФормы</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПутьПоиска">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Str_1">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="ТипЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТестируемаяКнопкаФормы</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ИмяЭлемента">
+													<d6p1:Value xsi:type="xs:string">КнопкаПоказатьЗадания</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ЗаголовокЭлемента">
+													<d6p1:Value xsi:type="xs:string">Показать задания</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ВидЭлемента">
+													<d6p1:Value xsi:type="xs:string">ОбычнаяКнопка</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="КоличествоРаз">
+									<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ИмяФайла">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="ИскатьСредиВидимых">
+									<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПеременнаяДляСохраненияЗначения">
+									<d6p1:Value xsi:type="xs:string">&amp;ПеременнаяХраненияЗначения</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Свойства">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Видимость">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Доступность">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТолькоПросмотр">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТекстПодсказки">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Войти вручную</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ЭтоТекущийЭлемент">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Выбрать задание</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="СтруктураКнопки">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="ВариантПоиска">
+											<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="Имя">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="ПутьПоиска">
+											<d6p1:Value xsi:type="d6p1:Structure"/>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+							</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">5</d6p1:Value>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Нажать на кнопку с именем "КнопкаПоказатьЗадания".</Автоописание>
+				</СтрокаСценария>
+				<Автоописание>Найти форму с именем "Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника"</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="12" Наименование="Проверка, что правильно открылась форма выбора задания" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="c9349bc8-c122-43ac-955c-196ec97ae51b" Цвет="0" ДанныеКартинки="20">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="Комментарий">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Комментарий.</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="13" Наименование="Форма &quot;Выбор задания&quot;" ТипШага="ИнтерактивнаяАвтоГруппа" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="1d0c6445-260f-42bc-bcda-0753fbc9fbf5" Цвет="0" ДанныеКартинки="7">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокФормы">
+						<d5p1:Value xsi:type="xs:string">Выбор задания</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяТестФормы">
+						<d5p1:Value xsi:type="xs:string">Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокОкна">
+						<d5p1:Value xsi:type="xs:string">Выбор задания</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуОкна">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуФормы">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоИмениФормы">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЭлементам">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЭлементыФормы">
+						<d5p1:Value xsi:type="d5p1:Array"/>
+					</d5p1:Property>
+					<d5p1:Property name="ВремяОжиданияОткрытия">
+						<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИспользоватьТекущуюФорму">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<СтрокаСценария НомерШага="14" Наименование="Проверить, что значение надписи &quot;Для&quot; равно &quot;ТестовыйКомплектовщик&quot;" ТипШага="ОдинЭлементФормы" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="09ac1123-dac4-485f-b0dd-887f141032d8" Цвет="0" ДанныеКартинки="9">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ОписаниеЭлементаФормы">
+							<d6p1:Value xsi:type="d6p1:Structure">
+								<d6p1:Property name="Действие">
+									<d6p1:Value xsi:type="xs:string">Проверить</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Имя">
+									<d6p1:Value xsi:type="xs:string">ФормаКомплектовщик</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Заголовок">
+									<d6p1:Value xsi:type="xs:string">Для</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Вид">
+									<d6p1:Value xsi:type="xs:string">Надпись</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ВариантПоиска">
+									<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Значение">
+									<d6p1:Value xsi:type="xs:string">ТестовыйКомплектовщик</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Тип">
+									<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПутьПоиска">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Str_1">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="ТипЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ИмяЭлемента">
+													<d6p1:Value xsi:type="xs:string">ФормаКомплектовщик</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ЗаголовокЭлемента">
+													<d6p1:Value xsi:type="xs:string">Для</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ВидЭлемента">
+													<d6p1:Value xsi:type="xs:string">Надпись</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="КоличествоРаз">
+									<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ИмяФайла">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="ИскатьСредиВидимых">
+									<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПеременнаяДляСохраненияЗначения">
+									<d6p1:Value xsi:type="xs:string">&amp;ПеременнаяХраненияЗначения</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Свойства">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Видимость">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Доступность">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТолькоПросмотр">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Нет</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТекстПодсказки">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string"/>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ЭтоТекущийЭлемент">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Для</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="СтруктураКнопки">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="ВариантПоиска">
+											<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="Имя">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="ПутьПоиска">
+											<d6p1:Value xsi:type="d6p1:Structure"/>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+							</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">0</d6p1:Value>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Проверить что значение надписи с именем "ФормаКомплектовщик" соответствует эталонному значению "ТестовыйКомплектовщик".</Автоописание>
+				</СтрокаСценария>
+				<СтрокаСценария НомерШага="15" Наименование="Закрыть окно текущей формы" ТипШага="ПроверитьФорму" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="5c5db73f-6c82-4d1c-b9b3-0c53a1ef6221" Цвет="0" ДанныеКартинки="8">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="Действие">
+							<d6p1:Value xsi:type="xs:string">ЗакрытьОкноТекущейФормы</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ЗаголовокПрограммы">
+							<d6p1:Value xsi:type="xs:string">Контроль отбора Е</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="Модифицированность">
+							<d6p1:Value xsi:type="xs:string">НЕМодифицирована</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяФайла">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ИндексФайла">
+							<d6p1:Value xsi:type="xs:decimal">0</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="КоличествоРаз">
+							<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ТекстЗаголовка">
+							<d6p1:Value xsi:type="xs:string">Выбор сотрудника</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ЗаголовокКнопкиИнтерфейса">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">0</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="СтрокаКнопокКомандногоИнтерфейса">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ВыбираемоеЗначение">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Закрыть окно текущей формы</Автоописание>
+				</СтрокаСценария>
+				<Автоописание>Найти форму с именем "Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика"</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="16" Наименование="Очистка тестовых данных" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="dd7f66c9-02da-4c71-b198-3ce9bee15335" Цвет="0" ДанныеКартинки="20">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="Комментарий">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Комментарий.</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="17" Наименование="Удаление элемента из справочника &quot;Комплектовщики&quot;" ТипШага="ВыполнитьКлиентскуюПроцедуру" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="dc88f607-94c2-46b9-9cf1-2e0af4a65cf6" Цвет="0" ДанныеКартинки="23">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ТекстПроцедуры">
+						<d5p1:Value xsi:type="xs:string">ТестовыйСправочник = Справочники.Комплектовщики.НайтиПоРеквизиту("Идентификатор", "13355").ПолучитьОбъект();
+
+ТестовыйСправочник.Удалить();</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="НаСервере">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ВыделенныйТекст">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ОписательПоложенияШагаВДереве">
+						<d5p1:Value xsi:type="d5p1:Structure">
+							<d5p1:Property name="ИдентификаторУзлаРодителя">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИндексВставки">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторШага">
+								<d5p1:Value xsi:type="xs:decimal">39</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлаФормы">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлатаблицы">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИдентификаторУзлаТД">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+							<d5p1:Property name="ИДРодителя">
+								<d5p1:Value xsi:nil="true"/>
+							</d5p1:Property>
+						</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="СтруктураДанныхШага">
+						<d5p1:Value xsi:type="d5p1:Structure">
+							<d5p1:Property name="УИШ">
+								<d5p1:Value xsi:type="xs:string">dc88f607-94c2-46b9-9cf1-2e0af4a65cf6</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ТипШага">
+								<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Наименование">
+								<d5p1:Value xsi:type="xs:string">Удаление элемента из справочника "Комплектовщики"</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Автоописание">
+								<d5p1:Value xsi:type="xs:string">Выполнить процедуру на сервере</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="Активность">
+								<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ВыполнитьВручную">
+								<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="НомерШага">
+								<d5p1:Value xsi:type="xs:decimal">7</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ДанныеКартинки">
+								<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+							</d5p1:Property>
+							<d5p1:Property name="ДеревоЗначения">
+								<d5p1:Value xsi:type="d5p1:Structure">
+									<d5p1:Property name="НаименованиеИзмененоВручную">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ДействиеПриОшибке">
+										<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ИмяПеременнойРезультата">
+										<d5p1:Value xsi:type="xs:string"/>
+									</d5p1:Property>
+									<d5p1:Property name="ТекстПроцедуры">
+										<d5p1:Value xsi:type="xs:string"/>
+									</d5p1:Property>
+									<d5p1:Property name="НаСервере">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ВыполнитьВТестируемомКлиенте">
+										<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="ВыделенныйТекст">
+										<d5p1:Value xsi:type="xs:string"/>
+									</d5p1:Property>
+									<d5p1:Property name="ОписательПоложенияШагаВДереве">
+										<d5p1:Value xsi:type="d5p1:Structure">
+											<d5p1:Property name="ИдентификаторУзлаРодителя">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИндексВставки">
+												<d5p1:Value xsi:type="xs:decimal">5</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторШага">
+												<d5p1:Value xsi:type="xs:string">dc88f607-94c2-46b9-9cf1-2e0af4a65cf6</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлаФормы">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлаТаблицы">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+											<d5p1:Property name="ИдентификаторУзлаТД">
+												<d5p1:Value xsi:nil="true"/>
+											</d5p1:Property>
+										</d5p1:Value>
+									</d5p1:Property>
+									<d5p1:Property name="СтруктураДанныхШага">
+										<d5p1:Value xsi:type="d5p1:Structure">
+											<d5p1:Property name="УИШ">
+												<d5p1:Value xsi:type="xs:string">dc88f607-94c2-46b9-9cf1-2e0af4a65cf6</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ТипШага">
+												<d5p1:Value xsi:type="xs:string">ВыполнитьКлиентскуюПроцедуру</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="Наименование">
+												<d5p1:Value xsi:type="xs:string">Выполнить процедуру на клиенте</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="АвтоОписание">
+												<d5p1:Value xsi:type="xs:string">Выполнить процедуру на клиенте</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="Активность">
+												<d5p1:Value xsi:type="xs:decimal">1</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ВыполнитьВРучную">
+												<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="НомерШага">
+												<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ДанныеКартинки">
+												<d5p1:Value xsi:type="xs:decimal">23</d5p1:Value>
+											</d5p1:Property>
+											<d5p1:Property name="ДеревоЗначения">
+												<d5p1:Value xsi:type="d5p1:Structure">
+													<d5p1:Property name="НаименованиеИзмененоВручную">
+														<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ИмяПеременнойРезультата">
+														<d5p1:Value xsi:type="xs:string"/>
+													</d5p1:Property>
+													<d5p1:Property name="ДействиеПриОшибке">
+														<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+													</d5p1:Property>
+													<d5p1:Property name="ТекстПроцедуры">
+														<d5p1:Value xsi:type="xs:string"/>
+													</d5p1:Property>
+													<d5p1:Property name="НаСервере">
+														<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+													</d5p1:Property>
+												</d5p1:Value>
+											</d5p1:Property>
+										</d5p1:Value>
+									</d5p1:Property>
+								</d5p1:Value>
+							</d5p1:Property>
+						</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Выполнить процедуру на сервере:
+{ ТестовыйСправочник = Справочники.Комплектовщики.НайтиПоРеквизиту("Идентификатор", "13355").ПолучитьОбъект();
+
+ТестовыйСправочник.Удалить(); }</Автоописание>
+			</СтрокаСценария>
+			<Автоописание>Группа шагов.</Автоописание>
+		</СтрокаСценария>
+	</ДеревоСценария>
+	<ГлобальныеПараметры>
+		<ГлобальныеПараметрыСтрока Ключ="ТабельныйНомер" Значение="13355" ТипЗначения="Строка"/>
+	</ГлобальныеПараметры>
+	<Макрошаги/>
+</НастройкиСценария>
