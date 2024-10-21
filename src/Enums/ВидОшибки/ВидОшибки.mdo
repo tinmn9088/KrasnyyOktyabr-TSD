@@ -19,6 +19,13 @@
       <value>Не найдено задание на отбор по штрихкоду</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="3cb01010-ad52-4170-a85c-9393268f4025">
+    <name>ОтсутствуетДокументНаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует документ на перемещение</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="acc2de54-9905-4b11-b4a8-68e644b308a7">
     <name>СлишкомМногоВКоробе</name>
     <synonym>
