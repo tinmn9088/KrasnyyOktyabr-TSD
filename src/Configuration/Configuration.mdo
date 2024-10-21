@@ -40,6 +40,9 @@
   </languages>
   <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <roles>Role.ВсеПрава</roles>
+  <roles>Role.Монитор</roles>
+  <roles>Role.Сотрудник</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
