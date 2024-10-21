@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Задание</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Задание</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -228,6 +232,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <height>1</height>
+    <verticalStretch>false</verticalStretch>
     <extendedTooltip>
       <name>ПодсказкаОсталосьПоЗаданиюРасширеннаяПодсказка</name>
       <id>56</id>
