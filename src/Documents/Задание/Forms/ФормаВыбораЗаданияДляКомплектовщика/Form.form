@@ -504,7 +504,10 @@
         </useRestriction>
         <valueType>
           <types>String</types>
-          <stringQualifiers/>
+          <stringQualifiers>
+            <length>42</length>
+            <fixed>true</fixed>
+          </stringQualifiers>
         </valueType>
       </calculatedFields>
       <parameters>
