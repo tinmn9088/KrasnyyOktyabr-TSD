@@ -57,10 +57,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <handlers>
-      <event>OnChange</event>
-      <name>ФормаТабельныйНомерПриИзменении</name>
-    </handlers>
     <extendedTooltip>
       <name>ТабельныйНомерРасширеннаяПодсказка</name>
       <id>21</id>

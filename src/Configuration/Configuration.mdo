@@ -17,10 +17,14 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>AudioPlaybackAndVibration</functionality>
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
