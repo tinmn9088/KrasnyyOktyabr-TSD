@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
+  <usedItem metadata="Catalog.Секторы"/>
+  <usedItem metadata="Catalog.СрезБазыМаркировкаТШК"/>
+  <usedItem metadata="Role.Монитор"/>
+  <usedItem metadata="Catalog.Комплектовщики"/>
+  <usedItem metadata="Catalog.Модели"/>
+  <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
+  <usedItem metadata="InformationRegister.ПроведенныеШтрихкоды"/>
+  <usedItem metadata="Catalog.моделиРазмер"/>
+  <usedItem metadata="Subsystem.Монитор"/>
   <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
   <usedItem metadata="CommonModule.ОповещенияФормыКлиент"/>
+  <usedItem metadata="CommonModule.КодыВозвратаГлобальный"/>
+  <usedItem metadata="Enum.ТипШтрихкода"/>
+  <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
+  <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
+  <usedItem metadata="Catalog.ВидыМатериалов"/>
+  <usedItem metadata="CommonAttribute.UID"/>
+  <usedItem metadata="Enum.ВидОшибки"/>
+  <usedItem metadata="CommonModule.КонтрольОтбора"/>
+  <usedItem metadata="Catalog.МестаХранения"/>
+  <usedItem metadata="CommonModule.ОповещенияПользователяКлиент"/>
+  <usedItem metadata="Document.ВыполнениеЗадания"/>
+  <usedItem metadata="Role.ВсеПрава"/>
+  <usedItem metadata="Subsystem.Администрирование"/>
+  <usedItem metadata="Catalog.АдресаТЛЦ"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
+  <usedItem metadata="Catalog.моделиEAH13"/>
   <usedItem metadata="CommonModule.ВнешниеКомпонентыКлиент"/>
+  <usedItem metadata="Catalog.моделиКожтовар"/>
+  <usedItem metadata="Catalog.моделиЦвет"/>
+  <usedItem metadata="Document.ВнПеремОтпуск"/>
+  <usedItem metadata="Document.Задание"/>
+  <usedItem metadata="Catalog.ПроцентУценки"/>
+  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
+  <usedItem metadata="Role.Сотрудник"/>
+  <usedItem metadata="Catalog.ТШККороб"/>
+  <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
   <usedItem metadata="CommonModule.КонтрольОтбораКлиент"/>
   <dataExchangeSettings exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

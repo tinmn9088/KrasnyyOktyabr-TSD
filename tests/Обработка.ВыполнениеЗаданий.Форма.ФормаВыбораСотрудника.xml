@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<НастройкиСценария xmlns="http://v8.1c.ru/stest/extforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ТипФайла="ФайлСценарияТеста" Наименование="Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника" ВерсияСтруктурыXML="83-01" ДатаАктуализации="2024-10-21T16:47:40" НомерШагаДляНачальнойУстановки="d8e438c0-8612-46cf-a014-a9ef6b2954ed" URLИБ="" ВидТестируемогоКлиента="0" ИмяПользователя="" ПарольПользователяИБ="" ПортТестируемогоКлиента="1538" ТаймаутПоискаИнтерактивныхОбъектов="30" ДопПараметрыКоманднойСтроки="/TESTCLIENT" КомпьютерИБ="127.0.0.1" СтрокаПодключенияКИБ="File=&quot;D:\Workspace\1C\KontrolOtbora&quot;;" ЗапускСОбработкойТестированияСервера="true">
+<НастройкиСценария xmlns="http://v8.1c.ru/stest/extforms" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ТипФайла="ФайлСценарияТеста" Наименование="Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника" ВерсияСтруктурыXML="83-01" ДатаАктуализации="2024-10-22T11:08:06" НомерШагаДляНачальнойУстановки="0664c1b2-b0ef-4b6d-ac6b-a0cc95ec7711" URLИБ="" ВидТестируемогоКлиента="0" ИмяПользователя="" ПарольПользователяИБ="" ПортТестируемогоКлиента="1538" ТаймаутПоискаИнтерактивныхОбъектов="30" ДопПараметрыКоманднойСтроки="/TESTCLIENT" КомпьютерИБ="127.0.0.1" СтрокаПодключенияКИБ="File=&quot;D:\Workspace\1C\KontrolOtbora&quot;;" ЗапускСОбработкойТестированияСервера="true">
 	<Описание>Если ввести правильный табельный номер, откроется форма выбора задания.
 Если ввести несуществующий табельный номер, должно появится оповещение об ошибке.</Описание>
 	<ДеревоСценария>
-		<СтрокаСценария НомерШага="1" Наименование="Открытие формы выбора сотрудника" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="b42d4e4b-9732-424c-9abc-1c0174377c2e" Цвет="0" ДанныеКартинки="20">
+		<СтрокаСценария НомерШага="1" Наименование="Открытие формы выбора сотрудника" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="b42d4e4b-9732-424c-9abc-1c0174377c2e" Цвет="0" ДанныеКартинки="20">
 			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
 				<d4p1:Property name="НаименованиеИзмененоВручную">
 					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
@@ -144,7 +144,7 @@
 			</Значение>
 			<Автоописание>В командном интерфейсе нажать кнопку "Начать выполнение задания" на панели "Панель функций текущего раздела"</Автоописание>
 		</СтрокаСценария>
-		<СтрокаСценария НомерШага="4" Наименование="Тестирование" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="2a86bfa4-7927-45a4-9614-3c39d55e5d61" Цвет="0" ДанныеКартинки="20">
+		<СтрокаСценария НомерШага="4" Наименование="Тестирование" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="2a86bfa4-7927-45a4-9614-3c39d55e5d61" Цвет="0" ДанныеКартинки="20">
 			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
 				<d4p1:Property name="НаименованиеИзмененоВручную">
 					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
@@ -161,7 +161,7 @@
 			</Значение>
 			<Автоописание>Комментарий.</Автоописание>
 		</СтрокаСценария>
-		<СтрокаСценария НомерШага="5" Наименование="Ввод правильного табельного номера" ТипШага="Группа" Активность="2" Выполнено="1" ВыполнитьВручную="0" УИШ="d8e438c0-8612-46cf-a014-a9ef6b2954ed" Цвет="0" ДанныеКартинки="19">
+		<СтрокаСценария НомерШага="5" Наименование="Ввод правильного табельного номера" ТипШага="Группа" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="d8e438c0-8612-46cf-a014-a9ef6b2954ed" Цвет="0" ДанныеКартинки="19">
 			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
 				<d4p1:Property name="НаименованиеИзмененоВручную">
 					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
@@ -176,7 +176,7 @@
 					<d4p1:Value xsi:type="xs:string"/>
 				</d4p1:Property>
 			</Значение>
-			<СтрокаСценария НомерШага="6" Наименование="Добавление тестовых данных" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="8e13b39d-344b-4443-a8a8-5aa28cbc01b9" Цвет="0" ДанныеКартинки="20">
+			<СтрокаСценария НомерШага="6" Наименование="Добавление тестовых данных" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="8e13b39d-344b-4443-a8a8-5aa28cbc01b9" Цвет="0" ДанныеКартинки="20">
 				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
 					<d5p1:Property name="НаименованиеИзмененоВручную">
 						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
@@ -1288,7 +1288,7 @@
     
 ТестовыйКомплектовщик.Записать(); }</Автоописание>
 			</СтрокаСценария>
-			<СтрокаСценария НомерШага="8" Наименование="Ввод табельного номера" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="be62d710-f2a2-4138-b28d-690ead93029f" Цвет="0" ДанныеКартинки="20">
+			<СтрокаСценария НомерШага="8" Наименование="Ввод табельного номера" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="be62d710-f2a2-4138-b28d-690ead93029f" Цвет="0" ДанныеКартинки="20">
 				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
 					<d5p1:Property name="НаименованиеИзмененоВручную">
 						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
@@ -1341,7 +1341,7 @@
 						<d5p1:Value xsi:type="d5p1:Array"/>
 					</d5p1:Property>
 					<d5p1:Property name="ВремяОжиданияОткрытия">
-						<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+						<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
 					</d5p1:Property>
 					<d5p1:Property name="ИспользоватьТекущуюФорму">
 						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
@@ -1496,7 +1496,7 @@
 							</d6p1:Value>
 						</d6p1:Property>
 						<d6p1:Property name="ВремяОжидания">
-							<d6p1:Value xsi:type="xs:decimal">5</d6p1:Value>
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
 						</d6p1:Property>
 					</Значение>
 					<Автоописание>Элементу формы с именем "ТабельныйНомер" установить значение "13355".</Автоописание>
@@ -1650,14 +1650,14 @@
 							</d6p1:Value>
 						</d6p1:Property>
 						<d6p1:Property name="ВремяОжидания">
-							<d6p1:Value xsi:type="xs:decimal">5</d6p1:Value>
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
 						</d6p1:Property>
 					</Значение>
 					<Автоописание>Нажать на кнопку с именем "КнопкаПоказатьЗадания".</Автоописание>
 				</СтрокаСценария>
-				<Автоописание>Найти форму с именем "Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника"</Автоописание>
+				<Автоописание>Ожидать "3" сек. открытия формы с именем "Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника"</Автоописание>
 			</СтрокаСценария>
-			<СтрокаСценария НомерШага="12" Наименование="Проверка, что правильно открылась форма выбора задания" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="c9349bc8-c122-43ac-955c-196ec97ae51b" Цвет="0" ДанныеКартинки="20">
+			<СтрокаСценария НомерШага="12" Наименование="Проверка, что правильно открылась форма выбора задания" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="c9349bc8-c122-43ac-955c-196ec97ae51b" Цвет="0" ДанныеКартинки="20">
 				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
 					<d5p1:Property name="НаименованиеИзмененоВручную">
 						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
@@ -1710,7 +1710,7 @@
 						<d5p1:Value xsi:type="d5p1:Array"/>
 					</d5p1:Property>
 					<d5p1:Property name="ВремяОжиданияОткрытия">
-						<d5p1:Value xsi:type="xs:decimal">0</d5p1:Value>
+						<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
 					</d5p1:Property>
 					<d5p1:Property name="ИспользоватьТекущуюФорму">
 						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
@@ -1865,7 +1865,7 @@
 							</d6p1:Value>
 						</d6p1:Property>
 						<d6p1:Property name="ВремяОжидания">
-							<d6p1:Value xsi:type="xs:decimal">0</d6p1:Value>
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
 						</d6p1:Property>
 					</Значение>
 					<Автоописание>Проверить что значение надписи с именем "ФормаКомплектовщик" соответствует эталонному значению "ТестовыйКомплектовщик".</Автоописание>
@@ -1906,7 +1906,7 @@
 							<d6p1:Value xsi:type="xs:string"/>
 						</d6p1:Property>
 						<d6p1:Property name="ВремяОжидания">
-							<d6p1:Value xsi:type="xs:decimal">0</d6p1:Value>
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
 						</d6p1:Property>
 						<d6p1:Property name="СтрокаКнопокКомандногоИнтерфейса">
 							<d6p1:Value xsi:type="xs:string"/>
@@ -1917,9 +1917,9 @@
 					</Значение>
 					<Автоописание>Закрыть окно текущей формы</Автоописание>
 				</СтрокаСценария>
-				<Автоописание>Найти форму с именем "Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика"</Автоописание>
+				<Автоописание>Ожидать "3" сек. открытия формы с именем "Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика"</Автоописание>
 			</СтрокаСценария>
-			<СтрокаСценария НомерШага="16" Наименование="Очистка тестовых данных" ТипШага="Комментарий" Активность="0" Выполнено="0" ВыполнитьВручную="0" УИШ="dd7f66c9-02da-4c71-b198-3ce9bee15335" Цвет="0" ДанныеКартинки="20">
+			<СтрокаСценария НомерШага="16" Наименование="Очистка тестовых данных" ТипШага="Комментарий" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="dd7f66c9-02da-4c71-b198-3ce9bee15335" Цвет="0" ДанныеКартинки="20">
 				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
 					<d5p1:Property name="НаименованиеИзмененоВручную">
 						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
@@ -2113,6 +2113,419 @@
 { ТестовыйСправочник = Справочники.Комплектовщики.НайтиПоРеквизиту("Идентификатор", "13355").ПолучитьОбъект();
 
 ТестовыйСправочник.Удалить(); }</Автоописание>
+			</СтрокаСценария>
+			<Автоописание>Группа шагов.</Автоописание>
+		</СтрокаСценария>
+		<СтрокаСценария НомерШага="18" Наименование="Ввод несуществующего табельного номера" ТипШага="Группа" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="f9bbe1f5-500f-4297-abdc-909d71d6d3c4" Цвет="0" ДанныеКартинки="19">
+			<Значение xmlns:d4p1="http://v8.1c.ru/8.1/data/core">
+				<d4p1:Property name="НаименованиеИзмененоВручную">
+					<d4p1:Value xsi:type="xs:boolean">true</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ДействиеПриОшибке">
+					<d4p1:Value xsi:type="xs:string">Остановить</d4p1:Value>
+				</d4p1:Property>
+				<d4p1:Property name="ИмяПеременнойРезультата">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+				<d4p1:Property name="Описание">
+					<d4p1:Value xsi:type="xs:string"/>
+				</d4p1:Property>
+			</Значение>
+			<СтрокаСценария НомерШага="19" Наименование="Форма &quot;Выбор сотрудника&quot;" ТипШага="ИнтерактивнаяАвтоГруппа" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="fe3bac1f-a372-4c47-be33-ce32f7a15907" Цвет="0" ДанныеКартинки="7">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Остановить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string"/>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокФормы">
+						<d5p1:Value xsi:type="xs:string">Выбор сотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяТестФормы">
+						<d5p1:Value xsi:type="xs:string">Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокОкна">
+						<d5p1:Value xsi:type="xs:string">Выбор сотрудника</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуОкна">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуФормы">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоИмениФормы">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЭлементам">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЭлементыФормы">
+						<d5p1:Value xsi:type="d5p1:Array"/>
+					</d5p1:Property>
+					<d5p1:Property name="ВремяОжиданияОткрытия">
+						<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИспользоватьТекущуюФорму">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<СтрокаСценария НомерШага="20" Наименование="У поля ввода &quot;ТабельныйНомер&quot; установить значение &quot;несуществующий&quot;" ТипШага="ОдинЭлементФормы" Активность="1" Выполнено="1" ВыполнитьВручную="0" УИШ="a723dc0c-aa36-453b-8407-185808323c16" Цвет="0" ДанныеКартинки="9">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ОписаниеЭлементаФормы">
+							<d6p1:Value xsi:type="d6p1:Structure">
+								<d6p1:Property name="Действие">
+									<d6p1:Value xsi:type="xs:string">УстановитьЗначение</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Имя">
+									<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Заголовок">
+									<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Вид">
+									<d6p1:Value xsi:type="xs:string">ПолеВвода</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ВариантПоиска">
+									<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Значение">
+									<d6p1:Value xsi:type="xs:string">несуществующий</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Тип">
+									<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПутьПоиска">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Str_1">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="ТипЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТестируемоеПолеФормы</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ИмяЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ЗаголовокЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ВидЭлемента">
+													<d6p1:Value xsi:type="xs:string">ПолеВвода</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="КоличествоРаз">
+									<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ИмяФайла">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="ИскатьСредиВидимых">
+									<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПеременнаяДляСохраненияЗначения">
+									<d6p1:Value xsi:type="xs:string">&amp;ПеременнаяХраненияЗначения</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Свойства">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Видимость">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Доступность">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТолькоПросмотр">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Нет</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТекстПодсказки">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string"/>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ЭтоТекущийЭлемент">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">ТабельныйНомер</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="СтруктураКнопки">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="ВариантПоиска">
+											<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="Имя">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="ПутьПоиска">
+											<d6p1:Value xsi:type="d6p1:Structure"/>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+							</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Элементу формы с именем "ТабельныйНомер" установить значение "несуществующий".</Автоописание>
+				</СтрокаСценария>
+				<СтрокаСценария НомерШага="21" Наименование="Нажать на кнопку &quot;Показать задания&quot;" ТипШага="ОдинЭлементФормы" Активность="1" Выполнено="0" ВыполнитьВручную="0" УИШ="81c9c3c4-fd1e-435e-b4cd-360d34b6933c" Цвет="0" ДанныеКартинки="9">
+					<Значение xmlns:d6p1="http://v8.1c.ru/8.1/data/core">
+						<d6p1:Property name="НаименованиеИзмененоВручную">
+							<d6p1:Value xsi:type="xs:boolean">false</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ДействиеПриОшибке">
+							<d6p1:Value xsi:type="xs:string">Остановить</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ИмяПеременнойРезультата">
+							<d6p1:Value xsi:type="xs:string"/>
+						</d6p1:Property>
+						<d6p1:Property name="ОписаниеЭлементаФормы">
+							<d6p1:Value xsi:type="d6p1:Structure">
+								<d6p1:Property name="Действие">
+									<d6p1:Value xsi:type="xs:string">Нажать</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Имя">
+									<d6p1:Value xsi:type="xs:string">КнопкаПоказатьЗадания</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Заголовок">
+									<d6p1:Value xsi:type="xs:string">Показать задания</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Вид">
+									<d6p1:Value xsi:type="xs:string">ОбычнаяКнопка</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ВариантПоиска">
+									<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Значение">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="Тип">
+									<d6p1:Value xsi:type="xs:string">ТестируемаяКнопкаФормы</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПутьПоиска">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Str_1">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="ТипЭлемента">
+													<d6p1:Value xsi:type="xs:string">ТестируемаяКнопкаФормы</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ИмяЭлемента">
+													<d6p1:Value xsi:type="xs:string">КнопкаПоказатьЗадания</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ЗаголовокЭлемента">
+													<d6p1:Value xsi:type="xs:string">Показать задания</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="ВидЭлемента">
+													<d6p1:Value xsi:type="xs:string">ОбычнаяКнопка</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="КоличествоРаз">
+									<d6p1:Value xsi:type="xs:decimal">1</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ИмяФайла">
+									<d6p1:Value xsi:type="xs:string"/>
+								</d6p1:Property>
+								<d6p1:Property name="ИскатьСредиВидимых">
+									<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="ПеременнаяДляСохраненияЗначения">
+									<d6p1:Value xsi:type="xs:string">&amp;ПеременнаяХраненияЗначения</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="Свойства">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="Видимость">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Доступность">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТолькоПросмотр">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ТекстПодсказки">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string"/>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="ЭтоТекущийЭлемент">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Да</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="d6p1:Structure">
+												<d6p1:Property name="Активность">
+													<d6p1:Value xsi:type="xs:boolean">true</d6p1:Value>
+												</d6p1:Property>
+												<d6p1:Property name="Значение">
+													<d6p1:Value xsi:type="xs:string">Показать задания</d6p1:Value>
+												</d6p1:Property>
+											</d6p1:Value>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+								<d6p1:Property name="СтруктураКнопки">
+									<d6p1:Value xsi:type="d6p1:Structure">
+										<d6p1:Property name="ВариантПоиска">
+											<d6p1:Value xsi:type="xs:string">100</d6p1:Value>
+										</d6p1:Property>
+										<d6p1:Property name="Заголовок">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="Имя">
+											<d6p1:Value xsi:type="xs:string"/>
+										</d6p1:Property>
+										<d6p1:Property name="ПутьПоиска">
+											<d6p1:Value xsi:type="d6p1:Structure"/>
+										</d6p1:Property>
+									</d6p1:Value>
+								</d6p1:Property>
+							</d6p1:Value>
+						</d6p1:Property>
+						<d6p1:Property name="ВремяОжидания">
+							<d6p1:Value xsi:type="xs:decimal">3</d6p1:Value>
+						</d6p1:Property>
+					</Значение>
+					<Автоописание>Нажать на кнопку с именем "КнопкаПоказатьЗадания".</Автоописание>
+				</СтрокаСценария>
+				<Автоописание>Ожидать "3" сек. открытия формы с именем "Обработка.ВыполнениеЗаданий.Форма.ФормаВыбораСотрудника"</Автоописание>
+			</СтрокаСценария>
+			<СтрокаСценария НомерШага="22" Наименование="Форма &quot;Выбор задания&quot;" ТипШага="ИнтерактивнаяАвтоГруппа" Активность="1" Выполнено="0" ВыполнитьВручную="0" УИШ="0664c1b2-b0ef-4b6d-ac6b-a0cc95ec7711" Цвет="0" ДанныеКартинки="7">
+				<Значение xmlns:d5p1="http://v8.1c.ru/8.1/data/core">
+					<d5p1:Property name="НаименованиеИзмененоВручную">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ДействиеПриОшибке">
+						<d5p1:Value xsi:type="xs:string">Продолжить</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяПеременнойРезультата">
+						<d5p1:Value xsi:type="xs:string">&amp;ОткрыласьФормаВыбораЗаданияДляКомплектовщика</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокФормы">
+						<d5p1:Value xsi:type="xs:string">Выбор задания</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИмяТестФормы">
+						<d5p1:Value xsi:type="xs:string">Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЗаголовокОкна">
+						<d5p1:Value xsi:type="xs:string">Выбор задания</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуОкна">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЗаголовкуФормы">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоИмениФормы">
+						<d5p1:Value xsi:type="xs:boolean">true</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИскатьПоЭлементам">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ЭлементыФормы">
+						<d5p1:Value xsi:type="d5p1:Array"/>
+					</d5p1:Property>
+					<d5p1:Property name="ВремяОжиданияОткрытия">
+						<d5p1:Value xsi:type="xs:decimal">3</d5p1:Value>
+					</d5p1:Property>
+					<d5p1:Property name="ИспользоватьТекущуюФорму">
+						<d5p1:Value xsi:type="xs:boolean">false</d5p1:Value>
+					</d5p1:Property>
+				</Значение>
+				<Автоописание>Ожидать "3" сек. открытия формы с именем "Документ.Задание.Форма.ФормаВыбораЗаданияДляКомплектовщика"</Автоописание>
 			</СтрокаСценария>
 			<Автоописание>Группа шагов.</Автоописание>
 		</СтрокаСценария>
