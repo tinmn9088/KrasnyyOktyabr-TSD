@@ -840,12 +840,17 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>EditTextChange</event>
+          <name>ШтрихкодИзменениеТекстаРедактирования</name>
+        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <editTextUpdate>Always</editTextUpdate>
         <inputHint>
           <key>ru</key>
           <value>Штрихкод</value>
@@ -860,7 +865,6 @@
         <value>Обработать</value>
       </title>
       <visible>true</visible>
-      <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
