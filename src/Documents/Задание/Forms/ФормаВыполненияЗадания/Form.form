@@ -858,7 +858,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ОбработатьШтрихкод</name>
+      <name>КнопкаОбработатьШтрихкод</name>
       <id>12</id>
       <title>
         <key>ru</key>
@@ -869,7 +869,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработатьШтрихкодРасширеннаяПодсказка</name>
+        <name>КнопкаОбработатьШтрихкодРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
