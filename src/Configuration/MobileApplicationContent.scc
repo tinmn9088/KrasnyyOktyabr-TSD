@@ -22,6 +22,7 @@
   <usedItem metadata="CommonModule.КонтрольОтбора"/>
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="CommonModule.ОповещенияПользователяКлиент"/>
+  <usedItem metadata="CommonModule.XML"/>
   <usedItem metadata="Document.ВыполнениеЗадания"/>
   <usedItem metadata="Role.ВсеПрава"/>
   <usedItem metadata="Subsystem.Администрирование"/>
