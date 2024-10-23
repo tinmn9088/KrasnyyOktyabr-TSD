@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
   <usedItem metadata="Catalog.Секторы"/>
-  <usedItem metadata="Catalog.СрезБазыМаркировкаТШК"/>
+  <usedItem metadata="Catalog.КМ31"/>
   <usedItem metadata="Role.Монитор"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="Catalog.Модели"/>

@@ -158,7 +158,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК</name>
+		<name>Catalog.КМ31</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -221,63 +221,63 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.КМ31.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Predefined</name>
+		<name>Catalog.КМ31.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Ref</name>
+		<name>Catalog.КМ31.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.DeletionMark</name>
+		<name>Catalog.КМ31.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.IsFolder</name>
+		<name>Catalog.КМ31.StandardAttribute.IsFolder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Owner</name>
+		<name>Catalog.КМ31.StandardAttribute.Owner</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Parent</name>
+		<name>Catalog.КМ31.StandardAttribute.Parent</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Description</name>
+		<name>Catalog.КМ31.StandardAttribute.Description</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Code</name>
+		<name>Catalog.КМ31.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1210,7 +1210,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.Attribute.ПроцентУценки</name>
+		<name>Catalog.КМ31.Attribute.ПроцентУценки</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2191,7 +2191,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.Attribute.GTIN</name>
+		<name>Catalog.КМ31.Attribute.GTIN</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2662,13 +2662,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.StandardAttribute.Period</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СрезБазыМаркировкаТШК.Attribute.КМ31</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

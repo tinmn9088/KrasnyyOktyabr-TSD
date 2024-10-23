@@ -7,15 +7,13 @@
     <listType typeId="19bcc400-cf63-4b7f-ae9a-8ea2077b8565" valueTypeId="e05f8fc9-6665-480d-b3a2-8509801c7029"/>
     <managerType typeId="3d56cfc2-1ae1-4f6c-a44f-f74a33b1c8db" valueTypeId="2fa60645-e298-4a80-b770-eb4eab1aee64"/>
   </producedTypes>
-  <name>СрезБазыМаркировкаТШК</name>
+  <name>КМ31</name>
   <synonym>
     <key>ru</key>
     <value>КМ31</value>
   </synonym>
   <comment>Аналог справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.СрезБазыМаркировкаТШК.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -97,34 +95,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <codeLength>32</codeLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="de59d56d-06f7-4c80-a4b8-c8579734771f">
-    <name>КМ31</name>
-    <synonym>
-      <key>ru</key>
-      <value>КМ31</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>32</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b831fff9-711a-4009-82d9-e1d5dde1913f">
     <name>GTIN</name>
     <synonym>
