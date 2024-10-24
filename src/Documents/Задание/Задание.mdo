@@ -212,6 +212,16 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9f98f603-add1-41d7-85c1-063c43676b5f">
+    <name>ФормаСтатусыЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы заданий</value>
+    </synonym>
+    <comment>Имитация журнала документа из ТШК Марко.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="04c66642-3046-4d4c-aba7-6df4381824ee">
     <producedTypes>
       <objectType typeId="22998b15-52f1-469b-bc80-7629e45d3bb8" valueTypeId="b3adae84-fef8-4175-bc39-3f7efd17fdf5"/>
@@ -350,6 +360,15 @@
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="cb7a0198-a856-4880-8281-a80c4617c8e0">
+    <name>ПросмотрСтатусовЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы заданий</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
     <representation>Auto</representation>
   </commands>
 </mdclass:Document>
