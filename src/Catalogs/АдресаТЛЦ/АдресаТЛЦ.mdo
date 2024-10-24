@@ -101,7 +101,6 @@
   <descriptionLength>1</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
-  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="e6f652ad-04f2-45d3-a7ce-05ea7f5a8225">

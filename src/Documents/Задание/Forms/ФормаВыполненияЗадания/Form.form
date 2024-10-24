@@ -285,7 +285,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаСписокЗаданийНаОтбор.ЯчейкаПредставление</segments>
+        <segments>ФормаСписокЗаданийНаОтбор.Ячейка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СписокЗаданийНаОтборЯчейкаРасширеннаяПодсказка</name>
@@ -1231,19 +1231,6 @@
 КОГДА Размер = ЗНАЧЕНИЕ(Справочник.моделиРазмер.ПустаяСсылка) ТОГДА &quot;КОРОБ&quot;
 ИНАЧЕ &quot;РОССЫПЬ, &quot; + Размер.Наименование
 КОНЕЦ</presentationExpression>
-      </calculatedFields>
-      <calculatedFields>
-        <dataPath>ЯчейкаПредставление</dataPath>
-        <expression>Ячейка</expression>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value></value>
-            </content>
-          </localValue>
-        </title>
-        <presentationExpression>Ячейка.Код</presentationExpression>
       </calculatedFields>
       <parameters>
         <name>Комплектовщик</name>
