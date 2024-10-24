@@ -218,7 +218,7 @@
       <key>ru</key>
       <value>Статусы заданий</value>
     </synonym>
-    <comment>Имитация журнала документа из ТШК Марко.</comment>
+    <comment>Имитация журнала документа из ТШК 1С 7.7.</comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
