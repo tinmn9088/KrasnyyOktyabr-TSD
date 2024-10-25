@@ -2445,6 +2445,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.Задание.Command.ПросмотрСтатусовЗаданий</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиEAH13.Attribute.Цвет</name>
 		<right>
 			<name>Edit</name>
