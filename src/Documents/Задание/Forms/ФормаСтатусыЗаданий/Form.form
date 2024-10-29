@@ -197,17 +197,14 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>PictureField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:ImageFieldExtInfo">
+      <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>true</horizontalStretch>
-        <verticalStretch>true</verticalStretch>
-        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
@@ -442,7 +439,6 @@
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
-      <autoSaveUserSettings>true</autoSaveUserSettings>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Зона</dataPath>
         <field>Зона</field>
@@ -500,16 +496,20 @@
         <field>МоментВремени</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>UID</dataPath>
-        <field>UID</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПометкаУдаления</dataPath>
         <field>ПометкаУдаления</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Проведен</dataPath>
         <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>UID</dataPath>
+        <field>UID</field>
       </fields>
     </extInfo>
   </attributes>

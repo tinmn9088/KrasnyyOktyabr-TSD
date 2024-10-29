@@ -21,6 +21,7 @@
   <usedItem metadata="Enum.ВидОшибки"/>
   <usedItem metadata="CommonModule.КонтрольОтбора"/>
   <usedItem metadata="Catalog.МестаХранения"/>
+  <usedItem metadata="Enum.СтатусЗадания"/>
   <usedItem metadata="CommonModule.ОповещенияПользователяКлиент"/>
   <usedItem metadata="CommonModule.XML"/>
   <usedItem metadata="Document.ВыполнениеЗадания"/>
