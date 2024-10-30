@@ -10,5 +10,6 @@
   <content>Document.ВнПеремОтпуск</content>
   <content>Document.Задание</content>
   <content>Document.ВыполнениеЗадания</content>
+  <content>Document.АктПриемки</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

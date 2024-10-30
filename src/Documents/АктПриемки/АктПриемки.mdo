@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3dd2e2e-4c9f-4f91-b379-7bc93b06cfad">
+  <producedTypes>
+    <objectType typeId="18ce293f-e120-4872-9d77-49c0ab78360e" valueTypeId="ce380b95-c13c-4613-b662-fd6a22ff532a"/>
+    <refType typeId="394a54fc-dd9e-4050-b9e1-da7666987fba" valueTypeId="1d5e0843-8556-4949-b10d-b0a621d60e64"/>
+    <selectionType typeId="3998d410-724f-4dd3-9899-5da1fb00b501" valueTypeId="bee28b8a-58d3-4673-85fa-808a6d66337d"/>
+    <listType typeId="a67019fc-2baa-4876-abbe-6fa326c34272" valueTypeId="d26cf2c6-d63a-4fca-96dc-5525ba34178f"/>
+    <managerType typeId="2693b40f-024a-424a-be16-3ead654f5d73" valueTypeId="acacd929-4993-42da-93cc-bc5fde27c689"/>
+  </producedTypes>
+  <name>АктПриемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт приемки</value>
+  </synonym>
+  <comment>Электронная накладная с ЭДО.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктПриемки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

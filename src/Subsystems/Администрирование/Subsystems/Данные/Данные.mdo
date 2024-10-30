@@ -20,5 +20,6 @@
   <content>Catalog.Секторы</content>
   <content>Catalog.ТШККороб</content>
   <content>Catalog.КМ31</content>
+  <content>Catalog.СотрудникиСклада</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

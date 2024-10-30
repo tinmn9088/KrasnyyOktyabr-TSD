@@ -51,6 +51,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.СотрудникиСклада</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.МестаХранения</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -80,6 +84,10 @@
   </content>
   <content>
     <mdObject>Document.Задание</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Document.АктПриемки</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

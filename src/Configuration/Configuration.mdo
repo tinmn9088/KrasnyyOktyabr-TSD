@@ -63,6 +63,7 @@
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
   <catalogs>Catalog.ВидыМатериалов</catalogs>
+  <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
   <catalogs>Catalog.Модели</catalogs>
@@ -72,11 +73,12 @@
   <catalogs>Catalog.моделиЦвет</catalogs>
   <catalogs>Catalog.ПроцентУценки</catalogs>
   <catalogs>Catalog.Секторы</catalogs>
+  <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
-  <catalogs>Catalog.КМ31</catalogs>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>
   <documents>Document.ВыполнениеЗадания</documents>
+  <documents>Document.АктПриемки</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>

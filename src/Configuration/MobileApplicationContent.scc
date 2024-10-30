@@ -19,6 +19,7 @@
   <usedItem metadata="Catalog.ВидыМатериалов"/>
   <usedItem metadata="CommonAttribute.UID"/>
   <usedItem metadata="Enum.ВидОшибки"/>
+  <usedItem metadata="Catalog.СотрудникиСклада"/>
   <usedItem metadata="CommonModule.КонтрольОтбора"/>
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="Enum.СтатусЗадания"/>
@@ -35,6 +36,7 @@
   <usedItem metadata="Catalog.моделиЦвет"/>
   <usedItem metadata="Document.ВнПеремОтпуск"/>
   <usedItem metadata="Document.Задание"/>
+  <usedItem metadata="Document.АктПриемки"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
   <usedItem metadata="Role.Сотрудник"/>
