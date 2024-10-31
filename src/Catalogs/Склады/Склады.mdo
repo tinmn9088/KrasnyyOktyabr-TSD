@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56898a10-ec74-4641-8376-ec249f831d36">
+  <producedTypes>
+    <objectType typeId="87fda80b-d37d-4569-9651-2e9ab861be41" valueTypeId="7b818cef-bb1b-4f84-a594-6cd3fd6e532e"/>
+    <refType typeId="f8cdadaf-b08a-40f5-bf74-f3bfc50ef4c5" valueTypeId="0ea125e2-8945-443a-abbf-ca3588d387ac"/>
+    <selectionType typeId="18916fb3-dcea-4579-9a31-e56219e719c3" valueTypeId="3be53289-a94a-4af6-909d-44c7239c90bf"/>
+    <listType typeId="99f28a42-3622-45f9-9dbf-5e47c666ca53" valueTypeId="1425f69f-71bb-4434-8317-6e2670841228"/>
+    <managerType typeId="634dc35d-cd84-4bea-96a5-45210b35559f" valueTypeId="799064c5-226c-4c6d-a1a2-3775957c7647"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <comment>Имитация справочника с ЭДиН.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

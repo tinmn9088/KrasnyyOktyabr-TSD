@@ -508,6 +508,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <keyType>FieldValue</keyType>

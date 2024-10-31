@@ -1253,6 +1253,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
@@ -1268,6 +1269,7 @@
         <valueType>
           <types>DocumentRef.Задание</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9f94c3c-37a1-48fa-89e7-da691a10053c">
+  <name>ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <comment>Права на запись всех объектов конфигурации (буз прав на просмотр и редактирование).</comment>
+</mdclass:Role>

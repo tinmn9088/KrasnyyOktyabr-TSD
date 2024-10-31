@@ -2,7 +2,8 @@
 <scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
   <usedItem metadata="Catalog.Секторы"/>
   <usedItem metadata="Catalog.КМ31"/>
-  <usedItem metadata="Role.Монитор"/>
+  <usedItem metadata="Document.АктПриемкиТоваров"/>
+  <usedItem metadata="Role.МониторКонтрольОтбора"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
@@ -13,6 +14,7 @@
   <usedItem metadata="CommonModule.ОповещенияФормыКлиент"/>
   <usedItem metadata="CommonModule.КодыВозвратаГлобальный"/>
   <usedItem metadata="Enum.ТипШтрихкода"/>
+  <usedItem metadata="Catalog.Склады"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
   <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
@@ -30,17 +32,20 @@
   <usedItem metadata="Subsystem.Администрирование"/>
   <usedItem metadata="Catalog.АдресаТЛЦ"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
+  <usedItem metadata="Catalog.Организации"/>
   <usedItem metadata="Catalog.моделиEAH13"/>
   <usedItem metadata="CommonModule.ВнешниеКомпонентыКлиент"/>
   <usedItem metadata="Catalog.моделиКожтовар"/>
   <usedItem metadata="Catalog.моделиЦвет"/>
   <usedItem metadata="Document.ВнПеремОтпуск"/>
+  <usedItem metadata="Role.МониторМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Document.Задание"/>
-  <usedItem metadata="Document.АктПриемки"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
-  <usedItem metadata="Role.Сотрудник"/>
+  <usedItem metadata="Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость"/>
+  <usedItem metadata="Role.ВыполнениеЗаданийКонтрольОтбора"/>
   <usedItem metadata="Catalog.ТШККороб"/>
+  <usedItem metadata="Catalog.Контрагенты"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
   <usedItem metadata="CommonModule.КонтрольОтбораКлиент"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>

@@ -21,5 +21,10 @@
   <content>Catalog.ТШККороб</content>
   <content>Catalog.КМ31</content>
   <content>Catalog.СотрудникиСклада</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕдиницыЕзмерения</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>
