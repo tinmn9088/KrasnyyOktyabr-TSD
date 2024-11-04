@@ -16,6 +16,7 @@
   <usedItem metadata="Enum.ТипШтрихкода"/>
   <usedItem metadata="Catalog.Склады"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
+  <usedItem metadata="Catalog.Номенклатура"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
   <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
   <usedItem metadata="Catalog.ВидыМатериалов"/>
@@ -38,6 +39,7 @@
   <usedItem metadata="Catalog.моделиКожтовар"/>
   <usedItem metadata="Catalog.моделиЦвет"/>
   <usedItem metadata="Document.ВнПеремОтпуск"/>
+  <usedItem metadata="Catalog.ЕдиницыЕзмерения"/>
   <usedItem metadata="Role.МониторМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Document.Задание"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
@@ -45,6 +47,7 @@
   <usedItem metadata="Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Role.ВыполнениеЗаданийКонтрольОтбора"/>
   <usedItem metadata="Catalog.ТШККороб"/>
+  <usedItem metadata="Role.ОбменДанными"/>
   <usedItem metadata="Catalog.Контрагенты"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
   <usedItem metadata="CommonModule.КонтрольОтбораКлиент"/>
