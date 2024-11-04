@@ -49,7 +49,6 @@
   <roles>Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость</roles>
   <roles>Role.МониторКонтрольОтбора</roles>
   <roles>Role.МониторМаркировкаИПрослеживаемость</roles>
-  <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
