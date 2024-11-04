@@ -14,7 +14,7 @@
     <name>ФормаВыбораПроцесса</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора процесса</value>
+      <value>Выбор процесса</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

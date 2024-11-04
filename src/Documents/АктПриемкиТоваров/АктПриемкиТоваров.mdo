@@ -113,6 +113,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="2f7c4308-aaf2-44b4-af5c-f5400c9c8216">
+    <name>ФормаПроверкиАктаПриемкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проверки акта приемки товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="7db86584-dc63-4993-8c23-8612727f664b">
     <producedTypes>
       <objectType typeId="9a216648-e62e-46bd-a10e-1292b76d16dd" valueTypeId="37a48c3b-7caa-4eee-ad9c-a8f8aaaa9020"/>
