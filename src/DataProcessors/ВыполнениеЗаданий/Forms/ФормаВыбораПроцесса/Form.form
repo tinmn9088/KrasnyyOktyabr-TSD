@@ -154,7 +154,7 @@
           <id>20</id>
           <title>
             <key>ru</key>
-            <value>Перемещение</value>
+            <value>* Перемещение</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -236,7 +236,7 @@
           <id>8</id>
           <title>
             <key>ru</key>
-            <value>Инвентаризация</value>
+            <value>* Инвентаризация</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
