@@ -345,6 +345,7 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <extendedTooltip>
       <name>ВыборПроцессаРасширеннаяПодсказка</name>
