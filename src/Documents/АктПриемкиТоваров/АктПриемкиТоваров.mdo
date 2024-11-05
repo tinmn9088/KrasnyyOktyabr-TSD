@@ -266,6 +266,24 @@
       <key>ru</key>
       <value>Коды маркировки</value>
     </synonym>
+    <attributes uuid="9b20a7c8-5f2a-4091-a4c9-566bfbe31134">
+      <name>КлючСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ связи</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="61d675c0-76e8-4928-8095-8faf7345c751">
       <name>КодМаркировки</name>
       <synonym>
@@ -284,18 +302,14 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9b20a7c8-5f2a-4091-a4c9-566bfbe31134">
-      <name>КлючСвязи</name>
+    <attributes uuid="77e38e16-2ccd-4724-b3d9-018dfff44e63">
+      <name>Отсканирован</name>
       <synonym>
         <key>ru</key>
-        <value>Ключ связи</value>
+        <value>Отсканирован</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>5</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>Boolean</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

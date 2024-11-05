@@ -649,6 +649,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <representation>HierarchicalList</representation>
+    <readOnly>true</readOnly>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
@@ -816,7 +817,7 @@
       <id>68</id>
       <title>
         <key>ru</key>
-        <value>Закончить проверку</value>
+        <value>Завершить проверку эл. накл.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
