@@ -118,7 +118,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Организация</segments>
       </dataPath>
-      <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ОрганизацияРасширеннаяПодсказка</name>
         <id>9</id>
@@ -152,6 +151,7 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorDef"/>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -165,7 +165,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Контрагент</segments>
       </dataPath>
-      <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>КонтрагентРасширеннаяПодсказка</name>
         <id>6</id>
@@ -215,7 +214,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Склад</segments>
       </dataPath>
-      <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>СкладРасширеннаяПодсказка</name>
         <id>12</id>
@@ -249,6 +247,10 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorDef">
+          <red>255</red>
+          <green>102</green>
+        </textColor>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -278,7 +280,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
+      <group>Vertical</group>
       <behavior>Auto</behavior>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
@@ -819,6 +821,10 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -831,7 +837,6 @@
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <verticalSpacing>None</verticalSpacing>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
