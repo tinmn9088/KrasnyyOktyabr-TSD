@@ -303,10 +303,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="77e38e16-2ccd-4724-b3d9-018dfff44e63">
-      <name>Отсканирован</name>
+      <name>Проверен</name>
       <synonym>
         <key>ru</key>
-        <value>Отсканирован</value>
+        <value>Проверен</value>
       </synonym>
       <type>
         <types>Boolean</types>
