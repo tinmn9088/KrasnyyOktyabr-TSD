@@ -50,17 +50,18 @@
   <roles>Role.МониторКонтрольОтбора</roles>
   <roles>Role.МониторМаркировкаИПрослеживаемость</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
+  <commonModules>CommonModule.XML</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
   <commonModules>CommonModule.КонтрольОтбораКлиент</commonModules>
+  <commonModules>CommonModule.МаркировкаИПрослеживаемость</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
-  <commonModules>CommonModule.XML</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
