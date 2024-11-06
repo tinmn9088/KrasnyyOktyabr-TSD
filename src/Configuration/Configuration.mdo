@@ -55,7 +55,6 @@
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
-  <commonModules>CommonModule.КонтрольОтбораКлиент</commonModules>
   <commonModules>CommonModule.МаркировкаИПрослеживаемость</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
