@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="125fc7a2-7b74-4cc3-be55-0851d571d933">
-  <name>КонтрольОтбора</name>
+  <name>ТерминалыСбораДанных</name>
   <synonym>
     <key>ru</key>
-    <value>Контроль отбора</value>
+    <value>Терминалы сбора данных</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="48d46165-95a8-475d-af0c-f846bec21e30"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="268a7812-c3b9-4235-bce1-9112d5c3d9dd"/>

@@ -262,7 +262,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.КонтрольОтбора</name>
+		<name>Configuration.ТерминалыСбораДанных</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>
