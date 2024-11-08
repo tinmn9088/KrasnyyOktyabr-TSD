@@ -31,6 +31,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.АктПриемкиТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.Комплектовщики</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -47,7 +51,19 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.Склады</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.ВидыМатериалов</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СотрудникиСклада</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -60,6 +76,10 @@
   </content>
   <content>
     <mdObject>Catalog.АдресаТЛЦ</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Организации</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -79,6 +99,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.ЕдиницыЕзмерения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.Задание</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -92,6 +116,10 @@
   </content>
   <content>
     <mdObject>Catalog.ТШККороб</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.Контрагенты</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>

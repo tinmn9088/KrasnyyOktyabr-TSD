@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c056a2ab-1c84-4a37-9006-efa812bfc1db">
+  <producedTypes>
+    <objectType typeId="8a8d50df-0a91-45c2-939d-1d9d76b56c29" valueTypeId="bce9e339-1805-43dc-b974-1b0efb06696e"/>
+    <refType typeId="d2a175f8-9fc9-4d58-b2d9-0db4d54dd3af" valueTypeId="76f8230a-a076-4d2d-b9dd-0379f24fbe6d"/>
+    <selectionType typeId="98ebe905-9d9a-4138-9d2d-fa546d6981de" valueTypeId="018e739d-bf45-4491-8e48-e489e1deaf6d"/>
+    <listType typeId="bec00b8a-dd13-4994-bb52-fe1b2ace706a" valueTypeId="09bac0c5-c3c5-43f0-8654-e5fe9dfec3f5"/>
+    <managerType typeId="2ca6576f-4b90-4b35-a39f-b2ee569d0018" valueTypeId="8705c8fe-0422-4dab-89e3-eeaa84844c33"/>
+  </producedTypes>
+  <name>ЕдиницыЕзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы езмерения</value>
+  </synonym>
+  <comment>Имитация справочника с ЭДиН.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыЕзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыЕзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <explanation>
+    <key>ru</key>
+    <value>Объединяет справочники ЕдиницыИзмерения и КлассификаторыЕдиницИзмерения.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
