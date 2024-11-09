@@ -65,18 +65,17 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="11651051-7f50-45eb-8b61-4348bd1e5429">
-    <name>Контрагент</name>
+  <attributes uuid="c55f1100-09ff-4a7e-b1c7-e1a443253709">
+    <name>ПроверкаЗавершена</name>
     <synonym>
       <key>ru</key>
-      <value>Контрагент</value>
+      <value>Проверка завершена</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -105,6 +104,22 @@
     </synonym>
     <type>
       <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11651051-7f50-45eb-8b61-4348bd1e5429">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

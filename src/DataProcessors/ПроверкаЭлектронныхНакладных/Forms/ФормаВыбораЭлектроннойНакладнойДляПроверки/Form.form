@@ -648,13 +648,16 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	АктПриемкиТоваров.Номер КАК Номер,
-	АктПриемкиТоваров.Дата КАК Дата,
-	АктПриемкиТоваров.Контрагент КАК Контрагент,
-	АктПриемкиТоваров.Организация КАК Организация,
-	АктПриемкиТоваров.Склад КАК Склад
+    АктПриемкиТоваров.Номер КАК Номер,
+    АктПриемкиТоваров.Дата КАК Дата,
+    АктПриемкиТоваров.Контрагент КАК Контрагент,
+    АктПриемкиТоваров.Организация КАК Организация,
+    АктПриемкиТоваров.Склад КАК Склад
 ИЗ
-	Документ.АктПриемкиТоваров КАК АктПриемкиТоваров</queryText>
+    Документ.АктПриемкиТоваров КАК АктПриемкиТоваров
+ГДЕ
+    НЕ АктПриемкиТоваров.ПроверкаЗавершена
+    И НЕ АктПриемкиТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.АктПриемкиТоваров</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -679,16 +682,8 @@
         <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
+        <dataPath>ПроверкаЗавершена</dataPath>
+        <field>ПроверкаЗавершена</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номенклатура</dataPath>
@@ -697,6 +692,18 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КодыМаркировки</dataPath>
         <field>КодыМаркировки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
