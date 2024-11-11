@@ -36,6 +36,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Секторы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Секторы.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -96,6 +103,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.КМ31</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -394,6 +408,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Комплектовщики</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -499,6 +520,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Модели</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Модели.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -566,6 +594,20 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ПроведенныеШтрихкоды</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.моделиРазмер</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -969,6 +1011,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВидыМатериалов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВидыМатериалов.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
@@ -1235,6 +1284,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.МестаХранения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.МестаХранения.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -1333,6 +1389,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВыполнениеЗадания</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
@@ -1392,6 +1455,13 @@
 		<name>Subsystem.Администрирование</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.АдресаТЛЦ</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1760,6 +1830,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.моделиEAH13</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиEAH13.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -1837,6 +1914,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.моделиКожтовар</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиКожтовар.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -1897,6 +1981,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.моделиЦвет</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1995,6 +2086,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВнПеремОтпуск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -2161,6 +2259,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.Задание</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.Задание.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
@@ -2238,6 +2343,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ПроцентУценки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПроцентУценки.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -2301,6 +2413,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ЖурналОшибокКонтроляОтбора</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.Администрирование.Subsystem.События</name>
 		<right>
 			<name>View</name>
@@ -2326,6 +2445,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТШККороб</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

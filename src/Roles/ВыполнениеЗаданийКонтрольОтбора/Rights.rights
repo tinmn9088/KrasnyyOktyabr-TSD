@@ -260,6 +260,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.АктПриемкиТоваров</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
@@ -1023,6 +1030,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Склады</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Склады.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -1093,6 +1107,13 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2000,6 +2021,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Организации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Организации.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
@@ -2554,6 +2582,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ЕдиницыЕзмерения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиРазмер.Attribute.Шкала</name>
 		<right>
 			<name>Edit</name>
@@ -3035,6 +3070,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
