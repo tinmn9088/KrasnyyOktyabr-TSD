@@ -13,12 +13,20 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.Attribute.НомерПоПорядку</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -38,11 +46,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -67,18 +83,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -152,11 +156,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -181,18 +193,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -263,6 +263,54 @@
 		<name>Document.АктПриемкиТоваров</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -453,12 +501,20 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Модификатор</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -478,11 +534,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -507,18 +571,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -602,6 +654,10 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Комплектовщик</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -616,6 +672,10 @@
 	<object>
 		<name>Document.Задание.Attribute.Комментарий</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -623,12 +683,20 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Размер</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.Attribute.Задание</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -641,11 +709,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -670,18 +746,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -759,6 +823,10 @@
 		<name>InformationRegister.ПроведенныеШтрихкоды</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -841,11 +909,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -870,18 +946,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -950,6 +1014,10 @@
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.Короб</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1035,191 +1103,16 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Склады.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>DataProcessor.ВыполнениеЗаданий</name>
-		<right>
-			<name>Use</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ТШККороб.Attribute.Модель</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Задание.Attribute.Зона</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Секторы.Attribute.НачальныйРяд</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыМатериалов</name>
-		<right>
-			<name>Read</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1246,16 +1139,353 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>ViewDataHistory</name>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Склады.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ВыполнениеЗаданий</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>SwitchToDataHistoryVersion</name>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Номенклатура.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ТШККороб.Attribute.Модель</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КодМаркировки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Задание.Attribute.Зона</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Секторы.Attribute.НачальныйРяд</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыМатериалов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1344,6 +1574,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Проверен</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.СотрудникиСклада</name>
 		<right>
 			<name>Read</name>
@@ -1359,6 +1596,42 @@
 				<field>ТабельныйНомер</field>
 				<condition>СотрудникиСклада ГДЕ ЛОЖЬ</condition>
 			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1463,6 +1736,10 @@
 	<object>
 		<name>Document.Задание.Attribute.ВКоробках</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1484,6 +1761,10 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.Attribute.ДокументНаПеремещение</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1495,11 +1776,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1524,18 +1813,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1619,6 +1896,10 @@
 	<object>
 		<name>Document.Задание.Attribute.ВКоробах</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1644,11 +1925,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1675,21 +1968,13 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Posted</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1698,12 +1983,20 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Ref</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1712,12 +2005,20 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Date</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Number</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1732,6 +2033,10 @@
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Модель</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1765,11 +2070,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1794,18 +2107,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1882,6 +2183,10 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Уценка</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1898,6 +2203,10 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2026,89 +2335,16 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.Организации.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.АдресаТЛЦ.Attribute.Место</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.моделиEAH13</name>
-		<right>
-			<name>Read</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2135,16 +2371,157 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.PredefinedDataName</name>
 		<right>
-			<name>ViewDataHistory</name>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.АдресаТЛЦ.Attribute.Место</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.моделиEAH13</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>SwitchToDataHistoryVersion</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2214,6 +2591,10 @@
 	<object>
 		<name>Document.Задание.Attribute.Статус</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2232,11 +2613,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2261,18 +2650,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2346,11 +2723,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2375,18 +2760,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2491,6 +2864,10 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.КМ31</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2502,11 +2879,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2533,21 +2922,13 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Posted</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2556,12 +2937,20 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Ref</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2570,12 +2959,20 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Date</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Number</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2587,9 +2984,151 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.моделиРазмер.Attribute.Шкала</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.Attribute.ПроверкаЗавершена</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2609,11 +3148,23 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2640,21 +3191,13 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Document.Задание.StandardAttribute.Posted</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2663,12 +3206,20 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.Ref</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2677,6 +3228,10 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.Date</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2684,12 +3239,20 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.Number</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Ячейка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2737,11 +3300,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2766,18 +3337,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2848,6 +3407,10 @@
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2933,12 +3496,20 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.Attribute.Комментарий</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.Attribute.ДокументНаПеремещение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2958,11 +3529,19 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -2987,18 +3566,6 @@
 		</right>
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3078,9 +3645,49 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3089,12 +3696,20 @@
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Predefined</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3103,12 +3718,20 @@
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.DeletionMark</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3117,12 +3740,20 @@
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Owner</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3131,12 +3762,20 @@
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Description</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3165,6 +3804,10 @@
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Цвет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

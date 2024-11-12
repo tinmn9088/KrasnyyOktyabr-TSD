@@ -16,4 +16,5 @@
   <suppressions key="com.e1c.v8codestyle.right:right-exclusive-mode" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-update-database-configuration" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-save-user-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-delete" value="true"/>
 </suppress:SuppressGenericObject>

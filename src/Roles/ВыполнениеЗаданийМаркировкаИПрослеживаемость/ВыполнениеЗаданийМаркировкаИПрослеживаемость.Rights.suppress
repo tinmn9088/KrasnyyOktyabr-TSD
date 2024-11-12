@@ -16,4 +16,5 @@
   <suppressions key="com.e1c.v8codestyle.right:right-view-event-log" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-interactive-open-external-data-processors" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-administration" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-delete" value="true"/>
 </suppress:SuppressGenericObject>
