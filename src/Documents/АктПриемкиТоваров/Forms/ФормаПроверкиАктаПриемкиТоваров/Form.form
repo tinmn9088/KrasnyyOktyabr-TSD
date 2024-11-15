@@ -355,20 +355,126 @@
       <segments>ФормаСписокНоменклатур</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
-    <items xsi:type="form:FormField">
-      <name>ФормаСписокНоменклатурНоменклатура</name>
-      <id>42</id>
+    <items xsi:type="form:FormGroup">
+      <name>СписокНоменклатурОсновное</name>
+      <id>81</id>
+      <items xsi:type="form:FormField">
+        <name>СписокНоменклатурНоменклатура</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФормаСписокНоменклатур.Номенклатура</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокНоменклатурНоменклатураРасширеннаяПодсказка</name>
+          <id>44</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокНоменклатурНоменклатураКонтекстноеМеню</name>
+          <id>43</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <width>18</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СписокНоменклатурGTIN</name>
+        <id>83</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФормаСписокНоменклатур.GTIN</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокНоменклатурGTINРасширеннаяПодсказка</name>
+          <id>85</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокНоменклатурGTINКонтекстноеМеню</name>
+          <id>84</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.AccentColor</color>
+          </textColor>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ФормаСписокНоменклатур.Номенклатура</segments>
-      </dataPath>
+      <toolTip>
+        <key>ru</key>
+        <value>Список номенклатур основное</value>
+      </toolTip>
       <extendedTooltip>
-        <name>ФормаСписокНоменклатурНоменклатураРасширеннаяПодсказка</name>
-        <id>44</id>
+        <name>СписокНоменклатурОсновноеРасширеннаяПодсказка</name>
+        <id>82</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -381,36 +487,17 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <contextMenu>
-        <name>ФормаСписокНоменклатурНоменклатураКонтекстноеМеню</name>
-        <id>43</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <width>18</width>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
       <name>СписокНоменклатурОписание</name>
       <id>66</id>
       <items xsi:type="form:FormField">
-        <name>ФормаСписокНоменклатурКоличествоПоставленногоТовара</name>
+        <name>СписокНоменклатурКоличествоПоставленногоТовара</name>
         <id>48</id>
         <title>
           <key>ru</key>
@@ -425,7 +512,7 @@
           <segments>ФормаСписокНоменклатур.КоличествоПоставленногоТовара</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ФормаСписокНоменклатурКоличествоПоставленногоТовараРасширеннаяПодсказка</name>
+          <name>СписокНоменклатурКоличествоПоставленногоТовараРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -440,7 +527,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ФормаСписокНоменклатурКоличествоПоставленногоТовараКонтекстноеМеню</name>
+          <name>СписокНоменклатурКоличествоПоставленногоТовараКонтекстноеМеню</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -467,7 +554,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ФормаСписокНоменклатурКоличествоПринятогоТовара</name>
+        <name>СписокНоменклатурКоличествоПринятогоТовара</name>
         <id>51</id>
         <title>
           <key>ru</key>
@@ -482,7 +569,7 @@
           <segments>ФормаСписокНоменклатур.КоличествоПринятогоТовара</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ФормаСписокНоменклатурКоличествоПринятогоТовараРасширеннаяПодсказка</name>
+          <name>СписокНоменклатурКоличествоПринятогоТовараРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -497,7 +584,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ФормаСписокНоменклатурКоличествоПринятогоТовараКонтекстноеМеню</name>
+          <name>СписокНоменклатурКоличествоПринятогоТовараКонтекстноеМеню</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1069,6 +1156,7 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	АктПриемкиТоваровНоменклатура.Номенклатура КАК Номенклатура,
+	АктПриемкиТоваровНоменклатура.Номенклатура.Код КАК GTIN,
 	АктПриемкиТоваровНоменклатура.КоличествоПоставленногоТовара КАК КоличествоПоставленногоТовара,
 	АктПриемкиТоваровНоменклатура.КоличествоПринятогоТовара КАК КоличествоПринятогоТовара
 ИЗ
@@ -1088,6 +1176,18 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КоличествоПринятогоТовара</dataPath>
         <field>КоличествоПринятогоТовара</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>GTIN</dataPath>
+        <field>GTIN</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>GTIN</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
       <parameters>
         <name>Документ</name>
