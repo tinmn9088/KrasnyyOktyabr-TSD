@@ -151,7 +151,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorDef"/>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -400,7 +399,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <width>18</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
@@ -545,6 +543,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧДЦ=0; ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧДЦ=0; ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -602,6 +608,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧДЦ=0; ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧДЦ=0; ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -789,7 +803,6 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <representation>HierarchicalList</representation>
     <readOnly>true</readOnly>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
