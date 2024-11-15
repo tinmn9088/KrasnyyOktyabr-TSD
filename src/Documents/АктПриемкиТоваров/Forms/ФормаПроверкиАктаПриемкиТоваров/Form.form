@@ -289,6 +289,60 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ОсталосьПроверитьВсего</name>
+    <id>78</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФормаОсталосьПроверитьВсего</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ОсталосьПроверитьВсегоРасширеннаяПодсказка</name>
+      <id>80</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ОсталосьПроверитьВсегоКонтекстноеМеню</name>
+      <id>79</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.SpecialTextColor</color>
+      </textColor>
+    </extInfo>
+  </items>
   <items xsi:type="form:Table">
     <name>СписокНоменклатур</name>
     <id>29</id>
@@ -1065,6 +1119,26 @@
       <stringQualifiers>
         <length>256</length>
       </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаОсталосьПроверитьВсего</name>
+    <title>
+      <key>ru</key>
+      <value>Осталось</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
