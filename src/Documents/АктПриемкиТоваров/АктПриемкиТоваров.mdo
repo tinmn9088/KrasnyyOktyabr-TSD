@@ -144,10 +144,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="2f7c4308-aaf2-44b4-af5c-f5400c9c8216">
-    <name>ФормаПроверкиАктаПриемкиТоваров</name>
+    <name>ФормаПроверки</name>
     <synonym>
       <key>ru</key>
-      <value>Форма проверки акта приемки товаров</value>
+      <value>Форма проверки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

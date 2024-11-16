@@ -13,6 +13,7 @@
   <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
   <usedItem metadata="CommonModule.ОповещенияФормыКлиент"/>
   <usedItem metadata="CommonModule.КодыВозвратаГлобальный"/>
+  <usedItem metadata="Role.ОбменДанными"/>
   <usedItem metadata="Enum.ТипШтрихкода"/>
   <usedItem metadata="Catalog.Склады"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>

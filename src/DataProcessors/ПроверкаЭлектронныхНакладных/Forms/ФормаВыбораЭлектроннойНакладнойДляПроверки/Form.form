@@ -74,6 +74,57 @@
       <name>ЭлектроннаяНакладная</name>
       <id>34</id>
       <items xsi:type="form:FormField">
+        <name>ДатаЭлектроннойНакладной</name>
+        <id>39</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФормаСписокЭлектронныхНакладных.Дата</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДатаЭлектроннойНакладнойРасширеннаяПодсказка</name>
+          <id>41</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДатаЭлектроннойНакладнойКонтекстноеМеню</name>
+          <id>40</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>НомерЭлектроннойНакладной</name>
         <id>36</id>
         <visible>true</visible>
@@ -123,24 +174,28 @@
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorRef">
-            <color>Style.AccentColor</color>
+            <color>Style.FieldSelectionBackColor</color>
           </textColor>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ДатаЭлектроннойНакладной</name>
-        <id>39</id>
+        <name>ИспользуетсяМаркировкаТоваров</name>
+        <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Используется маркировка товаров</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Дата</segments>
+          <segments>ФормаСписокЭлектронныхНакладных.ПредставлениеИспользуетсяМаркировкаТоваров</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаЭлектроннойНакладнойРасширеннаяПодсказка</name>
-          <id>41</id>
+          <name>ИспользуетсяМаркировкаТоваровРасширеннаяПодсказка</name>
+          <id>44</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -154,8 +209,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДатаЭлектроннойНакладнойКонтекстноеМеню</name>
-          <id>40</id>
+          <name>ИспользуетсяМаркировкаТоваровКонтекстноеМеню</name>
+          <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -163,19 +218,17 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.AccentColor</color>
+          </textColor>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -648,16 +701,17 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    АктПриемкиТоваров.Номер КАК Номер,
-    АктПриемкиТоваров.Дата КАК Дата,
-    АктПриемкиТоваров.Контрагент КАК Контрагент,
-    АктПриемкиТоваров.Организация КАК Организация,
-    АктПриемкиТоваров.Склад КАК Склад
+	АктПриемкиТоваров.Номер КАК Номер,
+	АктПриемкиТоваров.Дата КАК Дата,
+	АктПриемкиТоваров.Контрагент КАК Контрагент,
+	АктПриемкиТоваров.Организация КАК Организация,
+	АктПриемкиТоваров.Склад КАК Склад,
+	АктПриемкиТоваров.ИспользуетсяМаркировкаТоваров КАК ИспользуетсяМаркировкаТоваров
 ИЗ
-    Документ.АктПриемкиТоваров КАК АктПриемкиТоваров
+	Документ.АктПриемкиТоваров КАК АктПриемкиТоваров
 ГДЕ
-    НЕ АктПриемкиТоваров.ПроверкаЗавершена
-    И НЕ АктПриемкиТоваров.ПометкаУдаления</queryText>
+	НЕ АктПриемкиТоваров.ПроверкаЗавершена
+	И НЕ АктПриемкиТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.АктПриемкиТоваров</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -709,6 +763,26 @@
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользуетсяМаркировкаТоваров</dataPath>
+        <field>ИспользуетсяМаркировкаТоваров</field>
+      </fields>
+      <calculatedFields>
+        <dataPath>ПредставлениеИспользуетсяМаркировкаТоваров</dataPath>
+        <expression>ИспользуетсяМаркировкаТоваров</expression>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление используется маркировка товаров</value>
+            </content>
+          </localValue>
+        </title>
+        <presentationExpression>Выбор
+Когда ИспользуетсяМаркировкаТоваров Тогда &quot;КМ&quot;
+Иначе &quot;&quot;
+Конец</presentationExpression>
+      </calculatedFields>
     </extInfo>
   </attributes>
   <parameters>
