@@ -13,20 +13,12 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.Attribute.НомерПоПорядку</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -286,10 +278,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -317,12 +305,20 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.Posted</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -331,6 +327,10 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.DeletionMark</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -338,12 +338,20 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.Date</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.StandardAttribute.Number</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -372,6 +380,10 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Контрагент</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -501,20 +513,12 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Модификатор</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Количество</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -654,10 +658,6 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Комплектовщик</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -672,16 +672,19 @@
 	<object>
 		<name>Document.Задание.Attribute.Комментарий</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Размер</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.Attribute.ИспользуетсяМаркировкаТоваров</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -693,10 +696,6 @@
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.Attribute.Задание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1015,6 +1014,13 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.Короб</name>
 		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоЗаказанногоТовара</name>
+		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
@@ -1024,14 +1030,11 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоЗаказанногоТовара</name>
+		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.Номенклатура</name>
 		<right>
-			<name>Edit</name>
+			<name>View</name>
 			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.Номенклатура</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1057,6 +1060,10 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПринятогоТовара</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1402,13 +1409,6 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КодМаркировки</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Задание.Attribute.Зона</name>
-		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
@@ -1418,7 +1418,18 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.Задание.Attribute.Зона</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1433,10 +1444,6 @@
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1567,6 +1574,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.АктПриемкиТоваров.Attribute.СотрудникЗавершившийПроверку</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.АдресаТЛЦ.Attribute.Индекс</name>
 		<right>
 			<name>Edit</name>
@@ -1575,6 +1593,10 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Проверен</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1736,16 +1758,16 @@
 	<object>
 		<name>Document.Задание.Attribute.ВКоробках</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1760,10 +1782,6 @@
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.Attribute.ДокументНаПеремещение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1896,16 +1914,16 @@
 	<object>
 		<name>Document.Задание.Attribute.ВКоробах</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1945,6 +1963,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -1972,20 +1994,12 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Posted</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1994,10 +2008,6 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2005,20 +2015,12 @@
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Date</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВыполнениеЗадания.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2034,10 +2036,6 @@
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Модель</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2051,6 +2049,10 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КлючСвязи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2176,16 +2178,16 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Организация</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Уценка</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2591,10 +2593,6 @@
 	<object>
 		<name>Document.Задание.Attribute.Статус</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2836,12 +2834,27 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КлючСвязи</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.НомерЗаданияНаОтбор</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Наименование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2857,16 +2870,16 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Склад</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.КМ31</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2899,6 +2912,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -2926,20 +2943,12 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Posted</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2948,10 +2957,6 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2959,20 +2964,12 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Date</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ВнПеремОтпуск.StandardAttribute.Number</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3130,6 +3127,10 @@
 	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.ПроверкаЗавершена</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -3168,6 +3169,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -3195,20 +3200,12 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.Posted</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3217,20 +3214,12 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.DeletionMark</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3239,20 +3228,12 @@
 	<object>
 		<name>Document.Задание.StandardAttribute.Number</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Ячейка</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3274,6 +3255,10 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПоставленногоТовара</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3496,10 +3481,6 @@
 	<object>
 		<name>Document.ВнПеремОтпуск.Attribute.Комментарий</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -3507,16 +3488,16 @@
 	<object>
 		<name>Document.Задание.Attribute.ДокументНаПеремещение</name>
 		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоНепринятогоТовара</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3804,10 +3785,6 @@
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Цвет</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
