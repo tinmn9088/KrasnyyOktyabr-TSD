@@ -25,6 +25,6 @@
   <content>Catalog.Склады</content>
   <content>Catalog.Организации</content>
   <content>Catalog.Номенклатура</content>
-  <content>Catalog.ЕдиницыЕзмерения</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

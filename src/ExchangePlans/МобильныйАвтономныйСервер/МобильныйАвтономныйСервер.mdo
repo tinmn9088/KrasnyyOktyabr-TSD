@@ -99,7 +99,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.ЕдиницыЕзмерения</mdObject>
+    <mdObject>Catalog.ЕдиницыИзмерения</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

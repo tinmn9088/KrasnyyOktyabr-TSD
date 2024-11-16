@@ -2315,7 +2315,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2326,7 +2326,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Predefined</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2337,7 +2337,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Ref</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2348,7 +2348,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2359,7 +2359,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.IsFolder</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2370,7 +2370,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Owner</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2381,7 +2381,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Parent</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2392,7 +2392,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Description</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2403,7 +2403,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ЕдиницыЕзмерения.StandardAttribute.Code</name>
+		<name>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

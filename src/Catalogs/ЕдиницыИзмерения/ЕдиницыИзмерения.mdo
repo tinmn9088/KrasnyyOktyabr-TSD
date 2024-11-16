@@ -7,15 +7,15 @@
     <listType typeId="bec00b8a-dd13-4994-bb52-fe1b2ace706a" valueTypeId="09bac0c5-c3c5-43f0-8654-e5fe9dfec3f5"/>
     <managerType typeId="2ca6576f-4b90-4b35-a39f-b2ee569d0018" valueTypeId="8705c8fe-0422-4dab-89e3-eeaa84844c33"/>
   </producedTypes>
-  <name>ЕдиницыЕзмерения</name>
+  <name>ЕдиницыИзмерения</name>
   <synonym>
     <key>ru</key>
-    <value>Единицы езмерения</value>
+    <value>Единицы измерения</value>
   </synonym>
   <comment>Имитация справочника с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ЕдиницыЕзмерения.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.ЕдиницыЕзмерения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

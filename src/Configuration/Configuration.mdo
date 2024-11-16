@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>2.1.9</version>
+  <version>2.1.10</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -67,7 +67,7 @@
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
   <catalogs>Catalog.ВидыМатериалов</catalogs>
-  <catalogs>Catalog.ЕдиницыЕзмерения</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
