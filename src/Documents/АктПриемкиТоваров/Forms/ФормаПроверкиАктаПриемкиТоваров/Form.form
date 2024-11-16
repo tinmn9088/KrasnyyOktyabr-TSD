@@ -49,6 +49,9 @@
     <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.AccentColor</color>
+      </borderColor>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -339,6 +342,55 @@
       </format>
       <textColor xsi:type="core:ColorRef">
         <color>Style.SpecialTextColor</color>
+      </textColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользуетсяМаркировкаТоваров</name>
+    <id>86</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИспользуетсяМаркировкаТоваров</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ИспользуетсяМаркировкаТоваровРасширеннаяПодсказка</name>
+      <id>88</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользуетсяМаркировкаТоваровКонтекстноеМеню</name>
+      <id>87</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.AccentColor</color>
       </textColor>
     </extInfo>
   </items>
@@ -662,6 +714,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокНоменклатурВыборАсинх</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1168,14 +1224,15 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	АктПриемкиТоваровНоменклатура.Номенклатура КАК Номенклатура,
-	АктПриемкиТоваровНоменклатура.Номенклатура.Код КАК GTIN,
-	АктПриемкиТоваровНоменклатура.КоличествоПоставленногоТовара КАК КоличествоПоставленногоТовара,
-	АктПриемкиТоваровНоменклатура.КоличествоПринятогоТовара КАК КоличествоПринятогоТовара
+    АктПриемкиТоваровНоменклатура.Номенклатура КАК Номенклатура,
+    АктПриемкиТоваровНоменклатура.Номенклатура.Код КАК GTIN,
+    АктПриемкиТоваровНоменклатура.КоличествоПоставленногоТовара КАК КоличествоПоставленногоТовара,
+    АктПриемкиТоваровНоменклатура.КоличествоПринятогоТовара КАК КоличествоПринятогоТовара,
+    АктПриемкиТоваровНоменклатура.НомерСтроки КАК НомерНоменклатуры
 ИЗ
-	Документ.АктПриемкиТоваров.Номенклатура КАК АктПриемкиТоваровНоменклатура
+    Документ.АктПриемкиТоваров.Номенклатура КАК АктПриемкиТоваровНоменклатура
 ГДЕ
-	АктПриемкиТоваровНоменклатура.Ссылка = &amp;Документ</queryText>
+    АктПриемкиТоваровНоменклатура.Ссылка = &amp;Документ</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -1202,6 +1259,18 @@
           </localValue>
         </title>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерНоменклатуры</dataPath>
+        <field>НомерНоменклатуры</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер номенклатуры</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
       <parameters>
         <name>Документ</name>
         <title>
@@ -1218,6 +1287,9 @@
         <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
+      <keyType>RowKey</keyType>
+      <keyField>НомерНоменклатуры</keyField>
+      <keyField>КоличествоПринятогоТовара</keyField>
     </extInfo>
   </attributes>
   <attributes>
