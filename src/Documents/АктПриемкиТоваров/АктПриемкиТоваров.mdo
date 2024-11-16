@@ -143,6 +143,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="75a69fec-bc85-4c08-ae28-8542d0e7ed48">
+    <name>СотрудникЗавершившийПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверил</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СотрудникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="2f7c4308-aaf2-44b4-af5c-f5400c9c8216">
     <name>ФормаПроверки</name>
     <synonym>
