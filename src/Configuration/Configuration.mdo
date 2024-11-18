@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>2.1.11</version>
+  <version>3.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -65,6 +65,7 @@
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
+  <definedTypes>DefinedType.GTIN</definedTypes>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
   <catalogs>Catalog.ВидыМатериалов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
@@ -77,7 +78,8 @@
   <catalogs>Catalog.моделиКожтовар</catalogs>
   <catalogs>Catalog.моделиРазмер</catalogs>
   <catalogs>Catalog.моделиЦвет</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НоменклатураРозница</catalogs>
+  <catalogs>Catalog.НоменклатураЭДиН</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ПроцентУценки</catalogs>
   <catalogs>Catalog.Секторы</catalogs>

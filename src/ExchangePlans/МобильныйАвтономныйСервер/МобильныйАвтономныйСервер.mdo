@@ -55,7 +55,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Номенклатура</mdObject>
+    <mdObject>Catalog.НоменклатураЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

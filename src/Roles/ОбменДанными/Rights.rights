@@ -1455,7 +1455,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура</name>
+		<name>Catalog.НоменклатураЭДиН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1498,7 +1498,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1509,7 +1509,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Predefined</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Predefined</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1520,7 +1520,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Ref</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Ref</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1531,7 +1531,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.DeletionMark</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1542,7 +1542,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.IsFolder</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.IsFolder</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1553,7 +1553,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Owner</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Owner</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1564,7 +1564,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Parent</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Parent</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1575,7 +1575,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Description</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Description</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1586,7 +1586,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Номенклатура.StandardAttribute.Code</name>
+		<name>Catalog.НоменклатураЭДиН.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1988,6 +1988,25 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НоменклатураРозница</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

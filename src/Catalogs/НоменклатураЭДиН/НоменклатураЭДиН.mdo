@@ -7,15 +7,15 @@
     <listType typeId="27ed63f1-f9ef-4eff-8b59-87f3e5909f59" valueTypeId="a923ad77-1044-4c10-ad47-8a8375de923c"/>
     <managerType typeId="e02108a6-39ea-4354-822a-2b4654f5306b" valueTypeId="9a108b71-e034-43d1-88a4-49169cb89095"/>
   </producedTypes>
-  <name>Номенклатура</name>
+  <name>НоменклатураЭДиН</name>
   <synonym>
     <key>ru</key>
-    <value>Номенклатура</value>
+    <value>Номенклатура ЭДиН</value>
   </synonym>
   <comment>Имитация справочника с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НоменклатураЭДиН.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НоменклатураЭДиН.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

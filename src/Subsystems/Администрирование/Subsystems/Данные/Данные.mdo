@@ -24,7 +24,8 @@
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Склады</content>
   <content>Catalog.Организации</content>
-  <content>Catalog.Номенклатура</content>
+  <content>Catalog.НоменклатураЭДиН</content>
   <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.НоменклатураРозница</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

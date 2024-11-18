@@ -17,7 +17,7 @@
   <usedItem metadata="Enum.ТипШтрихкода"/>
   <usedItem metadata="Catalog.Склады"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
-  <usedItem metadata="Catalog.Номенклатура"/>
+  <usedItem metadata="Catalog.НоменклатураЭДиН"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
   <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
   <usedItem metadata="Catalog.ВидыМатериалов"/>
