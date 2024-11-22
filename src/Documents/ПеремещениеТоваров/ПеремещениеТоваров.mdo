@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72cec546-fdb8-4638-bda2-a0c53e64a493">
+  <producedTypes>
+    <objectType typeId="1eac05d3-fce1-494e-aaac-7ecaf8561d71" valueTypeId="ccc14d91-c31e-4545-908e-94cbd1417116"/>
+    <refType typeId="b3bc5e5a-c2cf-4cf8-9947-5ca31b33789b" valueTypeId="e732bd79-b110-4c08-8e28-ab84570b3d34"/>
+    <selectionType typeId="203c4b44-3226-4209-bfed-9e65bfe01bb6" valueTypeId="e93bf100-7110-4727-9551-a59469f41e94"/>
+    <listType typeId="2aa97d0a-a302-4464-8db4-cbd51a28e7dc" valueTypeId="3df824cb-9c0f-4839-88b1-12ac731782fa"/>
+    <managerType typeId="fd1f40f3-f820-4bc7-b0b6-c271096ae230" valueTypeId="a5b00514-ded1-4035-ac9d-468212cb6e4b"/>
+  </producedTypes>
+  <name>ПеремещениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение товаров</value>
+  </synonym>
+  <comment>Аналог документа из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПеремещениеТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1607f827-a76f-42fc-a13b-06715970f354">
+    <name>МагазинОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин-отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МагазиныРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f055b2a4-2bed-422f-abd3-9629c2a1d710">
+    <name>СкладОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад-отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9089d875-35d8-45e9-bcd7-b9373ee21fac">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОрганизацииРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0192467e-19e4-4845-8a09-c22b833c263d">
+    <name>МагазинПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин-получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МагазиныРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e3023b2-4b0e-4697-a79b-3d139dcff36f">
+    <name>СкладПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад-получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc51c9d1-2526-40ae-8908-e3449efe9a9f">
+    <name>ОрганизацияПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация-получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОрганизацииРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="37aa258a-7701-41a1-9925-ca5d3c1abedf">
+    <producedTypes>
+      <objectType typeId="9db25bfc-11ff-4671-ae60-36796dbba715" valueTypeId="dfc13be7-b78e-425b-9c30-bad4cf362b11"/>
+      <rowType typeId="713810b0-41b9-4093-ac5d-2adee56cc5be" valueTypeId="c267f6ac-ac64-46e3-8147-00264b79b70b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="b9e6aa62-0568-4d81-b4a6-3e5356601cf4">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураРозница</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbb9fa9d-33ea-4445-a1cb-f09202005220">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

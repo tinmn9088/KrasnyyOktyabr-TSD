@@ -7,15 +7,15 @@
     <listType typeId="99f28a42-3622-45f9-9dbf-5e47c666ca53" valueTypeId="1425f69f-71bb-4434-8317-6e2670841228"/>
     <managerType typeId="634dc35d-cd84-4bea-96a5-45210b35559f" valueTypeId="799064c5-226c-4c6d-a1a2-3775957c7647"/>
   </producedTypes>
-  <name>Склады</name>
+  <name>СкладыЭДиН</name>
   <synonym>
     <key>ru</key>
-    <value>Склады</value>
+    <value>Склады ЭДиН</value>
   </synonym>
   <comment>Имитация справочника с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СкладыЭДиН.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СкладыЭДиН.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

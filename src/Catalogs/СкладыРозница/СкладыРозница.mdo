@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="284c7b4b-cfef-4f74-a67e-35b872ffbcd1">
+  <producedTypes>
+    <objectType typeId="4a7d4df2-6347-4aec-90f8-9f69b6694153" valueTypeId="3a3a21de-996d-40a3-a3b0-45470732eaf9"/>
+    <refType typeId="a1d53840-5866-4d98-9336-8dba382b85a5" valueTypeId="671fe680-1c11-41e5-b580-dc630eb9712c"/>
+    <selectionType typeId="76b7bdc0-3719-45e0-8c5c-14d3d233efa6" valueTypeId="abf880d5-c1ed-425d-aba5-d3426ad5bf87"/>
+    <listType typeId="5b1a308e-0022-49a1-8870-195878cd12fa" valueTypeId="575f5115-5cf8-4974-bed4-7c641dbed14c"/>
+    <managerType typeId="51ff2ee7-50d3-4a28-822d-2b270f6a734a" valueTypeId="b42955cc-713f-469e-8ce4-cadf84d1a123"/>
+  </producedTypes>
+  <name>СкладыРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады Розницы</value>
+  </synonym>
+  <comment>Имитация справочника из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СкладыРозница.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СкладыРозница.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

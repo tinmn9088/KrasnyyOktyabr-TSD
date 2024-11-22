@@ -21,11 +21,14 @@
   <content>Catalog.ТШККороб</content>
   <content>Catalog.КМ31</content>
   <content>Catalog.СотрудникиСклада</content>
-  <content>Catalog.Контрагенты</content>
-  <content>Catalog.Склады</content>
-  <content>Catalog.Организации</content>
+  <content>Catalog.КонтрагентыЭДиН</content>
+  <content>Catalog.СкладыЭДиН</content>
+  <content>Catalog.ОрганизацииЭДиН</content>
   <content>Catalog.НоменклатураЭДиН</content>
   <content>Catalog.ЕдиницыИзмерения</content>
   <content>Catalog.НоменклатураРозница</content>
+  <content>Catalog.МагазиныРозница</content>
+  <content>Catalog.ОрганизацииРозница</content>
+  <content>Catalog.СкладыРозница</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

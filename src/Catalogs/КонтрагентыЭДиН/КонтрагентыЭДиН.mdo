@@ -7,15 +7,15 @@
     <listType typeId="3e84cca2-2d67-466c-8a54-ad6ef54a49c9" valueTypeId="cc0765dd-7d57-44b9-b857-cead960480cb"/>
     <managerType typeId="7289e361-63a3-4684-8f45-3f6ca2cf1b88" valueTypeId="9dbb0779-2e3c-4648-a466-bd086d8a3d2e"/>
   </producedTypes>
-  <name>Контрагенты</name>
+  <name>КонтрагентыЭДиН</name>
   <synonym>
     <key>ru</key>
-    <value>Контрагенты</value>
+    <value>Контрагенты ЭДиН</value>
   </synonym>
   <comment>Имитация справочника с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтрагентыЭДиН.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтрагентыЭДиН.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

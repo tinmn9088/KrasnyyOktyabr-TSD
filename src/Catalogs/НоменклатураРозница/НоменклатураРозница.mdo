@@ -29,19 +29,33 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="35837b19-5e4b-49b7-9217-7d2b8074fb8f">
-    <name>GTIN</name>
+  <tabularSections uuid="c2f0a468-f1b2-4f28-a787-1eafaa5d206f">
+    <producedTypes>
+      <objectType typeId="3df386d1-d7cf-426f-88f8-d486fae91d98" valueTypeId="34a4c06f-c612-4537-b4b0-f65e569d8079"/>
+      <rowType typeId="1594a688-f79d-4181-8a50-d8bc3d29186d" valueTypeId="ca98b703-10a6-4372-bbed-aaaf3e76a0bd"/>
+    </producedTypes>
+    <name>Штрихкоды</name>
     <synonym>
       <key>ru</key>
-      <value>GTIN</value>
+      <value>Штрихкоды</value>
     </synonym>
-    <type>
-      <types>DefinedType.GTIN</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
+    <attributes uuid="433ace7c-90d0-4f66-8de9-ed4cd0b5060f">
+      <name>Штрихкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

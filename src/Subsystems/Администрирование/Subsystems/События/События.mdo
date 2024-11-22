@@ -11,5 +11,6 @@
   <content>Document.Задание</content>
   <content>Document.ВыполнениеЗадания</content>
   <content>Document.АктПриемкиТоваров</content>
+  <content>Document.ПеремещениеТоваров</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

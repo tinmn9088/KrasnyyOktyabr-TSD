@@ -7,15 +7,15 @@
     <listType typeId="9737fe9e-f8cc-48e8-85f7-2b173e1637a2" valueTypeId="6b9c45f9-5a6a-4d8f-b1d1-386b93ff7354"/>
     <managerType typeId="50c4adfa-5cc4-4838-a25a-390c8706f0a5" valueTypeId="e9edd3fa-ce73-41e4-b7dc-4943bc607f86"/>
   </producedTypes>
-  <name>Организации</name>
+  <name>ОрганизацииЭДиН</name>
   <synonym>
     <key>ru</key>
-    <value>Организации</value>
+    <value>Организации ЭДиН</value>
   </synonym>
   <comment>Имитация справочника с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Организации.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Организации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОрганизацииЭДиН.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОрганизацииЭДиН.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

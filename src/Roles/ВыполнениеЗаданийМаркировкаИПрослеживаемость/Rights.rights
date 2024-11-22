@@ -332,6 +332,53 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ОрганизацииРозница</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров</name>
 		<right>
 			<name>Read</name>
@@ -847,6 +894,53 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.СкладыРозница</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ВнПеремОтпуск.Attribute.Задание</name>
 		<right>
 			<name>View</name>
@@ -1341,7 +1435,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады</name>
+		<name>Catalog.СкладыЭДиН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1388,63 +1482,63 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Predefined</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Ref</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.DeletionMark</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.IsFolder</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.IsFolder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Owner</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Owner</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Parent</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Parent</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Description</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Description</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Склады.StandardAttribute.Code</name>
+		<name>Catalog.СкладыЭДиН.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1779,6 +1873,61 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПеремещениеТоваров</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиEAH13.Attribute.Размер</name>
 		<right>
 			<name>View</name>
@@ -1944,6 +2093,34 @@
 		</right>
 		<right>
 			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2621,7 +2798,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации</name>
+		<name>Catalog.ОрганизацииЭДиН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2668,63 +2845,63 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Predefined</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Ref</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.DeletionMark</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.IsFolder</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.IsFolder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Owner</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Owner</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Parent</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Parent</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Description</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Description</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Организации.StandardAttribute.Code</name>
+		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3460,6 +3637,53 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.МагазиныРозница</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.моделиРазмер.Attribute.Шкала</name>
 		<right>
 			<name>View</name>
@@ -4074,7 +4298,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты</name>
+		<name>Catalog.КонтрагентыЭДиН</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -4121,63 +4345,63 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.PredefinedDataName</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Predefined</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Predefined</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Ref</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.DeletionMark</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.IsFolder</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.IsFolder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Owner</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Owner</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Parent</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Parent</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Description</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Description</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.StandardAttribute.Code</name>
+		<name>Catalog.КонтрагентыЭДиН.StandardAttribute.Code</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

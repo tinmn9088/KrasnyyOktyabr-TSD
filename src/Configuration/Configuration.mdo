@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -70,7 +70,8 @@
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтрагентыЭДиН</catalogs>
+  <catalogs>Catalog.МагазиныРозница</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
   <catalogs>Catalog.Модели</catalogs>
   <catalogs>Catalog.моделиEAH13</catalogs>
@@ -79,16 +80,19 @@
   <catalogs>Catalog.моделиЦвет</catalogs>
   <catalogs>Catalog.НоменклатураРозница</catalogs>
   <catalogs>Catalog.НоменклатураЭДиН</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ОрганизацииРозница</catalogs>
+  <catalogs>Catalog.ОрганизацииЭДиН</catalogs>
   <catalogs>Catalog.ПроцентУценки</catalogs>
   <catalogs>Catalog.Секторы</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СкладыРозница</catalogs>
+  <catalogs>Catalog.СкладыЭДиН</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
   <documents>Document.АктПриемкиТоваров</documents>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.ВыполнениеЗадания</documents>
   <documents>Document.Задание</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>

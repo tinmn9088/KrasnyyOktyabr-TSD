@@ -2,9 +2,11 @@
 <scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
   <usedItem metadata="Catalog.Секторы"/>
   <usedItem metadata="Catalog.КМ31"/>
+  <usedItem metadata="Catalog.ОрганизацииРозница"/>
   <usedItem metadata="Document.АктПриемкиТоваров"/>
   <usedItem metadata="Role.АдминистрированиеКонтрольОтбора"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
+  <usedItem metadata="Catalog.СкладыРозница"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
   <usedItem metadata="InformationRegister.ПроведенныеШтрихкоды"/>
@@ -15,15 +17,17 @@
   <usedItem metadata="CommonModule.КодыВозвратаГлобальный"/>
   <usedItem metadata="Role.ОбменДанными"/>
   <usedItem metadata="Enum.ТипШтрихкода"/>
-  <usedItem metadata="Catalog.Склады"/>
+  <usedItem metadata="Catalog.СкладыЭДиН"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
   <usedItem metadata="Catalog.НоменклатураЭДиН"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
   <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
   <usedItem metadata="Catalog.ВидыМатериалов"/>
   <usedItem metadata="CommonAttribute.UID"/>
+  <usedItem metadata="Document.ПеремещениеТоваров"/>
   <usedItem metadata="Enum.ВидОшибки"/>
   <usedItem metadata="Catalog.СотрудникиСклада"/>
+  <usedItem metadata="Catalog.НоменклатураРозница"/>
   <usedItem metadata="CommonModule.КонтрольОтбора"/>
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="Enum.СтатусЗадания"/>
@@ -34,7 +38,7 @@
   <usedItem metadata="Subsystem.Администрирование"/>
   <usedItem metadata="Catalog.АдресаТЛЦ"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
-  <usedItem metadata="Catalog.Организации"/>
+  <usedItem metadata="Catalog.ОрганизацииЭДиН"/>
   <usedItem metadata="Catalog.моделиEAH13"/>
   <usedItem metadata="CommonModule.ВнешниеКомпонентыКлиент"/>
   <usedItem metadata="Catalog.моделиКожтовар"/>
@@ -42,6 +46,7 @@
   <usedItem metadata="Document.ВнПеремОтпуск"/>
   <usedItem metadata="CommonModule.МаркировкаИПрослеживаемость"/>
   <usedItem metadata="Catalog.ЕдиницыИзмерения"/>
+  <usedItem metadata="Catalog.МагазиныРозница"/>
   <usedItem metadata="DataProcessor.ПроверкаЭлектронныхНакладных"/>
   <usedItem metadata="Role.АдминистрированиеМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Document.Задание"/>
@@ -50,7 +55,7 @@
   <usedItem metadata="Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Role.ВыполнениеЗаданийКонтрольОтбора"/>
   <usedItem metadata="Catalog.ТШККороб"/>
-  <usedItem metadata="Catalog.Контрагенты"/>
+  <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

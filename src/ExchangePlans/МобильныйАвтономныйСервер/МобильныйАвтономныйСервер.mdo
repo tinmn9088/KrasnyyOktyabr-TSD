@@ -51,7 +51,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Склады</mdObject>
+    <mdObject>Catalog.СкладыЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -79,7 +79,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Организации</mdObject>
+    <mdObject>Catalog.ОрганизацииЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -119,7 +119,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Контрагенты</mdObject>
+    <mdObject>Catalog.КонтрагентыЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
