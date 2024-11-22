@@ -362,6 +362,10 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -384,41 +388,6 @@
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.StandardAttribute.Posted</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.StandardAttribute.Number</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -449,13 +418,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.Attribute.Контрагент</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -628,6 +590,21 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Code</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Description</field>
+				<field>Predefined</field>
+				<field>PredefinedDataName</field>
+				<field>Ref</field>
+				<field>UID</field>
+				<field>ВыполняемоеЗадание</field>
+				<field>Идентификатор</field>
+				<field>Пароль</field>
+				<field>Сектор</field>
+				<condition>Комплектовщики ГДЕ ЛОЖЬ</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
@@ -1239,39 +1216,11 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоЗаказанногоТовара</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.Номенклатура</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Комплектовщики.Attribute.Пароль</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.Attribute.ТабельныйНомер</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПринятогоТовара</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1443,6 +1392,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВыполнениеЗаданий</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.НоменклатураЭДиН</name>
 		<right>
 			<name>Read</name>
@@ -1564,25 +1524,11 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КодМаркировки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Задание.Attribute.Зона</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1782,13 +1728,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Проверен</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.СотрудникиСклада</name>
 		<right>
 			<name>Read</name>
@@ -1808,6 +1747,10 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1833,69 +1776,6 @@
 		<right>
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Predefined</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.IsFolder</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Owner</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Parent</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Description</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.СотрудникиСклада.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -1926,13 +1806,6 @@
 		<right>
 			<name>Delete</name>
 			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -2136,13 +2009,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.моделиEAH13.Attribute.Кожтовар</name>
 		<right>
 			<name>View</name>
@@ -2293,13 +2159,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КлючСвязи</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Subsystem.Администрирование</name>
 		<right>
 			<name>View</name>
@@ -2443,13 +2302,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.Attribute.Организация</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3173,13 +3025,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КлючСвязи</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.НомерЗаданияНаОтбор</name>
 		<right>
 			<name>View</name>
@@ -3196,13 +3041,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.Attribute.Склад</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3447,10 +3285,14 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.АктПриемкиТоваров.Attribute.ПроверкаЗавершена</name>
+		<name>DataProcessor.ПроверкаЭлектронныхНакладных</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -3594,13 +3436,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПоставленногоТовара</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3873,13 +3708,6 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоНепринятогоТовара</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

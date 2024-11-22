@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppress:SuppressGenericObject xmlns:suppress="http://g5.1c.ru/v8/dt/check/suppress/model" fqn="Role.АдминистрированиеМаркировкаИПрослеживаемость.Rights">
+  <suppressions key="com.e1c.v8codestyle.right:right-delete" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-thick-client" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-save-user-data" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-update-database-configuration" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-administration" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-automation" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-active-users" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-configuration-extensions-administration" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-external-connection" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-web-client" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-open-external-data-processors" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-view-event-log" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-output-to-printer-file-clipboard" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-start-thin-client" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-exclusive-mode" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-open-external-reports" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-data-administration" value="true"/>
+</suppress:SuppressGenericObject>

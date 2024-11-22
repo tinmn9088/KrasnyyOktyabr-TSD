@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -44,13 +44,12 @@
   </languages>
   <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <roles>Role.ВсеПрава</roles>
+  <roles>Role.ПолныйДоступ</roles>
+  <roles>Role.АдминистрированиеКонтрольОтбора</roles>
   <roles>Role.ВыполнениеЗаданийКонтрольОтбора</roles>
+  <roles>Role.АдминистрированиеМаркировкаИПрослеживаемость</roles>
   <roles>Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость</roles>
-  <roles>Role.МониторКонтрольОтбора</roles>
-  <roles>Role.МониторМаркировкаИПрослеживаемость</roles>
   <roles>Role.ОбменДанными</roles>
-  <roles>Role.РедактированиеАктовПриемкиТоваров</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XML</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>

@@ -3,7 +3,7 @@
   <usedItem metadata="Catalog.Секторы"/>
   <usedItem metadata="Catalog.КМ31"/>
   <usedItem metadata="Document.АктПриемкиТоваров"/>
-  <usedItem metadata="Role.МониторКонтрольОтбора"/>
+  <usedItem metadata="Role.АдминистрированиеКонтрольОтбора"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
@@ -30,7 +30,7 @@
   <usedItem metadata="CommonModule.ОповещенияПользователяКлиент"/>
   <usedItem metadata="CommonModule.XML"/>
   <usedItem metadata="Document.ВыполнениеЗадания"/>
-  <usedItem metadata="Role.ВсеПрава"/>
+  <usedItem metadata="Role.ПолныйДоступ"/>
   <usedItem metadata="Subsystem.Администрирование"/>
   <usedItem metadata="Catalog.АдресаТЛЦ"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
@@ -43,7 +43,7 @@
   <usedItem metadata="CommonModule.МаркировкаИПрослеживаемость"/>
   <usedItem metadata="Catalog.ЕдиницыИзмерения"/>
   <usedItem metadata="DataProcessor.ПроверкаЭлектронныхНакладных"/>
-  <usedItem metadata="Role.МониторМаркировкаИПрослеживаемость"/>
+  <usedItem metadata="Role.АдминистрированиеМаркировкаИПрослеживаемость"/>
   <usedItem metadata="Document.Задание"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
