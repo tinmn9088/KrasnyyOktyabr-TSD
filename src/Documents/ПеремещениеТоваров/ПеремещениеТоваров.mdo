@@ -24,44 +24,30 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1a04aa74-0518-4687-a80c-b325fce570e3">
+    <name>ЗаполнениеЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение завершено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="1607f827-a76f-42fc-a13b-06715970f354">
     <name>МагазинОтправитель</name>
     <synonym>
       <key>ru</key>
-      <value>Магазин-отправитель</value>
+      <value>Магазин отправитель</value>
     </synonym>
     <type>
       <types>CatalogRef.МагазиныРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f055b2a4-2bed-422f-abd3-9629c2a1d710">
-    <name>СкладОтправитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Склад-отправитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СкладыРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9089d875-35d8-45e9-bcd7-b9373ee21fac">
-    <name>Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ОрганизацииРозница</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -73,7 +59,7 @@
     <name>МагазинПолучатель</name>
     <synonym>
       <key>ru</key>
-      <value>Магазин-получатель</value>
+      <value>Магазин получатель</value>
     </synonym>
     <type>
       <types>CatalogRef.МагазиныРозница</types>
@@ -84,14 +70,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4e3023b2-4b0e-4697-a79b-3d139dcff36f">
-    <name>СкладПолучатель</name>
+  <attributes uuid="9089d875-35d8-45e9-bcd7-b9373ee21fac">
+    <name>Организация</name>
     <synonym>
       <key>ru</key>
-      <value>Склад-получатель</value>
+      <value>Организация отправитель</value>
     </synonym>
     <type>
-      <types>CatalogRef.СкладыРозница</types>
+      <types>CatalogRef.ОрганизацииРозница</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -103,7 +89,7 @@
     <name>ОрганизацияПолучатель</name>
     <synonym>
       <key>ru</key>
-      <value>Организация-получатель</value>
+      <value>Организация получатель</value>
     </synonym>
     <type>
       <types>CatalogRef.ОрганизацииРозница</types>
@@ -114,6 +100,60 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f055b2a4-2bed-422f-abd3-9629c2a1d710">
+    <name>СкладОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e3023b2-4b0e-4697-a79b-3d139dcff36f">
+    <name>СкладПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cadbef18-922d-4e4f-8849-3443267c24c5">
+    <name>СотрудникЗаполнившийПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник заполнивший перемещение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СотрудникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9789dd7f-5bd7-4f1f-974c-447504974fe5">
+    <name>ФормаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="37aa258a-7701-41a1-9925-ca5d3c1abedf">
     <producedTypes>
       <objectType typeId="9db25bfc-11ff-4671-ae60-36796dbba715" valueTypeId="dfc13be7-b78e-425b-9c30-bad4cf362b11"/>

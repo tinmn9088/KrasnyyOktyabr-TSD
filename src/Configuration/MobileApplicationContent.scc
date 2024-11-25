@@ -57,5 +57,6 @@
   <usedItem metadata="Catalog.ТШККороб"/>
   <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
+  <usedItem metadata="DataProcessor.ВыполнениеПеремещений"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

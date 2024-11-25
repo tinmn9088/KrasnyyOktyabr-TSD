@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.4</version>
+  <version>3.0.5</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -96,6 +96,7 @@
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ПроверкаЭлектронныхНакладных</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкоды</informationRegisters>
