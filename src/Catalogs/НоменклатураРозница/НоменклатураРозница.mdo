@@ -10,7 +10,7 @@
   <name>НоменклатураРозница</name>
   <synonym>
     <key>ru</key>
-    <value>Номенклатура Розница</value>
+    <value>Номенклатура Розницы</value>
   </synonym>
   <comment>Имитация справочника из Розницы.</comment>
   <useStandardCommands>true</useStandardCommands>
