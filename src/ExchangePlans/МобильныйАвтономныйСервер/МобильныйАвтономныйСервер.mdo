@@ -43,7 +43,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.ПроведенныеШтрихкоды</mdObject>
+    <mdObject>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

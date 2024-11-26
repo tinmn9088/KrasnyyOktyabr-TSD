@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.5</version>
+  <version>3.0.7</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -45,10 +45,12 @@
   <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <roles>Role.ПолныйДоступ</roles>
-  <roles>Role.АдминистрированиеКонтрольОтбора</roles>
-  <roles>Role.ВыполнениеЗаданийКонтрольОтбора</roles>
-  <roles>Role.АдминистрированиеМаркировкаИПрослеживаемость</roles>
-  <roles>Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость</roles>
+  <roles>Role.АдминистрированиеКонтроляОтбора</roles>
+  <roles>Role.ВыполнениеЗаданийКонтроляОтбора</roles>
+  <roles>Role.АдминистрированиеПриходов</roles>
+  <roles>Role.ВыполнениеПриходов</roles>
+  <roles>Role.АдминистрированиеПеремещений</roles>
+  <roles>Role.ВыполнениеПеремещений</roles>
   <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XML</commonModules>
@@ -56,9 +58,10 @@
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
-  <commonModules>CommonModule.МаркировкаИПрослеживаемость</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
+  <commonModules>CommonModule.Перемещения</commonModules>
+  <commonModules>CommonModule.Приходы</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
@@ -96,8 +99,8 @@
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
-  <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ПроверкаЭлектронныхНакладных</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
-  <informationRegisters>InformationRegister.ПроведенныеШтрихкоды</informationRegisters>
+  <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
 </mdclass:Configuration>

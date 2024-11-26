@@ -384,7 +384,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.Resource.Дата</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Дата</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -523,7 +523,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.Resource.Задание</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Задание</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -544,7 +544,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.Resource.Комлпектовщик</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Комлпектовщик</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -661,7 +661,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.Resource.НомерЗаданияНаОтбор</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.НомерЗаданияНаОтбор</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -857,7 +857,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -912,28 +912,28 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.StandardAttribute.Active</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.StandardAttribute.Recorder</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.StandardAttribute.Period</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -4024,7 +4024,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкоды.Dimension.Штрихкод</name>
+		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Dimension.Штрихкод</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

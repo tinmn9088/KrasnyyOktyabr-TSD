@@ -22,7 +22,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Document.Задание.Command.ПросмотрВыполняемыхЗаданий</commands>
-      <commands>InformationRegister.ПроведенныеШтрихкоды.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardCommand.OpenList</commands>
       <commands>Document.Задание.Command.ПросмотрСтатусовЗаданий</commands>
       <commands>Document.Задание.StandardCommand.OpenList</commands>
     </orderFragments>

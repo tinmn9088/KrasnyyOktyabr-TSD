@@ -4,12 +4,12 @@
   <usedItem metadata="Catalog.КМ31"/>
   <usedItem metadata="Catalog.ОрганизацииРозница"/>
   <usedItem metadata="Document.АктПриемкиТоваров"/>
-  <usedItem metadata="Role.АдминистрированиеКонтрольОтбора"/>
+  <usedItem metadata="Role.АдминистрированиеКонтроляОтбора"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="Catalog.СкладыРозница"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
-  <usedItem metadata="InformationRegister.ПроведенныеШтрихкоды"/>
+  <usedItem metadata="InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора"/>
   <usedItem metadata="Catalog.моделиРазмер"/>
   <usedItem metadata="Subsystem.Монитор"/>
   <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
@@ -44,19 +44,19 @@
   <usedItem metadata="Catalog.моделиКожтовар"/>
   <usedItem metadata="Catalog.моделиЦвет"/>
   <usedItem metadata="Document.ВнПеремОтпуск"/>
-  <usedItem metadata="CommonModule.МаркировкаИПрослеживаемость"/>
+  <usedItem metadata="CommonModule.Приходы"/>
   <usedItem metadata="Catalog.ЕдиницыИзмерения"/>
   <usedItem metadata="Catalog.МагазиныРозница"/>
   <usedItem metadata="DataProcessor.ПроверкаЭлектронныхНакладных"/>
-  <usedItem metadata="Role.АдминистрированиеМаркировкаИПрослеживаемость"/>
+  <usedItem metadata="Role.АдминистрированиеПриходов"/>
   <usedItem metadata="Document.Задание"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
-  <usedItem metadata="Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость"/>
-  <usedItem metadata="Role.ВыполнениеЗаданийКонтрольОтбора"/>
+  <usedItem metadata="Role.ВыполнениеПриходов"/>
+  <usedItem metadata="Role.ВыполнениеЗаданийКонтроляОтбора"/>
   <usedItem metadata="Catalog.ТШККороб"/>
   <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
-  <usedItem metadata="DataProcessor.ВыполнениеПеремещений"/>
+  <usedItem metadata="DataProcessor.ЗаполнениеПеремещений"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>
