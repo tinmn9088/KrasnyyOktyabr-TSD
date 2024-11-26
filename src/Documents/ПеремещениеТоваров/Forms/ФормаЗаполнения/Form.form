@@ -114,11 +114,11 @@
     <name>Отправитель</name>
     <id>88</id>
     <items xsi:type="form:Decoration">
-      <name>ОтправительКартинка</name>
+      <name>ОтправительНадпись</name>
       <id>101</id>
       <title>
         <key>ru</key>
-        <value>Отправитель картинка</value>
+        <value>ОТ</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -126,7 +126,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтправительКартинкаРасширеннаяПодсказка</name>
+        <name>ОтправительНадписьРасширеннаяПодсказка</name>
         <id>103</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -141,7 +141,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОтправительКартинкаКонтекстноеМеню</name>
+        <name>ОтправительНадписьКонтекстноеМеню</name>
         <id>102</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -150,13 +150,19 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.AppearanceDownArrowRed</picture>
-        </picture>
-        <fileDragMode>AsFileRef</fileDragMode>
+      <textColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.FieldSelectionBackColor</color>
+        </backColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -345,11 +351,11 @@
     <name>Получатель</name>
     <id>55</id>
     <items xsi:type="form:Decoration">
-      <name>ПолучательКартинка</name>
-      <id>93</id>
+      <name>ПолучательНадпись</name>
+      <id>104</id>
       <title>
         <key>ru</key>
-        <value>Получатель картинка</value>
+        <value>ПО</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -357,8 +363,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПолучательКартинкаРасширеннаяПодсказка</name>
-        <id>95</id>
+        <name>ПолучательНадписьРасширеннаяПодсказка</name>
+        <id>106</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -372,8 +378,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПолучательКартинкаКонтекстноеМеню</name>
-        <id>94</id>
+        <name>ПолучательНадписьКонтекстноеМеню</name>
+        <id>105</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -381,13 +387,17 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
+      <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.AppearanceCircleRed</picture>
-        </picture>
-        <fileDragMode>AsFileRef</fileDragMode>
+      <textColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+        <backColor xsi:type="core:ColorDef"/>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">

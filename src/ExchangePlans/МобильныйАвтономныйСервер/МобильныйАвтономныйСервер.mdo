@@ -31,11 +31,19 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.ОрганизацииРозница</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.АктПриемкиТоваров</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Catalog.Комплектовщики</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СкладыРозница</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -63,7 +71,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.ПеремещениеТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.СотрудникиСклада</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.НоменклатураРозница</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -100,6 +116,10 @@
   </content>
   <content>
     <mdObject>Catalog.ЕдиницыИзмерения</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.МагазиныРозница</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

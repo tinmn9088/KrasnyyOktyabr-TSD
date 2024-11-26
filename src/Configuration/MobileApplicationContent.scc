@@ -5,10 +5,12 @@
   <usedItem metadata="Catalog.ОрганизацииРозница"/>
   <usedItem metadata="Document.АктПриемкиТоваров"/>
   <usedItem metadata="Role.АдминистрированиеКонтроляОтбора"/>
+  <usedItem metadata="Role.АдминистрированиеПеремещений"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="Catalog.СкладыРозница"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
+  <usedItem metadata="Role.ВыполнениеПеремещений"/>
   <usedItem metadata="InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора"/>
   <usedItem metadata="Catalog.моделиРазмер"/>
   <usedItem metadata="Subsystem.Монитор"/>
@@ -57,6 +59,7 @@
   <usedItem metadata="Catalog.ТШККороб"/>
   <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
+  <usedItem metadata="CommonModule.Перемещения"/>
   <usedItem metadata="DataProcessor.ЗаполнениеПеремещений"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>
