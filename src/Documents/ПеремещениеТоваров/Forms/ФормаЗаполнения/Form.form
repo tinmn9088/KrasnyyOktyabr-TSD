@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
-    <value>Заполнение перемещения товаров</value>
+    <value>Заполнение</value>
   </title>
   <items xsi:type="form:FormField">
     <name>Документ</name>
@@ -120,7 +120,6 @@
         <key>ru</key>
         <value>ОТ</value>
       </title>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -355,9 +354,8 @@
       <id>104</id>
       <title>
         <key>ru</key>
-        <value>ПО</value>
+        <value>ПЛ</value>
       </title>
-      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
