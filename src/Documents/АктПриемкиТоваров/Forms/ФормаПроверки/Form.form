@@ -441,7 +441,7 @@
       <horizontalStretch>true</horizontalStretch>
       <format>
         <key>ru</key>
-        <value>ЧН=-</value>
+        <value>ЧДЦ=3; ЧН=-</value>
       </format>
       <textColor xsi:type="core:ColorRef">
         <color>Style.SpecialTextColor</color>
@@ -651,11 +651,11 @@
           <wrap>true</wrap>
           <format>
             <key>ru</key>
-            <value>ЧДЦ=0; ЧН=0</value>
+            <value>ЧДЦ=3; ЧН=-</value>
           </format>
           <editFormat>
             <key>ru</key>
-            <value>ЧДЦ=0; ЧН=0</value>
+            <value>ЧДЦ=3; ЧН=-</value>
           </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
@@ -716,11 +716,11 @@
           <wrap>true</wrap>
           <format>
             <key>ru</key>
-            <value>ЧДЦ=0; ЧН=0</value>
+            <value>ЧДЦ=3; ЧН=-</value>
           </format>
           <editFormat>
             <key>ru</key>
-            <value>ЧДЦ=0; ЧН=0</value>
+            <value>ЧДЦ=3; ЧН=-</value>
           </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
