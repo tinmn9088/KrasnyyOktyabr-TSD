@@ -17,7 +17,12 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.8</version>
+  <version>3.0.9</version>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
