@@ -572,10 +572,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <toolTip>
-        <key>ru</key>
-        <value>Список номенклатур основное</value>
-      </toolTip>
       <extendedTooltip>
         <name>СписокНоменклатурОсновноеРасширеннаяПодсказка</name>
         <id>82</id>
