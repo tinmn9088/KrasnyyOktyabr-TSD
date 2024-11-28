@@ -150,11 +150,11 @@
         <name>ВыборПеремещения</name>
         <id>18</id>
         <items xsi:type="form:Button">
-          <name>ВыбратьПроцессПеремещение</name>
+          <name>КнопкаВыбратьПеремещение</name>
           <id>20</id>
           <title>
             <key>ru</key>
-            <value>* Перемещение</value>
+            <value>Перемещение</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -162,7 +162,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВыбратьПроцессПеремещениеРасширеннаяПодсказка</name>
+            <name>КнопкаВыбратьПеремещениеРасширеннаяПодсказка</name>
             <id>21</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -198,6 +198,7 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
+        <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -236,10 +237,9 @@
           <id>8</id>
           <title>
             <key>ru</key>
-            <value>* Инвентаризация</value>
+            <value>Инвентаризация</value>
           </title>
           <visible>true</visible>
-          <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
@@ -387,6 +387,10 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -409,6 +413,45 @@
     <id>1</id>
     <valueType>
       <types>CatalogRef.СотрудникиСклада</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаДоступенПриход</name>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаДоступноПеремещение</name>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаДоступнаИнвентаризация</name>
+    <id>4</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

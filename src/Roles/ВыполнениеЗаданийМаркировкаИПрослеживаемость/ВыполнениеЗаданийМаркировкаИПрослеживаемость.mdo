@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7dae347-a4ad-4f2e-af2a-fd5d3ad4b298">
-  <name>ВыполнениеЗаданийМаркировкаИПрослеживаемость</name>
-  <synonym>
-    <key>ru</key>
-    <value>Выполнение заданий маркировка и прослеживаемость</value>
-  </synonym>
-  <comment>Есть права на запись в справочники и документы для работы плана обмена для мобильного автономного сервера.</comment>
-</mdclass:Role>

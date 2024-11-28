@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="974ff2b3-3b66-42cb-9dee-ddf32ec990dc">
-  <name>РедактированиеАктовПриемкиТоваров</name>
-  <synonym>
-    <key>ru</key>
-    <value>Редактирование актов приемки товаров</value>
-  </synonym>
-</mdclass:Role>

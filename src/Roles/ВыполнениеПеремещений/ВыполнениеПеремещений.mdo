@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f1c9d08-e8a2-4593-b9fc-86b12c7a0136">
+  <name>ВыполнениеПеремещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение перемещений</value>
+  </synonym>
+  <comment>Есть права на запись в справочники и документы для работы плана обмена для мобильного автономного сервера.</comment>
+</mdclass:Role>

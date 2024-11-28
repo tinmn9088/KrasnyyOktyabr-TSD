@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adba1d83-f6bd-4c40-9455-f703ecc29bcf">
+  <producedTypes>
+    <objectType typeId="aecd8921-53c4-4f8b-9df6-c151059db14f" valueTypeId="4a0a2166-5335-4ae1-96de-04a54f1d73e6"/>
+    <refType typeId="a880b7b0-cd25-4d32-8d02-21c789a8085e" valueTypeId="973c03da-bfd6-48b9-9e5d-17c0946a1f2c"/>
+    <selectionType typeId="89115ce3-f757-41e2-b539-ca727f469252" valueTypeId="b029a184-870e-4719-8924-fb6c08fe8827"/>
+    <listType typeId="9737fe9e-f8cc-48e8-85f7-2b173e1637a2" valueTypeId="6b9c45f9-5a6a-4d8f-b1d1-386b93ff7354"/>
+    <managerType typeId="50c4adfa-5cc4-4838-a25a-390c8706f0a5" valueTypeId="e9edd3fa-ce73-41e4-b7dc-4943bc607f86"/>
+  </producedTypes>
+  <name>ОрганизацииЭДиН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации ЭДиН</value>
+  </synonym>
+  <comment>Имитация справочника с ЭДиН.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОрганизацииЭДиН.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОрганизацииЭДиН.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>13</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

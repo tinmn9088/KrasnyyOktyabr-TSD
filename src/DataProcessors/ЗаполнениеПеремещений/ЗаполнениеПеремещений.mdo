@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f93d3dc0-b7cd-4333-9aa3-602e414299ab">
+  <producedTypes>
+    <objectType typeId="6f6fd3fa-8eca-4c3a-bf23-2e65de89dc2a" valueTypeId="28047a7e-fcc5-48ba-9580-72f7271dc871"/>
+    <managerType typeId="00916096-4a11-4315-b8e8-7c3adf6e2724" valueTypeId="e061be2d-aa57-4a3b-a1b0-c630acc448cc"/>
+  </producedTypes>
+  <name>ЗаполнениеПеремещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение перемещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="f4217234-3b66-4af2-9ad4-f3fec0361a58">
+    <name>ФормаВыбораПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора перемещения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

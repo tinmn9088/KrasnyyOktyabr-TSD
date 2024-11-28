@@ -87,7 +87,7 @@
       <value>Контрагент</value>
     </synonym>
     <type>
-      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.КонтрагентыЭДиН</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -103,7 +103,7 @@
       <value>Организация</value>
     </synonym>
     <type>
-      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ОрганизацииЭДиН</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -134,7 +134,7 @@
       <value>Склад</value>
     </synonym>
     <type>
-      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.СкладыЭДиН</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -184,7 +184,7 @@
         <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.НоменклатураЭДиН</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

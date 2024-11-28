@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ca678a-3fa6-4d93-9699-7e1505b8aece">
+  <producedTypes>
+    <objectType typeId="a1139113-2d61-4d93-8c57-30296554df6c" valueTypeId="d664c5c5-b14c-415f-baab-2f6782c28719"/>
+    <refType typeId="d3f3f61d-5cce-4555-abaf-57853cada0e1" valueTypeId="861465e9-0692-43d0-8451-e6805b1420c7"/>
+    <selectionType typeId="8a055586-0501-4ac7-9742-70f94dfc42ce" valueTypeId="131b6851-53d8-4273-a604-f83fa748ebf2"/>
+    <listType typeId="02be2873-a868-4ac5-9c12-49156bae20b6" valueTypeId="a699fd64-5d4c-4697-89a8-738c8ad30dce"/>
+    <managerType typeId="11d12f88-6b18-426d-a0ce-81971f9db557" valueTypeId="df5035e5-2c65-4b33-8157-8278ca95323a"/>
+  </producedTypes>
+  <name>МагазиныРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазины Розницы</value>
+  </synonym>
+  <comment>Имитация справочника из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МагазиныРозница.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МагазиныРозница.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

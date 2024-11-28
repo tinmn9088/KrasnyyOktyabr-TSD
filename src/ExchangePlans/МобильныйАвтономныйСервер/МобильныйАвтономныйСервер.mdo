@@ -31,6 +31,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.ОрганизацииРозница</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.АктПриемкиТоваров</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -39,11 +43,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.СкладыРозница</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.Модели</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.ПроведенныеШтрихкоды</mdObject>
+    <mdObject>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -51,11 +59,11 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Склады</mdObject>
+    <mdObject>Catalog.СкладыЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Номенклатура</mdObject>
+    <mdObject>Catalog.НоменклатураЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -63,7 +71,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.ПеремещениеТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.СотрудникиСклада</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.НоменклатураРозница</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -79,7 +95,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Организации</mdObject>
+    <mdObject>Catalog.ОрганизацииЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -103,6 +119,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Catalog.МагазиныРозница</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.Задание</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -119,7 +139,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.Контрагенты</mdObject>
+    <mdObject>Catalog.КонтрагентыЭДиН</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>

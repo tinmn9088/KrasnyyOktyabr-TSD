@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bb0d9bd-e824-4c7a-9cfd-fa94c7241cd4">
+  <producedTypes>
+    <objectType typeId="0ea512c9-467c-4177-829b-1d319038b4c2" valueTypeId="cd1cfda8-3f39-450c-81f1-ee233d980c84"/>
+    <refType typeId="cd5a537b-1f97-45d7-bac3-953ee5d1f69f" valueTypeId="a848ae7a-5227-4985-9b8f-5fb10fc4540d"/>
+    <selectionType typeId="fb51ed7c-5869-490e-b64f-0e3d2073be25" valueTypeId="05293db8-30ee-4b6b-8b13-b7104ff6a033"/>
+    <listType typeId="7a10aa16-e3b4-48de-bd42-15122dbed0f4" valueTypeId="8056d8bd-64a7-4ef6-ac08-a7c995f965ec"/>
+    <managerType typeId="cffbfa0d-aa31-45c7-8e86-29886a3ab8a9" valueTypeId="2b17c1de-e502-43d8-988d-8a62e8616801"/>
+  </producedTypes>
+  <name>НоменклатураРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура Розницы</value>
+  </synonym>
+  <comment>Имитация справочника из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НоменклатураРозница.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.НоменклатураРозница.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="c2f0a468-f1b2-4f28-a787-1eafaa5d206f">
+    <producedTypes>
+      <objectType typeId="3df386d1-d7cf-426f-88f8-d486fae91d98" valueTypeId="34a4c06f-c612-4537-b4b0-f65e569d8079"/>
+      <rowType typeId="1594a688-f79d-4181-8a50-d8bc3d29186d" valueTypeId="ca98b703-10a6-4372-bbed-aaaf3e76a0bd"/>
+    </producedTypes>
+    <name>Штрихкоды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкоды</value>
+    </synonym>
+    <attributes uuid="433ace7c-90d0-4f66-8de9-ed4cd0b5060f">
+      <name>Штрихкод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрихкод</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

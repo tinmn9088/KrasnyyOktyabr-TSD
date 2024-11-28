@@ -17,7 +17,12 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>2.1.11</version>
+  <version>3.0.16</version>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>AudioPlaybackAndVibration</functionality>
@@ -44,22 +49,24 @@
   </languages>
   <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <roles>Role.ВсеПрава</roles>
-  <roles>Role.ВыполнениеЗаданийКонтрольОтбора</roles>
-  <roles>Role.ВыполнениеЗаданийМаркировкаИПрослеживаемость</roles>
-  <roles>Role.МониторКонтрольОтбора</roles>
-  <roles>Role.МониторМаркировкаИПрослеживаемость</roles>
+  <roles>Role.ПолныйДоступ</roles>
+  <roles>Role.АдминистрированиеКонтроляОтбора</roles>
+  <roles>Role.ВыполнениеЗаданийКонтроляОтбора</roles>
+  <roles>Role.АдминистрированиеПриходов</roles>
+  <roles>Role.ВыполнениеПриходов</roles>
+  <roles>Role.АдминистрированиеПеремещений</roles>
+  <roles>Role.ВыполнениеПеремещений</roles>
   <roles>Role.ОбменДанными</roles>
-  <roles>Role.РедактированиеАктовПриемкиТоваров</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XML</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
-  <commonModules>CommonModule.МаркировкаИПрослеживаемость</commonModules>
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
+  <commonModules>CommonModule.Перемещения</commonModules>
+  <commonModules>CommonModule.Приходы</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
@@ -70,29 +77,35 @@
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.КонтрагентыЭДиН</catalogs>
+  <catalogs>Catalog.МагазиныРозница</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
   <catalogs>Catalog.Модели</catalogs>
   <catalogs>Catalog.моделиEAH13</catalogs>
   <catalogs>Catalog.моделиКожтовар</catalogs>
   <catalogs>Catalog.моделиРазмер</catalogs>
   <catalogs>Catalog.моделиЦвет</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.НоменклатураРозница</catalogs>
+  <catalogs>Catalog.НоменклатураЭДиН</catalogs>
+  <catalogs>Catalog.ОрганизацииРозница</catalogs>
+  <catalogs>Catalog.ОрганизацииЭДиН</catalogs>
   <catalogs>Catalog.ПроцентУценки</catalogs>
   <catalogs>Catalog.Секторы</catalogs>
-  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СкладыРозница</catalogs>
+  <catalogs>Catalog.СкладыЭДиН</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
   <documents>Document.АктПриемкиТоваров</documents>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.ВыполнениеЗадания</documents>
   <documents>Document.Задание</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ПроверкаЭлектронныхНакладных</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
-  <informationRegisters>InformationRegister.ПроведенныеШтрихкоды</informationRegisters>
+  <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
 </mdclass:Configuration>
