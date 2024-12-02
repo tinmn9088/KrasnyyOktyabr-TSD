@@ -17,4 +17,5 @@
   <suppressions key="com.e1c.v8codestyle.right:right-active-users" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-configuration-extensions-administration" value="true"/>
   <suppressions key="com.e1c.v8codestyle.right:right-data-administration" value="true"/>
+  <suppressions key="com.e1c.v8codestyle.right:right-interactive-delete" value="true"/>
 </suppress:SuppressGenericObject>
