@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
-  <title>
-    <key>ru</key>
-    <value>Выбор эл. накл. для проверки</value>
-  </title>
   <items xsi:type="form:FormField">
     <name>Сотрудник</name>
     <id>1</id>
@@ -58,7 +54,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>СписокЭлектронныхНакладных</name>
+    <name>СписокАктовПриемкиТоваров</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -66,15 +62,15 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ФормаСписокЭлектронныхНакладных</segments>
+      <segments>ФормаСписокАктовПриемкиТоваров</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormGroup">
-      <name>ЭлектроннаяНакладная</name>
+      <name>СписокАктовПриемкиТоваровОсновное</name>
       <id>34</id>
       <items xsi:type="form:FormField">
-        <name>ДатаЭлектроннойНакладной</name>
+        <name>Дата</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -82,10 +78,10 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Дата</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.Дата</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаЭлектроннойНакладнойРасширеннаяПодсказка</name>
+          <name>ДатаРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -100,7 +96,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДатаЭлектроннойНакладнойКонтекстноеМеню</name>
+          <name>ДатаКонтекстноеМеню</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -125,7 +121,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>НомерЭлектроннойНакладной</name>
+        <name>Номер</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -133,10 +129,10 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Номер</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.Номер</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НомерЭлектроннойНакладнойРасширеннаяПодсказка</name>
+          <name>НомерРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -151,7 +147,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>НомерЭлектроннойНакладнойКонтекстноеМеню</name>
+          <name>НомерКонтекстноеМеню</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -191,7 +187,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.ПредставлениеИспользуетсяМаркировкаТоваров</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.ИспользуетсяМаркировкаТоваров</segments>
         </dataPath>
         <extendedTooltip>
           <name>ИспользуетсяМаркировкаТоваровРасширеннаяПодсказка</name>
@@ -226,6 +222,10 @@
         <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <format>
+            <key>ru</key>
+            <value>БЛ=; БИ=КМ</value>
+          </format>
           <textColor xsi:type="core:ColorRef">
             <color>Style.AccentColor</color>
           </textColor>
@@ -238,14 +238,14 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Электронная накладная</value>
+        <value>Основное</value>
       </title>
       <toolTip>
         <key>ru</key>
         <value>Электронная накладная</value>
       </toolTip>
       <extendedTooltip>
-        <name>ЭлектроннаяНакладнаяРасширеннаяПодсказка</name>
+        <name>СписокАктовПриемкиТоваровОсновноеРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -266,7 +266,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ОписаниеЭлектроннойНакладной</name>
+      <name>СписокАктовПриемкиТоваровДополнительное</name>
       <id>32</id>
       <items xsi:type="form:FormField">
         <name>Организация</name>
@@ -277,7 +277,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Организация</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.Организация</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОрганизацияРасширеннаяПодсказка</name>
@@ -323,7 +323,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Контрагент</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.Контрагент</segments>
         </dataPath>
         <extendedTooltip>
           <name>КонтрагентРасширеннаяПодсказка</name>
@@ -372,7 +372,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЭлектронныхНакладных.Склад</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.Склад</segments>
         </dataPath>
         <extendedTooltip>
           <name>СкладРасширеннаяПодсказка</name>
@@ -420,14 +420,14 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Описание электронной накладной</value>
+        <value>Дополнительное</value>
       </title>
       <toolTip>
         <key>ru</key>
         <value>Описание электронной накладной</value>
       </toolTip>
       <extendedTooltip>
-        <name>ОписаниеЭлектроннойНакладнойРасширеннаяПодсказка</name>
+        <name>СписокАктовПриемкиТоваровДополнительноеРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -449,7 +449,7 @@
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>СписокЭлектронныхНакладныхКоманднаяПанель</name>
+      <name>СписокАктовПриемкиТоваровКоманднаяПанель</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -469,10 +469,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЭлектронныхНакладныхСтрокаПоиска</name>
+      <name>СписокАктовПриемкиТоваровСтрокаПоиска</name>
       <id>8</id>
       <extendedTooltip>
-        <name>СписокЭлектронныхНакладныхСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СписокАктовПриемкиТоваровСтрокаПоискаРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -487,7 +487,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЭлектронныхНакладныхСтрокаПоискаКонтекстноеМеню</name>
+        <name>СписокАктовПриемкиТоваровСтрокаПоискаКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -496,7 +496,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокЭлектронныхНакладныхСтрокаПоиска</source>
+      <source>СписокАктовПриемкиТоваровСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -507,10 +507,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЭлектронныхНакладныхСостояниеПросмотра</name>
+      <name>СписокАктовПриемкиТоваровСостояниеПросмотра</name>
       <id>11</id>
       <extendedTooltip>
-        <name>СписокЭлектронныхНакладныхСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СписокАктовПриемкиТоваровСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -525,7 +525,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЭлектронныхНакладныхСостояниеПросмотраКонтекстноеМеню</name>
+        <name>СписокАктовПриемкиТоваровСостояниеПросмотраКонтекстноеМеню</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -535,7 +535,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокЭлектронныхНакладныхСостояниеПросмотра</source>
+      <source>СписокАктовПриемкиТоваровСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -546,10 +546,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЭлектронныхНакладныхУправлениеПоиском</name>
+      <name>СписокАктовПриемкиТоваровУправлениеПоиском</name>
       <id>14</id>
       <extendedTooltip>
-        <name>СписокЭлектронныхНакладныхУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СписокАктовПриемкиТоваровУправлениеПоискомРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -564,7 +564,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЭлектронныхНакладныхУправлениеПоискомКонтекстноеМеню</name>
+        <name>СписокАктовПриемкиТоваровУправлениеПоискомКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -574,13 +574,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокЭлектронныхНакладныхУправлениеПоиском</source>
+      <source>СписокАктовПриемкиТоваровУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокЭлектронныхНакладныхРасширеннаяПодсказка</name>
+      <name>СписокАктовПриемкиТоваровРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -595,7 +595,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СписокЭлектронныхНакладныхКонтекстноеМеню</name>
+      <name>СписокАктовПриемкиТоваровКонтекстноеМеню</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -658,6 +658,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -683,10 +684,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаСписокЭлектронныхНакладных</name>
+    <name>ФормаСписокАктовПриемкиТоваров</name>
     <title>
       <key>ru</key>
-      <value>Список электронных накладных</value>
+      <value>Список актов приемки товаров</value>
     </title>
     <id>2</id>
     <valueType>
@@ -698,7 +699,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	АктПриемкиТоваров.Номер КАК Номер,
@@ -767,22 +767,10 @@
         <dataPath>ИспользуетсяМаркировкаТоваров</dataPath>
         <field>ИспользуетсяМаркировкаТоваров</field>
       </fields>
-      <calculatedFields>
-        <dataPath>ПредставлениеИспользуетсяМаркировкаТоваров</dataPath>
-        <expression>ИспользуетсяМаркировкаТоваров</expression>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Представление используется маркировка товаров</value>
-            </content>
-          </localValue>
-        </title>
-        <presentationExpression>Выбор
-Когда ИспользуетсяМаркировкаТоваров Тогда &quot;КМ&quot;
-Иначе &quot;&quot;
-Конец</presentationExpression>
-      </calculatedFields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СотрудникЗавершившийПроверку</dataPath>
+        <field>СотрудникЗавершившийПроверку</field>
+      </fields>
     </extInfo>
   </attributes>
   <parameters>
@@ -796,5 +784,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

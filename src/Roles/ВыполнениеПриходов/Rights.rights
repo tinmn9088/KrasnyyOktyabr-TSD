@@ -4451,7 +4451,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ПроверкаЭлектронныхНакладных</name>
+		<name>DataProcessor.ВыполнениеПриходов</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

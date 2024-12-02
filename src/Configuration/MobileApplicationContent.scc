@@ -49,7 +49,7 @@
   <usedItem metadata="CommonModule.Приходы"/>
   <usedItem metadata="Catalog.ЕдиницыИзмерения"/>
   <usedItem metadata="Catalog.МагазиныРозница"/>
-  <usedItem metadata="DataProcessor.ПроверкаЭлектронныхНакладных"/>
+  <usedItem metadata="DataProcessor.ВыполнениеПриходов"/>
   <usedItem metadata="Role.АдминистрированиеПриходов"/>
   <usedItem metadata="Document.Задание"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
