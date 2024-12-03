@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>4.0.3</version>
+  <version>4.0.4</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -66,7 +66,8 @@
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
   <commonModules>CommonModule.Перемещения</commonModules>
-  <commonModules>CommonModule.Приходы</commonModules>
+  <commonModules>CommonModule.ПриходыБСО</commonModules>
+  <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
