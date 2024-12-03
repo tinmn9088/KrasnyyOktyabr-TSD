@@ -118,7 +118,7 @@
       <id>101</id>
       <title>
         <key>ru</key>
-        <value>ОТ</value>
+        <value>О</value>
       </title>
       <enabled>true</enabled>
       <userVisible>
@@ -159,8 +159,8 @@
       </textColor>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <horizontalAlign>Left</horizontalAlign>
-        <backColor xsi:type="core:ColorRef">
-          <color>Style.FieldSelectionBackColor</color>
+        <backColor xsi:type="core:ColorDef">
+          <red>255</red>
         </backColor>
       </extInfo>
     </items>
@@ -354,7 +354,7 @@
       <id>104</id>
       <title>
         <key>ru</key>
-        <value>ПЛ</value>
+        <value>П</value>
       </title>
       <enabled>true</enabled>
       <userVisible>
@@ -1426,6 +1426,7 @@
     <valueType>
       <types>CatalogRef.СотрудникиСклада</types>
     </valueType>
+    <keyParameter>true</keyParameter>
   </parameters>
   <commandInterface>
     <navigationPanel/>

@@ -99,6 +99,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e056342d-75ac-48c3-b4f1-79821178fd1a">
+    <name>ФормаЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="c14932b1-e1a7-429f-be82-6833b3cdf325">
     <producedTypes>
       <objectType typeId="63cedf99-4622-45c7-908b-74a0be7b7b93" valueTypeId="19e8d737-5ecd-477b-9b59-c7131a60c7fa"/>

@@ -107,7 +107,8 @@
             <blue>255</blue>
           </textColor>
           <backColor xsi:type="core:ColorDef">
-            <green>128</green>
+            <green>150</green>
+            <blue>70</blue>
           </backColor>
           <font xsi:type="core:FontRef">
             <font>Style.LargeTextFont</font>
@@ -189,8 +190,10 @@
             <green>255</green>
             <blue>255</blue>
           </textColor>
-          <backColor xsi:type="core:ColorRef">
-            <color>Style.FieldSelectionBackColor</color>
+          <backColor xsi:type="core:ColorDef">
+            <red>83</red>
+            <green>105</green>
+            <blue>194</blue>
           </backColor>
           <font xsi:type="core:FontRef">
             <font>Style.LargeTextFont</font>

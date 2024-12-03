@@ -461,7 +461,7 @@
     </autoCommandBar>
     <handlers>
       <event>ValueChoice</event>
-      <name>СписокЭлектронныхНакладныхВыборЗначения</name>
+      <name>СписокАктовПриемкиТоваровВыборЗначения</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
