@@ -16,6 +16,7 @@
   <usedItem metadata="Subsystem.Монитор"/>
   <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
   <usedItem metadata="CommonModule.ОповещенияФормыКлиент"/>
+  <usedItem metadata="Catalog.КонтрагентыРозница"/>
   <usedItem metadata="CommonModule.КодыВозвратаГлобальный"/>
   <usedItem metadata="Role.ОбменДанными"/>
   <usedItem metadata="Enum.ТипШтрихкода"/>
@@ -52,6 +53,7 @@
   <usedItem metadata="DataProcessor.ВыполнениеПриходов"/>
   <usedItem metadata="Role.АдминистрированиеПриходов"/>
   <usedItem metadata="Document.Задание"/>
+  <usedItem metadata="Document.ПоступлениеТоваров"/>
   <usedItem metadata="Catalog.ПроцентУценки"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора"/>
   <usedItem metadata="Role.ВыполнениеПриходов"/>
@@ -60,6 +62,6 @@
   <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
   <usedItem metadata="CommonModule.Перемещения"/>
-  <usedItem metadata="DataProcessor.ЗаполнениеПеремещений"/>
+  <usedItem metadata="DataProcessor.ВыполнениеПеремещений"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

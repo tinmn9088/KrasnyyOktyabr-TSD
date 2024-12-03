@@ -5536,7 +5536,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ЗаполнениеПеремещений</name>
+		<name>DataProcessor.ВыполнениеПеремещений</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

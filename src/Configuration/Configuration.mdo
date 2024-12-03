@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>4.0.2</version>
+  <version>4.0.3</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -106,8 +106,8 @@
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеПеремещений</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
 </mdclass:Configuration>
