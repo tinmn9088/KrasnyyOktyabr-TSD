@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <title>
-    <key>ru</key>
-    <value>Выбор процесса</value>
-  </title>
   <items xsi:type="form:FormField">
     <name>Сотрудник</name>
-    <id>3</id>
+    <id>1</id>
     <title>
       <key>ru</key>
       <value>Для</value>
@@ -21,7 +17,7 @@
     </dataPath>
     <extendedTooltip>
       <name>СотрудникРасширеннаяПодсказка</name>
-      <id>5</id>
+      <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -36,7 +32,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СотрудникКонтекстноеМеню</name>
-      <id>4</id>
+      <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -58,20 +54,20 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ВыборПроцесса</name>
-    <id>10</id>
+    <name>ВыборВидаПрихода</name>
+    <id>14</id>
     <items xsi:type="form:FormGroup">
-      <name>КнопкиВыбораПроцесса</name>
-      <id>16</id>
+      <name>КнопкиВыбораВидаПрихода</name>
+      <id>12</id>
       <items xsi:type="form:FormGroup">
-        <name>ВыборПрихода</name>
-        <id>12</id>
+        <name>ВыборПроверкиЭлектроннойНакладной</name>
+        <id>8</id>
         <items xsi:type="form:Button">
-          <name>КнопкаВыбратьПриход</name>
-          <id>6</id>
+          <name>КнопкаВыбратьПроверкуЭлектронныхНакладных</name>
+          <id>4</id>
           <title>
             <key>ru</key>
-            <value>Приход</value>
+            <value>Электронная накладная</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -79,7 +75,90 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КнопкаВыбратьПриходРасширеннаяПодсказка</name>
+            <name>КнопкаВыбратьПроверкуЭлектронныхНакладныхРасширеннаяПодсказка</name>
+            <id>5</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.ВыбратьПроверкуЭлектроннойНакладной</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>2</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <placementArea>UserCmds</placementArea>
+          <textColor xsi:type="core:ColorDef">
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+          </textColor>
+          <backColor xsi:type="core:ColorDef">
+            <green>128</green>
+          </backColor>
+          <font xsi:type="core:FontRef">
+            <font>Style.LargeTextFont</font>
+          </font>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВыборПроверкиЭлектроннойНакладнойРасширеннаяПодсказка</name>
+          <id>9</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <showTitle>true</showTitle>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ВыборЗаполненияПоступленияПоБСО</name>
+        <id>10</id>
+        <items xsi:type="form:Button">
+          <name>КнопкаВыбратьЗаполнениеПоступленияПоБСО</name>
+          <id>6</id>
+          <title>
+            <key>ru</key>
+            <value>Поступление по БСО</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КнопкаВыбратьЗаполнениеПоступленияПоБСОРасширеннаяПодсказка</name>
             <id>7</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -94,7 +173,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессПриход</commandName>
+          <commandName>Form.Command.ВыбратьЗаполнениеПоступленияПоБСО</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <height>2</height>
@@ -107,8 +186,8 @@
             <blue>255</blue>
           </textColor>
           <backColor xsi:type="core:ColorDef">
-            <green>150</green>
-            <blue>70</blue>
+            <red>153</red>
+            <green>204</green>
           </backColor>
           <font xsi:type="core:FontRef">
             <font>Style.LargeTextFont</font>
@@ -121,173 +200,8 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыборПриходаРасширеннаяПодсказка</name>
-          <id>13</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
-          <behavior>Auto</behavior>
-          <representation>WeakSeparation</representation>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <showTitle>true</showTitle>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ВыборПеремещения</name>
-        <id>18</id>
-        <items xsi:type="form:Button">
-          <name>КнопкаВыбратьПеремещение</name>
-          <id>20</id>
-          <title>
-            <key>ru</key>
-            <value>Перемещение</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КнопкаВыбратьПеремещениеРасширеннаяПодсказка</name>
-            <id>21</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессПеремещение</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>2</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <placementArea>UserCmds</placementArea>
-          <textColor xsi:type="core:ColorDef">
-            <red>255</red>
-            <green>255</green>
-            <blue>255</blue>
-          </textColor>
-          <backColor xsi:type="core:ColorDef">
-            <red>83</red>
-            <green>105</green>
-            <blue>194</blue>
-          </backColor>
-          <font xsi:type="core:FontRef">
-            <font>Style.LargeTextFont</font>
-          </font>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ВыборПеремещенияРасширеннаяПодсказка</name>
-          <id>19</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
-          <behavior>Auto</behavior>
-          <representation>WeakSeparation</representation>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <showTitle>true</showTitle>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ВыборИнвентаризации</name>
-        <id>14</id>
-        <items xsi:type="form:Button">
-          <name>КнопкаВыбратьИнвентаризацию</name>
-          <id>8</id>
-          <title>
-            <key>ru</key>
-            <value>Инвентаризация</value>
-          </title>
-          <visible>true</visible>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КнопкаВыбратьИнвентаризациюРасширеннаяПодсказка</name>
-            <id>9</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессИнвентаризация</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>2</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <placementArea>UserCmds</placementArea>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.AccentColor</color>
-          </textColor>
-          <backColor xsi:type="core:ColorDef">
-            <red>255</red>
-            <green>255</green>
-          </backColor>
-          <font xsi:type="core:FontRef">
-            <font>Style.LargeTextFont</font>
-          </font>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <visible>true</visible>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ВыборИнвентаризацииРасширеннаяПодсказка</name>
-          <id>15</id>
+          <name>ВыборЗаполненияПоступленияПоБСОРасширеннаяПодсказка</name>
+          <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -318,8 +232,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкиВыбораПроцессаРасширеннаяПодсказка</name>
-        <id>17</id>
+        <name>КнопкиВыбораВидаПриходаРасширеннаяПодсказка</name>
+        <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -351,8 +265,8 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <extendedTooltip>
-      <name>ВыборПроцессаРасширеннаяПодсказка</name>
-      <id>11</id>
+      <name>ВыборВидаПриходаРасширеннаяПодсказка</name>
+      <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -367,7 +281,7 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
+      <group>HorizontalIfPossible</group>
       <verticalAlign>Center</verticalAlign>
       <behavior>Auto</behavior>
       <representation>WeakSeparation</representation>
@@ -390,18 +304,14 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <verticalSpacing>Double</verticalSpacing>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -424,50 +334,11 @@
       <common>true</common>
     </edit>
   </attributes>
-  <attributes>
-    <name>ФормаДоступенПриход</name>
-    <id>2</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ФормаДоступноПеремещение</name>
-    <id>3</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ФормаДоступнаИнвентаризация</name>
-    <id>4</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
   <formCommands>
-    <name>ВыбратьПроцессПриход</name>
+    <name>ВыбратьПроверкуЭлектроннойНакладной</name>
     <title>
       <key>ru</key>
-      <value>Выбрать приход</value>
+      <value>Проверка электронных накладных</value>
     </title>
     <id>1</id>
     <use>
@@ -475,49 +346,24 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыбратьПроцессПриход</name>
+        <name>ВыбратьПроверкуЭлектроннойНакладной</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ВыбратьПроцессИнвентаризация</name>
+    <name>ВыбратьЗаполнениеПоступленияПоБСО</name>
     <title>
       <key>ru</key>
-      <value>Выбрать инвентаризацию</value>
+      <value>Поступление по БСО</value>
     </title>
     <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выбрать процесс инвентаризация</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыбратьПроцессИнвентаризацию</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыбратьПроцессПеремещение</name>
-    <title>
-      <key>ru</key>
-      <value>Выбрать перемещение</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выбрать процесс перемещение</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыбратьПроцессПеремещение</name>
+        <name>ВыбратьЗаполнениеПоступленияПоБСО</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

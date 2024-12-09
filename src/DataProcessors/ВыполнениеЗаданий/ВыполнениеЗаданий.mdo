@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Выполнение заданий</value>
   </synonym>
+  <comment>Начало.</comment>
   <useStandardCommands>true</useStandardCommands>
   <forms uuid="99bdb5d4-0d73-4af5-afde-5cf726009b09">
     <name>ФормаВыбораПроцесса</name>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4161bc21-d9ed-40b2-a1d9-796d5fb233ce">
+  <producedTypes>
+    <objectType typeId="bf76271e-8711-4ebf-8780-c1f5ee0ef9eb" valueTypeId="6517ba2c-32fd-4c41-8400-692f196e756e"/>
+    <refType typeId="92fec896-f047-4ce4-b9e2-24a50bc58c4e" valueTypeId="8684df78-b5ce-45f9-8f06-6b39e97c3cfb"/>
+    <selectionType typeId="62863ad9-7617-4761-8109-9375e3002388" valueTypeId="ce00270f-d144-4ea8-a1e1-256550e3e880"/>
+    <listType typeId="e3dbf1b0-15b5-4fdf-b67f-489209504d1c" valueTypeId="64b3c2f3-da7b-4561-ba36-c4b28a5b4d2b"/>
+    <managerType typeId="d22db2f7-1f23-44d6-b4c2-62029b931c75" valueTypeId="84e97d24-2d57-44a5-ac9c-2450e62c313b"/>
+  </producedTypes>
+  <name>КонтрагентыРозница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты Розницы</value>
+  </synonym>
+  <comment>Имитация справочника из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтрагентыРозница.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КонтрагентыРозница.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

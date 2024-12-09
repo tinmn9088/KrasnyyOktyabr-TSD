@@ -14,6 +14,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ПоступлениеТоваров.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ПеремещениеТоваров.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -33,6 +39,7 @@
       <group>NavigationPanelImportant</group>
       <commands>Document.Задание.StandardCommand.OpenList</commands>
       <commands>Document.АктПриемкиТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПоступлениеТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеТоваров.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
@@ -41,6 +48,7 @@
       <group>NavigationPanelImportant</group>
       <commands>Document.Задание.StandardCommand.OpenList</commands>
       <commands>Document.АктПриемкиТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПоступлениеТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеТоваров.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

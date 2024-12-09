@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>3.0.16</version>
+  <version>4.0.5</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -66,7 +66,8 @@
   <commonModules>CommonModule.ОповещенияПользователяКлиент</commonModules>
   <commonModules>CommonModule.ОповещенияФормыКлиент</commonModules>
   <commonModules>CommonModule.Перемещения</commonModules>
-  <commonModules>CommonModule.Приходы</commonModules>
+  <commonModules>CommonModule.ПриходыБСО</commonModules>
+  <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
@@ -77,6 +78,7 @@
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
+  <catalogs>Catalog.КонтрагентыРозница</catalogs>
   <catalogs>Catalog.КонтрагентыЭДиН</catalogs>
   <catalogs>Catalog.МагазиныРозница</catalogs>
   <catalogs>Catalog.МестаХранения</catalogs>
@@ -100,12 +102,13 @@
   <documents>Document.ВыполнениеЗадания</documents>
   <documents>Document.Задание</documents>
   <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
-  <dataProcessors>DataProcessor.ЗаполнениеПеремещений</dataProcessors>
-  <dataProcessors>DataProcessor.ПроверкаЭлектронныхНакладных</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
 </mdclass:Configuration>

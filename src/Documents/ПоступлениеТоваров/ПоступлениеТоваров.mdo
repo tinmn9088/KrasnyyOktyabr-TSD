@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72cec546-fdb8-4638-bda2-a0c53e64a493">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d33ad589-70bd-4b50-bdb0-e58b411fa8bd">
   <producedTypes>
-    <objectType typeId="1eac05d3-fce1-494e-aaac-7ecaf8561d71" valueTypeId="ccc14d91-c31e-4545-908e-94cbd1417116"/>
-    <refType typeId="b3bc5e5a-c2cf-4cf8-9947-5ca31b33789b" valueTypeId="e732bd79-b110-4c08-8e28-ab84570b3d34"/>
-    <selectionType typeId="203c4b44-3226-4209-bfed-9e65bfe01bb6" valueTypeId="e93bf100-7110-4727-9551-a59469f41e94"/>
-    <listType typeId="2aa97d0a-a302-4464-8db4-cbd51a28e7dc" valueTypeId="3df824cb-9c0f-4839-88b1-12ac731782fa"/>
-    <managerType typeId="fd1f40f3-f820-4bc7-b0b6-c271096ae230" valueTypeId="a5b00514-ded1-4035-ac9d-468212cb6e4b"/>
+    <objectType typeId="b84162e8-9473-4125-8062-288c0b35e6c9" valueTypeId="97242c1c-a0c5-466e-9b7e-e7b4fbede495"/>
+    <refType typeId="76341760-fd31-43c3-8ba9-feed94202119" valueTypeId="cfe09ee7-7cca-4c9a-a77f-9d86dc2da34c"/>
+    <selectionType typeId="47788a30-21ca-4110-843a-9f79bf190d34" valueTypeId="2bdc34f8-e662-4f88-bfbd-0d20e5ec01be"/>
+    <listType typeId="ab0c2b96-d0ee-41dc-9ed2-bf5d6979820a" valueTypeId="a10b4d35-d0cc-4f23-b092-b57fbfd2802e"/>
+    <managerType typeId="9749cd9d-8be8-4717-872a-3b296b612802" valueTypeId="58ecb5b2-3390-4a7f-a36f-77f036542e4a"/>
   </producedTypes>
-  <name>ПеремещениеТоваров</name>
+  <name>ПоступлениеТоваров</name>
   <synonym>
     <key>ru</key>
-    <value>Перемещение товаров</value>
+    <value>Поступление товаров</value>
   </synonym>
   <comment>Аналог документа из Розницы.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.ПеремещениеТоваров.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ПоступлениеТоваров.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,7 +24,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="1a04aa74-0518-4687-a80c-b325fce570e3">
+  <attributes uuid="b921c022-7866-4f98-a175-860b0fffd9a5">
     <name>ЗаполнениеЗавершено</name>
     <synonym>
       <key>ru</key>
@@ -36,15 +36,29 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1607f827-a76f-42fc-a13b-06715970f354">
-    <name>МагазинОтправитель</name>
+  <attributes uuid="f822d621-3251-495f-89de-f6737cba5738">
+    <name>Контрагент</name>
     <synonym>
       <key>ru</key>
-      <value>Магазин отправитель</value>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="804ebd19-d824-4a85-9fbc-519face6d836">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
     </synonym>
     <type>
       <types>CatalogRef.МагазиныРозница</types>
@@ -55,56 +69,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0192467e-19e4-4845-8a09-c22b833c263d">
-    <name>МагазинПолучатель</name>
+  <attributes uuid="0842fa0c-7ad7-4a36-990b-ac18d4a94fce">
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Магазин получатель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.МагазиныРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9089d875-35d8-45e9-bcd7-b9373ee21fac">
-    <name>Организация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация отправитель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ОрганизацииРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="bc51c9d1-2526-40ae-8908-e3449efe9a9f">
-    <name>ОрганизацияПолучатель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Организация получатель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ОрганизацииРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f055b2a4-2bed-422f-abd3-9629c2a1d710">
-    <name>СкладОтправитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Склад отправитель</value>
+      <value>Склад</value>
     </synonym>
     <type>
       <types>CatalogRef.СкладыРозница</types>
@@ -115,26 +84,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4e3023b2-4b0e-4697-a79b-3d139dcff36f">
-    <name>СкладПолучатель</name>
+  <attributes uuid="8b315cd6-7c88-43f0-a5c7-26fefc613700">
+    <name>СотрудникЗаполнившийПоступление</name>
     <synonym>
       <key>ru</key>
-      <value>Склад получатель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СкладыРозница</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="cadbef18-922d-4e4f-8849-3443267c24c5">
-    <name>СотрудникЗаполнившийПеремещение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сотрудник заполнивший перемещение</value>
+      <value>Сотрудник заполнивший поступление</value>
     </synonym>
     <type>
       <types>CatalogRef.СотрудникиСклада</types>
@@ -145,7 +99,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="9789dd7f-5bd7-4f1f-974c-447504974fe5">
+  <forms uuid="e056342d-75ac-48c3-b4f1-79821178fd1a">
     <name>ФормаЗаполнения</name>
     <synonym>
       <key>ru</key>
@@ -154,17 +108,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="37aa258a-7701-41a1-9925-ca5d3c1abedf">
+  <tabularSections uuid="c14932b1-e1a7-429f-be82-6833b3cdf325">
     <producedTypes>
-      <objectType typeId="9db25bfc-11ff-4671-ae60-36796dbba715" valueTypeId="dfc13be7-b78e-425b-9c30-bad4cf362b11"/>
-      <rowType typeId="713810b0-41b9-4093-ac5d-2adee56cc5be" valueTypeId="c267f6ac-ac64-46e3-8147-00264b79b70b"/>
+      <objectType typeId="63cedf99-4622-45c7-908b-74a0be7b7b93" valueTypeId="19e8d737-5ecd-477b-9b59-c7131a60c7fa"/>
+      <rowType typeId="5dcbf927-ec5d-424f-8de8-d15d823edb1b" valueTypeId="e8fbf90b-4145-46c1-8ef7-825cf0a9bc68"/>
     </producedTypes>
     <name>Товары</name>
     <synonym>
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <attributes uuid="fbb9fa9d-33ea-4445-a1cb-f09202005220">
+    <attributes uuid="035da0dd-1523-4331-9101-dc3931f08b66">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -182,7 +136,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="b9e6aa62-0568-4d81-b4a6-3e5356601cf4">
+    <attributes uuid="03b3e6a7-a94f-4067-a076-20486f94d665">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -197,7 +151,7 @@
       <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="33e64cd6-be9e-4b70-9320-7996bc204935">
+    <attributes uuid="a1d13227-4551-4cd1-a2de-d9c526b1bd08">
       <name>Штрихкод</name>
       <synonym>
         <key>ru</key>

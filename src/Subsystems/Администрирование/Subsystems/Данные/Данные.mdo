@@ -30,5 +30,6 @@
   <content>Catalog.МагазиныРозница</content>
   <content>Catalog.ОрганизацииРозница</content>
   <content>Catalog.СкладыРозница</content>
+  <content>Catalog.КонтрагентыРозница</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>
