@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>(SQL) Типы кожтовара</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.моделиКожтовар.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.моделиКожтовар.StandardAttribute.Code</inputByString>
@@ -103,24 +103,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="4db5c294-bdf7-40d4-b31f-7f8f542e7b3f">
-    <name>ПолноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>

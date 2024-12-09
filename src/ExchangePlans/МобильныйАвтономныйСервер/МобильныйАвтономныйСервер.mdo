@@ -23,10 +23,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
-    <mdObject>Catalog.Секторы</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Catalog.КМ31</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -71,10 +67,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.ВидыМатериалов</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Document.ПеремещениеТоваров</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -84,10 +76,6 @@
   </content>
   <content>
     <mdObject>Catalog.НоменклатураРозница</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.МестаХранения</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -132,10 +120,6 @@
   </content>
   <content>
     <mdObject>Document.ПоступлениеТоваров</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
-    <mdObject>Catalog.ПроцентУценки</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

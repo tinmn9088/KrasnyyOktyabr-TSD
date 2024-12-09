@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>ТШК описание коробов</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ТШККороб.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -26,87 +26,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="596d8c2c-39e9-4046-af88-85143c5381f2">
-    <name>Модель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Модель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Модели</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="ee28b633-a7cf-4108-87e9-2bb26c2ae66a">
-    <name>Цвет</name>
-    <synonym>
-      <key>ru</key>
-      <value>Цвет</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.моделиЦвет</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b2f66b91-5c1f-4217-a2e6-093fde90a842">
-    <name>Кожтовар</name>
-    <synonym>
-      <key>ru</key>
-      <value>Кожтовар</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.моделиКожтовар</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9ab1613b-e299-4cb8-a56a-5c46414cd5f5">
-    <name>Уценка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Уценка</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="f6e25ecd-9efd-4511-b4d8-eabe93bb7bd5">
-    <name>Фл</name>
-    <synonym>
-      <key>ru</key>
-      <value>Фл</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c58276c3-dd8e-4d74-9d86-7cef96826776">
     <name>Дата</name>
     <synonym>
@@ -122,24 +41,55 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1ef12c9e-4f8b-449c-9b46-3a403dbe74b3">
-    <name>Метка</name>
+  <attributes uuid="b2f66b91-5c1f-4217-a2e6-093fde90a842">
+    <name>Кожтовар</name>
     <synonym>
       <key>ru</key>
-      <value>Метка</value>
+      <value>Кожтовар</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
+      <types>CatalogRef.моделиКожтовар</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="596d8c2c-39e9-4046-af88-85143c5381f2">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Модели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee28b633-a7cf-4108-87e9-2bb26c2ae66a">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.моделиЦвет</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

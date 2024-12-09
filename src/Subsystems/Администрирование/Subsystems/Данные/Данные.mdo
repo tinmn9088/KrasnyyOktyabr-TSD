@@ -8,16 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.АдресаТЛЦ</content>
-  <content>Catalog.ВидыМатериалов</content>
   <content>Catalog.Комплектовщики</content>
-  <content>Catalog.МестаХранения</content>
   <content>Catalog.Модели</content>
   <content>Catalog.моделиEAH13</content>
   <content>Catalog.моделиКожтовар</content>
   <content>Catalog.моделиРазмер</content>
   <content>Catalog.моделиЦвет</content>
-  <content>Catalog.ПроцентУценки</content>
-  <content>Catalog.Секторы</content>
   <content>Catalog.ТШККороб</content>
   <content>Catalog.КМ31</content>
   <content>Catalog.СотрудникиСклада</content>
