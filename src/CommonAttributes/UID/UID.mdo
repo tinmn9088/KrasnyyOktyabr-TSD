@@ -33,6 +33,10 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Document.ИнвентаризацияСклад</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Catalog.моделиРазмер</metadata>
     <use>Use</use>
   </content>
@@ -62,6 +66,10 @@
   </content>
   <content>
     <metadata>Catalog.ТШККороб</metadata>
+    <use>Use</use>
+  </content>
+  <content>
+    <metadata>Catalog.МестаХранения</metadata>
     <use>Use</use>
   </content>
   <autoUse>DontUse</autoUse>
