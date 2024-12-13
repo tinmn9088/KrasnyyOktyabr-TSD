@@ -2,11 +2,11 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Выбор процесса</value>
+    <value>Выбор процесса для комплектовщика</value>
   </title>
   <items xsi:type="form:FormField">
-    <name>Сотрудник</name>
-    <id>3</id>
+    <name>Комплектовщик</name>
+    <id>1</id>
     <title>
       <key>ru</key>
       <value>Для</value>
@@ -17,11 +17,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ФормаСотрудник</segments>
+      <segments>ФормаКомплектовщик</segments>
     </dataPath>
     <extendedTooltip>
-      <name>СотрудникРасширеннаяПодсказка</name>
-      <id>5</id>
+      <name>КомплектовщикРасширеннаяПодсказка</name>
+      <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -35,8 +35,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СотрудникКонтекстноеМеню</name>
-      <id>4</id>
+      <name>КомплектовщикКонтекстноеМеню</name>
+      <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -59,19 +59,19 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>ВыборПроцесса</name>
-    <id>10</id>
+    <id>6</id>
     <items xsi:type="form:FormGroup">
       <name>КнопкиВыбораПроцесса</name>
-      <id>16</id>
+      <id>8</id>
       <items xsi:type="form:FormGroup">
-        <name>ВыборПрихода</name>
-        <id>12</id>
+        <name>ВыборКонтроляОтбора</name>
+        <id>10</id>
         <items xsi:type="form:Button">
-          <name>КнопкаВыбратьПриход</name>
-          <id>6</id>
+          <name>КнопкаВыбратьКонтрольОтбора</name>
+          <id>12</id>
           <title>
             <key>ru</key>
-            <value>Приход</value>
+            <value>Контроль отбора</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -79,8 +79,8 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КнопкаВыбратьПриходРасширеннаяПодсказка</name>
-            <id>7</id>
+            <name>КнопкаВыбратьКонтрольОтбораРасширеннаяПодсказка</name>
+            <id>13</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -94,7 +94,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессПриход</commandName>
+          <commandName>Form.Command.ВыбратьПроцессКонтрольОтбора</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <height>2</height>
@@ -107,8 +107,7 @@
             <blue>255</blue>
           </textColor>
           <backColor xsi:type="core:ColorDef">
-            <green>150</green>
-            <blue>70</blue>
+            <red>198</red>
           </backColor>
           <font xsi:type="core:FontRef">
             <font>Style.LargeTextFont</font>
@@ -121,8 +120,8 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыборПриходаРасширеннаяПодсказка</name>
-          <id>13</id>
+          <name>ВыборКонтроляОтбораРасширеннаяПодсказка</name>
+          <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -148,99 +147,14 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ВыборПеремещения</name>
-        <id>18</id>
-        <items xsi:type="form:Button">
-          <name>КнопкаВыбратьПеремещение</name>
-          <id>20</id>
-          <title>
-            <key>ru</key>
-            <value>Перемещение</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>КнопкаВыбратьПеремещениеРасширеннаяПодсказка</name>
-            <id>21</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессПеремещение</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>2</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <placementArea>UserCmds</placementArea>
-          <textColor xsi:type="core:ColorDef">
-            <red>255</red>
-            <green>255</green>
-            <blue>255</blue>
-          </textColor>
-          <backColor xsi:type="core:ColorDef">
-            <red>83</red>
-            <green>105</green>
-            <blue>194</blue>
-          </backColor>
-          <font xsi:type="core:FontRef">
-            <font>Style.LargeTextFont</font>
-          </font>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ВыборПеремещенияРасширеннаяПодсказка</name>
-          <id>19</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualGroup</type>
-        <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>HorizontalIfPossible</group>
-          <behavior>Auto</behavior>
-          <representation>WeakSeparation</representation>
-          <showLeftMargin>true</showLeftMargin>
-          <united>true</united>
-          <showTitle>true</showTitle>
-          <throughAlign>Auto</throughAlign>
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ВыборИнвентаризации</name>
+        <name>ВыборИнвентаризацииОбуви</name>
         <id>14</id>
         <items xsi:type="form:Button">
-          <name>КнопкаВыбратьИнвентаризацию</name>
-          <id>8</id>
+          <name>КнопкаВыбратьИнвентаризацияОбуви</name>
+          <id>16</id>
           <title>
             <key>ru</key>
-            <value>Инвентаризация</value>
+            <value>Инвентаризация обуви</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -248,8 +162,8 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КнопкаВыбратьИнвентаризациюРасширеннаяПодсказка</name>
-            <id>9</id>
+            <name>КнопкаВыбратьИнвентаризацияОбувиРасширеннаяПодсказка</name>
+            <id>17</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -263,7 +177,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.ВыбратьПроцессИнвентаризация</commandName>
+          <commandName>Form.Command.ВыбратьПроцессИнвентаризацияОбуви</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <height>2</height>
@@ -288,7 +202,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыборИнвентаризацииРасширеннаяПодсказка</name>
+          <name>ВыборИнвентаризацииОбувиРасширеннаяПодсказка</name>
           <id>15</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -321,7 +235,7 @@
       </userVisible>
       <extendedTooltip>
         <name>КнопкиВыбораПроцессаРасширеннаяПодсказка</name>
-        <id>17</id>
+        <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -354,7 +268,7 @@
     <verticalStretch>true</verticalStretch>
     <extendedTooltip>
       <name>ВыборПроцессаРасширеннаяПодсказка</name>
-      <id>11</id>
+      <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -392,32 +306,31 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
-  <verticalSpacing>Double</verticalSpacing>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ФормаСотрудник</name>
+    <name>ФормаКомплектовщик</name>
     <title>
       <key>ru</key>
-      <value>Сотрудник</value>
+      <value>Комплектовщик</value>
     </title>
     <id>1</id>
     <valueType>
-      <types>CatalogRef.СотрудникиСклада</types>
+      <types>CatalogRef.Комплектовщики</types>
     </valueType>
     <view>
       <common>true</common>
@@ -427,68 +340,35 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ВыбратьПроцессПриход</name>
-    <title>
-      <key>ru</key>
-      <value>Выбрать приход</value>
-    </title>
+    <name>ВыбратьПроцессКонтрольОтбора</name>
     <id>1</id>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыбратьПроцессПриход</name>
+        <name>ВыбратьПроцессКонтрольОтбора</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ВыбратьПроцессИнвентаризация</name>
-    <title>
-      <key>ru</key>
-      <value>Выбрать инвентаризацию</value>
-    </title>
+    <name>ВыбратьПроцессИнвентаризацияОбуви</name>
     <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выбрать процесс инвентаризация</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыбратьПроцессИнвентаризацию</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыбратьПроцессПеремещение</name>
-    <title>
-      <key>ru</key>
-      <value>Выбрать перемещение</value>
-    </title>
-    <id>3</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выбрать процесс перемещение</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыбратьПроцессПеремещение</name>
+        <name>ВыбратьПроцессИнвентаризацияОбуви</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>Сотрудник</name>
+    <name>Комплектовщик</name>
     <valueType>
-      <types>CatalogRef.СотрудникиСклада</types>
+      <types>CatalogRef.Комплектовщики</types>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
