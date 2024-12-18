@@ -77,18 +77,22 @@
         <name>СписокПеремещенийОсновное</name>
         <id>47</id>
         <items xsi:type="form:FormField">
-          <name>ДатаПеремещения</name>
+          <name>СписокПеремещенийДата</name>
           <id>49</id>
+          <title>
+            <key>ru</key>
+            <value>Дата</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ФормаСписокПеремещений.Дата</segments>
+            <segments>ФормаСписокПеремещений.ПредставлениеДаты</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаПеремещенияРасширеннаяПодсказка</name>
+            <name>СписокПеремещенийДатаРасширеннаяПодсказка</name>
             <id>51</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -103,7 +107,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ДатаПеремещенияКонтекстноеМеню</name>
+            <name>СписокПеремещенийДатаКонтекстноеМеню</name>
             <id>50</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -112,23 +116,18 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
+          <type>LabelField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
+          <extInfo xsi:type="form:LabelFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>НомерПеремещения</name>
+          <name>СписокПеремещенийНомер</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -139,7 +138,7 @@
             <segments>ФормаСписокПеремещений.Номер</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НомерПеремещенияРасширеннаяПодсказка</name>
+            <name>СписокПеремещенийНомерРасширеннаяПодсказка</name>
             <id>54</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -154,7 +153,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>НомерПеремещенияКонтекстноеМеню</name>
+            <name>СписокПеремещенийНомерКонтекстноеМеню</name>
             <id>53</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -163,19 +162,14 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <type>InputField</type>
+          <type>LabelField</type>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
+          <extInfo xsi:type="form:LabelFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
             <textColor xsi:type="core:ColorRef">
               <color>Style.FieldSelectionBackColor</color>
             </textColor>
@@ -222,7 +216,7 @@
           <name>СписокПеремещенийОтправитель</name>
           <id>25</id>
           <items xsi:type="form:FormField">
-            <name>МагазинОтправитель</name>
+            <name>СписокПеремещенийМагазинОтправитель</name>
             <id>35</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -233,7 +227,7 @@
               <segments>ФормаСписокПеремещений.МагазинОтправитель</segments>
             </dataPath>
             <extendedTooltip>
-              <name>МагазинОтправительРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийМагазинОтправительРасширеннаяПодсказка</name>
               <id>37</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -248,7 +242,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>МагазинОтправительКонтекстноеМеню</name>
+              <name>СписокПеремещенийМагазинОтправительКонтекстноеМеню</name>
               <id>36</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -257,26 +251,22 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
               <textColor xsi:type="core:ColorRef">
                 <color>Style.AccentColor</color>
               </textColor>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>СкладОтправитель</name>
+            <name>СписокПеремещенийСкладОтправитель</name>
             <id>32</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -287,7 +277,7 @@
               <segments>ФормаСписокПеремещений.СкладОтправитель</segments>
             </dataPath>
             <extendedTooltip>
-              <name>СкладОтправительРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийСкладОтправительРасширеннаяПодсказка</name>
               <id>34</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -302,7 +292,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СкладОтправительКонтекстноеМеню</name>
+              <name>СписокПеремещенийСкладОтправительКонтекстноеМеню</name>
               <id>33</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -311,19 +301,15 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
               <textColor xsi:type="core:ColorDef">
                 <red>255</red>
                 <green>102</green>
@@ -331,7 +317,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>Организация</name>
+            <name>СписокПеремещенийОрганизация</name>
             <id>29</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -342,7 +328,7 @@
               <segments>ФормаСписокПеремещений.Организация</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ОрганизацияРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийОрганизацияРасширеннаяПодсказка</name>
               <id>31</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -357,7 +343,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ОрганизацияКонтекстноеМеню</name>
+              <name>СписокПеремещенийОрганизацияКонтекстноеМеню</name>
               <id>30</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -366,19 +352,15 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -415,7 +397,7 @@
           <name>СписокПеремещенийПолучатель</name>
           <id>27</id>
           <items xsi:type="form:FormField">
-            <name>МагазинПолучатель</name>
+            <name>СписокПеремещенийМагазинПолучатель</name>
             <id>38</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -426,7 +408,7 @@
               <segments>ФормаСписокПеремещений.МагазинПолучатель</segments>
             </dataPath>
             <extendedTooltip>
-              <name>МагазинПолучательРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийМагазинПолучательРасширеннаяПодсказка</name>
               <id>40</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -441,7 +423,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>МагазинПолучательКонтекстноеМеню</name>
+              <name>СписокПеремещенийМагазинПолучательКонтекстноеМеню</name>
               <id>39</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -450,26 +432,22 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
               <textColor xsi:type="core:ColorRef">
                 <color>Style.AccentColor</color>
               </textColor>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>СкладПолучатель</name>
+            <name>СписокПеремещенийСкладПолучатель</name>
             <id>41</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -480,7 +458,7 @@
               <segments>ФормаСписокПеремещений.СкладПолучатель</segments>
             </dataPath>
             <extendedTooltip>
-              <name>СкладПолучательРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийСкладПолучательРасширеннаяПодсказка</name>
               <id>43</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -495,7 +473,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СкладПолучательКонтекстноеМеню</name>
+              <name>СписокПеремещенийСкладПолучательКонтекстноеМеню</name>
               <id>42</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -504,19 +482,15 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
               <textColor xsi:type="core:ColorDef">
                 <red>255</red>
                 <green>102</green>
@@ -524,7 +498,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>ОрганизацияПолучатель</name>
+            <name>СписокПеремещенийОрганизацияПолучатель</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -535,7 +509,7 @@
               <segments>ФормаСписокПеремещений.ОрганизацияПолучатель</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ОрганизацияПолучательРасширеннаяПодсказка</name>
+              <name>СписокПеремещенийОрганизацияПолучательРасширеннаяПодсказка</name>
               <id>46</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -550,7 +524,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ОрганизацияПолучательКонтекстноеМеню</name>
+              <name>СписокПеремещенийОрганизацияПолучательКонтекстноеМеню</name>
               <id>45</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -559,19 +533,15 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>InputField</type>
+            <type>LabelField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <maxWidth>8</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -846,7 +816,6 @@
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <enableStartDrag>true</enableStartDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -904,22 +873,21 @@
     <edit>
       <common>true</common>
     </edit>
-    <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ПеремещениеТоваров.Дата,
-    ПеремещениеТоваров.Номер,
-    ПеремещениеТоваров.МагазинОтправитель,
-    ПеремещениеТоваров.МагазинПолучатель,
-    ПеремещениеТоваров.Организация,
-    ПеремещениеТоваров.ОрганизацияПолучатель,
-    ПеремещениеТоваров.СкладОтправитель,
-    ПеремещениеТоваров.СкладПолучатель
+	СТРОКА(ПеремещениеТоваров.Дата) КАК ПредставлениеДаты,
+	ПеремещениеТоваров.Номер КАК Номер,
+	ПеремещениеТоваров.МагазинОтправитель КАК МагазинОтправитель,
+	ПеремещениеТоваров.МагазинПолучатель КАК МагазинПолучатель,
+	ПеремещениеТоваров.Организация КАК Организация,
+	ПеремещениеТоваров.ОрганизацияПолучатель КАК ОрганизацияПолучатель,
+	ПеремещениеТоваров.СкладОтправитель КАК СкладОтправитель,
+	ПеремещениеТоваров.СкладПолучатель КАК СкладПолучатель
 ИЗ
-    Документ.ПеремещениеТоваров КАК ПеремещениеТоваров
+	Документ.ПеремещениеТоваров КАК ПеремещениеТоваров
 ГДЕ
-    НЕ ПеремещениеТоваров.ЗаполнениеЗавершено
-    И НЕ ПеремещениеТоваров.ПометкаУдаления</queryText>
+	НЕ ПеремещениеТоваров.ЗаполнениеЗавершено
+	И НЕ ПеремещениеТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.ПеремещениеТоваров</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -955,6 +923,46 @@
         <dataPath>СкладПолучатель</dataPath>
         <field>СкладПолучатель</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Товары</dataPath>
+        <field>Товары</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЗаполнениеЗавершено</dataPath>
+        <field>ЗаполнениеЗавершено</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СотрудникЗаполнившийПеремещение</dataPath>
+        <field>СотрудникЗаполнившийПеремещение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПредставлениеДаты</dataPath>
+        <field>ПредставлениеДаты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление даты</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
@@ -985,5 +993,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

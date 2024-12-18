@@ -27,5 +27,6 @@
   <content>Catalog.ОрганизацииРозница</content>
   <content>Catalog.СкладыРозница</content>
   <content>Catalog.КонтрагентыРозница</content>
+  <content>Catalog.МестаХранения</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

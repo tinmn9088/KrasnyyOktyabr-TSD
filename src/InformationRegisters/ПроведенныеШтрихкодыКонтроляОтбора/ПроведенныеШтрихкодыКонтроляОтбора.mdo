@@ -68,10 +68,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="1a3bba2d-84b0-4cd4-afb1-26d4fd2d7487">
-    <name>Комлпектовщик</name>
+    <name>Комплектовщик</name>
     <synonym>
       <key>ru</key>
-      <value>Комлпектовщик</value>
+      <value>Комплектовщик</value>
     </synonym>
     <type>
       <types>CatalogRef.Комплектовщики</types>

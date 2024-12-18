@@ -54,7 +54,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>СписокЗаданий</name>
+    <name>СписокИнвентаризацийОбуви</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -62,16 +62,16 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ФормаСписокЗаданий</segments>
+      <segments>ФормаСписокИнвентаризацийОбуви</segments>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormGroup">
-      <name>СписокЗаданийЗадание</name>
-      <id>29</id>
+      <name>СписокИнвентаризацийОбувиИнвентаризация</name>
+      <id>23</id>
       <items xsi:type="form:FormField">
-        <name>СписокЗаданийДата</name>
-        <id>31</id>
+        <name>СписокИнвентаризацийОбувиДата</name>
+        <id>20</id>
         <title>
           <key>ru</key>
           <value>Дата</value>
@@ -82,11 +82,11 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданий.ПредставлениеДаты</segments>
+          <segments>ФормаСписокИнвентаризацийОбуви.ПредставлениеДаты</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокЗаданийДатаРасширеннаяПодсказка</name>
-          <id>33</id>
+          <name>СписокИнвентаризацийОбувиДатаРасширеннаяПодсказка</name>
+          <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -100,8 +100,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокЗаданийДатаКонтекстноеМеню</name>
-          <id>32</id>
+          <name>СписокИнвентаризацийОбувиДатаКонтекстноеМеню</name>
+          <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -120,8 +120,8 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>СписокЗаданийНомер</name>
-        <id>26</id>
+        <name>СписокИнвентаризацийОбувиНомер</name>
+        <id>25</id>
         <title>
           <key>ru</key>
           <value>Номер</value>
@@ -132,11 +132,11 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданий.ПредставлениеНомера</segments>
+          <segments>ФормаСписокИнвентаризацийОбуви.ПредставлениеНомера</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокЗаданийНомерРасширеннаяПодсказка</name>
-          <id>28</id>
+          <name>СписокИнвентаризацийОбувиНомерРасширеннаяПодсказка</name>
+          <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -150,8 +150,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокЗаданийНомерКонтекстноеМеню</name>
-          <id>27</id>
+          <name>СписокИнвентаризацийОбувиНомерКонтекстноеМеню</name>
+          <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -165,7 +165,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>6</maxWidth>
+          <maxWidth>5</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorRef">
             <color>Style.FieldSelectionBackColor</color>
@@ -173,19 +173,23 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>СписокЗаданийОписание</name>
-        <id>17</id>
+        <name>СписокИнвентаризацийОбувиЦех</name>
+        <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Цех</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданий.Описание</segments>
+          <segments>ФормаСписокИнвентаризацийОбуви.НаименованиеЦеха</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокЗаданийОписаниеРасширеннаяПодсказка</name>
-          <id>19</id>
+          <name>СписокИнвентаризацийОбувиЦехРасширеннаяПодсказка</name>
+          <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -199,8 +203,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокЗаданийОписаниеКонтекстноеМеню</name>
-          <id>18</id>
+          <name>СписокИнвентаризацийОбувиЦехКонтекстноеМеню</name>
+          <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -214,12 +218,58 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>24</maxWidth>
+          <maxWidth>16</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorDef">
             <red>255</red>
             <green>102</green>
           </textColor>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СписокИнвентаризацийОбувиПримечание</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФормаСписокИнвентаризацийОбуви.Примечание</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокИнвентаризацийОбувиПримечаниеРасширеннаяПодсказка</name>
+          <id>35</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокИнвентаризацийОбувиПримечаниеКонтекстноеМеню</name>
+          <id>34</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <maxWidth>16</maxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -228,8 +278,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокЗаданийЗаданиеРасширеннаяПодсказка</name>
-        <id>30</id>
+        <name>СписокИнвентаризацийОбувиИнвентаризацияРасширеннаяПодсказка</name>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -250,7 +300,7 @@
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>СписокЗаданийКоманднаяПанель</name>
+      <name>СписокИнвентаризацийОбувиКоманднаяПанель</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,7 +312,7 @@
     </autoCommandBar>
     <handlers>
       <event>ValueChoice</event>
-      <name>СписокЗаданийВыборЗначения</name>
+      <name>СписокИнвентаризацийОбувиВыборЗначения</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -270,10 +320,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЗаданийСтрокаПоиска</name>
+      <name>СписокИнвентаризацийОбувиСтрокаПоиска</name>
       <id>8</id>
       <extendedTooltip>
-        <name>СписокЗаданийСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>СписокИнвентаризацийОбувиСтрокаПоискаРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -288,7 +338,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЗаданийСтрокаПоискаКонтекстноеМеню</name>
+        <name>СписокИнвентаризацийОбувиСтрокаПоискаКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -297,7 +347,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>СписокЗаданийСтрокаПоиска</source>
+      <source>СписокИнвентаризацийОбувиСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -308,10 +358,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЗаданийСостояниеПросмотра</name>
+      <name>СписокИнвентаризацийОбувиСостояниеПросмотра</name>
       <id>14</id>
       <extendedTooltip>
-        <name>СписокЗаданийСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>СписокИнвентаризацийОбувиСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -326,7 +376,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЗаданийСостояниеПросмотраКонтекстноеМеню</name>
+        <name>СписокИнвентаризацийОбувиСостояниеПросмотраКонтекстноеМеню</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -336,7 +386,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>СписокЗаданийСостояниеПросмотра</source>
+      <source>СписокИнвентаризацийОбувиСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -347,10 +397,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>СписокЗаданийУправлениеПоиском</name>
+      <name>СписокИнвентаризацийОбувиУправлениеПоиском</name>
       <id>11</id>
       <extendedTooltip>
-        <name>СписокЗаданийУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>СписокИнвентаризацийОбувиУправлениеПоискомРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -365,7 +415,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокЗаданийУправлениеПоискомКонтекстноеМеню</name>
+        <name>СписокИнвентаризацийОбувиУправлениеПоискомКонтекстноеМеню</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -375,13 +425,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>СписокЗаданийУправлениеПоиском</source>
+      <source>СписокИнвентаризацийОбувиУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокЗаданийРасширеннаяПодсказка</name>
+      <name>СписокИнвентаризацийОбувиРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -396,7 +446,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СписокЗаданийКонтекстноеМеню</name>
+      <name>СписокИнвентаризацийОбувиКонтекстноеМеню</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -483,10 +533,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаСписокЗаданий</name>
+    <name>ФормаСписокИнвентаризацийОбуви</name>
     <title>
       <key>ru</key>
-      <value>Список заданий</value>
+      <value>Список инвентаризаций обуви</value>
     </title>
     <id>2</id>
     <valueType>
@@ -500,44 +550,17 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ВсеЗаданияНаОтбор.Ссылка КАК Задание
-ПОМЕСТИТЬ НевыполненныеЗадания
+	СТРОКА(ИнвентаризацияСклад.Дата) КАК ПредставлениеДаты,
+	СТРОКА(ИнвентаризацияСклад.Номер) КАК ПредставлениеНомера,
+	ИнвентаризацияСклад.Цех.Наименование КАК НаименованиеЦеха,
+	ИнвентаризацияСклад.Примечание КАК Примечание
 ИЗ
-	Документ.Задание.ЗаданиеНаОтбор КАК ВсеЗаданияНаОтбор
+	Документ.ИнвентаризацияСклад КАК ИнвентаризацияСклад
 ГДЕ
-	ВсеЗаданияНаОтбор.Комплектовщик = &amp;Комплектовщик
-
-СГРУППИРОВАТЬ ПО
-	ВсеЗаданияНаОтбор.Ссылка
-
-ИМЕЮЩИЕ
-	СУММА(ВсеЗаданияНаОтбор.Количество) > 0
-
-ИНДЕКСИРОВАТЬ ПО
-	Задание
-;
-
-////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-	Задания.Ссылка КАК Ссылка,
-	СТРОКА(Задания.Дата) КАК ПредставлениеДаты,
-	Задания.ВКоробах КАК ВКоробах,
-	Задания.ВКоробках КАК ВКоробках,
-	СТРОКА(Задания.Номер) КАК ПредставлениеНомера
-ИЗ
-	НевыполненныеЗадания КАК НевыполненныеЗадания
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.Задание КАК Задания
-		ПО НевыполненныеЗадания.Задание = Задания.Ссылка
-ГДЕ
-	Задания.Статус &lt;> ЗНАЧЕНИЕ(Перечисление.СтатусЗадания.Закрыто)
-	И НЕ Задания.ПометкаУдаления</queryText>
-      <mainTable>Document.Задание</mainTable>
+	НЕ ИнвентаризацияСклад.ПометкаУдаления</queryText>
+      <mainTable>Document.ИнвентаризацияСклад</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВКоробках</dataPath>
-        <field>ВКоробках</field>
-      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дата</dataPath>
         <field>Дата</field>
@@ -547,40 +570,24 @@
         <field>Номер</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВКоробах</dataPath>
-        <field>ВКоробах</field>
+        <dataPath>Примечание</dataPath>
+        <field>Примечание</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
+        <dataPath>Цех</dataPath>
+        <field>Цех</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДокументНаПеремещение</dataPath>
-        <field>ДокументНаПеремещение</field>
+        <dataPath>Штрихкоды</dataPath>
+        <field>Штрихкоды</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Зона</dataPath>
-        <field>Зона</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Статус</dataPath>
-        <field>Статус</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЗаданиеНаОтбор</dataPath>
-        <field>ЗаданиеНаОтбор</field>
+        <dataPath>ЯчейкиКомплектовщиков</dataPath>
+        <field>ЯчейкиКомплектовщиков</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>МоментВремени</dataPath>
         <field>МоментВремени</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>UID</dataPath>
-        <field>UID</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПометкаУдаления</dataPath>
@@ -589,6 +596,26 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Проведен</dataPath>
         <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>UID</dataPath>
+        <field>UID</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеЦеха</dataPath>
+        <field>НаименованиеЦеха</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Наименование цеха</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПредставлениеДаты</dataPath>
@@ -614,39 +641,6 @@
           </localValue>
         </title>
       </fields>
-      <calculatedFields>
-        <dataPath>Описание</dataPath>
-        <expression>&quot;В коробах - &quot; + Строка(ВКоробах) + &quot; / В коробках - &quot; + Строка(ВКоробках)</expression>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Описание</value>
-            </content>
-          </localValue>
-        </title>
-        <useRestriction>
-          <condition>true</condition>
-          <group>true</group>
-          <order>true</order>
-        </useRestriction>
-      </calculatedFields>
-      <parameters>
-        <name>Комплектовщик</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Комплектовщик</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>CatalogRef.Комплектовщики</types>
-        </valueType>
-        <values xsi:type="core:UndefinedValue"/>
-        <useRestriction>true</useRestriction>
-      </parameters>
     </extInfo>
   </attributes>
   <parameters>

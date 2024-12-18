@@ -23,6 +23,24 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="41c6abdb-1445-49aa-a5ac-50657e1c7336">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="8257a527-a58f-46c2-9a03-8049ad8f653b">
     <name>Цех</name>
     <synonym>
@@ -38,31 +56,57 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="04018d9b-069a-45fa-89ab-2de447a41046">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="9c45c692-82d5-4d4b-b8aa-b9b2b46bd789">
     <producedTypes>
       <objectType typeId="fc2af6d9-204e-4121-9c66-1940653e1e0b" valueTypeId="7131583e-b6a4-42a7-9c83-96c93848c7a3"/>
       <rowType typeId="8612667c-e2b9-4ffc-abee-d84d0cdd8a0e" valueTypeId="feb89d3a-8449-47f7-90b8-61ff2e6ac117"/>
     </producedTypes>
-    <name>ТабличнаяЧасть</name>
+    <name>Штрихкоды</name>
     <synonym>
       <key>ru</key>
-      <value>Табличная часть</value>
+      <value>Штрихкоды</value>
     </synonym>
-    <attributes uuid="f15ce17e-1618-4e27-bd64-b6475cf2c7b4">
-      <name>КодЯчейки</name>
+    <attributes uuid="50daf834-15ea-4f00-b013-437e818e76e3">
+      <name>Дата</name>
       <synonym>
         <key>ru</key>
-        <value>Код ячейки</value>
+        <value>Дата</value>
       </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c45b32e9-d177-4c09-8d0c-7ae259359a38">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <comment>Технологический штрихкод (19 символов) или часть кода маркировки (первые 31 символ).</comment>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>8</length>
+          <length>31</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="4cdd8c14-7f64-4e71-9e19-a8da34fae7b6">
@@ -77,36 +121,63 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="9ee64d85-3f0b-4680-ae9b-6489d1877bd1">
-      <name>НомерКороба</name>
+    <attributes uuid="f15ce17e-1618-4e27-bd64-b6475cf2c7b4">
+      <name>НомерЯчейки</name>
       <synonym>
         <key>ru</key>
-        <value>Номер короба</value>
+        <value>Номер ячейки</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>9</precision>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>8</length>
+        </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c45b32e9-d177-4c09-8d0c-7ae259359a38">
-      <name>КМ31</name>
+  </tabularSections>
+  <tabularSections uuid="96cc7389-dbcc-4755-b701-c0ece28b8bf9">
+    <producedTypes>
+      <objectType typeId="7075cd37-ed1a-472c-aa26-518952722293" valueTypeId="210f677d-3af2-4ae7-addb-bf1ffae43e47"/>
+      <rowType typeId="133e0e73-027e-45e8-83e1-7e578e35be06" valueTypeId="4e5fe41b-a4c3-4905-bb3d-7e7ba0471f71"/>
+    </producedTypes>
+    <name>ЯчейкиКомплектовщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейки комплектовщиков</value>
+    </synonym>
+    <comment>Нужно для восстановления значения текущей ячейки при выполнении инвентаризации.</comment>
+    <attributes uuid="b1b917ad-05d6-4825-9f51-144aecec6109">
+      <name>Комплектовщик</name>
       <synonym>
         <key>ru</key>
-        <value>КМ31</value>
+        <value>Комплектовщик</value>
       </synonym>
-      <comment>Часть кода маркировки</comment>
+      <type>
+        <types>CatalogRef.Комплектовщики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50544f05-3e04-49a1-80e9-91e9e3dafcd0">
+      <name>НомерЯчейки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер ячейки</value>
+      </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>31</length>
+          <length>8</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
