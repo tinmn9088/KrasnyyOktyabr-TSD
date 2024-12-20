@@ -655,135 +655,6 @@
       <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
-  <items xsi:type="form:FormGroup">
-    <name>ВводШтрихкода</name>
-    <id>4</id>
-    <items xsi:type="form:FormField">
-      <name>ВводШтрихкодаЗначение</name>
-      <id>6</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ФормаШтрихкод</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <titleLocation>None</titleLocation>
-      <extendedTooltip>
-        <name>ВводШтрихкодаЗначениеРасширеннаяПодсказка</name>
-        <id>8</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВводШтрихкодаЗначениеКонтекстноеМеню</name>
-        <id>7</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>EditTextChange</event>
-          <name>ВводШтрихкодаЗначениеИзменениеТекстаРедактирования</name>
-        </handlers>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <editTextUpdate>Always</editTextUpdate>
-        <inputHint>
-          <key>ru</key>
-          <value>Штрихкод</value>
-        </inputHint>
-      </extInfo>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ВводШтрихкодаКнопка</name>
-      <id>9</id>
-      <visible>true</visible>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <defaultItem>true</defaultItem>
-      <extendedTooltip>
-        <name>ВводШтрихкодаКнопкаРасширеннаяПодсказка</name>
-        <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.ОбработатьШтрихкодСФормы</commandName>
-      <representation>Auto</representation>
-      <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <height>1</height>
-    <verticalStretch>false</verticalStretch>
-    <extendedTooltip>
-      <name>ВводШтрихкодаРасширеннаяПодсказка</name>
-      <id>5</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
-      <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -815,6 +686,37 @@
         </extInfo>
       </extendedTooltip>
       <commandName>Form.Command.ОчиститьШтрихкоды</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КнопкаВвестиШтрихкод</name>
+      <id>56</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КнопкаВвестиШтрихкодРасширеннаяПодсказка</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВвестиШтрихкод</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -877,24 +779,6 @@
     <id>2</id>
     <valueType>
       <types>CatalogRef.Комплектовщики</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ФормаШтрихкод</name>
-    <title>
-      <key>ru</key>
-      <value>Штрихкод</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -1026,11 +910,29 @@
       <common>true</common>
     </edit>
   </attributes>
-  <formCommands>
-    <name>ОбработатьШтрихкодСФормы</name>
+  <attributes>
+    <name>ФормаШтрихкод</name>
     <title>
       <key>ru</key>
-      <value>Обработать</value>
+      <value>Штрихкод</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ВвестиШтрихкод</name>
+    <title>
+      <key>ru</key>
+      <value>Ввести штрихкод</value>
     </title>
     <id>1</id>
     <use>
@@ -1038,7 +940,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОбработатьШтрихкодСФормы</name>
+        <name>ОбработатьШтрихкодСФормыАсинх</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
