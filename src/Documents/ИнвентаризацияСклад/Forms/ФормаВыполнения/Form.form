@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
-  <title>
-    <key>ru</key>
-    <value>Выполнение</value>
-  </title>
   <items xsi:type="form:FormField">
-    <name>Ссылка</name>
-    <id>17</id>
+    <name>Документ</name>
+    <id>92</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Ref</segments>
+      <segments>ФормаДокумент</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СсылкаРасширеннаяПодсказка</name>
-      <id>19</id>
+      <name>ДокументРасширеннаяПодсказка</name>
+      <id>94</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -32,8 +28,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>СсылкаКонтекстноеМеню</name>
-      <id>18</id>
+      <name>ДокументКонтекстноеМеню</name>
+      <id>93</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -49,7 +45,6 @@
     <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <verticalStretch>false</verticalStretch>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -112,18 +107,18 @@
     <id>49</id>
     <items xsi:type="form:FormField">
       <name>Цех</name>
-      <id>11</id>
+      <id>86</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Цех</segments>
+        <segments>ФормаДокумент.Цех</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЦехРасширеннаяПодсказка</name>
-        <id>13</id>
+        <id>88</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -138,7 +133,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ЦехКонтекстноеМеню</name>
-        <id>12</id>
+        <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -152,8 +147,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <maxWidth>8</maxWidth>
-        <height>1</height>
+        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <textColor xsi:type="core:ColorDef">
           <red>255</red>
@@ -163,18 +157,18 @@
     </items>
     <items xsi:type="form:FormField">
       <name>Примечание</name>
-      <id>14</id>
+      <id>89</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Примечание</segments>
+        <segments>ФормаДокумент.Примечание</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПримечаниеРасширеннаяПодсказка</name>
-        <id>16</id>
+        <id>91</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -189,7 +183,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ПримечаниеКонтекстноеМеню</name>
-        <id>15</id>
+        <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -204,7 +198,6 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <height>1</height>
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
@@ -302,7 +295,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>СписокШтрихкодов</name>
-    <id>20</id>
+    <id>58</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -313,23 +306,19 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>СписокШтрихкодовВремя</name>
-      <id>46</id>
-      <title>
-        <key>ru</key>
-        <value>Время</value>
-      </title>
+      <name>СписокШтрихкодовДата</name>
+      <id>77</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаСписокШтрихкодов.ДатаСканирования</segments>
+        <segments>ФормаСписокШтрихкодов.Дата</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокШтрихкодовВремяРасширеннаяПодсказка</name>
-        <id>48</id>
+        <name>СписокШтрихкодовДатаРасширеннаяПодсказка</name>
+        <id>79</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -343,8 +332,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СписокШтрихкодовВремяКонтекстноеМеню</name>
-        <id>47</id>
+        <name>СписокШтрихкодовДатаКонтекстноеМеню</name>
+        <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -371,7 +360,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>СписокШтрихкодовНомерЯчейки</name>
-      <id>33</id>
+      <id>74</id>
       <title>
         <key>ru</key>
         <value>Ячейка</value>
@@ -386,7 +375,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СписокШтрихкодовНомерЯчейкиРасширеннаяПодсказка</name>
-        <id>35</id>
+        <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -401,7 +390,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовНомерЯчейкиКонтекстноеМеню</name>
-        <id>34</id>
+        <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -424,7 +413,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>СписокШтрихкодовШтрихкод</name>
-      <id>36</id>
+      <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -435,7 +424,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СписокШтрихкодовШтрихкодРасширеннаяПодсказка</name>
-        <id>38</id>
+        <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -450,7 +439,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовШтрихкодКонтекстноеМеню</name>
-        <id>37</id>
+        <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -464,14 +453,14 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <maxWidth>13</maxWidth>
+        <maxWidth>8</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокШтрихкодовКоманднаяПанель</name>
-      <id>21</id>
+      <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -491,10 +480,10 @@
         <common>true</common>
       </userVisible>
       <name>СписокШтрихкодовСтрокаПоиска</name>
-      <id>24</id>
+      <id>62</id>
       <extendedTooltip>
         <name>СписокШтрихкодовСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>26</id>
+        <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -509,7 +498,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовСтрокаПоискаКонтекстноеМеню</name>
-        <id>25</id>
+        <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -529,10 +518,10 @@
         <common>true</common>
       </userVisible>
       <name>СписокШтрихкодовСостояниеПросмотра</name>
-      <id>30</id>
+      <id>68</id>
       <extendedTooltip>
         <name>СписокШтрихкодовСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>32</id>
+        <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -547,7 +536,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовСостояниеПросмотраКонтекстноеМеню</name>
-        <id>31</id>
+        <id>69</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -568,10 +557,10 @@
         <common>true</common>
       </userVisible>
       <name>СписокШтрихкодовУправлениеПоиском</name>
-      <id>27</id>
+      <id>65</id>
       <extendedTooltip>
         <name>СписокШтрихкодовУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>29</id>
+        <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -586,7 +575,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовУправлениеПоискомКонтекстноеМеню</name>
-        <id>28</id>
+        <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -602,7 +591,7 @@
     </searchControlAddition>
     <extendedTooltip>
       <name>СписокШтрихкодовРасширеннаяПодсказка</name>
-      <id>23</id>
+      <id>61</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -617,7 +606,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокШтрихкодовКонтекстноеМеню</name>
-      <id>22</id>
+      <id>60</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -745,31 +734,12 @@
   </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <attributes>
-    <name>Объект</name>
-    <id>1</id>
-    <valueType>
-      <types>DocumentObject.ИнвентаризацияСклад</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.RegisterRecords</segments>
-    </notDefaultUseAlwaysAttributes>
-    <main>true</main>
-    <savedData>true</savedData>
-  </attributes>
   <attributes>
     <name>ФормаКомплектовщик</name>
     <title>
@@ -805,56 +775,27 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ИнвентаризацияСкладШтрихкоды.НомерСтроки КАК НомерШтрихкода,
-    ИнвентаризацияСкладШтрихкоды.НомерЯчейки,
-    ИнвентаризацияСкладШтрихкоды.Значение КАК Штрихкод,
-    ИнвентаризацияСкладШтрихкоды.Дата КАК ДатаСканирования
+    ВсеШтрихкоды.Штрихкод,
+    ВсеШтрихкоды.НомерЯчейки,
+    ВсеШтрихкоды.Дата
 ИЗ
-    Документ.ИнвентаризацияСклад.Штрихкоды КАК ИнвентаризацияСкладШтрихкоды
+    РегистрСведений.ШтрихкодыИнвентаризацииОбуви КАК ВсеШтрихкоды
 ГДЕ
-    ИнвентаризацияСкладШтрихкоды.Ссылка = &amp;Документ
-    И ИнвентаризацияСкладШтрихкоды.Комплектовщик = &amp;Комплектовщик</queryText>
+    ВсеШтрихкоды.Документ = &amp;Документ
+    И ВсеШтрихкоды.Комплектовщик = &amp;Комплектовщик</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>НомерШтрихкода</dataPath>
-        <field>НомерШтрихкода</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Номер штрихкода</value>
-            </content>
-          </localValue>
-        </title>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Штрихкод</dataPath>
         <field>Штрихкод</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Штрихкод</value>
-            </content>
-          </localValue>
-        </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>НомерЯчейки</dataPath>
         <field>НомерЯчейки</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДатаСканирования</dataPath>
-        <field>ДатаСканирования</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Дата сканирования</value>
-            </content>
-          </localValue>
-        </title>
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
       </fields>
       <parameters>
         <name>Комплектовщик</name>
@@ -869,7 +810,6 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
-        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
@@ -885,11 +825,10 @@
         <valueType>
           <types>DocumentRef.ИнвентаризацияСклад</types>
         </valueType>
-        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <keyType>FieldValue</keyType>
-      <keyField>НомерШтрихкода</keyField>
+      <keyField>Штрихкод</keyField>
     </extInfo>
   </attributes>
   <attributes>
@@ -920,6 +859,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаДокумент</name>
+    <title>
+      <key>ru</key>
+      <value>Документ</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>DocumentRef.ИнвентаризацияСклад</types>
     </valueType>
     <view>
       <common>true</common>
@@ -969,11 +925,15 @@
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
+  <parameters>
+    <name>Документ</name>
+    <valueType>
+      <types>DocumentRef.ИнвентаризацияСклад</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DocumentFormExtInfo">
-    <repostOnWrite>true</repostOnWrite>
-  </extInfo>
 </form:Form>

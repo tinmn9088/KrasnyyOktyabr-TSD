@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>5.0.6</version>
+  <version>5.0.8</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -113,4 +113,5 @@
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
 </mdclass:Configuration>

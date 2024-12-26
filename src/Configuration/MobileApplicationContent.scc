@@ -38,6 +38,7 @@
   <usedItem metadata="Document.ВыполнениеЗадания"/>
   <usedItem metadata="Role.ПолныйДоступ"/>
   <usedItem metadata="Subsystem.Администрирование"/>
+  <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви"/>
   <usedItem metadata="Catalog.АдресаТЛЦ"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
   <usedItem metadata="Catalog.ОрганизацииЭДиН"/>

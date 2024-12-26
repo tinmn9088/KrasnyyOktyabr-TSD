@@ -28,5 +28,6 @@
   <content>Catalog.СкладыРозница</content>
   <content>Catalog.КонтрагентыРозница</content>
   <content>Catalog.МестаХранения</content>
+  <content>InformationRegister.ШтрихкодыИнвентаризацииОбуви</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>
