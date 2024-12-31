@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29ad2387-e901-40f2-ae56-87ea083fb032">
+  <producedTypes>
+    <selectionType typeId="999e6eec-e3a5-407f-ad17-72ea4688cb6c" valueTypeId="64b3990d-3dd3-4e52-9f9e-934177d85edd"/>
+    <listType typeId="f91b2d4d-c5c6-42ce-8213-9f2805586495" valueTypeId="c0f0e8ae-3317-44df-b485-81259ea9fe6c"/>
+    <managerType typeId="6b5cfd88-7614-477f-ae11-a7bee2a3ac6d" valueTypeId="3f97671c-8b87-4bc8-876b-7a8dc57cb660"/>
+    <recordSetType typeId="dbb3b736-11e8-4238-9953-beceaa7559c4" valueTypeId="2d687229-78bb-4f06-afd7-b4b5cb7a9950"/>
+    <recordKeyType typeId="fcb3d96d-0ad5-4e1d-a4e1-de106e1d5534" valueTypeId="d4aa9074-330e-40b3-8d21-70a17574d4f5"/>
+    <recordType typeId="282df10c-4c73-4dd6-a46a-04a8124597eb" valueTypeId="b791c898-abdf-4e2c-ad61-c43501b85a6d"/>
+    <recordManagerType typeId="9084f1e7-e212-488f-8ee9-a9f186f72f9b" valueTypeId="5b7b4cae-a320-435a-800a-98cbb7d70024"/>
+  </producedTypes>
+  <name>ШтрихкодыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды товаров</value>
+  </synonym>
+  <comment>Хранит штрихкоды, отсканиованные для поступлений по БСО.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="79277127-5c74-4791-bbda-543dff6f5e07">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf2a85fe-bcf2-4aab-8467-fbaa0ee232c5">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="384f23ec-734c-4a2c-9d22-81ee5b2af1ce">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="fc1dd873-d3c8-4e2b-8d4c-709a64ebe2f2">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="109709cc-2436-4d02-810f-1772c6e774ed">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
