@@ -23,10 +23,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
-    <mdObject>Catalog.Секторы</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Catalog.КМ31</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -51,6 +47,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.ИнвентаризацияСклад</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -71,10 +71,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.ВидыМатериалов</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>Document.ПеремещениеТоваров</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -87,11 +83,11 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.МестаХранения</mdObject>
+    <mdObject>Document.ВыполнениеЗадания</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ВыполнениеЗадания</mdObject>
+    <mdObject>InformationRegister.ШтрихкодыИнвентаризацииОбуви</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
@@ -135,10 +131,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Catalog.ПроцентУценки</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.ЖурналОшибокКонтроляОтбора</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -148,6 +140,10 @@
   </content>
   <content>
     <mdObject>Catalog.КонтрагентыЭДиН</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.МестаХранения</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>

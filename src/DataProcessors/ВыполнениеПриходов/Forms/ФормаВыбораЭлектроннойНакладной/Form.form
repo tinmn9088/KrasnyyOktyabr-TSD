@@ -70,18 +70,22 @@
       <name>СписокАктовПриемкиТоваровОсновное</name>
       <id>34</id>
       <items xsi:type="form:FormField">
-        <name>Дата</name>
+        <name>СписокАктовПриемкиТоваровДата</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Дата</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокАктовПриемкиТоваров.Дата</segments>
+          <segments>ФормаСписокАктовПриемкиТоваров.ПредставлениеДаты</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровДатаРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -96,7 +100,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ДатаКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровДатаКонтекстноеМеню</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -105,23 +109,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <maxWidth>19</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>Номер</name>
+        <name>СписокАктовПриемкиТоваровНомер</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -132,7 +131,7 @@
           <segments>ФормаСписокАктовПриемкиТоваров.Номер</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НомерРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровНомерРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -147,7 +146,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>НомерКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровНомерКонтекстноеМеню</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -156,26 +155,21 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <maxWidth>11</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorRef">
             <color>Style.FieldSelectionBackColor</color>
           </textColor>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>ИспользуетсяМаркировкаТоваров</name>
+        <name>СписокАктовПриемкиТоваровИспользуетсяМаркировкаТоваров</name>
         <id>42</id>
         <title>
           <key>ru</key>
@@ -190,7 +184,7 @@
           <segments>ФормаСписокАктовПриемкиТоваров.ИспользуетсяМаркировкаТоваров</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ИспользуетсяМаркировкаТоваровРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровИспользуетсяМаркировкаТоваровРасширеннаяПодсказка</name>
           <id>44</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -205,7 +199,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ИспользуетсяМаркировкаТоваровКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровИспользуетсяМаркировкаТоваровКонтекстноеМеню</name>
           <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -220,7 +214,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
+          <maxWidth>2</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <format>
             <key>ru</key>
@@ -269,7 +263,7 @@
       <name>СписокАктовПриемкиТоваровДополнительное</name>
       <id>32</id>
       <items xsi:type="form:FormField">
-        <name>Организация</name>
+        <name>СписокАктовПриемкиТоваровОрганизация</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -280,7 +274,7 @@
           <segments>ФормаСписокАктовПриемкиТоваров.Организация</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ОрганизацияРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровОрганизацияРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -295,7 +289,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ОрганизацияКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровОрганизацияКонтекстноеМеню</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -315,7 +309,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>Контрагент</name>
+        <name>СписокАктовПриемкиТоваровКонтрагент</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -326,7 +320,7 @@
           <segments>ФормаСписокАктовПриемкиТоваров.Контрагент</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КонтрагентРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровКонтрагентРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -341,7 +335,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КонтрагентКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровКонтрагентКонтекстноеМеню</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -364,7 +358,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>Склад</name>
+        <name>СписокАктовПриемкиТоваровСклад</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -375,7 +369,7 @@
           <segments>ФормаСписокАктовПриемкиТоваров.Склад</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СкладРасширеннаяПодсказка</name>
+          <name>СписокАктовПриемкиТоваровСкладРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -390,7 +384,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СкладКонтекстноеМеню</name>
+          <name>СписокАктовПриемкиТоваровСкладКонтекстноеМеню</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -702,7 +696,7 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	АктПриемкиТоваров.Номер КАК Номер,
-	АктПриемкиТоваров.Дата КАК Дата,
+	СТРОКА(АктПриемкиТоваров.Дата) КАК ПредставлениеДаты,
 	АктПриемкиТоваров.Контрагент КАК Контрагент,
 	АктПриемкиТоваров.Организация КАК Организация,
 	АктПриемкиТоваров.Склад КАК Склад,
@@ -770,6 +764,18 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СотрудникЗавершившийПроверку</dataPath>
         <field>СотрудникЗавершившийПроверку</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПредставлениеДаты</dataPath>
+        <field>ПредставлениеДаты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление даты</value>
+            </content>
+          </localValue>
+        </title>
       </fields>
     </extInfo>
   </attributes>

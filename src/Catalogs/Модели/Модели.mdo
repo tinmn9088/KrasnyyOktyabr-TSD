@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>(Артикулы моделей)</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Модели.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Модели.StandardAttribute.Code</inputByString>
@@ -95,9 +95,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
-  <limitLevelCount>true</limitLevelCount>
-  <levelCount>4</levelCount>
+  <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>5</codeLength>
   <descriptionLength>30</descriptionLength>

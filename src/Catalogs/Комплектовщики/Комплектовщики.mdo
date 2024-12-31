@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>Комплектовщики</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Комплектовщики.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Комплектовщики.StandardAttribute.Code</inputByString>
@@ -120,21 +120,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4f47d4e2-dcf3-4b68-87fb-366755a7e7cb">
-    <name>Сектор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сектор</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Секторы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -150,27 +136,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="4628fd68-043e-4a4c-8674-7863184a8fea">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </type>
-    <passwordMode>true</passwordMode>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

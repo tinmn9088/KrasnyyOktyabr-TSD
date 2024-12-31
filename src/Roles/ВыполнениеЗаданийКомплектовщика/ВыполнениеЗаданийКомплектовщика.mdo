@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3494454-65f2-4eba-853d-366d54b134da">
-  <name>ВыполнениеЗаданийКонтроляОтбора</name>
+  <name>ВыполнениеЗаданийКомплектовщика</name>
   <synonym>
     <key>ru</key>
-    <value>Выполнение заданий контроля отбора</value>
+    <value>Выполнение заданий комплектовщика</value>
   </synonym>
   <comment>Есть права на запись в справочники и документы для работы плана обмена для мобильного автономного сервера.</comment>
 </mdclass:Role>

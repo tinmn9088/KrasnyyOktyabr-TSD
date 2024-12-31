@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>4.0.5</version>
+  <version>5.0.9</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -50,8 +50,8 @@
   <subsystems>Subsystem.Монитор</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
   <roles>Role.ПолныйДоступ</roles>
-  <roles>Role.АдминистрированиеКонтроляОтбора</roles>
-  <roles>Role.ВыполнениеЗаданийКонтроляОтбора</roles>
+  <roles>Role.АдминистрированиеЗаданийКомплектовщика</roles>
+  <roles>Role.ВыполнениеЗаданийКомплектовщика</roles>
   <roles>Role.АдминистрированиеПриходов</roles>
   <roles>Role.ВыполнениеПриходов</roles>
   <roles>Role.АдминистрированиеПеремещений</roles>
@@ -60,6 +60,7 @@
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XML</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
+  <commonModules>CommonModule.ИнвентаризацияОбуви</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
@@ -71,10 +72,10 @@
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
-  <catalogs>Catalog.ВидыМатериалов</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
   <catalogs>Catalog.Комплектовщики</catalogs>
@@ -91,8 +92,6 @@
   <catalogs>Catalog.НоменклатураЭДиН</catalogs>
   <catalogs>Catalog.ОрганизацииРозница</catalogs>
   <catalogs>Catalog.ОрганизацииЭДиН</catalogs>
-  <catalogs>Catalog.ПроцентУценки</catalogs>
-  <catalogs>Catalog.Секторы</catalogs>
   <catalogs>Catalog.СкладыРозница</catalogs>
   <catalogs>Catalog.СкладыЭДиН</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
@@ -101,14 +100,18 @@
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.ВыполнениеЗадания</documents>
   <documents>Document.Задание</documents>
+  <documents>Document.ИнвентаризацияСклад</documents>
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибки</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
 </mdclass:Configuration>

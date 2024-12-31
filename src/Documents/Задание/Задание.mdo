@@ -132,24 +132,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0768dbe4-26f6-493e-85fe-a087dcc188a1">
-    <name>НомерПоПорядку</name>
-    <synonym>
-      <key>ru</key>
-      <value>НомерПоПорядку</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>6</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="b1693268-e8eb-4278-bfab-ec2e16a2ec04">
     <name>Статус</name>
     <synonym>
@@ -184,17 +166,8 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="fc40033b-7604-44f8-bd74-53e95a0b268d">
-    <name>ФормаВыбораЗаданияДляКомплектовщика</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выбор задания для комплектовщика</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="ae596443-e001-4631-91d8-d6a38d5e803d">
-    <name>ФормаВыполненияЗадания</name>
+  <forms uuid="e12bc868-f600-4fee-a06b-6dfdcf0fa1d9">
+    <name>ФормаВыполнения</name>
     <synonym>
       <key>ru</key>
       <value>Выполнение задания</value>
@@ -246,6 +219,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1ea3d849-d68f-4806-ac64-9e5bb13d474e">
@@ -275,6 +249,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="17792eb1-c866-4977-84c5-81dc690a9c18">
@@ -289,6 +264,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="267561d2-d666-4411-8b6c-edc8b3f35b77">
@@ -303,6 +279,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="a7401e6c-ac8e-4367-8f41-dff3b647dcf5">
@@ -334,6 +311,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="c9cdc546-69ed-468b-af90-c31a034989ea">

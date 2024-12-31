@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d0c67da-43b5-4b9e-aef7-c13130c5fed0">
+  <producedTypes>
+    <selectionType typeId="86aba57f-b877-49f9-b6ce-3cc5174717b3" valueTypeId="842ef39f-f5ba-415c-8761-b8f1bf33ad8a"/>
+    <listType typeId="cba10f2b-8a55-44e1-9ab5-ade4c04b5aae" valueTypeId="406d51cb-82d6-4460-a106-bcd3c0a5b9fc"/>
+    <managerType typeId="399fd9e1-69c2-43af-81af-0d344427e12b" valueTypeId="bff09e02-1b09-4320-9a91-4240a298da23"/>
+    <recordSetType typeId="9297f897-e55d-4cf7-b64b-a46973d6807f" valueTypeId="60a3988d-9cfb-40b7-b976-14139c88b8ee"/>
+    <recordKeyType typeId="433a76d7-b64f-448f-9ed6-f7773512320c" valueTypeId="248dd107-a31b-4886-b1a6-76aecd19d29d"/>
+    <recordType typeId="3b96234d-c0c1-47f1-86b9-b61055a9c2be" valueTypeId="11d78128-e952-46f4-b80c-d3225778adcd"/>
+    <recordManagerType typeId="ed075b98-5ae7-4f1c-b09e-ea01705aff92" valueTypeId="3126d2f3-8c9e-4fb4-8cbc-448dca0a0c2d"/>
+  </producedTypes>
+  <name>ШтрихкодыИнвентаризацииОбуви</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды инвентаризации обуви</value>
+  </synonym>
+  <comment>Используется вместо табличной части документа ИнвентаризацияСклад, чтобы не пропадали данные при работе в автономном режиме.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="62a1dd3b-62e4-4142-b09b-1e170369fa32">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b456158b-6756-4555-89c6-f24cb971c2ad">
+    <name>Комплектовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектовщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Комплектовщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd62135f-2fc5-483b-b258-6aa31e578af7">
+    <name>НомерЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ячейки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>8</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cc34dfc1-9980-482f-a72b-cf8ebe33283b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ИнвентаризацияСклад</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c04177d8-b1ed-432b-8dbc-6cb8d946a0eb">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>31</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

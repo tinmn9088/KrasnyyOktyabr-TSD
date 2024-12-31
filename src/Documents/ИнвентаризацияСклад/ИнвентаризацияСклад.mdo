@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b23f890-92f5-425e-9e30-f23608db4455">
+  <producedTypes>
+    <objectType typeId="dfdf78c6-a754-45e4-8462-19e6c2d4fe45" valueTypeId="59683a62-f670-449c-850f-64a09476da58"/>
+    <refType typeId="eb1c0c33-6160-4872-88f2-f4e1cbee4eeb" valueTypeId="9770b6be-15e0-43ab-926e-be5dbce8be37"/>
+    <selectionType typeId="4ed1ad14-7813-4820-ba96-af3b64838489" valueTypeId="1e8a4d95-8399-4920-b631-63e3a7b3ffca"/>
+    <listType typeId="b85fca8d-f947-49de-9114-3f8072fa1aa2" valueTypeId="f149ed2d-3d0e-4d87-b5fe-c1974dce736c"/>
+    <managerType typeId="253292e7-5299-4c11-a3e2-654c1a405aee" valueTypeId="9fdd57c8-85e1-4b95-8dc3-092c2139c1b1"/>
+  </producedTypes>
+  <name>ИнвентаризацияСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризация на складе</value>
+  </synonym>
+  <comment>Аналог документа из ТШК 1С 7.7.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИнвентаризацияСклад.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberLength>5</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="41c6abdb-1445-49aa-a5ac-50657e1c7336">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8257a527-a58f-46c2-9a03-8049ad8f653b">
+    <name>Цех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цех</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МестаХранения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="04018d9b-069a-45fa-89ab-2de447a41046">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="96cc7389-dbcc-4755-b701-c0ece28b8bf9">
+    <producedTypes>
+      <objectType typeId="7075cd37-ed1a-472c-aa26-518952722293" valueTypeId="210f677d-3af2-4ae7-addb-bf1ffae43e47"/>
+      <rowType typeId="133e0e73-027e-45e8-83e1-7e578e35be06" valueTypeId="4e5fe41b-a4c3-4905-bb3d-7e7ba0471f71"/>
+    </producedTypes>
+    <name>ЯчейкиКомплектовщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейки комплектовщиков</value>
+    </synonym>
+    <comment>Нужно для восстановления значения текущей ячейки при выполнении инвентаризации.</comment>
+    <attributes uuid="b1b917ad-05d6-4825-9f51-144aecec6109">
+      <name>Комплектовщик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектовщик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Комплектовщики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50544f05-3e04-49a1-80e9-91e9e3dafcd0">
+      <name>НомерЯчейки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер ячейки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>8</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b6a06ff-6456-4a80-81aa-71c4b8c801db">
+  <producedTypes>
+    <objectType typeId="2e345b37-4c3b-4f0b-95d3-1c5e4b85cafb" valueTypeId="1f391b28-becc-49bf-9d33-e0f58dd6b410"/>
+    <managerType typeId="6bb27c44-7077-40dc-9a83-ac0eaf1e2fe5" valueTypeId="36c092f8-2d0a-4621-93d3-98f20c52dc36"/>
+  </producedTypes>
+  <name>ВыполнениеКонтроляОтбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение контроля отбора</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="3f0dad38-421d-4bc1-bf68-22c376b7baf1">
+    <name>ФормаВыбораЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор задания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

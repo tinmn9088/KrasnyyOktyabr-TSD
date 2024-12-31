@@ -13,10 +13,10 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="274389c6-f1e6-4aea-ae22-3ee4789b3f08">
-    <name>DataMatrix</name>
+    <name>КодМаркировки</name>
     <synonym>
       <key>ru</key>
-      <value>DataMatrix</value>
+      <value>Код маркировки</value>
     </synonym>
     <comment>Двумерный штрихкод, содержит GTIN.</comment>
   </enumValues>
@@ -26,6 +26,21 @@
       <key>ru</key>
       <value>Технологический штрихкод</value>
     </synonym>
-    <comment>Линейный штрихкод, представляет номер короба.</comment>
+    <comment>Состоит из 19 цифр.</comment>
+  </enumValues>
+  <enumValues uuid="afa1fa07-7482-4dd4-a826-ebada58847c4">
+    <name>НомерКороба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер короба</value>
+    </synonym>
+    <comment>Состоит из 9 цифр.</comment>
+  </enumValues>
+  <enumValues uuid="415a4ba3-acd8-4a81-82eb-0c33772a1570">
+    <name>НомерЯчейки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ячейки</value>
+    </synonym>
   </enumValues>
 </mdclass:Enum>

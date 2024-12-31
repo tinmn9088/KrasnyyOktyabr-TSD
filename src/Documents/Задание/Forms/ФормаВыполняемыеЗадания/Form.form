@@ -4,45 +4,6 @@
     <key>ru</key>
     <value>Выполняемые задания</value>
   </title>
-  <items xsi:type="form:FormGroup">
-    <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
-    <id>1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <title>
-      <key>ru</key>
-      <value>User settings group</value>
-    </title>
-    <verticalStretch>false</verticalStretch>
-    <extendedTooltip>
-      <name>СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка</name>
-      <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
-      <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
   <items xsi:type="form:Table">
     <name>СписокВыполняемыхЗаданий</name>
     <id>3</id>
@@ -176,60 +137,6 @@
         <textColor xsi:type="core:ColorRef">
           <color>Style.FieldSelectionBackColor</color>
         </textColor>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>СписокВыполняемыхЗаданийСектор</name>
-      <id>31</id>
-      <title>
-        <key>ru</key>
-        <value>Сектор</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокВыполняемыхЗаданий.Сектор</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СписокВыполняемыхЗаданийСекторРасширеннаяПодсказка</name>
-        <id>33</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СписокВыполняемыхЗаданийСекторКонтекстноеМеню</name>
-        <id>32</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -473,7 +380,6 @@
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
       <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
-      <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -511,12 +417,10 @@
     <edit>
       <common>true</common>
     </edit>
-    <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
     Комплектовщики.Ссылка КАК Комплектовщик,
     Комплектовщики.Идентификатор,
-    Комплектовщики.Сектор,
     Комплектовщики.ВыполняемоеЗадание КАК ВыполняемоеЗадание
 ИЗ
     Справочник.Комплектовщики КАК Комплектовщики
@@ -542,10 +446,6 @@
         <field>Идентификатор</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Сектор</dataPath>
-        <field>Сектор</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ВыполняемоеЗадание</dataPath>
         <field>ВыполняемоеЗадание</field>
       </fields>
@@ -558,5 +458,4 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

@@ -12,10 +12,10 @@
     <key>ru</key>
     <value>(SQL) Размеры моделей</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.моделиРазмер.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.моделиРазмер.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.моделиРазмер.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -103,60 +103,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="c27c7a84-0400-461d-a65d-de9fcfffa7cc">
-    <name>Шкала</name>
-    <synonym>
-      <key>ru</key>
-      <value>Шкала</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="080bb57c-1a99-45f7-b1ae-b38c1c5163f1">
-    <name>Тип</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>5</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1e50a01b-ae79-439d-a51f-22e829429ccd">
-    <name>Метрическая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Метрич.</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>

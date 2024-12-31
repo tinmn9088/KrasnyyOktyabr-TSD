@@ -10,7 +10,7 @@
   <name>АктПриемкиТоваров</name>
   <synonym>
     <key>ru</key>
-    <value>Акт приемки товаров</value>
+    <value>Электронная накладная</value>
   </synonym>
   <comment>Аналог документа с ЭДиН.</comment>
   <useStandardCommands>true</useStandardCommands>

@@ -165,7 +165,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Контрагент</name>
+      <name>ПоставщикКонтрагент</name>
       <id>4</id>
       <title>
         <key>ru</key>
@@ -180,7 +180,7 @@
         <segments>Объект.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КонтрагентРасширеннаяПодсказка</name>
+        <name>ПоставщикКонтрагентРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -195,7 +195,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КонтрагентКонтекстноеМеню</name>
+        <name>ПоставщикКонтрагентКонтекстноеМеню</name>
         <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -305,7 +305,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Магазин</name>
+      <name>ПолучательМагазин</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -316,7 +316,7 @@
         <segments>Объект.Магазин</segments>
       </dataPath>
       <extendedTooltip>
-        <name>МагазинРасширеннаяПодсказка</name>
+        <name>ПолучательМагазинРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -331,7 +331,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>МагазинКонтекстноеМеню</name>
+        <name>ПолучательМагазинКонтекстноеМеню</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -354,7 +354,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Склад</name>
+      <name>ПолучательСклад</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -365,7 +365,7 @@
         <segments>Объект.Склад</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СкладРасширеннаяПодсказка</name>
+        <name>ПолучательСкладРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -380,7 +380,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СкладКонтекстноеМеню</name>
+        <name>ПолучательСкладКонтекстноеМеню</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -509,7 +509,7 @@
       <name>СписокТоваровНоменклатура</name>
       <id>41</id>
       <items xsi:type="form:FormField">
-        <name>НаименованиеНоменклатуры</name>
+        <name>СписокТоваровНаименование</name>
         <id>35</id>
         <title>
           <key>ru</key>
@@ -524,7 +524,7 @@
           <segments>ФормаСписокТоваров.НаименованиеНоменклатуры</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеНоменклатурыРасширеннаяПодсказка</name>
+          <name>СписокТоваровНаименованиеРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -539,7 +539,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>НаименованиеНоменклатурыКонтекстноеМеню</name>
+          <name>СписокТоваровНаименованиеКонтекстноеМеню</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -559,7 +559,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>КодНоменклатуры</name>
+        <name>СписокТоваровКод</name>
         <id>32</id>
         <title>
           <key>ru</key>
@@ -574,7 +574,7 @@
           <segments>ФормаСписокТоваров.КодНоменклатуры</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КодНоменклатурыРасширеннаяПодсказка</name>
+          <name>СписокТоваровКодРасширеннаяПодсказка</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -589,7 +589,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КодНоменклатурыКонтекстноеМеню</name>
+          <name>СписокТоваровКодКонтекстноеМеню</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -641,8 +641,12 @@
       <name>СписокТоваровДополнительно</name>
       <id>43</id>
       <items xsi:type="form:FormField">
-        <name>Количество</name>
+        <name>СписокТоваровКоличество</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Количество</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -652,7 +656,7 @@
           <segments>ФормаСписокТоваров.Количество</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КоличествоРасширеннаяПодсказка</name>
+          <name>СписокТоваровКоличествоРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -667,7 +671,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>КоличествоКонтекстноеМеню</name>
+          <name>СписокТоваровКоличествоКонтекстноеМеню</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -908,138 +912,10 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ВводШтрихкода</name>
-    <id>45</id>
-    <items xsi:type="form:FormField">
-      <name>Штрихкод</name>
-      <id>47</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ФормаШтрихкод</segments>
-      </dataPath>
-      <defaultItem>true</defaultItem>
-      <titleLocation>None</titleLocation>
-      <extendedTooltip>
-        <name>ШтрихкодРасширеннаяПодсказка</name>
-        <id>49</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ШтрихкодКонтекстноеМеню</name>
-        <id>48</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>EditTextChange</event>
-          <name>ШтрихкодИзменениеТекстаРедактирования</name>
-        </handlers>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <editTextUpdate>Always</editTextUpdate>
-        <inputHint>
-          <key>ru</key>
-          <value>Штрихкод</value>
-        </inputHint>
-      </extInfo>
-    </items>
-    <items xsi:type="form:Button">
-      <name>КнопкаОбработатьШтрихкод</name>
-      <id>50</id>
-      <visible>true</visible>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>КнопкаОбработатьШтрихкодРасширеннаяПодсказка</name>
-        <id>51</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.ОбработатьШтрихкодСФормы</commandName>
-      <representation>Auto</representation>
-      <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <height>1</height>
-    <verticalStretch>false</verticalStretch>
-    <extendedTooltip>
-      <name>ВводШтрихкодаРасширеннаяПодсказка</name>
-      <id>46</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>AlwaysHorizontal</group>
-      <behavior>Auto</behavior>
-      <representation>WeakSeparation</representation>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormGroup">
     <name>ПодсказкаЗаполнениеЗавершено</name>
     <id>68</id>
     <items xsi:type="form:Decoration">
-      <name>КартинкаЗаполнениеЗавершено</name>
+      <name>ПодсказкаЗаполнениеЗавершеноКартинка</name>
       <id>70</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1047,7 +923,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КартинкаЗаполнениеЗавершеноРасширеннаяПодсказка</name>
+        <name>ПодсказкаЗаполнениеЗавершеноКартинкаРасширеннаяПодсказка</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1062,7 +938,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КартинкаЗаполнениеЗавершеноКонтекстноеМеню</name>
+        <name>ПодсказкаЗаполнениеЗавершеноКартинкаКонтекстноеМеню</name>
         <id>71</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1081,7 +957,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
-      <name>НадписьЗаполнениеЗавершено</name>
+      <name>ПодсказкаЗаполнениеЗавершеноНадпись</name>
       <id>73</id>
       <title>
         <key>ru</key>
@@ -1093,7 +969,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НадписьЗаполнениеЗавершеноРасширеннаяПодсказка</name>
+        <name>ПодсказкаЗаполнениеЗавершеноНадписьРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1108,7 +984,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НадписьЗаполнениеЗавершеноКонтекстноеМеню</name>
+        <name>ПодсказкаЗаполнениеЗавершеноНадписьКонтекстноеМеню</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1159,6 +1035,37 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
+    <items xsi:type="form:Button">
+      <name>КнопкаВвестиШтрихкод</name>
+      <id>76</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КнопкаВвестиШтрихкодРасширеннаяПодсказка</name>
+        <id>77</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ВвестиШтрихкод</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1167,16 +1074,16 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
   </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
@@ -1327,10 +1234,10 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ОбработатьШтрихкодСФормы</name>
+    <name>ВвестиШтрихкод</name>
     <title>
       <key>ru</key>
-      <value>Обработать</value>
+      <value>Ввести штрихкод</value>
     </title>
     <id>1</id>
     <use>
@@ -1338,7 +1245,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОбработатьШтрихкодСФормы</name>
+        <name>ОбработатьШтрихкодСФормыАсинх</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

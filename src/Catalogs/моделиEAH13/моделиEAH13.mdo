@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>Коды EAH-13</value>
   </synonym>
-  <comment>Аналог справочника из ТШК 1С 7.7.</comment>
+  <comment>Имитация справочника из ТШК 1С 7.7.</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.моделиEAH13.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -100,7 +100,6 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Модели</owners>
@@ -109,18 +108,19 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="cb802e7a-a37b-4685-a178-0f4e8dbfc943">
-    <name>Цвет</name>
+  <attributes uuid="8ffc3bcc-c7fd-41cc-b6d6-f786a3e8e1c2">
+    <name>Кожтовар</name>
     <synonym>
       <key>ru</key>
-      <value>Цвет</value>
+      <value>Кожтовар</value>
     </synonym>
     <type>
-      <types>CatalogRef.моделиЦвет</types>
+      <types>CatalogRef.моделиКожтовар</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -136,21 +136,23 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="8ffc3bcc-c7fd-41cc-b6d6-f786a3e8e1c2">
-    <name>Кожтовар</name>
+  <attributes uuid="cb802e7a-a37b-4685-a178-0f4e8dbfc943">
+    <name>Цвет</name>
     <synonym>
       <key>ru</key>
-      <value>Кожтовар</value>
+      <value>Цвет</value>
     </synonym>
     <type>
-      <types>CatalogRef.моделиКожтовар</types>
+      <types>CatalogRef.моделиЦвет</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

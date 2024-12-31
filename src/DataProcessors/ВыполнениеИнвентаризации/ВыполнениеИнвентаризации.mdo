@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d28596-4eef-4774-9390-289334dc01d8">
+  <producedTypes>
+    <objectType typeId="4ad35ef5-e169-4363-8e07-3c62a9747c4c" valueTypeId="fc47ff85-adaa-46f9-902e-a90f3a685ff0"/>
+    <managerType typeId="b26b2f58-a5d7-490b-a0b1-7edcef0f030f" valueTypeId="e2ab621c-9ecf-4b21-9c18-27ce5ca8f44a"/>
+  </producedTypes>
+  <name>ВыполнениеИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение инвентаризации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="f835653f-9465-4f7f-b9bf-557a862889aa">
+    <name>ФормаВыбораИнвентаризацииОбуви</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор инвентаризации обуви</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

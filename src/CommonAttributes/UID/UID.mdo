@@ -21,10 +21,6 @@
     <value>               </value>
   </fillValue>
   <content>
-    <metadata>Catalog.Секторы</metadata>
-    <use>Use</use>
-  </content>
-  <content>
     <metadata>Catalog.КМ31</metadata>
     <use>Use</use>
   </content>
@@ -37,15 +33,11 @@
     <use>Use</use>
   </content>
   <content>
+    <metadata>Document.ИнвентаризацияСклад</metadata>
+    <use>Use</use>
+  </content>
+  <content>
     <metadata>Catalog.моделиРазмер</metadata>
-    <use>Use</use>
-  </content>
-  <content>
-    <metadata>Catalog.ВидыМатериалов</metadata>
-    <use>Use</use>
-  </content>
-  <content>
-    <metadata>Catalog.МестаХранения</metadata>
     <use>Use</use>
   </content>
   <content>
@@ -73,11 +65,11 @@
     <use>Use</use>
   </content>
   <content>
-    <metadata>Catalog.ПроцентУценки</metadata>
+    <metadata>Catalog.ТШККороб</metadata>
     <use>Use</use>
   </content>
   <content>
-    <metadata>Catalog.ТШККороб</metadata>
+    <metadata>Catalog.МестаХранения</metadata>
     <use>Use</use>
   </content>
   <autoUse>DontUse</autoUse>
