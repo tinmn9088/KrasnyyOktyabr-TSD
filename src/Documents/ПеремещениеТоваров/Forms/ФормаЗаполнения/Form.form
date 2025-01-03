@@ -1309,6 +1309,7 @@
     Документ.ПеремещениеТоваров.Товары КАК Товары
 ГДЕ
     Товары.Ссылка = &amp;Документ</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -1367,6 +1368,8 @@
         <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
+      <keyType>FieldValue</keyType>
+      <keyField>НомерТовара</keyField>
     </extInfo>
   </attributes>
   <formCommands>

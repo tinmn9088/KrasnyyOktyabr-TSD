@@ -1238,6 +1238,7 @@
     Документ.АктПриемкиТоваров.Номенклатура КАК АктПриемкиТоваровНоменклатура
 ГДЕ
     АктПриемкиТоваровНоменклатура.Ссылка = &amp;Документ</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
