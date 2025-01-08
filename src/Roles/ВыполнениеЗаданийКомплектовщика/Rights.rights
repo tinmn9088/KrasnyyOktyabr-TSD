@@ -1287,17 +1287,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Штрихкод</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.моделиРазмер</name>
 		<right>
 			<name>Read</name>
@@ -1418,17 +1407,6 @@
 	</object>
 	<object>
 		<name>Catalog.моделиРазмер.StandardAttribute.Code</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПеремещениеТоваров.TabularSection.Товары</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -3712,17 +3690,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Склад</name>
 		<right>
 			<name>View</name>
@@ -4899,17 +4866,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТШК</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

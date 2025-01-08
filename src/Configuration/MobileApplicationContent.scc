@@ -37,9 +37,7 @@
   <usedItem metadata="Role.ВыполнениеПеремещений"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Form.ФормаПроверки"/>
   <usedItem metadata="InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора"/>
-  <usedItem metadata="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Штрихкод"/>
   <usedItem metadata="Catalog.моделиРазмер"/>
-  <usedItem metadata="Document.ПеремещениеТоваров.TabularSection.Товары"/>
   <usedItem metadata="Subsystem.Монитор"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров.Attribute.ДатаИзменения"/>
   <usedItem metadata="CommonTemplate.Драйвер1ССканерШтрихкода"/>
@@ -134,7 +132,6 @@
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Наименование"/>
   <usedItem metadata="Catalog.КМ31.Attribute.GTIN"/>
   <usedItem metadata="Document.ПоступлениеТоваров.Attribute.ЗаполнениеЗавершено"/>
-  <usedItem metadata="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Attribute.Склад"/>
   <usedItem metadata="Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.КМ31"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.ОрганизацияПолучатель"/>
@@ -187,7 +184,6 @@
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Комплектовщик"/>
   <usedItem metadata="DataProcessor.ВыполнениеПеремещений"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТШК"/>
-  <usedItem metadata="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество"/>
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров.Dimension.Документ"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.НомерЯчейки"/>

@@ -470,7 +470,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>ДатаИзменения</name>
+      <name>СписокТоваровДатаИзменения</name>
       <id>38</id>
       <title>
         <key>ru</key>
@@ -485,7 +485,7 @@
         <segments>ФормаСписокТоваров.ДатаИзменения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаИзмененияРасширеннаяПодсказка</name>
+        <name>СписокТоваровДатаИзмененияРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -500,7 +500,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДатаИзмененияКонтекстноеМеню</name>
+        <name>СписокТоваровДатаИзмененияКонтекстноеМеню</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>

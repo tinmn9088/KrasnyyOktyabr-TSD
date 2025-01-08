@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Штрихкоды товаров</value>
   </synonym>
-  <comment>Хранит штрихкоды, отсканиованные для поступлений по БСО.</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -43,6 +42,7 @@
       <key>ru</key>
       <value>Номенклатура</value>
     </synonym>
+    <comment>Ссылка пустая для штрихкодов без номенклатуры.</comment>
     <type>
       <types>CatalogRef.НоменклатураРозница</types>
     </type>
@@ -78,6 +78,7 @@
     </synonym>
     <type>
       <types>DocumentRef.ПоступлениеТоваров</types>
+      <types>DocumentRef.ПеремещениеТоваров</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
