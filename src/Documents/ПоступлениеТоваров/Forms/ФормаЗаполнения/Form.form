@@ -429,7 +429,6 @@
   <items xsi:type="form:Button">
     <name>КнопкаУдалитьШтрихкодБезНоменклатуры</name>
     <id>78</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
