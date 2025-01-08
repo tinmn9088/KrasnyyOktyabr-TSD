@@ -567,6 +567,19 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<field>Code</field>
+				<field>DataVersion</field>
+				<field>DeletionMark</field>
+				<field>Description</field>
+				<field>Predefined</field>
+				<field>PredefinedDataName</field>
+				<field>Ref</field>
+				<field>UID</field>
+				<field>ВыполняемоеЗадание</field>
+				<field>Идентификатор</field>
+				<condition>Комплектовщики ГДЕ ЛОЖЬ</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Insert</name>
