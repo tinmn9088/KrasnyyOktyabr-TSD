@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00a2822d-623d-4efd-8418-a0721af98537">
+  <name>ФормаВводаКоличестваТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод количества товара</value>
+  </synonym>
+  <comment>Возвращает либо положительное число, либо 0 (означает удаление).</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

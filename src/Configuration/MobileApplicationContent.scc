@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
+  <usedItem metadata="CommonForm.ФормаВводаКоличестваТовара"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.МагазинПолучатель"/>
   <usedItem metadata="Document.ИнвентаризацияСклад.Form.ФормаВыполнения"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданиеНаОтбор"/>
