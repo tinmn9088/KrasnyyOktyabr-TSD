@@ -6,8 +6,8 @@
 	</filter>
 	<order>
 		<item xsi:type="OrderItemField">
-			<field>НомерТовара</field>
-			<orderType>Asc</orderType>
+			<field>ДатаИзменения</field>
+			<orderType>Desc</orderType>
 		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>31fc72d0-d969-4eee-b7c6-e98c8b47f7d3</userSettingID>

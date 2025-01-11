@@ -72,7 +72,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Ref</segments>
+        <segments>ФормаДокумент</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -124,6 +124,7 @@
       <value>Основная информация</value>
     </toolTip>
     <height>1</height>
+    <verticalStretch>false</verticalStretch>
     <extendedTooltip>
       <name>ОсновноеРасширеннаяПодсказка</name>
       <id>90</id>
@@ -199,6 +200,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <height>1</height>
       <autoMaxHeight>true</autoMaxHeight>
+      <verticalStretch>false</verticalStretch>
       <textColor xsi:type="core:ColorRef">
         <color>Style.AccentColor</color>
       </textColor>
@@ -216,7 +218,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Организация</segments>
+        <segments>ФормаДокумент.Организация</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительноОрганизацияРасширеннаяПодсказка</name>
@@ -262,7 +264,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Контрагент</segments>
+        <segments>ФормаДокумент.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительноКонтрагентРасширеннаяПодсказка</name>
@@ -311,7 +313,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Склад</segments>
+        <segments>ФормаДокумент.Склад</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДополнительноСкладРасширеннаяПодсказка</name>
@@ -439,6 +441,7 @@
       <height>1</height>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
+      <verticalStretch>false</verticalStretch>
       <format>
         <key>ru</key>
         <value>ЧДЦ=3; ЧН=-</value>
@@ -500,19 +503,14 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>LabelField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:LabelFieldExtInfo">
         <maxWidth>2</maxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <extendedEditMultipleValues>true</extendedEditMultipleValues>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
         <textColor xsi:type="core:ColorRef">
           <color>Style.FieldSelectionBackColor</color>
         </textColor>
@@ -567,7 +565,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>16</maxWidth>
+          <maxWidth>14</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
       </items>
@@ -607,19 +605,14 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:LabelFieldExtInfo">
           <maxWidth>14</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorRef">
             <color>Style.AccentColor</color>
           </textColor>
@@ -694,23 +687,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <format>
             <key>ru</key>
             <value>ЧДЦ=3; ЧН=-</value>
           </format>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorRef">
             <color>Style.FieldSelectionBackColor</color>
           </textColor>
@@ -756,23 +744,18 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>InputField</type>
+        <type>LabelField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
+        <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
           <format>
             <key>ru</key>
             <value>ЧДЦ=3; ЧН=-</value>
           </format>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
           <textColor xsi:type="core:ColorRef">
             <color>Style.AccentColor</color>
           </textColor>
@@ -1167,6 +1150,10 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
+  </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -1176,24 +1163,6 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <attributes>
-    <name>Объект</name>
-    <id>1</id>
-    <valueType>
-      <types>DocumentObject.АктПриемкиТоваров</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.RegisterRecords</segments>
-    </notDefaultUseAlwaysAttributes>
-    <main>true</main>
-    <savedData>true</savedData>
-  </attributes>
   <attributes>
     <name>ФормаСотрудник</name>
     <title>
@@ -1238,6 +1207,7 @@
     Документ.АктПриемкиТоваров.Номенклатура КАК АктПриемкиТоваровНоменклатура
 ГДЕ
     АктПриемкиТоваровНоменклатура.Ссылка = &amp;Документ</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -1344,6 +1314,57 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ФормаДокумент</name>
+    <title>
+      <key>ru</key>
+      <value>Документ</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>DocumentRef.АктПриемкиТоваров</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаПроверкаЗавершена</name>
+    <title>
+      <key>ru</key>
+      <value>Проверка завершена</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаИспользуетсяМаркировкаТоваров</name>
+    <title>
+      <key>ru</key>
+      <value>Используется маркировка товаров</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ВвестиШтрихкод</name>
     <title>
@@ -1365,6 +1386,13 @@
     <name>Сотрудник</name>
     <valueType>
       <types>CatalogRef.СотрудникиСклада</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Документ</name>
+    <valueType>
+      <types>DocumentRef.АктПриемкиТоваров</types>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>

@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>5.0.9</version>
+  <version>6.0.11</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -58,7 +58,7 @@
   <roles>Role.ВыполнениеПеремещений</roles>
   <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
-  <commonModules>CommonModule.XML</commonModules>
+  <commonModules>CommonModule.XMLКлиентСервер</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.ИнвентаризацияОбуви</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
@@ -75,6 +75,7 @@
   <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
+  <commonForms>CommonForm.ФормаВводаКоличестваТовара</commonForms>
   <catalogs>Catalog.АдресаТЛЦ</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.КМ31</catalogs>
@@ -114,4 +115,5 @@
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
 </mdclass:Configuration>

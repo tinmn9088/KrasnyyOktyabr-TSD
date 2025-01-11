@@ -875,26 +875,21 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	СТРОКА(ПеремещениеТоваров.Дата) КАК ПредставлениеДаты,
-	ПеремещениеТоваров.Номер КАК Номер,
-	ПеремещениеТоваров.МагазинОтправитель КАК МагазинОтправитель,
-	ПеремещениеТоваров.МагазинПолучатель КАК МагазинПолучатель,
-	ПеремещениеТоваров.Организация КАК Организация,
-	ПеремещениеТоваров.ОрганизацияПолучатель КАК ОрганизацияПолучатель,
-	ПеремещениеТоваров.СкладОтправитель КАК СкладОтправитель,
-	ПеремещениеТоваров.СкладПолучатель КАК СкладПолучатель
+    СТРОКА(ПеремещениеТоваров.Дата) КАК ПредставлениеДаты,
+    ПеремещениеТоваров.Номер КАК Номер,
+    ПеремещениеТоваров.МагазинОтправитель КАК МагазинОтправитель,
+    ПеремещениеТоваров.МагазинПолучатель КАК МагазинПолучатель,
+    ПеремещениеТоваров.Организация КАК Организация,
+    ПеремещениеТоваров.ОрганизацияПолучатель КАК ОрганизацияПолучатель,
+    ПеремещениеТоваров.СкладОтправитель КАК СкладОтправитель,
+    ПеремещениеТоваров.СкладПолучатель КАК СкладПолучатель
 ИЗ
-	Документ.ПеремещениеТоваров КАК ПеремещениеТоваров
+    Документ.ПеремещениеТоваров КАК ПеремещениеТоваров
 ГДЕ
-	НЕ ПеремещениеТоваров.ЗаполнениеЗавершено
-	И НЕ ПеремещениеТоваров.ПометкаУдаления</queryText>
+    НЕ ПеремещениеТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.ПеремещениеТоваров</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
-      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номер</dataPath>
         <field>Номер</field>
@@ -924,34 +919,6 @@
         <field>СкладПолучатель</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары</dataPath>
-        <field>Товары</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЗаполнениеЗавершено</dataPath>
-        <field>ЗаполнениеЗавершено</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СотрудникЗаполнившийПеремещение</dataPath>
-        <field>СотрудникЗаполнившийПеремещение</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПредставлениеДаты</dataPath>
         <field>ПредставлениеДаты</field>
         <title>
@@ -962,6 +929,30 @@
             </content>
           </localValue>
         </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СотрудникЗаполнившийПеремещение</dataPath>
+        <field>СотрудникЗаполнившийПеремещение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>МоментВремени</dataPath>
+        <field>МоментВремени</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
       </fields>
     </extInfo>
   </attributes>

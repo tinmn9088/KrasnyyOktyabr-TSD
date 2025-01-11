@@ -695,17 +695,16 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	АктПриемкиТоваров.Номер КАК Номер,
-	СТРОКА(АктПриемкиТоваров.Дата) КАК ПредставлениеДаты,
-	АктПриемкиТоваров.Контрагент КАК Контрагент,
-	АктПриемкиТоваров.Организация КАК Организация,
-	АктПриемкиТоваров.Склад КАК Склад,
-	АктПриемкиТоваров.ИспользуетсяМаркировкаТоваров КАК ИспользуетсяМаркировкаТоваров
+    АктПриемкиТоваров.Номер КАК Номер,
+    СТРОКА(АктПриемкиТоваров.Дата) КАК ПредставлениеДаты,
+    АктПриемкиТоваров.Контрагент КАК Контрагент,
+    АктПриемкиТоваров.Организация КАК Организация,
+    АктПриемкиТоваров.Склад КАК Склад,
+    АктПриемкиТоваров.ИспользуетсяМаркировкаТоваров КАК ИспользуетсяМаркировкаТоваров
 ИЗ
-	Документ.АктПриемкиТоваров КАК АктПриемкиТоваров
+    Документ.АктПриемкиТоваров КАК АктПриемкиТоваров
 ГДЕ
-	НЕ АктПриемкиТоваров.ПроверкаЗавершена
-	И НЕ АктПриемкиТоваров.ПометкаУдаления</queryText>
+    НЕ АктПриемкиТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.АктПриемкиТоваров</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -726,12 +725,28 @@
         <field>Номер</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИспользуетсяМаркировкаТоваров</dataPath>
+        <field>ИспользуетсяМаркировкаТоваров</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПредставлениеДаты</dataPath>
+        <field>ПредставлениеДаты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление даты</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Дата</dataPath>
         <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПроверкаЗавершена</dataPath>
-        <field>ПроверкаЗавершена</field>
+        <dataPath>СотрудникЗавершившийПроверку</dataPath>
+        <field>СотрудникЗавершившийПроверку</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номенклатура</dataPath>
@@ -756,26 +771,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ИспользуетсяМаркировкаТоваров</dataPath>
-        <field>ИспользуетсяМаркировкаТоваров</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СотрудникЗавершившийПроверку</dataPath>
-        <field>СотрудникЗавершившийПроверку</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПредставлениеДаты</dataPath>
-        <field>ПредставлениеДаты</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Представление даты</value>
-            </content>
-          </localValue>
-        </title>
       </fields>
     </extInfo>
   </attributes>

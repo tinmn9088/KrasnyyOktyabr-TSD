@@ -112,21 +112,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c55f1100-09ff-4a7e-b1c7-e1a443253709">
-    <name>ПроверкаЗавершена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Проверка завершена</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="bb372684-2c34-4ef9-aeb6-989856d965c5">
     <name>Склад</name>
     <synonym>

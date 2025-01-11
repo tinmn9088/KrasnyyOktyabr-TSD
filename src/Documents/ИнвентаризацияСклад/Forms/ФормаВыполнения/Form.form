@@ -783,6 +783,7 @@
 ГДЕ
     ВсеШтрихкоды.Документ = &amp;Документ
     И ВсеШтрихкоды.Комплектовщик = &amp;Комплектовщик</queryText>
+      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -810,6 +811,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
@@ -825,6 +827,7 @@
         <valueType>
           <types>DocumentRef.ИнвентаризацияСклад</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <keyType>FieldValue</keyType>
