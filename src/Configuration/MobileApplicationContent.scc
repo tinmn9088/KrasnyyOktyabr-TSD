@@ -18,7 +18,6 @@
   <usedItem metadata="InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Задание"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Модификатор"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданиеНаОтбор.Attribute.Количество"/>
-  <usedItem metadata="Document.ПеремещениеТоваров.Attribute.ЗаполнениеЗавершено"/>
   <usedItem metadata="InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Комплектовщик"/>
   <usedItem metadata="DataProcessor.ВыполнениеПриходов.Form.ФормаВыбораПоступления"/>
   <usedItem metadata="Catalog.Комплектовщики"/>
@@ -132,7 +131,6 @@
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.НомерЗаданияНаОтбор"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.Наименование"/>
   <usedItem metadata="Catalog.КМ31.Attribute.GTIN"/>
-  <usedItem metadata="Document.ПоступлениеТоваров.Attribute.ЗаполнениеЗавершено"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Attribute.Склад"/>
   <usedItem metadata="Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть.Attribute.КМ31"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.ОрганизацияПолучатель"/>
@@ -145,7 +143,6 @@
   <usedItem metadata="DataProcessor.ВыполнениеПриходов"/>
   <usedItem metadata="Catalog.НоменклатураРозница.TabularSection.Штрихкоды"/>
   <usedItem metadata="Role.АдминистрированиеПриходов"/>
-  <usedItem metadata="Document.АктПриемкиТоваров.Attribute.ПроверкаЗавершена"/>
   <usedItem metadata="Document.Задание.Form.ФормаВыполняемыеЗадания"/>
   <usedItem metadata="Catalog.ТШККороб.Attribute.Дата"/>
   <usedItem metadata="Document.Задание"/>

@@ -793,16 +793,15 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	СТРОКА(ПоступлениеТоваров.Дата) КАК ПредставлениеДаты,
-	ПоступлениеТоваров.Номер КАК Номер,
-	ПоступлениеТоваров.Магазин КАК Магазин,
-	ПоступлениеТоваров.Склад КАК Склад,
-	ПоступлениеТоваров.Контрагент.Наименование КАК НаименованиеПоставщика
+    СТРОКА(ПоступлениеТоваров.Дата) КАК ПредставлениеДаты,
+    ПоступлениеТоваров.Номер КАК Номер,
+    ПоступлениеТоваров.Магазин КАК Магазин,
+    ПоступлениеТоваров.Склад КАК Склад,
+    ПоступлениеТоваров.Контрагент.Наименование КАК НаименованиеПоставщика
 ИЗ
-	Документ.ПоступлениеТоваров КАК ПоступлениеТоваров
+    Документ.ПоступлениеТоваров КАК ПоступлениеТоваров
 ГДЕ
-	НЕ ПоступлениеТоваров.ЗаполнениеЗавершено
-	И НЕ ПоступлениеТоваров.ПометкаУдаления</queryText>
+    НЕ ПоступлениеТоваров.ПометкаУдаления</queryText>
       <mainTable>Document.ПоступлениеТоваров</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -810,10 +809,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Номер</dataPath>
         <field>Номер</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Магазин</dataPath>
@@ -836,8 +831,20 @@
         </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЗаполнениеЗавершено</dataPath>
-        <field>ЗаполнениеЗавершено</field>
+        <dataPath>ПредставлениеДаты</dataPath>
+        <field>ПредставлениеДаты</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Представление даты</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Контрагент</dataPath>
@@ -846,10 +853,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>СотрудникЗаполнившийПоступление</dataPath>
         <field>СотрудникЗаполнившийПоступление</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Товары</dataPath>
-        <field>Товары</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>МоментВремени</dataPath>
@@ -866,18 +869,6 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Ссылка</dataPath>
         <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПредставлениеДаты</dataPath>
-        <field>ПредставлениеДаты</field>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Представление даты</value>
-            </content>
-          </localValue>
-        </title>
       </fields>
     </extInfo>
   </attributes>

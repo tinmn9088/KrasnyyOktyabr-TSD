@@ -24,21 +24,6 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="b921c022-7866-4f98-a175-860b0fffd9a5">
-    <name>ЗаполнениеЗавершено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Заполнение завершено</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f822d621-3251-495f-89de-f6737cba5738">
     <name>Контрагент</name>
     <synonym>

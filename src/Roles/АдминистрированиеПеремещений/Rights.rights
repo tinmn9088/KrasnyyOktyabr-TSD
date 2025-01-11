@@ -3864,17 +3864,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПоступлениеТоваров.Attribute.ЗаполнениеЗавершено</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Склад</name>
 		<right>
 			<name>View</name>
@@ -4294,17 +4283,6 @@
 	</object>
 	<object>
 		<name>Catalog.НоменклатураРозница.TabularSection.Штрихкоды</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.АктПриемкиТоваров.Attribute.ПроверкаЗавершена</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
