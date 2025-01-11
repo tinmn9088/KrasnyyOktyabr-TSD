@@ -9,10 +9,10 @@
     <recordType typeId="7ec23f64-4a1f-4d98-8b3c-61733fb61758" valueTypeId="6d79edb4-2d37-4406-a21a-876877cf9ffa"/>
     <recordManagerType typeId="d5133c2d-cc17-4cbe-8ad1-4365cd63adb9" valueTypeId="8b00a171-a04a-4cc2-9bb6-f7c338d458b0"/>
   </producedTypes>
-  <name>ПроведенныеШтрихкодыКонтроляОтбора</name>
+  <name>ШтрихкодыКонтроляОтбора</name>
   <synonym>
     <key>ru</key>
-    <value>Проведенные штрихкоды контроля отбора</value>
+    <value>Штрихкоды контроля отбора</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>

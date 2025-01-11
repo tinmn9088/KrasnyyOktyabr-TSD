@@ -5,10 +5,10 @@
     <listType typeId="c7be9da8-2f3f-42fe-b2ad-11ff4c6e3dca" valueTypeId="2cdcf6d5-f0a9-4348-b5ac-df9349710a1d"/>
     <managerType typeId="c18ac101-a7a9-4c5e-831c-79dda19e2b52" valueTypeId="775f3ba0-de4f-46ed-994c-914602e932a9"/>
   </producedTypes>
-  <name>ВидОшибки</name>
+  <name>ВидОшибкиКонтроляОтбора</name>
   <synonym>
     <key>ru</key>
-    <value>Вид ошибки</value>
+    <value>Вид ошибки контроля отбора</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

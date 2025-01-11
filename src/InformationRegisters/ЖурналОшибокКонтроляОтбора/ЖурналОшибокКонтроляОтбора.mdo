@@ -73,7 +73,7 @@
       <value>Вид ошибки</value>
     </synonym>
     <type>
-      <types>EnumRef.ВидОшибки</types>
+      <types>EnumRef.ВидОшибкиКонтроляОтбора</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

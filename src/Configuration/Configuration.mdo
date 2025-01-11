@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>6.0.11</version>
+  <version>7.0.0</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -52,6 +52,8 @@
   <roles>Role.ПолныйДоступ</roles>
   <roles>Role.АдминистрированиеЗаданийКомплектовщика</roles>
   <roles>Role.ВыполнениеЗаданийКомплектовщика</roles>
+  <roles>Role.АдминистрированиеИнвентаризацииОбуви</roles>
+  <roles>Role.ВыполнениеИнвентаризацииОбуви</roles>
   <roles>Role.АдминистрированиеПриходов</roles>
   <roles>Role.ВыполнениеПриходов</roles>
   <roles>Role.АдминистрированиеПеремещений</roles>
@@ -105,7 +107,7 @@
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
-  <enums>Enum.ВидОшибки</enums>
+  <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
   <enums>Enum.СтатусЗадания</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
@@ -113,7 +115,7 @@
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
-  <informationRegisters>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
 </mdclass:Configuration>

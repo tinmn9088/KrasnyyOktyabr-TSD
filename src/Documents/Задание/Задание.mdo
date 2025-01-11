@@ -149,23 +149,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="22fef61e-82bf-4bbe-84ac-2b17d40100da">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <multiLine>true</multiLine>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="e12bc868-f600-4fee-a06b-6dfdcf0fa1d9">
     <name>ФормаВыполнения</name>
     <synonym>
@@ -199,10 +182,10 @@
       <objectType typeId="22998b15-52f1-469b-bc80-7629e45d3bb8" valueTypeId="b3adae84-fef8-4175-bc39-3f7efd17fdf5"/>
       <rowType typeId="f0d0c638-0369-413c-8277-1b1963ed89a3" valueTypeId="ad6e13ad-fa16-43cc-a33b-47b242c6148d"/>
     </producedTypes>
-    <name>ЗаданиеНаОтбор</name>
+    <name>ЗаданияНаОтбор</name>
     <synonym>
       <key>ru</key>
-      <value>ЗаданиеНаОтбор</value>
+      <value>Задания на отбор</value>
     </synonym>
     <attributes uuid="18a5a04e-2fde-4ce8-8860-708ef3fead30">
       <name>Количество</name>

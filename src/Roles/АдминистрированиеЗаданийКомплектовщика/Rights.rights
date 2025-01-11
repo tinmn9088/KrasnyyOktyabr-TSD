@@ -407,7 +407,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Дата</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Дата</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -529,14 +529,14 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Задание</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Задание</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.Комплектовщик</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Комплектовщик</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -669,7 +669,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Resource.НомерЗаданияНаОтбор</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.НомерЗаданияНаОтбор</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1149,6 +1149,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВыполнениеКонтроляОтбора</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Комплектовщики.Attribute.Идентификатор</name>
 		<right>
 			<name>Edit</name>
@@ -1156,7 +1167,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1215,28 +1226,28 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Active</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.StandardAttribute.Active</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.LineNumber</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.StandardAttribute.LineNumber</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Recorder</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.StandardAttribute.Recorder</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.StandardAttribute.Period</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.StandardAttribute.Period</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1919,6 +1930,17 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КодМаркировки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.Дата</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2624,14 +2646,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
@@ -2659,17 +2673,49 @@
 			<name>UpdateDataHistoryVersionComment</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.StandardAttribute.Active</name>
 		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -3463,6 +3509,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.Комплектовщик</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ВыполнениеЗаданий.Command.НачатьВыполнениеЗадания</name>
 		<right>
 			<name>View</name>
@@ -3640,6 +3697,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ШтрихкодыТоваров.Resource.Номенклатура</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Dimension.Штрихкод</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4082,6 +4150,17 @@
 	</object>
 	<object>
 		<name>Catalog.моделиEAH13.Attribute.Цвет</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Dimension.Документ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -4610,7 +4689,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора.Dimension.Штрихкод</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Dimension.Штрихкод</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -4769,6 +4848,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ШтрихкодыТоваров.Dimension.Документ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.НомерЯчейки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

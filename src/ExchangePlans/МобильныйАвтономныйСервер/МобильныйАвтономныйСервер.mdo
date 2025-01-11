@@ -55,7 +55,7 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>InformationRegister.ПроведенныеШтрихкодыКонтроляОтбора</mdObject>
+    <mdObject>InformationRegister.ШтрихкодыКонтроляОтбора</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
