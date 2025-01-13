@@ -17,6 +17,22 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="979aaa5e-4184-4ab6-bb16-1605aee04525">
+    <name>ВидОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ошибки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидОшибкиКонтроляОтбора</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
   <resources uuid="10d9399d-608c-4619-a258-1300f93e97b2">
     <name>Дата</name>
     <synonym>
@@ -35,10 +51,10 @@
     <indexing>Index</indexing>
   </resources>
   <resources uuid="85cfe23a-0804-4d72-8566-1c7a0c489aa4">
-    <name>Задание</name>
+    <name>Документ</name>
     <synonym>
       <key>ru</key>
-      <value>Задание</value>
+      <value>Документ</value>
     </synonym>
     <type>
       <types>DocumentRef.Задание</types>
@@ -66,22 +82,6 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
   </resources>
-  <resources uuid="979aaa5e-4184-4ab6-bb16-1605aee04525">
-    <name>ВидОшибки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вид ошибки</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидОшибкиКонтроляОтбора</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-  </resources>
   <attributes uuid="b795bf3d-ba43-4e0d-bbc1-aaf95d230a5f">
     <name>НомерЗаданияНаОтбор</name>
     <synonym>
@@ -101,18 +101,14 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="fad8e1c8-7f48-4e15-841b-89d6c71b6ad3">
-    <name>ТШК</name>
+  <attributes uuid="21d0af4c-988a-4948-a171-505501f29aa1">
+    <name>ТипШтрихкода</name>
     <synonym>
       <key>ru</key>
-      <value>ТШК</value>
+      <value>Тип штрихкода</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>9</length>
-        <fixed>true</fixed>
-      </stringQualifiers>
+      <types>EnumRef.ТипШтрихкода</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -121,10 +117,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="5097d845-b285-4ce6-86a7-8da8bf939f5c">
-    <name>КодМаркировки</name>
+    <name>Штрихкод</name>
     <synonym>
       <key>ru</key>
-      <value>Код маркировки</value>
+      <value>Штрихкод</value>
     </synonym>
     <type>
       <types>String</types>

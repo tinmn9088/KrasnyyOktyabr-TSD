@@ -108,10 +108,10 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ПодсказкаОсталосьКоробов</name>
+    <name>ПодсказкаОсталосьВКоробах</name>
     <id>7</id>
     <items xsi:type="form:FormField">
-      <name>ОсталосьПоЗаданиюКоробов</name>
+      <name>ОсталосьПоЗаданиюВКоробах</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -119,11 +119,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаОсталосьПоЗаданиюКоробов</segments>
+        <segments>ФормаОсталосьПоЗаданиюВКоробах</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОсталосьПоЗаданиюКоробовРасширеннаяПодсказка</name>
+        <name>ОсталосьПоЗаданиюВКоробахРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -138,7 +138,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОсталосьПоЗаданиюКоробовКонтекстноеМеню</name>
+        <name>ОсталосьПоЗаданиюВКоробахКонтекстноеМеню</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -165,7 +165,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
-      <name>ПодсказкаОсталосьКоробовРазделитель</name>
+      <name>ПодсказкаОсталосьВКоробахазделитель</name>
       <id>165</id>
       <title>
         <key>ru</key>
@@ -177,7 +177,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПодсказкаОсталосьКоробовРазделительРасширеннаяПодсказка</name>
+        <name>ПодсказкаОсталосьВКоробахазделительРасширеннаяПодсказка</name>
         <id>167</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -192,7 +192,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПодсказкаОсталосьКоробовРазделительКонтекстноеМеню</name>
+        <name>ПодсказкаОсталосьВКоробахазделительКонтекстноеМеню</name>
         <id>166</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -209,7 +209,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ОсталосьПоЗаданиюБылоКоробов</name>
+      <name>ОсталосьПоЗаданиюБылоВКоробах</name>
       <id>150</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -221,7 +221,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОсталосьПоЗаданиюБылоКоробовРасширеннаяПодсказка</name>
+        <name>ОсталосьПоЗаданиюБылоВКоробахРасширеннаяПодсказка</name>
         <id>152</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -236,7 +236,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОсталосьПоЗаданиюБылоКоробовКонтекстноеМеню</name>
+        <name>ОсталосьПоЗаданиюБылоВКоробахКонтекстноеМеню</name>
         <id>151</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -263,11 +263,11 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
-      <name>ПодсказкаОсталосьКоробовНадпись</name>
+      <name>ПодсказкаОсталосьВКоробахНадпись</name>
       <id>156</id>
       <title>
         <key>ru</key>
-        <value>коробов</value>
+        <value>в коробах</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -275,7 +275,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПодсказкаОсталосьКоробовНадписьРасширеннаяПодсказка</name>
+        <name>ПодсказкаОсталосьВКоробахНадписьРасширеннаяПодсказка</name>
         <id>158</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -290,7 +290,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПодсказкаОсталосьКоробовНадписьКонтекстноеМеню</name>
+        <name>ПодсказкаОсталосьВКоробахНадписьКонтекстноеМеню</name>
         <id>157</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -311,10 +311,14 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Подсказка осталось в коробах</value>
+    </title>
     <height>1</height>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
-      <name>ПодсказкаОсталосьКоробовРасширеннаяПодсказка</name>
+      <name>ПодсказкаОсталосьВКоробахРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -343,7 +347,7 @@
     <name>ПодсказкаОсталосьРоссыпи</name>
     <id>148</id>
     <items xsi:type="form:FormField">
-      <name>ОсталосьПоЗаданиюКоробок</name>
+      <name>ОсталосьПоЗаданиюРоссыпи</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -351,11 +355,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФормаОсталосьПоЗаданиюКоробок</segments>
+        <segments>ФормаОсталосьПоЗаданиюРоссыпи</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОсталосьПоЗаданиюКоробокРасширеннаяПодсказка</name>
+        <name>ОсталосьПоЗаданиюРоссыпиРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -370,7 +374,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОсталосьПоЗаданиюКоробокКонтекстноеМеню</name>
+        <name>ОсталосьПоЗаданиюРоссыпиКонтекстноеМеню</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -441,7 +445,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ОсталосьПоЗаданиюБылоКоробок</name>
+      <name>ОсталосьПоЗаданиюБылоРоссыпи</name>
       <id>153</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -453,7 +457,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ОсталосьПоЗаданиюБылоКоробокРасширеннаяПодсказка</name>
+        <name>ОсталосьПоЗаданиюБылоРоссыпиРасширеннаяПодсказка</name>
         <id>155</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -468,7 +472,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОсталосьПоЗаданиюБылоКоробокКонтекстноеМеню</name>
+        <name>ОсталосьПоЗаданиюБылоРоссыпиКонтекстноеМеню</name>
         <id>154</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1240,6 +1244,37 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
+      <name>КнопкаПроверитьШтрихкод</name>
+      <id>168</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КнопкаПроверитьШтрихкодРасширеннаяПодсказка</name>
+        <id>169</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ПроверитьШтрихкод</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <items xsi:type="form:Button">
       <name>КнопкаВвестиШтрихкод</name>
       <id>143</id>
       <visible>true</visible>
@@ -1291,7 +1326,6 @@
   </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>
-  <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
@@ -1316,10 +1350,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаОсталосьПоЗаданиюКоробов</name>
+    <name>ФормаОсталосьПоЗаданиюВКоробах</name>
     <title>
       <key>ru</key>
-      <value>Коробов</value>
+      <value>В коробах</value>
     </title>
     <id>3</id>
     <valueType>
@@ -1336,10 +1370,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаОсталосьПоЗаданиюКоробок</name>
+    <name>ФормаОсталосьПоЗаданиюРоссыпи</name>
     <title>
       <key>ru</key>
-      <value>Коробок</value>
+      <value>Россыпи</value>
     </title>
     <id>4</id>
     <valueType>
@@ -1391,42 +1425,58 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ВсеЗаданияНаОтбор.Количество,
-    ВсеЗаданияНаОтбор.Модификатор,
+    ВсеЗаданияНаОтбор.Ячейка КАК Ячейка,
     ВсеЗаданияНаОтбор.Модель КАК Модель,
-    ВсеЗаданияНаОтбор.Размер,
-    ВсеЗаданияНаОтбор.Уценка,
-    ВсеЗаданияНаОтбор.Цвет,
-    ВсеЗаданияНаОтбор.Ячейка
-ПОМЕСТИТЬ ИскомыеЗаданияНаОтбор
+    ВсеЗаданияНаОтбор.Размер КАК Размер,
+    ВсеЗаданияНаОтбор.Модификатор КАК Модификатор,
+    ВсеЗаданияНаОтбор.Цвет КАК Цвет,
+    ВсеЗаданияНаОтбор.Количество КАК Количество,
+    ВсеЗаданияНаОтбор.Уценка КАК Уценка,
+    ВсеЗаданияНаОтбор.НомерЗаданияНаОтбор КАК НомерЗаданияНаОтбор
+ПОМЕСТИТЬ ЗаданияНаОтборКомплектовщика
 ИЗ
     Документ.Задание.ЗаданияНаОтбор КАК ВсеЗаданияНаОтбор
 ГДЕ
-    ВсеЗаданияНаОтбор.Ссылка = &amp;Задание
+    ВсеЗаданияНаОтбор.Ссылка = &amp;Документ
     И ВсеЗаданияНаОтбор.Комплектовщик = &amp;Комплектовщик
-    И ВсеЗаданияНаОтбор.Количество > 0
 
 ИНДЕКСИРОВАТЬ ПО
-    Модель
+    НомерЗаданияНаОтбор
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-    ИскомыеЗаданияНаОтбор.Ячейка,
-    ИскомыеЗаданияНаОтбор.Модель,
-    ИскомыеЗаданияНаОтбор.Размер,
-    ИскомыеЗаданияНаОтбор.Модификатор,
-    ИскомыеЗаданияНаОтбор.Цвет,
-    ВЫБОР
-        КОГДА ИскомыеЗаданияНаОтбор.Размер &lt;> ЗНАЧЕНИЕ(Справочник.моделиРазмер.ПустаяСсылка)
-            ТОГДА ИскомыеЗаданияНаОтбор.Количество
-        ИНАЧЕ ИскомыеЗаданияНаОтбор.Количество / (Модели.КолВКоробе * (1 + Модели.флДваКороба))
-    КОНЕЦ КАК Количество,
-    ИскомыеЗаданияНаОтбор.Уценка
+    ВсеШтрихкоды.НомерЗаданияНаОтбор КАК НомерЗаданияНаОтбор,
+    СУММА(ВсеШтрихкоды.Количество) КАК КоличествоОбработанных
+ПОМЕСТИТЬ КоличестваОбработанных
 ИЗ
-    ИскомыеЗаданияНаОтбор КАК ИскомыеЗаданияНаОтбор
-        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Модели КАК Модели
-        ПО ИскомыеЗаданияНаОтбор.Модель = Модели.Ссылка</queryText>
+    РегистрСведений.ШтрихкодыКонтроляОтбора КАК ВсеШтрихкоды
+ГДЕ
+    ВсеШтрихкоды.Документ = &amp;Документ
+СГРУППИРОВАТЬ ПО
+    ВсеШтрихкоды.НомерЗаданияНаОтбор
+
+ИНДЕКСИРОВАТЬ ПО
+    НомерЗаданияНаОтбор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    ЗаданияНаОтборКомплектовщика.НомерЗаданияНаОтбор КАК НомерЗаданияНаОтбор,
+    ЗаданияНаОтборКомплектовщика.Ячейка КАК Ячейка,
+    ЗаданияНаОтборКомплектовщика.Модель КАК Модель,
+    ЗаданияНаОтборКомплектовщика.Размер КАК Размер,
+    ЗаданияНаОтборКомплектовщика.Модификатор КАК Модификатор,
+    ЗаданияНаОтборКомплектовщика.Цвет КАК Цвет,
+    ЗаданияНаОтборКомплектовщика.Количество - ЕСТЬNULL(КоличестваОбработанных.КоличествоОбработанных, 0) КАК
+        Количество,
+    ЗаданияНаОтборКомплектовщика.Уценка КАК Уценка
+ИЗ
+    ЗаданияНаОтборКомплектовщика КАК ЗаданияНаОтборКомплектовщика
+        ЛЕВОЕ СОЕДИНЕНИЕ КоличестваОбработанных КАК КоличестваОбработанных
+        ПО ЗаданияНаОтборКомплектовщика.НомерЗаданияНаОтбор = КоличестваОбработанных.НомерЗаданияНаОтбор
+ГДЕ
+    ЗаданияНаОтборКомплектовщика.Количество - ЕСТЬNULL(КоличестваОбработанных.КоличествоОбработанных, 0) > 0</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -1464,6 +1514,10 @@
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Уценка</dataPath>
         <field>Уценка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерЗаданияНаОтбор</dataPath>
+        <field>НомерЗаданияНаОтбор</field>
       </fields>
       <calculatedFields>
         <dataPath>ПредставлениеМодели</dataPath>
@@ -1508,19 +1562,18 @@
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
-        <name>Задание</name>
+        <name>Документ</name>
         <title>
           <localValue>
             <content>
               <key>ru</key>
-              <value>Задание</value>
+              <value>Документ</value>
             </content>
           </localValue>
         </title>
         <valueType>
           <types>DocumentRef.Задание</types>
         </valueType>
-        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>
@@ -1555,6 +1608,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбработатьШтрихкодСФормыАсинх</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПроверитьШтрихкод</name>
+    <title>
+      <key>ru</key>
+      <value>Проверить штрихкод</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПроверитьШтрихкод</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

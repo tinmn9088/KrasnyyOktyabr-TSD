@@ -175,6 +175,10 @@
       <items xsi:type="form:FormField">
         <name>СписокЗаданийОписание</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Описание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -500,95 +504,93 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ВсеЗаданияНаОтбор.Ссылка КАК Задание
-ПОМЕСТИТЬ НевыполненныеЗадания
+    ВсеЗадания.Ссылка КАК Документ
+ПОМЕСТИТЬ ВсеНезавершенныеЗадания
 ИЗ
-	Документ.Задание.ЗаданияНаОтбор КАК ВсеЗаданияНаОтбор
+    Документ.Задание КАК ВсеЗадания
 ГДЕ
-	ВсеЗаданияНаОтбор.Комплектовщик = &amp;Комплектовщик
-
-СГРУППИРОВАТЬ ПО
-	ВсеЗаданияНаОтбор.Ссылка
-
-ИМЕЮЩИЕ
-	СУММА(ВсеЗаданияНаОтбор.Количество) > 0
+    НЕ ВсеЗадания.ПометкаУдаления
 
 ИНДЕКСИРОВАТЬ ПО
-	Задание
+    Документ
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-	Задания.Ссылка КАК Ссылка,
-	СТРОКА(Задания.Дата) КАК ПредставлениеДаты,
-	Задания.ВКоробах КАК ВКоробах,
-	Задания.ВКоробках КАК ВКоробках,
-	СТРОКА(Задания.Номер) КАК ПредставлениеНомера
+ ВЫБРАТЬ
+    ВсеЗаданияНаОтбор.Ссылка КАК Документ,
+    ВсеЗаданияНаОтбор.НомерЗаданияНаОтбор КАК НомерЗаданияНаОтбор,
+    ВсеЗаданияНаОтбор.Количество КАК Количество
+ПОМЕСТИТЬ ВсеЗаданияНаОтборДляКомплектовщика
 ИЗ
-	НевыполненныеЗадания КАК НевыполненныеЗадания
-		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.Задание КАК Задания
-		ПО НевыполненныеЗадания.Задание = Задания.Ссылка
+    ВсеНезавершенныеЗадания КАК ВсеНезавершенныеЗадания
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.Задание.ЗаданияНаОтбор КАК ВсеЗаданияНаОтбор
+        ПО ВсеНезавершенныеЗадания.Документ = ВсеЗаданияНаОтбор.Ссылка
 ГДЕ
-	Задания.Статус &lt;> ЗНАЧЕНИЕ(Перечисление.СтатусЗадания.Закрыто)
-	И НЕ Задания.ПометкаУдаления</queryText>
-      <mainTable>Document.Задание</mainTable>
+    ВсеЗаданияНаОтбор.Комплектовщик = &amp;Комплектовщик
+
+ИНДЕКСИРОВАТЬ ПО
+    Документ,
+    НомерЗаданияНаОтбор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ УНИЧТОЖИТЬ ВсеНезавершенныеЗадания
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+    ВсеЗаданияНаОтборДляКомплектовщика.Документ КАК Документ,
+    ВсеЗаданияНаОтборДляКомплектовщика.Количество - ЕСТЬNULL(СУММА(ВсеШтрихкоды.Количество), 0) КАК ОсталосьПоЗаданию
+ПОМЕСТИТЬ ОстаткиПоЗаданиямНаОтбор
+ИЗ
+    ВсеЗаданияНаОтборДляКомплектовщика КАК ВсеЗаданияНаОтборДляКомплектовщика
+        ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ШтрихкодыКонтроляОтбора КАК ВсеШтрихкоды
+        ПО ВсеЗаданияНаОтборДляКомплектовщика.Документ = ВсеШтрихкоды.Документ
+        И ВсеЗаданияНаОтборДляКомплектовщика.НомерЗаданияНаОтбор = ВсеШтрихкоды.НомерЗаданияНаОтбор
+СГРУППИРОВАТЬ ПО
+    ВсеЗаданияНаОтборДляКомплектовщика.Документ,
+    ВсеЗаданияНаОтборДляКомплектовщика.Количество
+
+ИНДЕКСИРОВАТЬ ПО
+    Документ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ УНИЧТОЖИТЬ
+    ВсеЗаданияНаОтборДляКомплектовщика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ РАЗЛИЧНЫЕ
+    ОстаткиПоЗаданиямНаОтбор.Документ КАК Документ
+ПОМЕСТИТЬ НезавершенныеЗаданияКомплектовщика
+ИЗ
+    ОстаткиПоЗаданиямНаОтбор КАК ОстаткиПоЗаданиямНаОтбор
+ГДЕ
+    ОстаткиПоЗаданиямНаОтбор.ОсталосьПоЗаданию > 0
+
+ИНДЕКСИРОВАТЬ ПО
+    Документ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ УНИЧТОЖИТЬ ОстаткиПоЗаданиямНаОтбор
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+    НезавершенныеЗаданияКомплектовщика.Документ КАК Документ,
+    СТРОКА(НезавершенныеЗаданияКомплектовщика.Документ.Дата) КАК ПредставлениеДаты,
+    СТРОКА(НезавершенныеЗаданияКомплектовщика.Документ.Номер) КАК ПредставлениеНомера,
+    НезавершенныеЗаданияКомплектовщика.Документ.ВКоробах КАК ВКоробах,
+    НезавершенныеЗаданияКомплектовщика.Документ.ВКоробках КАК ВКоробках
+ИЗ
+    НезавершенныеЗаданияКомплектовщика КАК НезавершенныеЗаданияКомплектовщика</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ВКоробках</dataPath>
-        <field>ВКоробках</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номер</dataPath>
-        <field>Номер</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ВКоробах</dataPath>
         <field>ВКоробах</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ссылка</dataPath>
-        <field>Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДокументНаПеремещение</dataPath>
-        <field>ДокументНаПеремещение</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Зона</dataPath>
-        <field>Зона</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Статус</dataPath>
-        <field>Статус</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ЗаданиеНаОтбор</dataPath>
-        <field>ЗаданиеНаОтбор</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>UID</dataPath>
-        <field>UID</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПометкаУдаления</dataPath>
-        <field>ПометкаУдаления</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ПредставлениеДаты</dataPath>
@@ -598,6 +600,18 @@
             <content>
               <key>ru</key>
               <value>Представление даты</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВКоробках</dataPath>
+        <field>ВКоробках</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>В коробках</value>
             </content>
           </localValue>
         </title>
@@ -613,6 +627,10 @@
             </content>
           </localValue>
         </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Документ</dataPath>
+        <field>Документ</field>
       </fields>
       <calculatedFields>
         <dataPath>Описание</dataPath>
@@ -647,6 +665,8 @@
         <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
+      <keyType>FieldValue</keyType>
+      <keyField>Документ</keyField>
     </extInfo>
   </attributes>
   <parameters>

@@ -35,10 +35,6 @@
       <command>Document.Задание.Command.ПросмотрВыполняемыхЗаданий</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.Задание.Command.ПросмотрСтатусовЗаданий</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

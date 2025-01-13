@@ -117,38 +117,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6594d3ef-0df6-4fa0-b160-3bff45b5b983">
-    <name>Зона</name>
-    <synonym>
-      <key>ru</key>
-      <value>Зона</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.АдресаТЛЦ</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b1693268-e8eb-4278-bfab-ec2e16a2ec04">
-    <name>Статус</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтатусЗадания</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="e12bc868-f600-4fee-a06b-6dfdcf0fa1d9">
     <name>ФормаВыполнения</name>
     <synonym>
@@ -164,16 +132,6 @@
       <key>ru</key>
       <value>Выполняемые задания</value>
     </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="9f98f603-add1-41d7-85c1-063c43676b5f">
-    <name>ФормаСтатусыЗаданий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статусы заданий</value>
-    </synonym>
-    <comment>Имитация журнала документа из ТШК 1С 7.7.</comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -250,6 +208,25 @@
       <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="94435f2a-88f3-4d2e-97a9-8a69623d01e7">
+      <name>НомерЗаданияНаОтбор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер задания на отбор</value>
+      </synonym>
+      <comment>Номер строки документа из ТШК 1С 7.7.</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="267561d2-d666-4411-8b6c-edc8b3f35b77">
       <name>Размер</name>
       <synonym>
@@ -271,6 +248,7 @@
         <key>ru</key>
         <value>Уценка</value>
       </synonym>
+      <comment>Не заполняется для моделей в коробах.</comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -317,16 +295,6 @@
     <synonym>
       <key>ru</key>
       <value>Выполняемые задания</value>
-    </synonym>
-    <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-  </commands>
-  <commands uuid="cb7a0198-a856-4880-8281-a80c4617c8e0">
-    <name>ПросмотрСтатусовЗаданий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статусы заданий</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>

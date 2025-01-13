@@ -146,19 +146,15 @@
     <name>ПодсказкаОтсканируйтеШтрихкод</name>
     <id>12</id>
     <items xsi:type="form:Decoration">
-      <name>Картинка</name>
+      <name>ПодсказкаОтсканируйтеШтрихкодКартинка</name>
       <id>9</id>
-      <title>
-        <key>ru</key>
-        <value>Картинка</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КартинкаРасширеннаяПодсказка</name>
+        <name>ПодсказкаОтсканируйтеШтрихкодКартинкаРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -173,7 +169,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КартинкаКонтекстноеМеню</name>
+        <name>ПодсказкаОтсканируйтеШтрихкодКартинкаКонтекстноеМеню</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -193,7 +189,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
-      <name>Надпись</name>
+      <name>ПодсказкаОтсканируйтеШтрихкодНадпись</name>
       <id>6</id>
       <title>
         <key>ru</key>
@@ -205,7 +201,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>НадписьРасширеннаяПодсказка</name>
+        <name>ПодсказкаОтсканируйтеШтрихкодНадписьРасширеннаяПодсказка</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -220,7 +216,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НадписьКонтекстноеМеню</name>
+        <name>ПодсказкаОтсканируйтеШтрихкодНадписьКонтекстноеМеню</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -239,10 +235,7 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Подсказка отсканируйте штрихкод</value>
-    </title>
+    <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>ПодсказкаОтсканируйтеШтрихкодРасширеннаяПодсказка</name>
       <id>13</id>

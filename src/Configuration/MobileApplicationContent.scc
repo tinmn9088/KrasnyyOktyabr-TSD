@@ -10,12 +10,12 @@
   <usedItem metadata="Document.АктПриемкиТоваров"/>
   <usedItem metadata="Role.АдминистрированиеЗаданийКомплектовщика"/>
   <usedItem metadata="Role.АдминистрированиеПеремещений"/>
-  <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Дата"/>
+  <usedItem metadata="CommonForm.ФормаПроверкиШтрихкодаОбуви"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров.Dimension.Штрихкод"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Дата"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Attribute.Контрагент"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.МагазинОтправитель"/>
-  <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Задание"/>
+  <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Документ"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Модификатор"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Количество"/>
   <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Комплектовщик"/>
@@ -23,10 +23,10 @@
   <usedItem metadata="Catalog.Комплектовщики"/>
   <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.НомерЗаданияНаОтбор"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Комплектовщик"/>
+  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТипШтрихкода"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Размер"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Attribute.ИспользуетсяМаркировкаТоваров"/>
   <usedItem metadata="Catalog.СкладыРозница"/>
-  <usedItem metadata="Document.ВнПеремОтпуск.Attribute.Задание"/>
   <usedItem metadata="Catalog.Модели"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров"/>
   <usedItem metadata="CommonModule.ШтрихкодыКлиентСервер"/>
@@ -53,11 +53,12 @@
   <usedItem metadata="Enum.ТипШтрихкода"/>
   <usedItem metadata="Catalog.СотрудникиСклада.Attribute.ТабельныйНомер"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПринятогоТовара"/>
-  <usedItem metadata="Catalog.Модели.Attribute.флДваКороба"/>
+  <usedItem metadata="Catalog.Модели.Attribute.ДваКороба"/>
+  <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Attribute.Дата"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.СкладПолучатель"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Dimension.Идентфикатор"/>
   <usedItem metadata="Document.ИнвентаризацияСклад.TabularSection.ЯчейкиКомплектовщиков.Attribute.НомерЯчейки"/>
-  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.КодМаркировки"/>
+  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.Штрихкод"/>
   <usedItem metadata="Catalog.СкладыЭДиН"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий"/>
   <usedItem metadata="DataProcessor.ВыполнениеПриходов.Form.ФормаВыбораЭлектроннойНакладной"/>
@@ -65,7 +66,6 @@
   <usedItem metadata="Catalog.ТШККороб.Attribute.Модель"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КодМаркировки"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.Дата"/>
-  <usedItem metadata="Document.Задание.Attribute.Зона"/>
   <usedItem metadata="Role.ВыполнениеИнвентаризацииОбуви"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения"/>
   <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
@@ -86,11 +86,9 @@
   <usedItem metadata="Document.ПоступлениеТоваров.Attribute.Магазин"/>
   <usedItem metadata="Catalog.КМ31.Attribute.ПроцентУценки"/>
   <usedItem metadata="CommonModule.КонтрольОтбора"/>
-  <usedItem metadata="Document.ВыполнениеЗадания.Attribute.ДокументНаПеремещение"/>
   <usedItem metadata="Document.ИнвентаризацияСклад.Attribute.Цех"/>
-  <usedItem metadata="Enum.СтатусЗадания"/>
   <usedItem metadata="Subsystem.Администрирование.Subsystem.Данные"/>
-  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Задание"/>
+  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Документ"/>
   <usedItem metadata="Document.Задание.Attribute.ВКоробах"/>
   <usedItem metadata="CommonModule.ОповещенияПользователяКлиент"/>
   <usedItem metadata="Subsystem.Администрирование.Subsystem.Обмен"/>
@@ -99,7 +97,7 @@
   <usedItem metadata="Catalog.моделиEAH13.Attribute.Кожтовар"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.Организация"/>
   <usedItem metadata="CommonModule.XMLКлиентСервер"/>
-  <usedItem metadata="Document.ВыполнениеЗадания"/>
+  <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.НомерЗаданияНаОтбор"/>
   <usedItem metadata="Document.ИнвентаризацияСклад.TabularSection.ЯчейкиКомплектовщиков"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Form.ФормаЗаполнения"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.ВидОшибки"/>
@@ -110,7 +108,6 @@
   <usedItem metadata="Subsystem.Администрирование"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви"/>
   <usedItem metadata="Catalog.АдресаТЛЦ"/>
-  <usedItem metadata="Document.Задание.Form.ФормаСтатусыЗаданий"/>
   <usedItem metadata="Document.АктПриемкиТоваров.Attribute.Организация"/>
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Уценка"/>
   <usedItem metadata="ExchangePlan.МобильныйАвтономныйСервер"/>
@@ -118,7 +115,6 @@
   <usedItem metadata="Catalog.ОрганизацииЭДиН"/>
   <usedItem metadata="CommonModule.ШтрихкодыОбувиКлиентСервер"/>
   <usedItem metadata="Catalog.моделиEAH13"/>
-  <usedItem metadata="Document.Задание.Attribute.Статус"/>
   <usedItem metadata="Document.ИнвентаризацияСклад.TabularSection.ЯчейкиКомплектовщиков.Attribute.Комплектовщик"/>
   <usedItem metadata="CommonModule.ВнешниеКомпонентыКлиент"/>
   <usedItem metadata="Catalog.ТШККороб.Attribute.Кожтовар"/>
@@ -150,7 +146,6 @@
   <usedItem metadata="Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Ячейка"/>
   <usedItem metadata="DataProcessor.ВыполнениеИнвентаризации"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.СотрудникЗаполнившийПеремещение"/>
-  <usedItem metadata="Document.Задание.Command.ПросмотрСтатусовЗаданий"/>
   <usedItem metadata="Catalog.моделиEAH13.Attribute.Цвет"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Dimension.Документ"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПоставленногоТовара"/>
@@ -161,7 +156,6 @@
   <usedItem metadata="Role.ВыполнениеПриходов"/>
   <usedItem metadata="DataProcessor.ВыполнениеЗаданий.Form.ФормаВыбораСотрудника"/>
   <usedItem metadata="Subsystem.Администрирование.Subsystem.События"/>
-  <usedItem metadata="Document.ВнПеремОтпуск.Attribute.Комментарий"/>
   <usedItem metadata="Document.Задание.Attribute.ДокументНаПеремещение"/>
   <usedItem metadata="Document.ПоступлениеТоваров.Form.ФормаЗаполнения"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоНепринятогоТовара"/>
@@ -171,6 +165,7 @@
   <usedItem metadata="Catalog.КонтрагентыЭДиН"/>
   <usedItem metadata="Catalog.ТШККороб.Attribute.Цвет"/>
   <usedItem metadata="CommonModule.КодыВозвратаСерверГлобальный"/>
+  <usedItem metadata="InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Количество"/>
   <usedItem metadata="Document.ПеремещениеТоваров.Attribute.СкладОтправитель"/>
   <usedItem metadata="Catalog.Комплектовщики.Attribute.ВыполняемоеЗадание"/>
   <usedItem metadata="DataProcessor.ВыполнениеПриходов.Form.ФормаВыбораВидаПрихода"/>
@@ -182,7 +177,6 @@
   <usedItem metadata="DataProcessor.ВыполнениеИнвентаризации.Form.ФормаВыбораИнвентаризацииОбуви"/>
   <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Комплектовщик"/>
   <usedItem metadata="DataProcessor.ВыполнениеПеремещений"/>
-  <usedItem metadata="InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТШК"/>
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров.Dimension.Документ"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.НомерЯчейки"/>

@@ -87,10 +87,6 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
-    <mdObject>Document.ВыполнениеЗадания</mdObject>
-    <autoRecord>Allow</autoRecord>
-  </content>
-  <content>
     <mdObject>InformationRegister.ШтрихкодыИнвентаризацииОбуви</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>

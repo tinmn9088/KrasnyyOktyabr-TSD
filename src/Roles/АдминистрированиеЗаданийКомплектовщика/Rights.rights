@@ -407,10 +407,10 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Дата</name>
+		<name>CommonForm.ФормаПроверкиШтрихкодаОбуви</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -529,7 +529,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Задание</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Документ</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1595,7 +1595,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Модели.Attribute.флДваКороба</name>
+		<name>Catalog.Модели.Attribute.ДваКороба</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1620,7 +1620,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.КодМаркировки</name>
+		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.Штрихкод</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2446,7 +2446,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Задание</name>
+		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Документ</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2497,117 +2497,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -4142,13 +4031,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Задание.Command.ПросмотрСтатусовЗаданий</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.моделиEAH13.Attribute.Цвет</name>
 		<right>
 			<name>Edit</name>
@@ -4708,13 +4590,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Комплектовщик</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТШК</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

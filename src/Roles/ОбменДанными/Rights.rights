@@ -434,14 +434,10 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Дата</name>
+		<name>CommonForm.ФормаПроверкиШтрихкодаОбуви</name>
 		<right>
 			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -516,7 +512,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Задание</name>
+		<name>InformationRegister.ШтрихкодыКонтроляОтбора.Resource.Документ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -878,17 +874,6 @@
 	</object>
 	<object>
 		<name>Catalog.СкладыРозница.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВнПеремОтпуск.Attribute.Задание</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1696,7 +1681,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Модели.Attribute.флДваКороба</name>
+		<name>Catalog.Модели.Attribute.ДваКороба</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1740,7 +1725,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.КодМаркировки</name>
+		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.Штрихкод</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2058,17 +2043,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.Дата</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Задание.Attribute.Зона</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2579,17 +2553,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВыполнениеЗадания.Attribute.ДокументНаПеремещение</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ИнвентаризацияСклад.Attribute.Цех</name>
 		<right>
 			<name>View</name>
@@ -2601,7 +2564,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Задание</name>
+		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Документ</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2657,112 +2620,6 @@
 	</object>
 	<object>
 		<name>Document.ПеремещениеТоваров.Attribute.Организация</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания.StandardAttribute.Posted</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания.StandardAttribute.Date</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВыполнениеЗадания.StandardAttribute.Number</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3480,17 +3337,6 @@
 	</object>
 	<object>
 		<name>Catalog.моделиEAH13.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.Задание.Attribute.Статус</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4679,17 +4525,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВнПеремОтпуск.Attribute.Комментарий</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.Задание.Attribute.ДокументНаПеремещение</name>
 		<right>
 			<name>View</name>
@@ -5063,17 +4898,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Resource.Комплектовщик</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.ТШК</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

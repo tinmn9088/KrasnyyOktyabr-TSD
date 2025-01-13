@@ -67,39 +67,6 @@
   <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="285144fe-8ebe-4d5c-82bc-b11dd1725ead">
-    <name>Задание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Задание</value>
-    </synonym>
-    <type>
-      <types>DocumentRef.Задание</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="df262065-d938-43b1-b9fc-c55c5cf8d831">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <multiLine>true</multiLine>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <tabularSections uuid="7009b951-c64a-45e8-8a0b-c385212799aa">
     <producedTypes>
       <objectType typeId="3037d116-8313-4fb5-887d-422ba3575f08" valueTypeId="a117fcba-bb23-42d0-b2b1-f5ecedaa962f"/>
@@ -118,23 +85,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="38d13341-83bf-4379-8fd2-13567f4dff9a">
-      <name>Короб</name>
-      <synonym>
-        <key>ru</key>
-        <value>Короб</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>9</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="bb753608-b9bf-4db9-a2ea-6e6889086401">
       <name>КМ31</name>
       <synonym>
@@ -145,6 +95,37 @@
         <types>String</types>
         <stringQualifiers>
           <length>31</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04017709-54e9-4129-a084-2a8d7459bde7">
+      <name>Комплектовщик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комплектовщик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Комплектовщики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="38d13341-83bf-4379-8fd2-13567f4dff9a">
+      <name>Короб</name>
+      <synonym>
+        <key>ru</key>
+        <value>Короб</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>

@@ -17,27 +17,11 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="105f31e9-91d3-4de5-b6fb-590c49322066">
-    <name>Дата</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
   <resources uuid="163f2131-cec0-49cc-ac35-170a49ae2c10">
-    <name>Задание</name>
+    <name>Документ</name>
     <synonym>
       <key>ru</key>
-      <value>Задание</value>
+      <value>Документ</value>
     </synonym>
     <type>
       <types>DocumentRef.Задание</types>
@@ -47,18 +31,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
   </resources>
-  <resources uuid="1d809baf-9021-4a77-9909-87103d7bf4a6">
-    <name>НомерЗаданияНаОтбор</name>
+  <resources uuid="efdb8e7c-267d-4fb6-94ac-09bdf1073ba1">
+    <name>Количество</name>
     <synonym>
       <key>ru</key>
-      <value>Номер задания на отбор</value>
+      <value>Количество</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
-        <nonNegative>true</nonNegative>
+        <precision>7</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -81,7 +65,44 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
   </resources>
+  <resources uuid="1d809baf-9021-4a77-9909-87103d7bf4a6">
+    <name>НомерЗаданияНаОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задания на отбор</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="4b05225e-f7fc-43a2-be7b-06395a2a97ec">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="f808aa8b-3237-45fe-b2f4-2f9338cfa972">
     <name>Штрихкод</name>
     <synonym>

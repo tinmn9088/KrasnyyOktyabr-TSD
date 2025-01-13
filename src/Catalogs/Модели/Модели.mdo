@@ -122,16 +122,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4af12317-81a6-40fc-9483-ea6b23c13ecc">
-    <name>флДваКороба</name>
+    <name>ДваКороба</name>
     <synonym>
       <key>ru</key>
-      <value>ФлДваКороба</value>
+      <value>Два короба</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>1</precision>
-      </numberQualifiers>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
