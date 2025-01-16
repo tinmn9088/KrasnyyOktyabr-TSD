@@ -476,6 +476,10 @@
 	<object>
 		<name>Configuration.ТерминалыСбораДанных</name>
 		<right>
+			<name>EventLog</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
