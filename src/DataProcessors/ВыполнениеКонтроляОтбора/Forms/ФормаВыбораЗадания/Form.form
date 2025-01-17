@@ -67,7 +67,7 @@
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormGroup">
-      <name>СписокЗаданийЗадание</name>
+      <name>СписокЗаданийВертикальнаяГруппа</name>
       <id>29</id>
       <items xsi:type="form:FormField">
         <name>СписокЗаданийДата</name>
@@ -173,23 +173,19 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
-        <name>СписокЗаданийОписание</name>
-        <id>17</id>
-        <title>
-          <key>ru</key>
-          <value>Описание</value>
-        </title>
+        <name>СписокЗаданийЗона</name>
+        <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокЗаданий.Описание</segments>
+          <segments>ФормаСписокЗаданий.Зона</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокЗаданийОписаниеРасширеннаяПодсказка</name>
-          <id>19</id>
+          <name>СписокЗаданийЗонаРасширеннаяПодсказка</name>
+          <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -203,8 +199,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СписокЗаданийОписаниеКонтекстноеМеню</name>
-          <id>18</id>
+          <name>СписокЗаданийЗонаКонтекстноеМеню</name>
+          <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -218,7 +214,53 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>24</maxWidth>
+          <maxWidth>8</maxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СписокЗаданийОписаниеПолучателя</name>
+        <id>39</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ФормаСписокЗаданий.ОписаниеПолучателя</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокЗаданийОписаниеПолучателяРасширеннаяПодсказка</name>
+          <id>41</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокЗаданийОписаниеПолучателяКонтекстноеМеню</name>
+          <id>40</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <maxWidth>16</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <textColor xsi:type="core:ColorDef">
             <red>255</red>
@@ -232,7 +274,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокЗаданийЗаданиеРасширеннаяПодсказка</name>
+        <name>СписокЗаданийВертикальнаяГруппаРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -583,7 +625,9 @@
     СТРОКА(НезавершенныеЗаданияКомплектовщика.Документ.Дата) КАК ПредставлениеДаты,
     СТРОКА(НезавершенныеЗаданияКомплектовщика.Документ.Номер) КАК ПредставлениеНомера,
     НезавершенныеЗаданияКомплектовщика.Документ.ВКоробах КАК ВКоробах,
-    НезавершенныеЗаданияКомплектовщика.Документ.ВКоробках КАК ВКоробках
+    НезавершенныеЗаданияКомплектовщика.Документ.ВКоробках КАК ВКоробках,
+    НезавершенныеЗаданияКомплектовщика.Документ.Зона КАК Зона,
+    НезавершенныеЗаданияКомплектовщика.Документ.ОписаниеПолучателя КАК ОписаниеПолучателя
 ИЗ
     НезавершенныеЗаданияКомплектовщика КАК НезавершенныеЗаданияКомплектовщика</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -632,23 +676,30 @@
         <dataPath>Документ</dataPath>
         <field>Документ</field>
       </fields>
-      <calculatedFields>
-        <dataPath>Описание</dataPath>
-        <expression>&quot;В коробах - &quot; + Строка(ВКоробах) + &quot; / В коробках - &quot; + Строка(ВКоробках)</expression>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Зона</dataPath>
+        <field>Зона</field>
         <title>
           <localValue>
             <content>
               <key>ru</key>
-              <value>Описание</value>
+              <value>Зона</value>
             </content>
           </localValue>
         </title>
-        <useRestriction>
-          <condition>true</condition>
-          <group>true</group>
-          <order>true</order>
-        </useRestriction>
-      </calculatedFields>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеПолучателя</dataPath>
+        <field>НаименованиеПолучателя</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Наименование получателя</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
       <parameters>
         <name>Комплектовщик</name>
         <title>
