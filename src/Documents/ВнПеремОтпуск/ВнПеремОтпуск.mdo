@@ -61,8 +61,7 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <numberType>String</numberType>
-  <numberLength>9</numberLength>
+  <numberLength>6</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
   <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
