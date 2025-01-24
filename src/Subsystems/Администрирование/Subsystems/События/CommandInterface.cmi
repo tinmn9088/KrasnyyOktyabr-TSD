@@ -32,6 +32,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Document.ПересчетТоваров.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.Задание.Command.ПросмотрВыполняемыхЗаданий</command>
       <visible/>
     </visibilityFragments>
@@ -44,6 +50,7 @@
       <commands>Document.АктПриемкиТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПоступлениеТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПересчетТоваров.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -54,6 +61,7 @@
       <commands>Document.АктПриемкиТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПоступлениеТоваров.StandardCommand.OpenList</commands>
       <commands>Document.ПеремещениеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.ПересчетТоваров.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

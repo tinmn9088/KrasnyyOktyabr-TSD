@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="185759a7-bcd2-498e-a0db-d1ef87f33e2c">
+  <producedTypes>
+    <objectType typeId="b23786ad-e0de-46fe-910f-e8a8a88bddfa" valueTypeId="86275f18-d4bb-478a-9214-f0b3aa192f7c"/>
+    <refType typeId="35d4212b-180d-4ee8-a7fe-bb5d8a8201f7" valueTypeId="784e4528-bff8-40aa-97f2-f10c64804c89"/>
+    <selectionType typeId="ef08a825-a0c0-4118-9506-94c1b7eb1cb8" valueTypeId="72b5f48a-b03d-45b3-b833-a12b0cd3cde5"/>
+    <listType typeId="b262d34b-5adf-4114-a14e-683a4f5718dc" valueTypeId="0617158c-84a5-469a-aac8-3f81240efbc1"/>
+    <managerType typeId="20e68a61-7f73-459e-97bd-5916a4e3c0b6" valueTypeId="3f0ddf88-6880-44ec-b4bd-684a6d59abe7"/>
+  </producedTypes>
+  <name>ПересчетТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет товаров</value>
+  </synonym>
+  <comment>Аналог документа из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПересчетТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d48213c7-36bb-4cb9-ae79-e755e381fede">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МагазиныРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cecd0965-67f4-4e33-a672-55bc2e066a70">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОрганизацииРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57f81817-fba0-4fb3-91c0-f73ddf97b566">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2abc0d20-dfdb-4eea-8d27-d26729a12f7b">
+    <name>СотрудникВыполнившийПересчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник выполнивший пересчет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СотрудникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="13450169-4c14-43c5-bce2-fdf050cf7732">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="610617f8-3a21-49bb-8721-34ab6d648637">
+    <producedTypes>
+      <objectType typeId="17ce02e0-5da8-460a-ac41-aac29d2731c9" valueTypeId="28cf8856-a155-4e65-9e17-5fcf69727206"/>
+      <rowType typeId="f15825d2-8d58-4def-9a70-34a90b4e740a" valueTypeId="84095c40-3a8e-46cc-91d6-ce90c6dc6009"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="40b3f979-9ebd-4c10-b30d-90d49a7fff6a">
+      <name>КоличествоУпаковок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество упаковок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8209ec4-3cb9-4ed8-bbfc-d8d745385407">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураРозница</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

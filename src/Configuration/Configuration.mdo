@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>7.0.8</version>
+  <version>8.0.0</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -58,11 +58,14 @@
   <roles>Role.ВыполнениеПриходов</roles>
   <roles>Role.АдминистрированиеПеремещений</roles>
   <roles>Role.ВыполнениеПеремещений</roles>
+  <roles>Role.АдминистрированиеИнвентаризацииТоваров</roles>
+  <roles>Role.ВыполнениеИнвентаризацииТоваров</roles>
   <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XMLКлиентСервер</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
   <commonModules>CommonModule.ИнвентаризацияОбуви</commonModules>
+  <commonModules>CommonModule.ИнвентаризацияТоваров</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
   <commonModules>CommonModule.КодыВозвратаСерверГлобальный</commonModules>
   <commonModules>CommonModule.КонтрольОтбора</commonModules>
@@ -105,6 +108,7 @@
   <documents>Document.Задание</documents>
   <documents>Document.ИнвентаризацияСклад</documents>
   <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.ПересчетТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>

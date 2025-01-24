@@ -19,4 +19,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="3f03c924-2adb-4ccd-a788-9fd5b17806ea">
+    <name>ФормаВыбораИнвентаризацииТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор инвентаризации товаров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

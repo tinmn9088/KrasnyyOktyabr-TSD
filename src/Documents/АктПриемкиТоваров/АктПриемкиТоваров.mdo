@@ -63,6 +63,7 @@
   <numberType>String</numberType>
   <numberLength>11</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
+  <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="26924ada-71f4-47cb-988b-1bf28e0d4d4a">
