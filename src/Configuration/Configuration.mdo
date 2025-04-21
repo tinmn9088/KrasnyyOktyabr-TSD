@@ -118,6 +118,7 @@
   <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеРеализации</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>

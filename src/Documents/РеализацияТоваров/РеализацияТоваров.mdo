@@ -84,4 +84,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4164d96c-cf59-4be0-a5cd-3d18528e6394">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
