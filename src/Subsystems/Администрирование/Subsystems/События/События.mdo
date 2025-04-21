@@ -14,5 +14,6 @@
   <content>Document.ПоступлениеТоваров</content>
   <content>Document.ИнвентаризацияСклад</content>
   <content>Document.ПересчетТоваров</content>
+  <content>Document.РеализацияТоваров</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

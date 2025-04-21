@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fd31a29-3e6a-44af-9c42-e24782c0b374">
+  <producedTypes>
+    <objectType typeId="1ab7924d-9c25-4eb4-9b5c-5f6cbb312883" valueTypeId="ec2f2b45-a280-4fc0-af15-619f5faa6eef"/>
+    <refType typeId="1fb18d2a-1c97-4057-8944-0c6c21811fd3" valueTypeId="9840bd16-2908-4dc8-a137-845b249bacc7"/>
+    <selectionType typeId="c9ce80a3-debe-409f-bd44-b4e8837fd3e6" valueTypeId="df7131e2-bcd7-4223-a07c-a06537940007"/>
+    <listType typeId="57f59562-0adf-4ca3-b11f-bba7d46cec06" valueTypeId="213e5457-8ed1-4c41-8ef6-b949aebd592f"/>
+    <managerType typeId="926f9e12-ddfd-4457-a202-3c83228f1dcc" valueTypeId="500994b9-89f4-4094-9dfc-b91bac57543d"/>
+  </producedTypes>
+  <name>РеализацияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация товаров</value>
+  </synonym>
+  <comment>Аналог документа из Розницы.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеализацияТоваров.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="173218ad-3ac1-414d-884c-cefc42a4f789">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9729ee5-d45f-4efa-be0c-ac3116463e85">
+    <name>Магазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Магазин</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МагазиныРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03b49364-c07b-4021-9f69-6ac2f90e81bc">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СкладыРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c87d186-55cc-4fdc-a2e8-30e02d0740eb">
+    <name>СотрудникВыполнившийРеализацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник выполнивший реализацию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СотрудникиСклада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

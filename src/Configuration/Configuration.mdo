@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>8.0.0</version>
+  <version>9.0.0</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -110,6 +110,7 @@
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПересчетТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
   <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
