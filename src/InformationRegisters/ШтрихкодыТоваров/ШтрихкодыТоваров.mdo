@@ -77,6 +77,7 @@
       <value>Документ</value>
     </synonym>
     <type>
+      <types>DocumentRef.ПересчетТоваров</types>
       <types>DocumentRef.ПоступлениеТоваров</types>
       <types>DocumentRef.ПеремещениеТоваров</types>
     </type>

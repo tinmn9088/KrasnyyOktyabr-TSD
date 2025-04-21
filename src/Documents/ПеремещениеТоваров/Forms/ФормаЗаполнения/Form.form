@@ -1213,6 +1213,10 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
+  </handlers>
+  <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
@@ -1223,10 +1227,6 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
   </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <saveWindowSettings>true</saveWindowSettings>

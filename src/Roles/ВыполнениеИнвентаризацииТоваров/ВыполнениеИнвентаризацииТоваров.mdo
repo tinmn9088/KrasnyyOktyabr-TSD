@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cab412a-4e58-44ad-a0ba-41e9034fea48">
+  <name>ВыполнениеИнвентаризацииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение инвентаризации товаров</value>
+  </synonym>
+  <comment>Есть права на запись в справочники и документы для работы плана обмена для мобильного автономного сервера.</comment>
+</mdclass:Role>

@@ -21,6 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <numberLength>5</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
+  <posting>Deny</posting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="41c6abdb-1445-49aa-a5ac-50657e1c7336">
