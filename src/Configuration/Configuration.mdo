@@ -60,6 +60,8 @@
   <roles>Role.ВыполнениеПеремещений</roles>
   <roles>Role.АдминистрированиеИнвентаризацииТоваров</roles>
   <roles>Role.ВыполнениеИнвентаризацииТоваров</roles>
+  <roles>Role.АдминистрированиеРеализацииТоваров</roles>
+  <roles>Role.ВыполнениеРеализацииТоваров</roles>
   <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XMLКлиентСервер</commonModules>
