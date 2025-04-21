@@ -74,6 +74,7 @@
   <commonModules>CommonModule.Перемещения</commonModules>
   <commonModules>CommonModule.ПриходыБСО</commonModules>
   <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
+  <commonModules>CommonModule.Реализация</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>

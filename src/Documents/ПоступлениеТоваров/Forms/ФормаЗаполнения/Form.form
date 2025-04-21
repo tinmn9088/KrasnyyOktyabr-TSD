@@ -206,10 +206,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Поставщик</value>
-    </title>
     <height>1</height>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -394,10 +390,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Получатель</value>
-    </title>
     <height>1</height>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
