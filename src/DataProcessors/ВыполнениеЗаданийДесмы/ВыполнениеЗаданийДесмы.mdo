@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75220da1-10a8-4f1c-8979-8caf93218c2d">
+  <producedTypes>
+    <objectType typeId="68d79d7e-eddb-4ebf-ae0a-d4ddbca2c802" valueTypeId="b6b1519b-f052-43b6-ac4d-5cb9f7354c42"/>
+    <managerType typeId="9319d6e8-3458-4271-a689-d12e02b95f44" valueTypeId="97028ed8-904c-4d10-b221-d8ed025e780b"/>
+  </producedTypes>
+  <name>ВыполнениеЗаданийДесмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение заданий Десмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="39c73528-c1a8-45aa-b4fa-792e715b0be4">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение задания Десмы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

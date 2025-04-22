@@ -30,5 +30,6 @@
   <content>Catalog.МестаХранения</content>
   <content>InformationRegister.ШтрихкодыИнвентаризацииОбуви</content>
   <content>InformationRegister.ШтрихкодыТоваров</content>
+  <content>InformationRegister.ШтрихкодыДесмы</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

@@ -35,7 +35,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>Document.РеализацияТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Document.ПересчетТоваров</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ШтрихкодыДесмы</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

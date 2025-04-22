@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06e55df9-ce93-4651-8464-51bd84383625">
+  <producedTypes>
+    <refType typeId="2219dff3-1fa0-4308-a6a9-f3208899eb54" valueTypeId="878d9a3c-d1dd-4728-b44a-307694b2c42a"/>
+    <listType typeId="b9ca7dbe-1b4c-4174-9db8-1f369b458314" valueTypeId="34fd7e1d-1ce8-43ff-bfef-16ed167cc03f"/>
+    <managerType typeId="0e881a2b-8ee9-411c-b767-64152b7f9421" valueTypeId="161cb723-a699-4d24-bf74-5df152983fdb"/>
+  </producedTypes>
+  <name>ПроцессНаДесме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процесс на Десме</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b699991a-84dc-4aab-9b26-a8517def0e31">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение готовой продукции на склад</value>
+    </synonym>
+    <comment>Означает документ &quot;ВнПеремОтпуск&quot;.</comment>
+  </enumValues>
+  <enumValues uuid="269ea3f0-6100-41e8-85f8-aa6e5a2280e1">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием готовой продукции на складе</value>
+    </synonym>
+    <comment>Означает документ &quot;ВнПеремПриемка&quot;.</comment>
+  </enumValues>
+</mdclass:Enum>

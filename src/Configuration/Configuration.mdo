@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>9.0.1</version>
+  <version>10.0.0</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -54,6 +54,8 @@
   <roles>Role.ВыполнениеЗаданийКомплектовщика</roles>
   <roles>Role.АдминистрированиеИнвентаризацииОбуви</roles>
   <roles>Role.ВыполнениеИнвентаризацииОбуви</roles>
+  <roles>Role.АдминистрированиеЗаданийДесмы</roles>
+  <roles>Role.ВыполнениеЗаданийДесмы</roles>
   <roles>Role.АдминистрированиеПриходов</roles>
   <roles>Role.ВыполнениеПриходов</roles>
   <roles>Role.АдминистрированиеПеремещений</roles>
@@ -66,6 +68,7 @@
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XMLКлиентСервер</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
+  <commonModules>CommonModule.ЗаданияДесмы</commonModules>
   <commonModules>CommonModule.ИнвентаризацияОбуви</commonModules>
   <commonModules>CommonModule.ИнвентаризацияТоваров</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
@@ -114,9 +117,11 @@
   <documents>Document.ПересчетТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.РеализацияТоваров</documents>
-  <enums>Enum.ТипШтрихкода</enums>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
+  <enums>Enum.ПроцессНаДесме</enums>
+  <enums>Enum.ТипШтрихкода</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеЗаданийДесмы</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
@@ -126,4 +131,5 @@
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
 </mdclass:Configuration>
