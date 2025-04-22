@@ -10,6 +10,15 @@
     <value>Выполнение заданий Десмы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <forms uuid="35f2e2b1-e59e-4ada-bc81-38707d57ba6f">
+    <name>ФормаВыбораПроцессаДесмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор процесса Десмы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="39c73528-c1a8-45aa-b4fa-792e715b0be4">
     <name>ФормаВыполнения</name>
     <synonym>
