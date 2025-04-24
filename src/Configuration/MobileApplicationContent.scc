@@ -93,7 +93,7 @@
   <usedItem metadata="DataProcessor.ВыполнениеРеализации"/>
   <usedItem metadata="Role.ВыполнениеИнвентаризацииОбуви"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения"/>
-  <usedItem metadata="CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент"/>
+  <usedItem metadata="CommonModule.СканерШтрихкодаКлиент"/>
   <usedItem metadata="CommonModule.СредстваМультимедиаКлиент"/>
   <usedItem metadata="Document.ВнПеремОтпуск.TabularSection.ТабличнаяЧасть"/>
   <usedItem metadata="InformationRegister.ШтрихкодыДесмы.Resource.Дата"/>
