@@ -53,20 +53,21 @@
       </textColor>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>Процесс</name>
-    <id>4</id>
+  <items xsi:type="form:Decoration">
+    <name>ПодсказкаПроцесс</name>
+    <id>33</id>
+    <title>
+      <key>ru</key>
+      <value>-</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ФормаПроцесс</segments>
-    </dataPath>
     <extendedTooltip>
-      <name>ПроцессРасширеннаяПодсказка</name>
-      <id>6</id>
+      <name>ПодсказкаПроцессРасширеннаяПодсказка</name>
+      <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -80,8 +81,58 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ПроцессКонтекстноеМеню</name>
-      <id>5</id>
+      <name>ПодсказкаПроцессКонтекстноеМеню</name>
+      <id>34</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.FieldSelectionBackColor</color>
+    </textColor>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>КоличествоШтрихкодов</name>
+    <id>30</id>
+    <title>
+      <key>ru</key>
+      <value>Итого пар</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФормаКоличествоШтрихкодов</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КоличествоШтрихкодовРасширеннаяПодсказка</name>
+      <id>32</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КоличествоШтрихкодовКонтекстноеМеню</name>
+      <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -97,6 +148,10 @@
     <extInfo xsi:type="form:LabelFieldExtInfo">
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
       <textColor xsi:type="core:ColorRef">
         <color>Style.SpecialTextColor</color>
       </textColor>
@@ -473,16 +528,16 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
@@ -500,23 +555,6 @@
     <id>1</id>
     <valueType>
       <types>CatalogRef.Комплектовщики</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ФормаПроцесс</name>
-    <title>
-      <key>ru</key>
-      <value>Процесс</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>EnumRef.ПроцессНаДесме</types>
     </valueType>
     <view>
       <common>true</common>
@@ -574,6 +612,7 @@
         <valueType>
           <types>CatalogRef.Комплектовщики</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <parameters>
@@ -589,6 +628,7 @@
         <valueType>
           <types>EnumRef.ПроцессНаДесме</types>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
       <keyType>FieldValue</keyType>
@@ -605,6 +645,43 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаКоличествоШтрихкодов</name>
+    <title>
+      <key>ru</key>
+      <value>Количество штрихкодов</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ФормаПроцесс</name>
+    <title>
+      <key>ru</key>
+      <value>Процесс</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>EnumRef.ПроцессНаДесме</types>
     </valueType>
     <view>
       <common>true</common>
