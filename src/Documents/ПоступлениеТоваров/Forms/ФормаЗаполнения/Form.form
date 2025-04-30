@@ -963,7 +963,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.AppearanceCheckIcon</picture>
+          <picture>StdPicture.Favorites</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>

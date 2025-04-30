@@ -959,7 +959,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.AppearanceCheckIcon</picture>
+          <picture>StdPicture.Favorites</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -1140,10 +1140,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаЗаполнениеЗавершено</name>
+    <name>ФормаВыполнениеЗавершено</name>
     <title>
       <key>ru</key>
-      <value>Заполнение завершено</value>
+      <value>Выполнение завершено</value>
     </title>
     <id>3</id>
     <valueType>
