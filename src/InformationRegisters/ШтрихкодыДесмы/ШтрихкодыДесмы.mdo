@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ad29b68-0de0-479d-b003-3b97f0a3b3b7">
+  <producedTypes>
+    <selectionType typeId="4269387f-242f-4be1-bd9c-d3d71c61bdba" valueTypeId="7f4947d0-df13-4758-af8c-0cca68309fc5"/>
+    <listType typeId="8c228408-85a6-415d-aea0-8dd872b9f894" valueTypeId="8eeb5c6e-85c8-4dc3-a09b-a4894e6fe2b0"/>
+    <managerType typeId="e399525e-c46d-4d99-a764-d0395c2fa13d" valueTypeId="55f8e8dc-1258-4035-8ebb-b91af6d5b31a"/>
+    <recordSetType typeId="63ba9fad-e5e8-4534-8609-565b5559e7a2" valueTypeId="f903e844-a712-47f7-8cd4-dfde92f2a4b3"/>
+    <recordKeyType typeId="92bc727b-dbb4-4980-a703-06b36038e255" valueTypeId="249dca0c-f81d-4f89-b799-d86a9387e0bf"/>
+    <recordType typeId="cea7e516-211d-40cd-b552-63029df61c2d" valueTypeId="f79a7081-b6e3-42fb-9f64-512da98f466b"/>
+    <recordManagerType typeId="092fada2-e025-49f0-8379-accb59dd759e" valueTypeId="a1e6f666-401e-468a-a31c-e715d617a477"/>
+  </producedTypes>
+  <name>ШтрихкодыДесмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды Десмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="70e0e136-ac22-452d-a261-fe3ee40b59c0">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5962adc0-7fab-4d56-b9f0-4cb231a2839a">
+    <name>ОбработанТШК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан ТШК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="bafe302d-0d52-449b-87e3-d0e7662690d4">
+    <name>Комплектовщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектовщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Комплектовщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="60e08bc3-e5b8-4ec9-952a-2061ba60d8d9">
+    <name>Процесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПроцессНаДесме</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa67e9f1-1ed6-49c9-a11d-5900144419d2">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>31</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

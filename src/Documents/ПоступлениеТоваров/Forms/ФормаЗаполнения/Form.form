@@ -206,10 +206,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Поставщик</value>
-    </title>
     <height>1</height>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -394,10 +390,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Получатель</value>
-    </title>
     <height>1</height>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
@@ -971,7 +963,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>StdPicture.AppearanceCheckIcon</picture>
+          <picture>StdPicture.Favorites</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>

@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>8.0.0</version>
+  <version>10.0.5</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -54,16 +54,21 @@
   <roles>Role.ВыполнениеЗаданийКомплектовщика</roles>
   <roles>Role.АдминистрированиеИнвентаризацииОбуви</roles>
   <roles>Role.ВыполнениеИнвентаризацииОбуви</roles>
+  <roles>Role.АдминистрированиеЗаданийДесмы</roles>
+  <roles>Role.ВыполнениеЗаданийДесмы</roles>
   <roles>Role.АдминистрированиеПриходов</roles>
   <roles>Role.ВыполнениеПриходов</roles>
   <roles>Role.АдминистрированиеПеремещений</roles>
   <roles>Role.ВыполнениеПеремещений</roles>
   <roles>Role.АдминистрированиеИнвентаризацииТоваров</roles>
   <roles>Role.ВыполнениеИнвентаризацииТоваров</roles>
+  <roles>Role.АдминистрированиеРеализацииТоваров</roles>
+  <roles>Role.ВыполнениеРеализацииТоваров</roles>
   <roles>Role.ОбменДанными</roles>
   <commonTemplates>CommonTemplate.Драйвер1ССканерШтрихкода</commonTemplates>
   <commonModules>CommonModule.XMLКлиентСервер</commonModules>
   <commonModules>CommonModule.ВнешниеКомпонентыКлиент</commonModules>
+  <commonModules>CommonModule.ЗаданияДесмы</commonModules>
   <commonModules>CommonModule.ИнвентаризацияОбуви</commonModules>
   <commonModules>CommonModule.ИнвентаризацияТоваров</commonModules>
   <commonModules>CommonModule.КодыВозвратаГлобальный</commonModules>
@@ -74,7 +79,8 @@
   <commonModules>CommonModule.Перемещения</commonModules>
   <commonModules>CommonModule.ПриходыБСО</commonModules>
   <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
-  <commonModules>CommonModule.СканерШтрихкодаNewlandN7CachalotProКлиент</commonModules>
+  <commonModules>CommonModule.Реализация</commonModules>
+  <commonModules>CommonModule.СканерШтрихкодаКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
@@ -110,15 +116,20 @@
   <documents>Document.ПеремещениеТоваров</documents>
   <documents>Document.ПересчетТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
-  <enums>Enum.ТипШтрихкода</enums>
+  <documents>Document.РеализацияТоваров</documents>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
+  <enums>Enum.ПроцессНаДесме</enums>
+  <enums>Enum.ТипШтрихкода</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеЗаданийДесмы</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеРеализации</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
 </mdclass:Configuration>

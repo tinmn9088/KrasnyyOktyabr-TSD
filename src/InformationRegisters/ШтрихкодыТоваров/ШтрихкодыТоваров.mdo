@@ -80,6 +80,7 @@
       <types>DocumentRef.ПересчетТоваров</types>
       <types>DocumentRef.ПоступлениеТоваров</types>
       <types>DocumentRef.ПеремещениеТоваров</types>
+      <types>DocumentRef.РеализацияТоваров</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
