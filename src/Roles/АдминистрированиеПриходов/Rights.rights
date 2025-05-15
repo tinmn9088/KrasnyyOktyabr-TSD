@@ -1923,13 +1923,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СотрудникиСклада.Attribute.ТабельныйНомер</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Модели.Attribute.ДваКороба</name>
 		<right>
 			<name>View</name>

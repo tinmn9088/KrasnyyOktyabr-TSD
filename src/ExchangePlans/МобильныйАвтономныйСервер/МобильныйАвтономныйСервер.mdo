@@ -99,6 +99,10 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>InformationRegister.ШтрихкодыНаПроизводстве</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>InformationRegister.ШтрихкодыИнвентаризацииОбуви</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
@@ -107,7 +111,15 @@
     <autoRecord>Allow</autoRecord>
   </content>
   <content>
+    <mdObject>InformationRegister.ШтрихкодыОперацийНаПроизводстве</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
     <mdObject>Catalog.ОрганизацииЭДиН</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <content>
+    <mdObject>Catalog.СотрудникиНаПроизводстве</mdObject>
     <autoRecord>Allow</autoRecord>
   </content>
   <content>

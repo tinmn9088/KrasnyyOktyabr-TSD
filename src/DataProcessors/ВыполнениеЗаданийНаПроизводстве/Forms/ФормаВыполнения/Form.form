@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormField">
-    <name>Комплектовщик</name>
+    <name>Сотрудник</name>
     <id>1</id>
     <title>
       <key>ru</key>
@@ -13,10 +13,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ФормаКомплектовщик</segments>
+      <segments>ФормаСотрудник</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КомплектовщикРасширеннаяПодсказка</name>
+      <name>СотрудникРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -31,7 +31,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КомплектовщикКонтекстноеМеню</name>
+      <name>СотрудникКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -105,7 +105,7 @@
     <id>30</id>
     <title>
       <key>ru</key>
-      <value>Итого пар</value>
+      <value>Итого</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -547,14 +547,14 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ФормаКомплектовщик</name>
+    <name>ФормаСотрудник</name>
     <title>
       <key>ru</key>
-      <value>Комплектовщик</value>
+      <value>Сотрудник</value>
     </title>
     <id>1</id>
     <valueType>
-      <types>CatalogRef.Комплектовщики</types>
+      <types>CatalogRef.СотрудникиНаПроизводстве</types>
     </valueType>
     <view>
       <common>true</common>
@@ -581,14 +581,14 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ШтрихкодыДесмы.Дата,
-    ШтрихкодыДесмы.Штрихкод
+    ШтрихкодыНаПроизводстве.Дата,
+    ШтрихкодыНаПроизводстве.Штрихкод
 ИЗ
-    РегистрСведений.ШтрихкодыДесмы КАК ШтрихкодыДесмы
+    РегистрСведений.ШтрихкодыНаПроизводстве КАК ШтрихкодыНаПроизводстве
 ГДЕ
-    НЕ ШтрихкодыДесмы.ОбработанТШК
-    И ШтрихкодыДесмы.Комплектовщик = &amp;Комплектовщик
-    И ШтрихкодыДесмы.Процесс = &amp;Процесс</queryText>
+    НЕ ШтрихкодыНаПроизводстве.Обработан
+    И ШтрихкодыНаПроизводстве.Сотрудник = &amp;Сотрудник
+    И ШтрихкодыНаПроизводстве.Процесс = &amp;Процесс</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -599,22 +599,6 @@
         <dataPath>Штрихкод</dataPath>
         <field>Штрихкод</field>
       </fields>
-      <parameters>
-        <name>Комплектовщик</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Комплектовщик</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>CatalogRef.Комплектовщики</types>
-        </valueType>
-        <values xsi:type="core:UndefinedValue"/>
-        <useRestriction>true</useRestriction>
-      </parameters>
       <parameters>
         <name>Процесс</name>
         <title>
@@ -627,6 +611,22 @@
         </title>
         <valueType>
           <types>EnumRef.ПроцессНаДесме</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>Сотрудник</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Сотрудник</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.СотрудникиНаПроизводстве</types>
         </valueType>
         <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
@@ -681,7 +681,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>EnumRef.ПроцессНаДесме</types>
+      <types>EnumRef.ПроцессНаПроизводстве</types>
     </valueType>
     <view>
       <common>true</common>
@@ -725,16 +725,16 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
-    <name>Комплектовщик</name>
+    <name>Сотрудник</name>
     <valueType>
-      <types>CatalogRef.Комплектовщики</types>
+      <types>CatalogRef.СотрудникиНаПроизводстве</types>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
     <name>Процесс</name>
     <valueType>
-      <types>EnumRef.ПроцессНаДесме</types>
+      <types>EnumRef.ПроцессНаПроизводстве</types>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>

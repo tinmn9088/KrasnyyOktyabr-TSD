@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>11.0.0</version>
+  <version>12.0.0</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -84,7 +84,9 @@
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
+  <commonModules>CommonModule.Производство</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
+  <commonAttributes>CommonAttribute.ТабельныйНомер</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <commonForms>CommonForm.ФормаВводаКоличестваТовара</commonForms>
   <commonForms>CommonForm.ФормаПроверкиШтрихкодаОбуви</commonForms>
@@ -109,6 +111,7 @@
   <catalogs>Catalog.СкладыЭДиН</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
+  <catalogs>Catalog.СотрудникиНаПроизводстве</catalogs>
   <documents>Document.АктПриемкиТоваров</documents>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>
@@ -119,17 +122,21 @@
   <documents>Document.РеализацияТоваров</documents>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
   <enums>Enum.ПроцессНаДесме</enums>
+  <enums>Enum.ПроцессНаПроизводстве</enums>
   <enums>Enum.ТипШтрихкода</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеЗаданийДесмы</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеЗаданийНаПроизводстве</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеРеализации</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыНаПроизводстве</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыОперацийНаПроизводстве</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
-  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
 </mdclass:Configuration>

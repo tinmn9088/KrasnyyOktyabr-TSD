@@ -1996,13 +1996,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СотрудникиСклада.Attribute.ТабельныйНомер</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПринятогоТовара</name>
 		<right>
 			<name>View</name>

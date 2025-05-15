@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ad29b68-0de0-479d-b003-3b97f0a3b3b7">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="802362d4-ab79-4afd-9597-069f3d1c7dfd">
   <producedTypes>
-    <selectionType typeId="4269387f-242f-4be1-bd9c-d3d71c61bdba" valueTypeId="7f4947d0-df13-4758-af8c-0cca68309fc5"/>
-    <listType typeId="8c228408-85a6-415d-aea0-8dd872b9f894" valueTypeId="8eeb5c6e-85c8-4dc3-a09b-a4894e6fe2b0"/>
-    <managerType typeId="e399525e-c46d-4d99-a764-d0395c2fa13d" valueTypeId="55f8e8dc-1258-4035-8ebb-b91af6d5b31a"/>
-    <recordSetType typeId="63ba9fad-e5e8-4534-8609-565b5559e7a2" valueTypeId="f903e844-a712-47f7-8cd4-dfde92f2a4b3"/>
-    <recordKeyType typeId="92bc727b-dbb4-4980-a703-06b36038e255" valueTypeId="249dca0c-f81d-4f89-b799-d86a9387e0bf"/>
-    <recordType typeId="cea7e516-211d-40cd-b552-63029df61c2d" valueTypeId="f79a7081-b6e3-42fb-9f64-512da98f466b"/>
-    <recordManagerType typeId="092fada2-e025-49f0-8379-accb59dd759e" valueTypeId="a1e6f666-401e-468a-a31c-e715d617a477"/>
+    <selectionType typeId="8ce89c36-63d4-493c-a010-81076668313c" valueTypeId="fad242e1-6e29-4237-b098-7d06975baf34"/>
+    <listType typeId="63aff89b-b573-4549-88f4-611ce167bc8d" valueTypeId="e383f888-110d-4382-83ee-d84021b5f0ca"/>
+    <managerType typeId="3c48aff1-8ae8-4711-8a77-61a0c8af63c6" valueTypeId="0c87706c-2d40-4d23-ac26-e2281358faab"/>
+    <recordSetType typeId="eb0ac0ef-aff1-4453-b69e-e4971320c6b7" valueTypeId="e9b7487a-cf2d-4419-8cdc-378b9e89a9b2"/>
+    <recordKeyType typeId="37fd587f-0f24-4a35-abd2-9e4438f53266" valueTypeId="479181e7-511f-4d70-a6e7-51dfb56b21c3"/>
+    <recordType typeId="53e56630-fa54-4123-a476-6149ad50d9bc" valueTypeId="04873c86-b020-4a87-a613-cd58db2cc174"/>
+    <recordManagerType typeId="3722ba7d-9e1f-4161-b4f5-a784017f4411" valueTypeId="a2394dd2-b32e-45d9-8dc9-e659456c17c4"/>
   </producedTypes>
-  <name>ШтрихкодыДесмы</name>
+  <name>ШтрихкодыНаПроизводстве</name>
   <synonym>
     <key>ru</key>
-    <value>Штрихкоды Десмы</value>
+    <value>Штрихкоды на производстве</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="70e0e136-ac22-452d-a261-fe3ee40b59c0">
+  <resources uuid="5e68c5a6-a118-4a43-84b5-b9220025a632">
     <name>Дата</name>
     <synonym>
       <key>ru</key>
@@ -33,11 +33,27 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="5962adc0-7fab-4d56-b9f0-4cb231a2839a">
-    <name>ОбработанТШК</name>
+  <resources uuid="c92a2174-128a-4ae2-9c9a-b1f05bbfeeb0">
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Обработан ТШК</value>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СотрудникиНаПроизводстве</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="aac0b9f0-c5b8-4404-9179-fedc64a6c228">
+    <name>Обработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработан</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -49,30 +65,14 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <dimensions uuid="bafe302d-0d52-449b-87e3-d0e7662690d4">
-    <name>Комплектовщик</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комплектовщик</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Комплектовщики</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </dimensions>
-  <dimensions uuid="60e08bc3-e5b8-4ec9-952a-2061ba60d8d9">
+  <dimensions uuid="d2c12d65-6274-4904-a76d-c83cb219544a">
     <name>Процесс</name>
     <synonym>
       <key>ru</key>
       <value>Процесс</value>
     </synonym>
     <type>
-      <types>EnumRef.ПроцессНаДесме</types>
+      <types>EnumRef.ПроцессНаПроизводстве</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -82,7 +82,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="aa67e9f1-1ed6-49c9-a11d-5900144419d2">
+  <dimensions uuid="a8f904f6-a8b7-4dc0-a70d-1a79d8955272">
     <name>Штрихкод</name>
     <synonym>
       <key>ru</key>
