@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c207ee6f-3b77-4e8e-aba0-201dcac62b73">
+  <producedTypes>
+    <selectionType typeId="28289763-7086-4dbe-b5c3-b63e6e704cda" valueTypeId="76cd4f8f-5527-49c2-b463-7a7b8a2e1e4c"/>
+    <listType typeId="c3ae1617-d864-4407-9e71-7c05eebff18d" valueTypeId="0d5f3af1-f155-4c6d-a863-3aa1e4c2d602"/>
+    <managerType typeId="b43e1220-ad65-479e-85c8-784df9d18853" valueTypeId="340cd025-22f4-429a-b3b7-e363cd3311e5"/>
+    <recordSetType typeId="268b00b1-4e27-470d-9ad3-c9eaf2af5d7b" valueTypeId="9e7008db-25d3-4f20-8dca-fdb299d7a406"/>
+    <recordKeyType typeId="9a1ab3b6-2d0d-40ad-aea3-026bf7a2a012" valueTypeId="eebc6846-1375-405d-9ad3-1fd33e4fc5f7"/>
+    <recordType typeId="fa618697-645d-4949-bd21-8d9c695b9448" valueTypeId="2f9987c9-0bce-474f-912d-fc37a568f389"/>
+    <recordManagerType typeId="e352c99e-36ee-47ed-8b5b-adc62964d52c" valueTypeId="cf0acd20-e8c3-46bb-b3fe-2a257664446f"/>
+  </producedTypes>
+  <name>УдалитьШтрихкодыТоваровСХарактеристиками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды товаров с характеристиками</value>
+  </synonym>
+  <comment>Временное решение для инвентаризации.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7f9489f1-8097-4407-9f3e-7574baf0a3b8">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="50aa1e7b-9603-4b76-8f2a-47a96c3a6006">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment>Ссылка пустая для штрихкодов без номенклатуры.</comment>
+    <type>
+      <types>CatalogRef.НоменклатураРозница</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="ad804aba-81e3-4f21-b487-ccf71f01b795">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01cb8d52-e286-4794-982c-cce46b2939ea">
+    <name>НаименованиеХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование характеристики</value>
+    </synonym>
+    <comment>Нужно до тех пор, пока нет справочника для характеристик.</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="2cc8e941-abb4-4ca6-bcaf-54014dcf8f4d">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПересчетТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a60ed0fd-b631-4b52-b134-38211f0ad15c">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd799869-8b65-493e-808a-de681de86498">
+    <name>УникальныйИдентификаторХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор характеристики</value>
+    </synonym>
+    <comment>Нужно до тех пор, пока нет справочника для характеристик.</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

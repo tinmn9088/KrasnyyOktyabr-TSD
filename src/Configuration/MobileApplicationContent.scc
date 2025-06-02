@@ -219,5 +219,6 @@
   <usedItem metadata="Catalog.МестаХранения"/>
   <usedItem metadata="InformationRegister.ШтрихкодыТоваров.Dimension.Документ"/>
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Resource.НомерЯчейки"/>
+  <unusedItem metadata="Document.ПересчетТоваров.Form.ФормаВыполнения"/>
   <dataExchangeSettings exchangePlan="ExchangePlan.МобильныйАвтономныйСервер" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
 </scc:StandaloneContent>

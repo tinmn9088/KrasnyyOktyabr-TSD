@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>11.0.0</version>
+  <version>11.0.1</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -132,4 +132,5 @@
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
+  <informationRegisters>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками</informationRegisters>
 </mdclass:Configuration>

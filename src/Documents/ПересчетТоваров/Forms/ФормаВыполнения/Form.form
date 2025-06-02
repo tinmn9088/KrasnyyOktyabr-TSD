@@ -659,24 +659,123 @@
           <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
       </items>
-      <items xsi:type="form:FormField">
-        <name>СписокТоваровКод</name>
-        <id>45</id>
-        <title>
-          <key>ru</key>
-          <value>Код</value>
-        </title>
+      <items xsi:type="form:FormGroup">
+        <name>СписокТоваровОписаниеНоменклатуры</name>
+        <id>81</id>
+        <items xsi:type="form:FormField">
+          <name>СписокТоваровКод</name>
+          <id>45</id>
+          <title>
+            <key>ru</key>
+            <value>Код</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ФормаСписокТоваров.Номенклатура.Code</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокТоваровКодРасширеннаяПодсказка</name>
+            <id>47</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокТоваровКодКонтекстноеМеню</name>
+            <id>46</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <maxWidth>11</maxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.AccentColor</color>
+            </textColor>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокТоваровХарактеристика</name>
+          <id>83</id>
+          <title>
+            <key>ru</key>
+            <value>Характеристика</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ФормаСписокТоваров.НаименованиеХарактеристики</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокТоваровХарактеристикаРасширеннаяПодсказка</name>
+            <id>85</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокТоваровХарактеристикаКонтекстноеМеню</name>
+            <id>84</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <maxWidth>5</maxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.FieldSelectionBackColor</color>
+            </textColor>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ФормаСписокТоваров.Номенклатура.Code</segments>
-        </dataPath>
         <extendedTooltip>
-          <name>СписокТоваровКодРасширеннаяПодсказка</name>
-          <id>47</id>
+          <name>СписокТоваровОписаниеНоменклатурыРасширеннаяПодсказка</name>
+          <id>82</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -689,27 +788,9 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>СписокТоваровКодКонтекстноеМеню</name>
-          <id>46</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>LabelField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>11</maxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.AccentColor</color>
-          </textColor>
+        <type>ColumnGroup</type>
+        <extInfo xsi:type="form:ColumnGroupExtInfo">
+          <showTitle>true</showTitle>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -787,7 +868,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>6</maxWidth>
+          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <format>
             <key>ru</key>
@@ -844,15 +925,8 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <maxWidth>6</maxWidth>
+          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <format>
-            <key>ru</key>
-            <value>ЧДЦ=3; ЧН=-</value>
-          </format>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.AccentColor</color>
-          </textColor>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1357,81 +1431,81 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ВсеТовары.Номенклатура КАК Номенклатура,
-    СУММА(ВсеТовары.КоличествоУпаковок) КАК КоличествоУчет,
-    0 КАК КоличествоФакт
-ПОМЕСТИТЬ ПроверяемыеТовары
+	УдалитьШтрихкодыТоваровСХарактеристиками.Номенклатура КАК Номенклатура,
+	УдалитьШтрихкодыТоваровСХарактеристиками.УникальныйИдентификаторХарактеристики КАК УникальныйИдентификаторХарактеристики,
+	СУММА(УдалитьШтрихкодыТоваровСХарактеристиками.Количество) КАК КоличествоФакт,
+	УдалитьШтрихкодыТоваровСХарактеристиками.ДатаИзменения КАК ДатаИзменения,
+	МАКСИМУМ(УдалитьШтрихкодыТоваровСХарактеристиками.НаименованиеХарактеристики) КАК НаименованиеХарактеристики
+ПОМЕСТИТЬ ОбработанныеТовары
 ИЗ
-    Документ.ПересчетТоваров.Товары КАК ВсеТовары
+	РегистрСведений.УдалитьШтрихкодыТоваровСХарактеристиками КАК УдалитьШтрихкодыТоваровСХарактеристиками
 ГДЕ
-    ВсеТовары.Ссылка = &amp;Документ
+	УдалитьШтрихкодыТоваровСХарактеристиками.Документ = &amp;Документ
+	И УдалитьШтрихкодыТоваровСХарактеристиками.Номенклатура &lt;> ЗНАЧЕНИЕ(Справочник.НоменклатураРозница.ПустаяСсылка)
+
 СГРУППИРОВАТЬ ПО
-    ВсеТовары.Номенклатура
+	УдалитьШтрихкодыТоваровСХарактеристиками.Номенклатура,
+	УдалитьШтрихкодыТоваровСХарактеристиками.УникальныйИдентификаторХарактеристики,
+	УдалитьШтрихкодыТоваровСХарактеристиками.ДатаИзменения
 
 ИНДЕКСИРОВАТЬ ПО
-    Номенклатура
+	Номенклатура,
+	УникальныйИдентификаторХарактеристики
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-    ВсеШтрихкоды.Номенклатура КАК Номенклатура,
-    0 КАК КоличествоУчет,
-    СУММА(ВсеШтрихкоды.Количество) КАК КоличествоФакт
-ПОМЕСТИТЬ НеоприходованныеТовары
+	ВсеТовары.Номенклатура КАК Номенклатура,
+	ВсеТовары.УдалитьУникальныйИдентификаторХарактеристики КАК УникальныйИдентификаторХарактеристики,
+	ВсеТовары.УдалитьНаименованиеХарактеристики КАК НаименованиеХарактеристики,
+	ВсеТовары.КоличествоУпаковок КАК КоличествоУчет,
+	ВсеТовары.НомерСтроки КАК НомерСтроки
+ПОМЕСТИТЬ ТоварыВДокументе
 ИЗ
-    РегистрСведений.ШтрихкодыТоваров КАК ВсеШтрихкоды
+	Документ.ПересчетТоваров.Товары КАК ВсеТовары
 ГДЕ
-    ВсеШтрихкоды.Документ = &amp;Документ
-СГРУППИРОВАТЬ ПО
-    ВсеШтрихкоды.Номенклатура
+	ВсеТовары.Ссылка = &amp;Документ
 
 ИНДЕКСИРОВАТЬ ПО
-    Номенклатура
+	Номенклатура,
+	УникальныйИдентификаторХарактеристики
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
 ВЫБРАТЬ
-    ТоварыВПересчете.Номенклатура КАК Номенклатура,
-    ТоварыВПересчете.КоличествоУчет КАК КоличествоУчет,
-    ТоварыВПересчете.КоличествоФакт КАК КоличествоФакт
-ПОМЕСТИТЬ ВсеТоварыВПересчете
+	ЕСТЬNULL(ОбработанныеТовары.Номенклатура, ТоварыВДокументе.Номенклатура) КАК Номенклатура,
+	ЕСТЬNULL(ОбработанныеТовары.НаименованиеХарактеристики, ТоварыВДокументе.НаименованиеХарактеристики) КАК НаименованиеХарактеристики,
+	СУММА(ЕСТЬNULL(ОбработанныеТовары.КоличествоФакт, 0)) КАК КоличествоФакт,
+	ЕСТЬNULL(ТоварыВДокументе.КоличествоУчет, 0) КАК КоличествоУчет,
+	МАКСИМУМ(ЕСТЬNULL(ОбработанныеТовары.ДатаИзменения, ДАТАВРЕМЯ(1, 1, 1))) КАК ДатаОбработки,
+	ЕСТЬNULL(ТоварыВДокументе.НомерСтроки, -1) КАК НомерСтроки,
+	ОбработанныеТовары.УникальныйИдентификаторХарактеристики КАК УникальныйИдентификаторХарактеристики
 ИЗ
-    ПроверяемыеТовары КАК ТоварыВПересчете
+	ОбработанныеТовары КАК ОбработанныеТовары
+		ПОЛНОЕ СОЕДИНЕНИЕ ТоварыВДокументе КАК ТоварыВДокументе
+		ПО ОбработанныеТовары.Номенклатура = ТоварыВДокументе.Номенклатура
+			И ОбработанныеТовары.УникальныйИдентификаторХарактеристики = ТоварыВДокументе.УникальныйИдентификаторХарактеристики
 
-ОБЪЕДИНИТЬ ВСЕ
-
-ВЫБРАТЬ
-    НеоприходованныеТовары.Номенклатура,
-    НеоприходованныеТовары.КоличествоУчет,
-    НеоприходованныеТовары.КоличествоФакт
-ИЗ
-    НеоприходованныеТовары КАК НеоприходованныеТовары
-
-ИНДЕКСИРОВАТЬ ПО
-    Номенклатура
-;
-
-////////////////////////////////////////////////////////////////////////////////
-УНИЧТОЖИТЬ ПроверяемыеТовары
-;
-
-////////////////////////////////////////////////////////////////////////////////
-УНИЧТОЖИТЬ НеоприходованныеТовары
-;
-
-////////////////////////////////////////////////////////////////////////////////
-ВЫБРАТЬ
-    ВсеТоварыВПересчете.Номенклатура КАК Номенклатура,
-    СУММА(ВсеТоварыВПересчете.КоличествоУчет) КАК КоличествоУчет,
-    СУММА(ВсеТоварыВПересчете.КоличествоФакт) КАК КоличествоФакт
-ИЗ
-    ВсеТоварыВПересчете КАК ВсеТоварыВПересчете
-ГДЕ
-    ВсеТоварыВПересчете.Номенклатура &lt;> ЗНАЧЕНИЕ(Справочник.НоменклатураРозница.ПустаяСсылка)
 СГРУППИРОВАТЬ ПО
-    ВсеТоварыВПересчете.Номенклатура</queryText>
+	ЕСТЬNULL(ОбработанныеТовары.Номенклатура, ТоварыВДокументе.Номенклатура),
+	ЕСТЬNULL(ОбработанныеТовары.НаименованиеХарактеристики, ТоварыВДокументе.НаименованиеХарактеристики),
+	ЕСТЬNULL(ТоварыВДокументе.КоличествоУчет, 0),
+	ЕСТЬNULL(ТоварыВДокументе.НомерСтроки, -1),
+	ОбработанныеТовары.УникальныйИдентификаторХарактеристики</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерСтроки</dataPath>
+        <field>НомерСтроки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер строки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>КоличествоУчет</dataPath>
         <field>КоличествоУчет</field>
@@ -1440,6 +1514,30 @@
             <content>
               <key>ru</key>
               <value>Количество учет</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номенклатура</dataPath>
+        <field>Номенклатура</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номенклатура</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаименованиеХарактеристики</dataPath>
+        <field>НаименованиеХарактеристики</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Наименование характеристики</value>
             </content>
           </localValue>
         </title>
@@ -1457,8 +1555,20 @@
         </title>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номенклатура</dataPath>
-        <field>Номенклатура</field>
+        <dataPath>ДатаОбработки</dataPath>
+        <field>ДатаОбработки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Дата обработки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УникальныйИдентификаторХарактеристики</dataPath>
+        <field>УникальныйИдентификаторХарактеристики</field>
       </fields>
       <parameters>
         <name>Документ</name>
@@ -1476,7 +1586,12 @@
         <values xsi:type="core:UndefinedValue"/>
         <useRestriction>true</useRestriction>
       </parameters>
+      <keyType>RowKey</keyType>
       <keyField>Номенклатура</keyField>
+      <keyField>УникальныйИдентификаторХарактеристики</keyField>
+      <keyField>ДатаОбработки</keyField>
+      <keyField>НомерСтроки</keyField>
+      <keyField>НаименованиеХарактеристики</keyField>
     </extInfo>
   </attributes>
   <attributes>

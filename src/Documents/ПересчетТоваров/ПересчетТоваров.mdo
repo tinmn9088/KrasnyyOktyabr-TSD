@@ -135,5 +135,38 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="0ee697d7-0f87-42d6-a02f-ef018ccfcb11">
+      <name>УдалитьУникальныйИдентификаторХарактеристики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уникальный идентификатор характеристики</value>
+      </synonym>
+      <comment>Нужно до тех пор, пока нет справочника для характеристик.</comment>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="99ee899e-e1d2-4058-b0a7-d769c6453eda">
+      <name>УдалитьНаименованиеХарактеристики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование характеристики</value>
+      </synonym>
+      <comment>Нужно до тех пор, пока нет справочника для характеристик.</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
   </tabularSections>
 </mdclass:Document>
