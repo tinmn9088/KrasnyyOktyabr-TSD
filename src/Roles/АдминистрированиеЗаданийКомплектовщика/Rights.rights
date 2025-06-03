@@ -22,6 +22,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Attribute.НаименованиеХарактеристики</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.РеализацияТоваров.Attribute.Склад</name>
 		<right>
 			<name>View</name>
@@ -1495,6 +1506,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Dimension.Документ</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ШтрихкодыКонтроляОтбора</name>
 		<right>
 			<name>Read</name>
@@ -1949,6 +1971,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.Attribute.Штрихкод</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Resource.Номенклатура</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -2793,6 +2826,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Resource.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПоступлениеТоваров.Attribute.Магазин</name>
 		<right>
 			<name>View</name>
@@ -3117,6 +3161,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Dimension.Штрихкод</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>ExchangePlan.МобильныйАвтономныйСервер</name>
 		<right>
 			<name>Read</name>
@@ -3244,6 +3299,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ШтрихкодыДесмы.Dimension.Штрихкод</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Attribute.ДатаИзменения</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4274,6 +4340,89 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.НоменклатураРозница.TabularSection.Штрихкоды</name>
 		<right>
 			<name>View</name>
@@ -4670,6 +4819,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЖурналОшибокКонтроляОтбора.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Dimension.УникальныйИдентификаторХарактеристики</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
