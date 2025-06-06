@@ -586,9 +586,9 @@
 ИЗ
     РегистрСведений.ШтрихкодыДесмы КАК ШтрихкодыДесмы
 ГДЕ
-    ШтрихкодыДесмы.Комплектовщик = &amp;Комплектовщик
-    И ШтрихкодыДесмы.Процесс = &amp;Процесс
-    И НЕ ШтрихкодыДесмы.ОбработанТШК</queryText>
+    НЕ ШтрихкодыДесмы.ОбработанТШК
+    И ШтрихкодыДесмы.Комплектовщик = &amp;Комплектовщик
+    И ШтрихкодыДесмы.Процесс = &amp;Процесс</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">

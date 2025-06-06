@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7776c764-15d6-4e77-9f45-25f2907b5ff7">
+  <producedTypes>
+    <refType typeId="7a5bc4e3-8163-46f9-b957-b938a3c70dbb" valueTypeId="e4a9b5b9-9421-4f76-a20c-45fc23fd9b50"/>
+    <listType typeId="9a97e946-23c1-4163-a1e1-dc12360486ec" valueTypeId="ff543b56-2ac5-4bd0-ab2f-c7a3b01779b0"/>
+    <managerType typeId="9dd1250d-3af9-483e-8070-8adc2e43e77e" valueTypeId="84819fac-5e88-4b42-9a4e-a7edfda0c3a8"/>
+  </producedTypes>
+  <name>ПроцессНаПроизводстве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процесс на производстве</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fb1924db-b901-45cc-8388-149455581bf3">
+    <name>Контроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f27d1b4e-7631-42c5-a269-caa8b49aeddd">
+    <name>ПечатьЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9f039df-4adf-4ab0-beab-1291abc16760">
+    <name>ПечатьЯрлыков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать ярлыков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71d26cc0-9ca5-46c2-8915-065f61fb04a7">
+    <name>ФормированиеТележки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование тележки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a59f2d5-0ba8-4a0a-a2e8-ab1ff6da1e6f">
+    <name>РегистрацияОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация операций</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

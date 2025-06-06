@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ОАО &quot;Красный Октябрь&quot;</vendor>
-  <version>11.0.2</version>
+  <version>12.0.1</version>
   <help>
     <pages>
       <lang>ru</lang>
@@ -54,6 +54,8 @@
   <roles>Role.ВыполнениеЗаданийКомплектовщика</roles>
   <roles>Role.АдминистрированиеИнвентаризацииОбуви</roles>
   <roles>Role.ВыполнениеИнвентаризацииОбуви</roles>
+  <roles>Role.АдминистрированиеЗаданийНаПроизводстве</roles>
+  <roles>Role.ВыполнениеЗаданийНаПроизводстве</roles>
   <roles>Role.АдминистрированиеЗаданийДесмы</roles>
   <roles>Role.ВыполнениеЗаданийДесмы</roles>
   <roles>Role.АдминистрированиеПриходов</roles>
@@ -79,12 +81,14 @@
   <commonModules>CommonModule.Перемещения</commonModules>
   <commonModules>CommonModule.ПриходыБСО</commonModules>
   <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
+  <commonModules>CommonModule.Производство</commonModules>
   <commonModules>CommonModule.Реализация</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
+  <commonAttributes>CommonAttribute.ТабельныйНомер</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
   <commonForms>CommonForm.ФормаВводаКоличестваТовара</commonForms>
   <commonForms>CommonForm.ФормаПроверкиШтрихкодаОбуви</commonForms>
@@ -107,6 +111,7 @@
   <catalogs>Catalog.ОрганизацииЭДиН</catalogs>
   <catalogs>Catalog.СкладыРозница</catalogs>
   <catalogs>Catalog.СкладыЭДиН</catalogs>
+  <catalogs>Catalog.СотрудникиНаПроизводстве</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
   <documents>Document.АктПриемкиТоваров</documents>
@@ -119,18 +124,22 @@
   <documents>Document.РеализацияТоваров</documents>
   <enums>Enum.ВидОшибкиКонтроляОтбора</enums>
   <enums>Enum.ПроцессНаДесме</enums>
+  <enums>Enum.ПроцессНаПроизводстве</enums>
   <enums>Enum.ТипШтрихкода</enums>
   <dataProcessors>DataProcessor.ВыполнениеЗаданий</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеЗаданийДесмы</dataProcessors>
+  <dataProcessors>DataProcessor.ВыполнениеЗаданийНаПроизводстве</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеИнвентаризации</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеКонтроляОтбора</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПеремещений</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеПриходов</dataProcessors>
   <dataProcessors>DataProcessor.ВыполнениеРеализации</dataProcessors>
   <informationRegisters>InformationRegister.ЖурналОшибокКонтроляОтбора</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыИнвентаризацииОбуви</informationRegisters>
   <informationRegisters>InformationRegister.ШтрихкодыКонтроляОтбора</informationRegisters>
-  <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
-  <informationRegisters>InformationRegister.ШтрихкодыДесмы</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыНаПроизводстве</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыОперацийНаПроизводстве</informationRegisters>
+  <informationRegisters>InformationRegister.ШтрихкодыТоваров</informationRegisters>
 </mdclass:Configuration>

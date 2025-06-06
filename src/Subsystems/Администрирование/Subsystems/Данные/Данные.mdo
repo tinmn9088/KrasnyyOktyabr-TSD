@@ -31,5 +31,8 @@
   <content>InformationRegister.ШтрихкодыИнвентаризацииОбуви</content>
   <content>InformationRegister.ШтрихкодыТоваров</content>
   <content>InformationRegister.ШтрихкодыДесмы</content>
+  <content>Catalog.СотрудникиНаПроизводстве</content>
+  <content>InformationRegister.ШтрихкодыОперацийНаПроизводстве</content>
+  <content>InformationRegister.ШтрихкодыНаПроизводстве</content>
   <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eaa9131-c399-4efb-b3c4-97d8da2f78b6">
+  <producedTypes>
+    <objectType typeId="8ea045a7-05d0-4adb-88bd-02d4f2d8bcaf" valueTypeId="d25391f0-adfd-45d7-b7e5-3daf8135b20f"/>
+    <managerType typeId="5e646c9d-104c-4080-8cb9-10c5eb2a8f38" valueTypeId="d93d488d-2950-4d49-aeae-2955d6996f73"/>
+  </producedTypes>
+  <name>ВыполнениеЗаданийНаПроизводстве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение заданий на производстве</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыполнениеЗаданийНаПроизводстве.Form.ФормаРегистрацииОпераций</defaultForm>
+  <forms uuid="b2161e63-50a7-46b5-a2bc-5993556d6342">
+    <name>ФормаВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение процесса на производстве</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f3c3b3d-4a35-4107-8eb9-abd1897a5cbb">
+    <name>ФормаРегистрацииОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение регистрации операций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

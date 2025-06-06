@@ -361,6 +361,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.Attribute.Обработан</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров</name>
 		<right>
 			<name>Read</name>
@@ -688,6 +699,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.Dimension.КодОперации</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПеремещениеТоваров.Attribute.МагазинОтправитель</name>
 		<right>
 			<name>View</name>
@@ -937,14 +959,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>true</value>
 		</right>
@@ -972,12 +986,20 @@
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.PredefinedDataName</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -986,12 +1008,20 @@
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Ref</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1000,12 +1030,20 @@
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.IsFolder</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1014,6 +1052,10 @@
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Parent</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -1021,12 +1063,20 @@
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Description</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Комплектовщики.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1056,6 +1106,17 @@
 	</object>
 	<object>
 		<name>Document.Задание.TabularSection.ЗаданияНаОтбор.Attribute.Комплектовщик</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.Resource.Дата</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1574,6 +1635,10 @@
 	<object>
 		<name>Catalog.Комплектовщики.Attribute.Идентификатор</name>
 		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
@@ -2041,7 +2106,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.СотрудникиСклада.Attribute.ТабельныйНомер</name>
+		<name>Catalog.СотрудникиНаПроизводстве.Attribute.ЕстьДоступПечатьЯрлыков</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2457,6 +2522,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.Resource.Дата</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПересчетТоваров.TabularSection.Товары</name>
 		<right>
 			<name>View</name>
@@ -2491,6 +2567,17 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.ЕдиницаИзмерения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.Dimension.Штрихкод</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3008,6 +3095,89 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПоступлениеТоваров.Attribute.Магазин</name>
 		<right>
 			<name>View</name>
@@ -3077,6 +3247,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.Attribute.ЕстьДоступФормированиеТележек</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки</name>
 		<right>
 			<name>View</name>
@@ -3111,6 +3292,17 @@
 	</object>
 	<object>
 		<name>Document.ПеремещениеТоваров.Attribute.Организация</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.Resource.Сотрудник</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3166,6 +3358,17 @@
 	</object>
 	<object>
 		<name>Document.АктПриемкиТоваров.TabularSection.КодыМаркировки.Attribute.КлючСвязи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.Attribute.ЕстьДоступКонтроль</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3408,6 +3611,89 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.StandardAttribute.Active</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.StandardAttribute.LineNumber</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.StandardAttribute.Recorder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыОперацийНаПроизводстве.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.АктПриемкиТоваров.Attribute.Организация</name>
 		<right>
 			<name>View</name>
@@ -3571,6 +3857,28 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.Dimension.Штрихкод</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.Attribute.Обработан</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.УдалитьШтрихкодыТоваровСХарактеристиками.Attribute.ДатаИзменения</name>
 		<right>
 			<name>View</name>
@@ -3714,6 +4022,159 @@
 	</object>
 	<object>
 		<name>Catalog.ОрганизацииЭДиН.StandardAttribute.Code</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.Attribute.ЕстьДоступРегистрацияОпераций</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4912,6 +5373,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.Resource.Сотрудник</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.РеализацияТоваров.Attribute.Магазин</name>
 		<right>
 			<name>View</name>
@@ -4979,6 +5451,17 @@
 	</object>
 	<object>
 		<name>Document.ПересчетТоваров.Attribute.Организация</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ШтрихкодыНаПроизводстве.Dimension.Процесс</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5543,6 +6026,21 @@
 	</object>
 	<object>
 		<name>Catalog.Комплектовщики.Attribute.ВыполняемоеЗадание</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СотрудникиНаПроизводстве.Attribute.ЕстьДоступПечатьЭтикеток</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

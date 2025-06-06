@@ -29,6 +29,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="04929df8-5f5d-4402-91d7-2dce0f0f3641">
+    <name>ФормаВыбораПроцессаНаПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор процесса на производстве</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="dd00e51f-b841-4575-baf6-60d1468db018">
     <name>ФормаВыбораСотрудника</name>
     <synonym>
