@@ -40,4 +40,11 @@
       <value>Формирование тележки</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="8a59f2d5-0ba8-4a0a-a2e8-ab1ff6da1e6f">
+    <name>РегистрацияОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация операций</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

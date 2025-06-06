@@ -10,11 +10,21 @@
     <value>Выполнение заданий на производстве</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыполнениеЗаданийНаПроизводстве.Form.ФормаРегистрацииОпераций</defaultForm>
   <forms uuid="b2161e63-50a7-46b5-a2bc-5993556d6342">
     <name>ФормаВыполнения</name>
     <synonym>
       <key>ru</key>
       <value>Выполнение процесса на производстве</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f3c3b3d-4a35-4107-8eb9-abd1897a5cbb">
+    <name>ФормаРегистрацииОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение регистрации операций</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

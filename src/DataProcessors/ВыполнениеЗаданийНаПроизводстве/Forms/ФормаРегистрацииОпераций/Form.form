@@ -55,10 +55,10 @@
   </items>
   <items xsi:type="form:Decoration">
     <name>ПодсказкаПроцесс</name>
-    <id>33</id>
+    <id>4</id>
     <title>
       <key>ru</key>
-      <value>-</value>
+      <value>_</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -67,7 +67,7 @@
     </userVisible>
     <extendedTooltip>
       <name>ПодсказкаПроцессРасширеннаяПодсказка</name>
-      <id>35</id>
+      <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -82,7 +82,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПодсказкаПроцессКонтекстноеМеню</name>
-      <id>34</id>
+      <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -101,11 +101,67 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>КоличествоШтрихкодов</name>
-    <id>30</id>
+    <name>КодОперации</name>
+    <id>47</id>
     <title>
       <key>ru</key>
-      <value>Итого</value>
+      <value>Операция</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ФормаКодОперации</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КодОперацииРасширеннаяПодсказка</name>
+      <id>49</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КодОперацииКонтекстноеМеню</name>
+      <id>48</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxHeight>true</autoMaxHeight>
+      <format>
+        <key>ru</key>
+        <value>ЧН=-</value>
+      </format>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.SpecialTextColor</color>
+      </textColor>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>КоличествоШтрихкодов</name>
+    <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Итого зарегистрировано</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -117,7 +173,7 @@
     </dataPath>
     <extendedTooltip>
       <name>КоличествоШтрихкодовРасширеннаяПодсказка</name>
-      <id>32</id>
+      <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -132,7 +188,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>КоличествоШтрихкодовКонтекстноеМеню</name>
-      <id>31</id>
+      <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -159,7 +215,7 @@
   </items>
   <items xsi:type="form:Decoration">
     <name>Подсказка</name>
-    <id>38</id>
+    <id>57</id>
     <title>
       <key>ru</key>
       <value>Режим Удаления</value>
@@ -170,7 +226,7 @@
     </userVisible>
     <extendedTooltip>
       <name>ПодсказкаРасширеннаяПодсказка</name>
-      <id>40</id>
+      <id>59</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -180,7 +236,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПодсказкаКонтекстноеМеню</name>
-      <id>39</id>
+      <id>58</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
@@ -195,7 +251,7 @@
   </items>
   <items xsi:type="form:Button">
     <name>УдалитьШтрихкод</name>
-    <id>36</id>
+    <id>55</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -203,7 +259,7 @@
     </userVisible>
     <extendedTooltip>
       <name>УдалитьШтрихкодРасширеннаяПодсказка</name>
-      <id>37</id>
+      <id>56</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -221,7 +277,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>СписокШтрихкодов</name>
-    <id>7</id>
+    <id>10</id>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -232,7 +288,7 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>СписокШтрихкодовДата</name>
-      <id>20</id>
+      <id>41</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -243,12 +299,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СписокШтрихкодовДатаРасширеннаяПодсказка</name>
-        <id>22</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -258,12 +309,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовДатаКонтекстноеМеню</name>
-        <id>21</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <id>42</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -278,14 +324,51 @@
           <key>ru</key>
           <value>ДЛФ=T</value>
         </format>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.FieldSelectionBackColor</color>
-        </textColor>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СписокШтрихкодовКодОперации</name>
+      <id>52</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ФормаСписокШтрихкодов.КодОперации</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>СписокШтрихкодовКодОперацииРасширеннаяПодсказка</name>
+        <id>54</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокШтрихкодовКодОперацииКонтекстноеМеню</name>
+        <id>53</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>СписокШтрихкодовШтрихкод</name>
-      <id>23</id>
+      <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -296,12 +379,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СписокШтрихкодовШтрихкодРасширеннаяПодсказка</name>
-        <id>25</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -311,28 +389,27 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовШтрихкодКонтекстноеМеню</name>
-        <id>24</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <id>45</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
+      <type>InputField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <maxWidth>16</maxWidth>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
       <name>СписокШтрихкодовКоманднаяПанель</name>
-      <id>8</id>
+      <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -352,10 +429,10 @@
         <common>true</common>
       </userVisible>
       <name>СписокШтрихкодовСтрокаПоиска</name>
-      <id>11</id>
+      <id>14</id>
       <extendedTooltip>
         <name>СписокШтрихкодовСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>13</id>
+        <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -370,7 +447,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовСтрокаПоискаКонтекстноеМеню</name>
-        <id>12</id>
+        <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -429,10 +506,10 @@
         <common>true</common>
       </userVisible>
       <name>СписокШтрихкодовУправлениеПоиском</name>
-      <id>14</id>
+      <id>20</id>
       <extendedTooltip>
         <name>СписокШтрихкодовУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>16</id>
+        <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -447,7 +524,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокШтрихкодовУправлениеПоискомКонтекстноеМеню</name>
-        <id>15</id>
+        <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -463,7 +540,7 @@
     </searchControlAddition>
     <extendedTooltip>
       <name>СписокШтрихкодовРасширеннаяПодсказка</name>
-      <id>10</id>
+      <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -478,7 +555,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СписокШтрихкодовКонтекстноеМеню</name>
-      <id>9</id>
+      <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -521,7 +598,7 @@
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>КнопкаВвестиШтрихкод</name>
-      <id>26</id>
+      <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -529,7 +606,7 @@
       </userVisible>
       <extendedTooltip>
         <name>КнопкаВвестиШтрихкодРасширеннаяПодсказка</name>
-        <id>27</id>
+        <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -552,7 +629,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>КнопкаОчиститьШтрихкоды</name>
-      <id>28</id>
+      <id>60</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -560,12 +637,7 @@
       </userVisible>
       <extendedTooltip>
         <name>КнопкаОчиститьШтрихкодыРасширеннаяПодсказка</name>
-        <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <id>61</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -581,11 +653,6 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -608,12 +675,32 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
+    <name>ФормаКоличествоШтрихкодов</name>
+    <title>
+      <key>ru</key>
+      <value>Количество штрихкодов</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
     <name>ФормаСотрудник</name>
     <title>
       <key>ru</key>
       <value>Сотрудник</value>
     </title>
-    <id>1</id>
+    <id>2</id>
     <valueType>
       <types>CatalogRef.СотрудникиНаПроизводстве</types>
     </valueType>
@@ -630,7 +717,7 @@
       <key>ru</key>
       <value>Список штрихкодов</value>
     </title>
-    <id>4</id>
+    <id>3</id>
     <valueType>
       <types>DynamicList</types>
     </valueType>
@@ -642,14 +729,14 @@
     </edit>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-    ШтрихкодыНаПроизводстве.Дата,
-    ШтрихкодыНаПроизводстве.Штрихкод
+	ШтрихкодыОперацийНаПроизводстве.КодОперации,
+	ШтрихкодыОперацийНаПроизводстве.Дата,
+	ШтрихкодыОперацийНаПроизводстве.Штрихкод
 ИЗ
-    РегистрСведений.ШтрихкодыНаПроизводстве КАК ШтрихкодыНаПроизводстве
+	РегистрСведений.ШтрихкодыОперацийНаПроизводстве КАК ШтрихкодыОперацийНаПроизводстве
 ГДЕ
-    НЕ ШтрихкодыНаПроизводстве.Обработан
-    И ШтрихкодыНаПроизводстве.Сотрудник = &amp;Сотрудник
-    И ШтрихкодыНаПроизводстве.Процесс = &amp;Процесс</queryText>
+	НЕ ШтрихкодыОперацийНаПроизводстве.Обработан
+	И ШтрихкодыОперацийНаПроизводстве.Сотрудник = &amp;Сотрудник</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
@@ -657,25 +744,13 @@
         <field>Дата</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КодОперации</dataPath>
+        <field>КодОперации</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>Штрихкод</dataPath>
         <field>Штрихкод</field>
       </fields>
-      <parameters>
-        <name>Процесс</name>
-        <title>
-          <localValue>
-            <content>
-              <key>ru</key>
-              <value>Процесс</value>
-            </content>
-          </localValue>
-        </title>
-        <valueType>
-          <types>EnumRef.ПроцессНаДесме</types>
-        </valueType>
-        <values xsi:type="core:UndefinedValue"/>
-        <useRestriction>true</useRestriction>
-      </parameters>
       <parameters>
         <name>Сотрудник</name>
         <title>
@@ -702,7 +777,7 @@
       <key>ru</key>
       <value>Штрихкод</value>
     </title>
-    <id>5</id>
+    <id>4</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -715,17 +790,17 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФормаКоличествоШтрихкодов</name>
+    <name>ФормаКодОперации</name>
     <title>
       <key>ru</key>
-      <value>Количество штрихкодов</value>
+      <value>Форма код операции</value>
     </title>
-    <id>6</id>
+    <id>5</id>
     <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>5</precision>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -740,7 +815,7 @@
       <key>ru</key>
       <value>Процесс</value>
     </title>
-    <id>2</id>
+    <id>6</id>
     <valueType>
       <types>EnumRef.ПроцессНаПроизводстве</types>
     </valueType>
@@ -757,7 +832,7 @@
       <key>ru</key>
       <value>Режим</value>
     </title>
-    <id>7</id>
+    <id>8</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -787,10 +862,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ОчиститьШтрихкоды</name>
+    <name>УдалитьШтрихкод</name>
     <title>
       <key>ru</key>
-      <value>Очистить штрихкоды</value>
+      <value>Удалить штрихкод</value>
     </title>
     <id>2</id>
     <use>
@@ -798,16 +873,16 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОчиститьШтрихкодыАсинх</name>
+        <name>РежимУдаления</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>УдалитьШтрихкод</name>
+    <name>ОчиститьШтрихкоды</name>
     <title>
       <key>ru</key>
-      <value>Удалить штрихкод</value>
+      <value>Очистить штрихкоды</value>
     </title>
     <id>3</id>
     <use>
@@ -815,7 +890,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>РежимУдаления</name>
+        <name>ОчиститьШтрихкодыАсинх</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

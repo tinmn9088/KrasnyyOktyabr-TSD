@@ -79,12 +79,12 @@
   <commonModules>CommonModule.Перемещения</commonModules>
   <commonModules>CommonModule.ПриходыБСО</commonModules>
   <commonModules>CommonModule.ПриходыЭлектронныеНакладные</commonModules>
+  <commonModules>CommonModule.Производство</commonModules>
   <commonModules>CommonModule.Реализация</commonModules>
   <commonModules>CommonModule.СканерШтрихкодаКлиент</commonModules>
   <commonModules>CommonModule.СредстваМультимедиаКлиент</commonModules>
   <commonModules>CommonModule.ШтрихкодыКлиентСервер</commonModules>
   <commonModules>CommonModule.ШтрихкодыОбувиКлиентСервер</commonModules>
-  <commonModules>CommonModule.Производство</commonModules>
   <commonAttributes>CommonAttribute.UID</commonAttributes>
   <commonAttributes>CommonAttribute.ТабельныйНомер</commonAttributes>
   <exchangePlans>ExchangePlan.МобильныйАвтономныйСервер</exchangePlans>
@@ -109,9 +109,9 @@
   <catalogs>Catalog.ОрганизацииЭДиН</catalogs>
   <catalogs>Catalog.СкладыРозница</catalogs>
   <catalogs>Catalog.СкладыЭДиН</catalogs>
+  <catalogs>Catalog.СотрудникиНаПроизводстве</catalogs>
   <catalogs>Catalog.СотрудникиСклада</catalogs>
   <catalogs>Catalog.ТШККороб</catalogs>
-  <catalogs>Catalog.СотрудникиНаПроизводстве</catalogs>
   <documents>Document.АктПриемкиТоваров</documents>
   <documents>Document.ВнПеремОтпуск</documents>
   <documents>Document.Задание</documents>

@@ -203,7 +203,6 @@
   <usedItem metadata="InformationRegister.ШтрихкодыИнвентаризацииОбуви.Dimension.Документ"/>
   <usedItem metadata="Document.АктПриемкиТоваров.TabularSection.Номенклатура.Attribute.КоличествоПоставленногоТовара"/>
   <usedItem metadata="Document.ПересчетТоваров.Attribute.Организация"/>
-  <usedItem metadata="InformationRegister.ШтрихкодыОперацийНаПроизводстве.Dimension.Сотрудник"/>
   <usedItem metadata="InformationRegister.ШтрихкодыНаПроизводстве.Dimension.Процесс"/>
   <usedItem metadata="Role.АдминистрированиеИнвентаризацииТоваров"/>
   <usedItem metadata="CommonModule.ИнвентаризацияОбуви"/>

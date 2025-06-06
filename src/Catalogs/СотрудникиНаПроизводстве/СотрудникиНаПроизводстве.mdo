@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b14926ea-2ea0-48ef-bc27-e13264056c9f">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b14926ea-2ea0-48ef-bc27-e13264056c9f">
   <producedTypes>
     <objectType typeId="0b5ae7d6-5aea-461d-aebb-b90022875828" valueTypeId="fc782663-53dd-4225-add9-63b76003a1dc"/>
     <refType typeId="52e7592f-522f-4eb8-89dc-bae65f85135a" valueTypeId="759e1b98-9440-4624-92ca-6a3f454189ca"/>
@@ -30,4 +30,79 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f2b1976c-58fa-4631-b9b0-ea8428376d35">
+    <name>ЕстьДоступПечатьЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="465ec542-b679-40d1-af62-ca69536d536b">
+    <name>ЕстьДоступПечатьЯрлыков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать ярлыков</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8adc57b0-f93f-44f3-9701-b4569ecaec31">
+    <name>ЕстьДоступФормированиеТележек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование тележек</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b61c584-1032-463a-9d97-568e0d44fa0d">
+    <name>ЕстьДоступКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b0fb78c5-afd1-4a6a-8798-e098386cfec6">
+    <name>ЕстьДоступРегистрацияОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация операций</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
