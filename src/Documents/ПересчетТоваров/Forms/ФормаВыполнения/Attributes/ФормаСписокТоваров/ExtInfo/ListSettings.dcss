@@ -5,6 +5,14 @@
 		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
 	</filter>
 	<order>
+		<item xsi:type="OrderItemField">
+			<field>ДатаОбработки</field>
+			<orderType>Desc</orderType>
+		</item>
+		<item xsi:type="OrderItemField">
+			<field>НомерСтроки</field>
+			<orderType>Asc</orderType>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
 	</order>
@@ -29,12 +37,31 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧДЦ=3; ЧН='(↓) 0,000'; ЧФ='(↓) Ч'</v8:content>
-						</v8:item>
-					</dcscor:value>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=3; ЧН='(↓) 0,000'; ЧФ='(↓) Ч'</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</item>
+		<item>
+			<selection>
+				<item>
+					<field>КоличествоФакт</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">КоличествоФакт</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="dcscor:Field">КоличествоУчет</right>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">style:AccentColor</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=3; ЧФ='Ч'</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</item>
@@ -53,13 +80,12 @@
 			</filter>
 			<appearance>
 				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:Color">style:AccentColor</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
-					<dcscor:value xsi:type="v8:LocalStringType">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ЧДЦ=3; ЧФ='(↑) Ч'</v8:content>
-						</v8:item>
-					</dcscor:value>
+					<dcscor:value xsi:type="xs:string">ЧДЦ=3; ЧФ='(↑) Ч'</dcscor:value>
 				</dcscor:item>
 			</appearance>
 		</item>
